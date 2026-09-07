@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-07T18:01:16Z",
+ "updated": "2026-09-07T23:15:17Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 1,
@@ -44,7 +44,7 @@
    "key": "CHRISTIAN BARMORE",
    "pos": "DT",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -80,7 +80,7 @@
    "key": "ANTHONY BRADFORD",
    "pos": "G",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
