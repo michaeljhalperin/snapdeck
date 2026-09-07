@@ -283,11 +283,11 @@ const OL2STD={ARZ:"ARI",RAM:"LAR"};
 const OL_TEAMS=new Set([...Object.values(FULL2ABBR),"ARZ","RAM"]);
 const std=t=>OL2STD[t]||t;
 
-const SLOT2GROUP={LWR:"WR",RWR:"WR",SWR:"WR",WR:"WR",RB:"RB",FB:"RB",TE:"TE",QB:"QB"};
+const SLOT2GROUP={LWR:"WR",RWR:"WR",SWR:"WR",WR:"WR",RB:"RB",FB:"FB",TE:"TE",QB:"QB"};
 const ALIGN_ORDER={LWR:0,RWR:1,SWR:2};
-const GROUPS=[["QB","Quarterbacks"],["RB","Running backs"],["WR","Wide receivers"],["TE","Tight ends"]];
+const GROUPS=[["QB","Quarterbacks"],["RB","Running backs"],["FB","Fullbacks"],["WR","Wide receivers"],["TE","Tight ends"]];
 const RESERVE=new Set(["IR","PUP","NFI","SUS","EX","RES"]);
-const CSV2GROUP={"Quarterback":"QB","Running Back":"RB","Wide Receiver":"WR","Tight End":"TE"};
+const CSV2GROUP={"Quarterback":"QB","Running Back":"RB","Fullback":"FB","Wide Receiver":"WR","Tight End":"TE"};
 const POSCODES=new Set(["QB","RB","FB","WR","TE","T","OT","G","OG","C","OL","DT","DE","DL",
 "NT","LB","OLB","ILB","MLB","CB","S","FS","SS","DB","K","P","PK","LS","ED"]);
 const GAMESTATUS=new Set(["out","doubtful","questionable"]);
@@ -295,7 +295,7 @@ const TAG_RE=/^(\d{2}\/\d|[A-Z]{1,3}\/[A-Za-z]{2,4}|[A-Z]{2}\d{2})\*?$/;
 
 let DB={snaps:null,depth:null,injuries:null};
 let currentTeam=null,expanded=null;
-let showPos={QB:false,RB:true,WR:true,TE:true};
+let showPos={QB:false,RB:true,FB:true,WR:true,TE:true};
 
 /* ---------- names ---------- */
 function normName(s){
@@ -953,7 +953,7 @@ function stampRepoLinks(){
 }
 
 async function boot(){
-  try{const p=store.get("snapdeck.pos");if(p) showPos=JSON.parse(p)}catch(e){}
+  try{const p=store.get("snapdeck.pos");if(p) showPos=Object.assign({},showPos,JSON.parse(p))}catch(e){}
   currentTeam=store.get("snapdeck.team");
 
   // All three land independently: one bad file shouldn't blank the whole page.
