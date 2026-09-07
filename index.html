@@ -124,6 +124,12 @@ table.oddsbook tr.bestex td{background:#E4EDF3}
 table.oddsbook tr.bestex td.px{color:#1D4E6B;font-weight:800}
 table.oddsbook .venue{font-size:11px;color:var(--mute)}
 .edge-pos{color:#1B6B3A;font-weight:700}
+.refreshbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  padding:0 0 12px;margin-bottom:12px;border-bottom:1px solid var(--line-soft)}
+.refreshbar .rlabel{font-size:11px;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--mute);font-weight:700}
+.refreshbar .rnote{font-size:11.5px;color:var(--mute)}
+.btn.sm{padding:4px 10px;font-size:12px}
 /* Game view: two rosters side by side, one position group at a time. */
 .wkbar{display:flex;gap:4px;flex-wrap:wrap;margin:10px 0 16px}
 .wkbtn{padding:5px 11px;border:1px solid var(--line);background:#fff;font:600 12px/1 inherit;
@@ -196,6 +202,7 @@ details.unmatched ul{font-size:13px;color:var(--mute);columns:3;margin:4px 0}
     <div class="row" style="margin-top:10px;flex-wrap:wrap;gap:8px">
       <a class="btn" id="lnkInj" target="_blank" rel="noopener">Refresh injuries now</a>
       <a class="btn" id="lnkDepth" target="_blank" rel="noopener">Refresh depth charts now</a>
+      <a class="btn" id="lnkOdds" target="_blank" rel="noopener">Refresh TD odds now</a>
       <a class="btn ghost" id="lnkSnaps" target="_blank" rel="noopener">Edit snap counts</a>
     </div>
     <p class="subline" style="margin-top:10px">Both refresh buttons open the Actions tab. Click <b>Run workflow</b>, wait about a minute, then reload this page. Snap counts are still uploaded by hand each week. The paste boxes below still work for a one-off look, but anything pasted is replaced by the repo copy on your next reload.</p>
@@ -248,6 +255,14 @@ details.unmatched ul{font-size:13px;color:var(--mute);columns:3;margin:4px 0}
   <div class="controls" id="controls"></div>
   <div id="groups"></div>
   <div class="meta">
+    <div class="refreshbar">
+      <span class="rlabel">Refresh</span>
+      <a class="btn ghost sm" id="rfOdds" target="_blank" rel="noopener">TD odds \u2197</a>
+      <a class="btn ghost sm" id="rfInj" target="_blank" rel="noopener">Injuries \u2197</a>
+      <a class="btn ghost sm" id="rfDepth" target="_blank" rel="noopener">Depth charts \u2197</a>
+      <a class="btn ghost sm" id="rfSnaps" target="_blank" rel="noopener">Snap counts \u2197</a>
+      <span class="rnote">Opens GitHub Actions \u00b7 click <b>Run workflow</b>, wait, reload</span>
+    </div>
     <div class="row"><span id="metaLine"></span><button class="btn ghost" id="showSetup">Update data</button></div>
     <div class="keyline">
       <span><span class="badge b-new">NEW</span> just joined the team</span>
@@ -844,6 +859,7 @@ function render(){
   const m=[`Depth: ${DB.depth.meta.teams} teams, read ${timeAgo(DB.depth.meta.loaded)}`];
   m.push(DB.snaps?`Snaps: ${DB.snaps.meta.rows} players, ${DB.snaps.meta.weeks} weeks`:"No snap file loaded");
   m.push(DB.injuries?`Injuries: read ${timeAgo(DB.injuries.meta.loaded)}`:"No injury report loaded");
+  m.push(DB.odds?`Odds: ${DB.odds.meta.players} players, read ${timeAgo(DB.odds.meta.loaded)}`:"No odds loaded");
   el("metaLine").textContent=m.join(" \u00b7 ");
   renderUnmatched();
 }
@@ -1083,6 +1099,13 @@ function stampRepoLinks(){
   // token sitting in public JavaScript, readable by anyone viewing source.
   const set=(id,href)=>{const a=el(id);if(a) a.href=href};
   set("lnkInj",`${GH}/actions/workflows/update-injuries.yml`);
+  set("lnkOdds",`${GH}/actions/workflows/update-odds.yml`);
+  // Same targets, mirrored onto the main page so you don't have to detour
+  // through the setup screen mid-session.
+  set("rfOdds",`${GH}/actions/workflows/update-odds.yml`);
+  set("rfInj",`${GH}/actions/workflows/update-injuries.yml`);
+  set("rfDepth",`${GH}/actions/workflows/update-depth.yml`);
+  set("rfSnaps",`${GH}/edit/main/${DATA.snaps}`);
   set("lnkDepth",`${GH}/actions/workflows/update-depth.yml`);
   set("lnkSnaps",`${GH}/edit/main/${DATA.snaps}`);
   const box=el("repoStamp");
