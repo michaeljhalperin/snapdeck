@@ -1,0 +1,42 @@
+name: Update depth charts
+
+on:
+  # Button only. Ourlads is a subscription site, so this hits them once
+  # when you ask rather than on a timer.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-depth
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests beautifulsoup4 lxml
+
+      # Fails without writing if the page structure stops making sense,
+      # leaving last week's chart in place.
+      - name: Scrape Ourlads depth charts
+        run: python scripts/scrape_depth.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "snap-deck-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ourlads.txt
+          if git diff --staged --quiet; then
+            echo "No depth chart changes since last run."
+          else
+            git commit -m "Update depth charts ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
