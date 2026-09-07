@@ -105,6 +105,10 @@ textarea{width:100%;min-height:100px;font-family:ui-monospace,Menlo,Consolas,mon
 .btn.ghost{background:transparent;color:var(--turf);border:1px solid var(--line);font-weight:500}
 .btn.ghost:hover{background:#E7EBE7}
 .btn:focus-visible{outline:2px solid var(--turf);outline-offset:2px}
+/* .card a{color:var(--turf)} above is more specific than .btn, which paints
+   link-buttons dark-on-dark. Re-assert the button colours for anchors. */
+.card a.btn{color:#fff;text-decoration:none}
+.card a.btn.ghost{color:var(--turf)}
 .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .status{font-size:13.5px;color:var(--mute)}
 .status.ok{color:var(--rise);font-weight:500}
