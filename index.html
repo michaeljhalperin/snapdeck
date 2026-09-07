@@ -146,10 +146,10 @@ details.unmatched ul{font-size:13px;color:var(--mute);columns:3;margin:4px 0}
     <p class="status" id="repoStamp"></p>
     <div class="row" style="margin-top:10px;flex-wrap:wrap;gap:8px">
       <a class="btn" id="lnkInj" target="_blank" rel="noopener">Refresh injuries now</a>
-      <a class="btn ghost" id="lnkDepth" target="_blank" rel="noopener">Edit depth charts</a>
+      <a class="btn" id="lnkDepth" target="_blank" rel="noopener">Refresh depth charts now</a>
       <a class="btn ghost" id="lnkSnaps" target="_blank" rel="noopener">Edit snap counts</a>
     </div>
-    <p class="subline" style="margin-top:10px">Refreshing injuries opens the Actions tab. Click <b>Run workflow</b>, wait about 40 seconds, then reload this page. The paste boxes below still work for a one-off look, but anything pasted is replaced by the repo copy on your next reload.</p>
+    <p class="subline" style="margin-top:10px">Both refresh buttons open the Actions tab. Click <b>Run workflow</b>, wait about a minute, then reload this page. Snap counts are still uploaded by hand each week. The paste boxes below still work for a one-off look, but anything pasted is replaced by the repo copy on your next reload.</p>
   </div>
 
   <div class="card">
@@ -801,7 +801,7 @@ function stampRepoLinks(){
   // token sitting in public JavaScript, readable by anyone viewing source.
   const set=(id,href)=>{const a=el(id);if(a) a.href=href};
   set("lnkInj",`${GH}/actions/workflows/update-injuries.yml`);
-  set("lnkDepth",`${GH}/edit/main/${DATA.depth}`);
+  set("lnkDepth",`${GH}/actions/workflows/update-depth.yml`);
   set("lnkSnaps",`${GH}/edit/main/${DATA.snaps}`);
   const box=el("repoStamp");
   if(!box) return;
