@@ -124,6 +124,31 @@ table.oddsbook tr.bestex td{background:#E4EDF3}
 table.oddsbook tr.bestex td.px{color:#1D4E6B;font-weight:800}
 table.oddsbook .venue{font-size:11px;color:var(--mute)}
 .edge-pos{color:#1B6B3A;font-weight:700}
+/* Game view: two rosters side by side, one position group at a time. */
+.wkbar{display:flex;gap:4px;flex-wrap:wrap;margin:10px 0 16px}
+.wkbtn{padding:5px 11px;border:1px solid var(--line);background:#fff;font:600 12px/1 inherit;
+  cursor:pointer;color:var(--ink)}
+.wkbtn.on{background:var(--turf);color:#fff;border-color:var(--turf)}
+.gamecard{display:block;width:100%;text-align:left;padding:11px 13px;margin-bottom:7px;
+  border:1px solid var(--line);background:#fff;cursor:pointer;font:inherit;color:inherit}
+.gamecard:hover{background:#F5F7F5}
+.gamecard b{font-size:15px;letter-spacing:.01em}
+.gamecard .gmeta{color:var(--mute);font-size:12px;margin-top:3px}
+/* Game view puts two full rosters side by side, so the page gets wider and
+   each side runs the ordinary row at a slightly tighter column spec. */
+body.gameview .wrap{max-width:1900px}
+.gvgrid{display:grid;grid-template-columns:1fr 1fr;gap:0 30px;align-items:start}
+.gvside>h3{margin:0 0 2px;font-size:16px;color:var(--turf);
+  padding-bottom:5px;border-bottom:2px solid var(--turf)}
+.gvside .away{color:var(--mute);font-weight:500;font-size:12px;margin-left:6px}
+.gvgrid .legend-row,.gvgrid .prow{grid-template-columns:44px minmax(150px,1.35fr) 1fr 46px 50px;gap:9px}
+.gvgrid .strip{height:20px}
+.gvgrid .detail{grid-template-columns:1fr}
+.gvempty{color:var(--mute);font-size:13px;padding:8px 0}
+@media(max-width:1250px){
+  .gvgrid{grid-template-columns:1fr;gap:0}
+  .gvside:last-child{margin-top:26px}
+}
 .edge-neg{color:var(--mute)}
 /* .card a{color:var(--turf)} above is more specific than .btn, which paints
    link-buttons dark-on-dark. Re-assert the button colours for anchors. */
@@ -249,7 +274,7 @@ const store={
    you between computers. localStorage is kept only as an offline cache
    if a fetch fails. */
 const REPO="michaeljhalperin/snapdeck";
-const DATA={depth:"data/ourlads.txt",snaps:"data/snaps.csv",inj:"data/injuries.json",draft:"data/draft.txt",odds:"data/odds.json"};
+const DATA={depth:"data/ourlads.txt",snaps:"data/snaps.csv",inj:"data/injuries.json",draft:"data/draft.txt",odds:"data/odds.json",sched:"data/schedule.json"};
 const GH=`https://github.com/${REPO}`;
 // Pages caches hard; without the buster you commit new data and still see the old.
 async function fetchData(path,asJson){
@@ -295,6 +320,7 @@ const TAG_RE=/^(\d{2}\/\d|[A-Z]{1,3}\/[A-Za-z]{2,4}|[A-Z]{2}\d{2})\*?$/;
 
 let DB={snaps:null,depth:null,injuries:null};
 let currentTeam=null,expanded=null;
+let viewMode="team",currentWeek=null,currentGame=null;
 let showPos={QB:false,RB:true,FB:true,WR:true,TE:true};
 
 /* ---------- names ---------- */
@@ -676,20 +702,122 @@ function injBadge(i){
 
 function buildTicker(){
   const teams=Object.keys(DB.depth.teams).sort();
-  el("tickerInner").innerHTML=teams.map(t=>{
-    const f=((DB.injuries&&DB.injuries.injuries[t])||[]).filter(i=>i.status).length;
-    return `<button class="tm" data-team="${t}" aria-pressed="${t===currentTeam}">${t}${f?`<span class="flag">${f}</span>`:""}</button>`;
-  }).join("");
+  // Games rides at the front of the same team strip rather than adding a
+  // second row of navigation.
+  el("tickerInner").innerHTML=
+    `<button class="tm" data-mode="game" aria-pressed="${viewMode==="game"}">GAMES</button>`+
+    teams.map(t=>{
+      const f=((DB.injuries&&DB.injuries.injuries[t])||[]).filter(i=>i.status).length;
+      return `<button class="tm" data-team="${t}" aria-pressed="${viewMode==="team"&&t===currentTeam}">${t}${f?`<span class="flag">${f}</span>`:""}</button>`;
+    }).join("");
   el("tickerInner").querySelectorAll(".tm").forEach(b=>{
-    b.onclick=()=>{currentTeam=b.dataset.team;expanded=null;store.set("snapdeck.team",currentTeam);render()};
+    b.onclick=()=>{
+      if(b.dataset.mode==="game"){
+        viewMode="game";
+        // Open on the week the team you were looking at plays, not week 1.
+        if(currentWeek==null) currentWeek=weekOf(currentTeam)||(DB.sched&&DB.sched.weeks[0].week)||1;
+      }else{
+        viewMode="team";currentTeam=b.dataset.team;expanded=null;
+        store.set("snapdeck.team",currentTeam);
+      }
+      store.set("snapdeck.view",viewMode);
+      buildTicker();draw();
+    };
   });
+}
+
+// Single entry point so every caller lands in the right view.
+function draw(){
+  document.body.classList.toggle("gameview",viewMode==="game");
+  viewMode==="game"?renderGames():render();
+}
+
+/* One renderer for both views. The team view calls it once per group;
+   the game view calls it twice, once per side. Extracted rather than
+   duplicated so depth order, the snap strip, badges and the detail panel
+   can never drift apart between the two screens. */
+function groupSectionHTML(team,g,label,weeks){
+  const T=DB.depth.teams[team];
+  if(!T) return "";
+  const rows=T.rows;
+  const seasonYear=DB.depth.seasonYear;
+  const cols=`repeat(${Math.max(weeks.length,1)}, minmax(0,1fr))`;
+  const order={ACT:0,PS:1};
+
+  const list=rows.filter(r=>r.group===g).map(r=>{
+    const sn=snapFor(r);return {r,sn,share:recentShare(sn)};
+  });
+  if(!list.length) return "";
+  list.sort((a,b)=>((order[a.r.status]??2)-(order[b.r.status]??2))
+    ||((a.r.depth??99)-(b.r.depth??99))||(a.r.col-b.r.col)||a.r.name.localeCompare(b.r.name));
+
+  const ranked=list.filter(x=>x.share!=null).sort((a,b)=>b.share-a.share);
+  const snapRank=new Map(ranked.map((x,i)=>[x.r,i+1]));
+
+  let html=`<section class="group"><h2>${label}</h2>
+    <div class="legend-row"><span>Chart</span><span>Player</span>
+    <div class="wknums" style="grid-template-columns:${cols}">${weeks.map(w=>`<span>${w}</span>`).join("")}</div>
+    <span class="r">Last 3</span><span class="r">By snaps</span></div>`;
+
+  for(const {r,sn,share} of list){
+    // Keyed by team too: both sides of a matchup can hold the same name.
+    const rowKey=r.team+"|"+r.name;
+    const inj=injFor(r),open=expanded===rowKey;
+    const played=sn?teamPlayed(sn.team):[];
+    const lastPlayed=played.length?played[played.length-1]:0;
+
+    const strip=(weeks.length&&sn)?weeks.map(w=>{
+      if(w>lastPlayed) return '<div class="cell void"></div>';
+      if(!played.includes(w)) return `<div class="cell bye" title="Week ${w}: no game"></div>`;
+      const v=sn.pct[w],c=snapColor(v);
+      return `<div class="cell"${c?` style="background:${c}"`:""} title="Week ${w}: ${v==null?"did not play":v+"% ("+sn.snaps[w]+" snaps)"}"></div>`;
+    }).join(""):"";
+
+    const depLabel=r.status==="ACT"?g+r.depth:r.status;
+    const depClass=r.status==="ACT"?"":(r.status==="PS"?"ps":"res");
+    const chips=[];
+    if(ALIGN_ORDER[r.slot]!=null) chips.push(`<span class="chip">${r.slot}</span>`);
+    if(r.tag) chips.push(`<span class="chip">${esc(r.tag)}</span>`);
+    const od=oddsFor(r);
+    if(od){
+      if(od.best!=null) chips.push(
+        `<span class="chip odds" title="Best sportsbook price, ${od.books} books priced">`+
+        `<b>${esc(shortBook(od.bestBook))}</b>${fmtAm(od.best)}</span>`);
+      if(od.ex!=null) chips.push(
+        `<span class="chip odds-ex" title="Best exchange price, ${od.exBooks} exchange(s) priced">`+
+        `<b>${esc(shortBook(od.exBook))}</b>${fmtAm(od.ex)}</span>`);
+    }
+    const dr=draftFor(r,seasonYear);
+    if(dr){
+      chips.push(`<span class="chip">R${dr.round} #${dr.pick}</span>`);
+      if(dr.team&&dr.team!==r.team) chips.push(`<span class="chip">drafted ${esc(dr.team)}</span>`);
+    }
+    if(sn&&sn.team!==r.team) chips.push(`<span class="chip">snaps with ${esc(sn.team)}</span>`);
+    const badges=[injBadge(inj)];
+    if(isNew(r,sn,seasonYear)) badges.push('<span class="badge b-new">NEW</span>');
+    if(isRising(sn)) badges.push('<span class="badge b-rise">RISING</span>');
+    if(nextUp(r,rows)) badges.push('<span class="badge b-next">NEXT UP</span>');
+
+    const sr=snapRank.get(r);
+    const div=sr&&r.depth&&Math.abs(sr-r.depth)>=2;
+
+    html+=`<button class="prow${r.status!=="ACT"?" inactive":""}" data-p="${esc(rowKey)}" aria-expanded="${open}">
+      <span class="dep ${depClass}">${depLabel}</span>
+      <span class="pname"><span class="nm">${esc(r.name)}</span>${badges.join("")}${chips.join("")}</span>
+      ${strip?`<div class="strip" style="grid-template-columns:${cols}">${strip}</div>`
+             :'<div class="strip empty">no snaps on file</div>'}
+      <span class="recent">${share==null?"\u2013":Math.round(share)}<span class="pc">%</span></span>
+      <span class="rank${div?" div":""}">${sr?g+sr:"\u2013"}</span>
+    </button>`;
+    if(open) html+=detailHTML(r,sn,inj,weeks);
+  }
+  return html+"</section>";
 }
 
 function render(){
   if(!DB.depth||!DB.depth.teams[currentTeam]) return;
   const T=DB.depth.teams[currentTeam],rows=T.rows;
   const weeks=DB.snaps?DB.snaps.weeks:[];
-  const seasonYear=DB.depth.seasonYear;
 
   el("teamName").textContent=T.name;
   const flagged=rows.filter(r=>{const i=injFor(r);return i&&i.status}).length;
@@ -703,90 +831,14 @@ function render(){
     c.onchange=()=>{showPos[c.dataset.g]=c.checked;store.set("snapdeck.pos",JSON.stringify(showPos));render()};
   });
 
-  const cols=`repeat(${Math.max(weeks.length,1)}, minmax(0,1fr))`;
-  const order={ACT:0,PS:1};
   let html="";
-
   for(const [g,label] of GROUPS){
     if(!showPos[g]) continue;
-    const list=rows.filter(r=>r.group===g).map(r=>{
-      const sn=snapFor(r);return {r,sn,share:recentShare(sn)};
-    });
-    if(!list.length) continue;
-
-    list.sort((a,b)=>((order[a.r.status]??2)-(order[b.r.status]??2))
-      ||((a.r.depth??99)-(b.r.depth??99))||(a.r.col-b.r.col)||a.r.name.localeCompare(b.r.name));
-
-    const ranked=list.filter(x=>x.share!=null).sort((a,b)=>b.share-a.share);
-    const snapRank=new Map(ranked.map((x,i)=>[x.r,i+1]));
-
-    html+=`<section class="group"><h2>${label}</h2>
-      <div class="legend-row"><span>Chart</span><span>Player</span>
-      <div class="wknums" style="grid-template-columns:${cols}">${weeks.map(w=>`<span>${w}</span>`).join("")}</div>
-      <span class="r">Last 3</span><span class="r">By snaps</span></div>`;
-
-    for(const {r,sn,share} of list){
-      const inj=injFor(r),open=expanded===r.name;
-      const played=sn?teamPlayed(sn.team):[];
-      const lastPlayed=played.length?played[played.length-1]:0;
-
-      const strip=(weeks.length&&sn)?weeks.map(w=>{
-        if(w>lastPlayed) return '<div class="cell void"></div>';
-        if(!played.includes(w)) return `<div class="cell bye" title="Week ${w}: no game"></div>`;
-        const v=sn.pct[w],c=snapColor(v);
-        return `<div class="cell"${c?` style="background:${c}"`:""} title="Week ${w}: ${v==null?"did not play":v+"% ("+sn.snaps[w]+" snaps)"}"></div>`;
-      }).join(""):"";
-
-      const depLabel=r.status==="ACT"?g+r.depth:r.status;
-      const depClass=r.status==="ACT"?"":(r.status==="PS"?"ps":"res");
-      const chips=[];
-      if(ALIGN_ORDER[r.slot]!=null) chips.push(`<span class="chip">${r.slot}</span>`);
-      if(r.tag) chips.push(`<span class="chip">${esc(r.tag)}</span>`);
-      const od=oddsFor(r);
-      if(od){
-        // Naming the book on the row means you know where to go without
-        // opening the panel. Colour still separates book (green) from
-        // exchange (blue), so the old TD/EX labels are redundant.
-        if(od.best!=null) chips.push(
-          `<span class="chip odds" title="Best sportsbook price, ${od.books} books priced">`+
-          `<b>${esc(shortBook(od.bestBook))}</b>${fmtAm(od.best)}</span>`);
-        if(od.ex!=null) chips.push(
-          `<span class="chip odds-ex" title="Best exchange price, ${od.exBooks} exchange(s) priced">`+
-          `<b>${esc(shortBook(od.exBook))}</b>${fmtAm(od.ex)}</span>`);
-      }
-      const dr=draftFor(r,seasonYear);
-      if(dr){
-        chips.push(`<span class="chip">R${dr.round} #${dr.pick}</span>`);
-        // Drafted elsewhere and already moved: worth seeing at a glance.
-        if(dr.team&&dr.team!==currentTeam) chips.push(`<span class="chip">drafted ${esc(dr.team)}</span>`);
-      }
-      if(sn&&sn.team!==currentTeam) chips.push(`<span class="chip">snaps with ${esc(sn.team)}</span>`);
-      const badges=[injBadge(inj)];
-      if(isNew(r,sn,seasonYear)) badges.push('<span class="badge b-new">NEW</span>');
-      if(isRising(sn)) badges.push('<span class="badge b-rise">RISING</span>');
-      if(nextUp(r,rows)) badges.push('<span class="badge b-next">NEXT UP</span>');
-
-      const sr=snapRank.get(r);
-      const div=sr&&r.depth&&Math.abs(sr-r.depth)>=2;
-
-      html+=`<button class="prow${r.status!=="ACT"?" inactive":""}" data-p="${esc(r.name)}" aria-expanded="${open}">
-        <span class="dep ${depClass}">${depLabel}</span>
-        <span class="pname"><span class="nm">${esc(r.name)}</span>${badges.join("")}${chips.join("")}</span>
-        ${strip?`<div class="strip" style="grid-template-columns:${cols}">${strip}</div>`
-               :'<div class="strip empty">no snaps on file</div>'}
-        <span class="recent">${share==null?"\u2013":Math.round(share)}<span class="pc">%</span></span>
-        <span class="rank${div?" div":""}">${sr?g+sr:"\u2013"}</span>
-      </button>`;
-
-      if(open) html+=detailHTML(r,sn,inj,weeks);
-    }
-    html+="</section>";
+    html+=groupSectionHTML(currentTeam,g,label,weeks);
   }
 
   el("groups").innerHTML=html||'<p class="subline" style="margin-top:28px">Nothing selected \u2014 tick a position above.</p>';
-  el("groups").querySelectorAll(".prow").forEach(b=>{
-    b.onclick=()=>{expanded=expanded===b.dataset.p?null:b.dataset.p;render()};
-  });
+  wireRows();
   el("tickerInner").querySelectorAll(".tm").forEach(b=>b.setAttribute("aria-pressed",b.dataset.team===currentTeam));
 
   const m=[`Depth: ${DB.depth.meta.teams} teams, read ${timeAgo(DB.depth.meta.loaded)}`];
@@ -863,6 +915,95 @@ function detailHTML(r,sn,inj,weeks){
     <div><h3>Roster</h3><p>${roster} \u00b7 listed at ${esc(r.slot)}${r.tag?` \u00b7 tagged ${esc(r.tag)}`:""}${(()=>{const d=draftFor(r,DB.depth&&DB.depth.seasonYear);return d?` \u00b7 round ${d.round}, pick ${d.pick} by ${esc(d.team)}${d.college?` (${esc(d.college)})`:""}`:"";})()}</p></div></div>`;
 }
 
+function wireRows(){
+  el("groups").querySelectorAll(".prow").forEach(b=>{
+    b.onclick=()=>{expanded=expanded===b.dataset.p?null:b.dataset.p;draw()};
+  });
+}
+
+/* ---------- game view ----------
+   Two rosters on one screen, position group by position group, so a
+   matchup reads as one picture rather than two tabs. Deliberately a
+   denser row than the team view: chart slot, name, flags, Last 3, price.
+   Everything comes from the same helpers, so nothing here re-derives
+   depth order or snap share. */
+function weekOf(team){
+  if(!DB.sched) return null;
+  for(const w of DB.sched.weeks) for(const g of w.games)
+    if(g.home===team||g.away===team) return w.week;
+  return null;
+}
+
+function renderGame(g){
+  const weeks=DB.snaps?DB.snaps.weeks:[];
+  const side=(team,isAway)=>{
+    const T=DB.depth&&DB.depth.teams[team];
+    let inner="";
+    if(!T){
+      inner=`<p class="status bad">No depth chart loaded for ${esc(team)}.</p>`;
+    }else{
+      for(const [grp,label] of GROUPS){
+        if(!showPos[grp]) continue;
+        inner+=groupSectionHTML(team,grp,label,weeks);
+      }
+      if(!inner) inner='<div class="gvempty">Nothing selected \u2014 tick a position above.</div>';
+    }
+    const flagged=T?T.rows.filter(r=>{const i=injFor(r);return i&&i.status}).length:0;
+    return `<div class="gvside"><h3>${esc(T?T.name:team)}<span class="away">${isAway?"away":"home"}`+
+      `${T&&DB.injuries?` \u00b7 ${flagged} with a game status`:""}</span></h3>${inner}</div>`;
+  };
+  return `<button class="btn ghost" id="gvBack">\u2190 All Week ${currentWeek} games</button>
+    <header class="team" style="margin-top:14px">
+      <h1>${esc(g.away)} at ${esc(g.home)}</h1>
+      <p class="subline">${esc(g.when||"")}${g.tv?` \u00b7 ${esc(g.tv)}`:""}`+
+      `${g.line?` \u00b7 ${esc(g.line)}`:""}${g.total!=null?` \u00b7 O/U ${g.total}`:""}`+
+      `${g.venue?` \u00b7 ${esc(g.venue)}`:""}${g.neutral?" (neutral site)":""}</p></header>
+    <div class="gvgrid">${side(g.away,true)}${side(g.home,false)}</div>`;
+}
+
+function renderGames(){
+  el("teamName").textContent="Games";
+  el("teamSub").textContent=DB.sched?`${DB.sched.season} season \u00b7 ${DB.sched.weeks.length} weeks`:"";
+
+  if(!DB.sched){
+    el("groups").innerHTML='<p class="status bad">No schedule loaded. Run the Update schedule workflow.</p>';
+    el("controls").innerHTML="";return;
+  }
+  if(currentWeek==null) currentWeek=DB.sched.weeks[0].week;
+  const wk=DB.sched.weeks.find(w=>w.week===currentWeek)||DB.sched.weeks[0];
+
+  // Position filters still apply inside a matchup.
+  el("controls").innerHTML=GROUPS.map(([g,label])=>
+    `<label><input type="checkbox" data-g="${g}"${showPos[g]?" checked":""}> ${label}</label>`).join("");
+  el("controls").querySelectorAll("input").forEach(c=>{
+    c.onchange=()=>{showPos[c.dataset.g]=c.checked;store.set("snapdeck.pos",JSON.stringify(showPos));renderGames()};
+  });
+
+  let html=`<div class="wkbar">`+DB.sched.weeks.map(w=>
+    `<button class="wkbtn${w.week===currentWeek?" on":""}" data-wk="${w.week}">Wk ${w.week}</button>`).join("")+`</div>`;
+
+  const game=currentGame&&wk.games.find(g=>g.id===currentGame);
+  if(game){ html+=renderGame(game) }
+  else{
+    html+=wk.games.map(g=>`<button class="gamecard" data-game="${esc(g.id)}">
+      <b>${esc(g.away)} @ ${esc(g.home)}</b>
+      <div class="gmeta">${esc(g.when||"")}${g.tv?` \u00b7 ${esc(g.tv)}`:""}`+
+      `${g.line?` \u00b7 ${esc(g.line)}`:""}${g.total!=null?` \u00b7 O/U ${g.total}`:""}</div>
+    </button>`).join("");
+  }
+  el("groups").innerHTML=html;
+
+  wireRows();
+  el("groups").querySelectorAll(".wkbtn").forEach(b=>{
+    b.onclick=()=>{currentWeek=+b.dataset.wk;currentGame=null;renderGames()};
+  });
+  el("groups").querySelectorAll(".gamecard").forEach(b=>{
+    b.onclick=()=>{currentGame=b.dataset.game;renderGames();window.scrollTo(0,0)};
+  });
+  const back=el("gvBack");
+  if(back) back.onclick=()=>{currentGame=null;renderGames()};
+}
+
 function renderUnmatched(){
   const box=el("unmatchedBox");
   if(!DB.snaps){box.classList.add("hide");return}
@@ -889,7 +1030,7 @@ function showApp(){
   if(!DB.depth) return;
   if(!currentTeam||!DB.depth.teams[currentTeam]) currentTeam=Object.keys(DB.depth.teams).sort()[0];
   el("setup").classList.add("hide");el("app").classList.remove("hide");
-  buildTicker();render();
+  buildTicker();draw();
 }
 function setStatus(id,msg,cls){el(id).className="status"+(cls?" "+cls:"");el(id).textContent=msg}
 
@@ -955,14 +1096,16 @@ function stampRepoLinks(){
 async function boot(){
   try{const p=store.get("snapdeck.pos");if(p) showPos=Object.assign({},showPos,JSON.parse(p))}catch(e){}
   currentTeam=store.get("snapdeck.team");
+  if(store.get("snapdeck.view")==="game") viewMode="game";
 
   // All three land independently: one bad file shouldn't blank the whole page.
-  const [d,s,i,dr,od]=await Promise.allSettled([
+  const [d,s,i,dr,od,sc]=await Promise.allSettled([
     fetchData(DATA.depth,false),
     fetchData(DATA.snaps,false),
     fetchData(DATA.inj,true),
     fetchData(DATA.draft,false),
-    fetchData(DATA.odds,true)
+    fetchData(DATA.odds,true),
+    fetchData(DATA.sched,true)
   ]);
   const notes=[];
   const take=(res,label,fn)=>{
@@ -975,6 +1118,8 @@ async function boot(){
   // Optional: no draft file just means no pick numbers, not a broken page.
   take(dr,"Draft board",v=>{DB.draft=parseDraft(v)});
   take(od,"TD odds",v=>{DB.odds=parseOdds(v)});
+  // Optional: without it the Games tab just says the schedule isn't loaded.
+  take(sc,"Schedule",v=>{DB.sched=v});
 
   // Offline or mid-deploy: fall back to whatever this browser saw last.
   if(!DB.depth){try{const c=store.get("snapdeck.depth");if(c){DB.depth=JSON.parse(c);notes.push("Depth charts: using this browser's cached copy.")}}catch(e){}}
