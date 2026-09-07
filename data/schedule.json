@@ -1,0 +1,2001 @@
+{
+ "updated": "2026-09-07T17:09:24Z",
+ "season": 2026,
+ "source": "static schedule",
+ "weeks": [
+  {
+   "week": 1,
+   "games": [
+    {
+     "id": "2026w01-NE-SEA",
+     "away": "NE",
+     "home": "SEA",
+     "kickoff": "2026-09-10T00:20:00Z",
+     "when": "Wed 9/9 8:20 PM ET"
+    },
+    {
+     "id": "2026w01-SF-LAR",
+     "away": "SF",
+     "home": "LAR",
+     "kickoff": "2026-09-11T00:35:00Z",
+     "when": "Thu 9/10 8:35 PM ET"
+    },
+    {
+     "id": "2026w01-CHI-CAR",
+     "away": "CHI",
+     "home": "CAR",
+     "kickoff": "2026-09-13T17:00:00Z",
+     "when": "Sun 9/13 1:00 PM ET"
+    },
+    {
+     "id": "2026w01-TB-CIN",
+     "away": "TB",
+     "home": "CIN",
+     "kickoff": "2026-09-13T17:00:00Z",
+     "when": "Sun 9/13 1:00 PM ET"
+    },
+    {
+     "id": "2026w01-BAL-IND",
+     "away": "BAL",
+     "home": "IND",
+     "kickoff": "2026-09-13T17:00:00Z",
+     "when": "Sun 9/13 1:00 PM ET"
+    },
+    {
+     "id": "2026w01-NO-DET",
+     "away": "NO",
+     "home": "DET",
+     "kickoff": "2026-09-13T17:00:00Z",
+     "when": "Sun 9/13 1:00 PM ET"
+    },
+    {
+     "id": "2026w01-BUF-HOU",
+     "away": "BUF",
+     "home": "HOU",
+     "kickoff": "2026-09-13T17:00:00Z",
+     "when": "Sun 9/13 1:00 PM ET"
+    },
+    {
+     "id": "2026w01-CLE-JAX",
+     "away": "CLE",
+     "home": "JAX",
+     "kickoff": "2026-09-13T17:00:00Z",
+     "when": "Sun 9/13 1:00 PM ET"
+    },
+    {
+     "id": "2026w01-NYJ-TEN",
+     "away": "NYJ",
+     "home": "TEN",
+     "kickoff": "2026-09-13T17:00:00Z",
+     "when": "Sun 9/13 1:00 PM ET"
+    },
+    {
+     "id": "2026w01-ATL-PIT",
+     "away": "ATL",
+     "home": "PIT",
+     "kickoff": "2026-09-13T17:00:00Z",
+     "when": "Sun 9/13 1:00 PM ET"
+    },
+    {
+     "id": "2026w01-GB-MIN",
+     "away": "GB",
+     "home": "MIN",
+     "kickoff": "2026-09-13T20:25:00Z",
+     "when": "Sun 9/13 4:25 PM ET"
+    },
+    {
+     "id": "2026w01-WAS-PHI",
+     "away": "WAS",
+     "home": "PHI",
+     "kickoff": "2026-09-13T20:25:00Z",
+     "when": "Sun 9/13 4:25 PM ET"
+    },
+    {
+     "id": "2026w01-MIA-LV",
+     "away": "MIA",
+     "home": "LV",
+     "kickoff": "2026-09-13T20:25:00Z",
+     "when": "Sun 9/13 4:25 PM ET"
+    },
+    {
+     "id": "2026w01-ARI-LAC",
+     "away": "ARI",
+     "home": "LAC",
+     "kickoff": "2026-09-13T20:25:00Z",
+     "when": "Sun 9/13 4:25 PM ET"
+    },
+    {
+     "id": "2026w01-DAL-NYG",
+     "away": "DAL",
+     "home": "NYG",
+     "kickoff": "2026-09-14T00:20:00Z",
+     "when": "Sun 9/13 8:20 PM ET"
+    },
+    {
+     "id": "2026w01-DEN-KC",
+     "away": "DEN",
+     "home": "KC",
+     "kickoff": "2026-09-15T00:15:00Z",
+     "when": "Mon 9/14 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 2,
+   "games": [
+    {
+     "id": "2026w02-DET-BUF",
+     "away": "DET",
+     "home": "BUF",
+     "kickoff": "2026-09-18T00:15:00Z",
+     "when": "Thu 9/17 8:15 PM ET"
+    },
+    {
+     "id": "2026w02-CAR-ATL",
+     "away": "CAR",
+     "home": "ATL",
+     "kickoff": "2026-09-20T17:00:00Z",
+     "when": "Sun 9/20 1:00 PM ET"
+    },
+    {
+     "id": "2026w02-MIN-CHI",
+     "away": "MIN",
+     "home": "CHI",
+     "kickoff": "2026-09-20T17:00:00Z",
+     "when": "Sun 9/20 1:00 PM ET"
+    },
+    {
+     "id": "2026w02-CIN-HOU",
+     "away": "CIN",
+     "home": "HOU",
+     "kickoff": "2026-09-20T17:00:00Z",
+     "when": "Sun 9/20 1:00 PM ET"
+    },
+    {
+     "id": "2026w02-PIT-NE",
+     "away": "PIT",
+     "home": "NE",
+     "kickoff": "2026-09-20T17:00:00Z",
+     "when": "Sun 9/20 1:00 PM ET"
+    },
+    {
+     "id": "2026w02-GB-NYJ",
+     "away": "GB",
+     "home": "NYJ",
+     "kickoff": "2026-09-20T17:00:00Z",
+     "when": "Sun 9/20 1:00 PM ET"
+    },
+    {
+     "id": "2026w02-PHI-TEN",
+     "away": "PHI",
+     "home": "TEN",
+     "kickoff": "2026-09-20T17:00:00Z",
+     "when": "Sun 9/20 1:00 PM ET"
+    },
+    {
+     "id": "2026w02-NO-BAL",
+     "away": "NO",
+     "home": "BAL",
+     "kickoff": "2026-09-20T17:00:00Z",
+     "when": "Sun 9/20 1:00 PM ET"
+    },
+    {
+     "id": "2026w02-CLE-TB",
+     "away": "CLE",
+     "home": "TB",
+     "kickoff": "2026-09-20T17:00:00Z",
+     "when": "Sun 9/20 1:00 PM ET"
+    },
+    {
+     "id": "2026w02-JAX-DEN",
+     "away": "JAX",
+     "home": "DEN",
+     "kickoff": "2026-09-20T20:05:00Z",
+     "when": "Sun 9/20 4:05 PM ET"
+    },
+    {
+     "id": "2026w02-LV-LAC",
+     "away": "LV",
+     "home": "LAC",
+     "kickoff": "2026-09-20T20:05:00Z",
+     "when": "Sun 9/20 4:05 PM ET"
+    },
+    {
+     "id": "2026w02-SEA-ARI",
+     "away": "SEA",
+     "home": "ARI",
+     "kickoff": "2026-09-20T20:25:00Z",
+     "when": "Sun 9/20 4:25 PM ET"
+    },
+    {
+     "id": "2026w02-WAS-DAL",
+     "away": "WAS",
+     "home": "DAL",
+     "kickoff": "2026-09-20T20:25:00Z",
+     "when": "Sun 9/20 4:25 PM ET"
+    },
+    {
+     "id": "2026w02-MIA-SF",
+     "away": "MIA",
+     "home": "SF",
+     "kickoff": "2026-09-20T20:25:00Z",
+     "when": "Sun 9/20 4:25 PM ET"
+    },
+    {
+     "id": "2026w02-IND-KC",
+     "away": "IND",
+     "home": "KC",
+     "kickoff": "2026-09-21T00:20:00Z",
+     "when": "Sun 9/20 8:20 PM ET"
+    },
+    {
+     "id": "2026w02-NYG-LAR",
+     "away": "NYG",
+     "home": "LAR",
+     "kickoff": "2026-09-22T00:15:00Z",
+     "when": "Mon 9/21 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 3,
+   "games": [
+    {
+     "id": "2026w03-ATL-GB",
+     "away": "ATL",
+     "home": "GB",
+     "kickoff": "2026-09-25T00:15:00Z",
+     "when": "Thu 9/24 8:15 PM ET"
+    },
+    {
+     "id": "2026w03-LAC-BUF",
+     "away": "LAC",
+     "home": "BUF",
+     "kickoff": "2026-09-27T17:00:00Z",
+     "when": "Sun 9/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w03-CAR-CLE",
+     "away": "CAR",
+     "home": "CLE",
+     "kickoff": "2026-09-27T17:00:00Z",
+     "when": "Sun 9/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w03-HOU-IND",
+     "away": "HOU",
+     "home": "IND",
+     "kickoff": "2026-09-27T17:00:00Z",
+     "when": "Sun 9/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w03-NYJ-DET",
+     "away": "NYJ",
+     "home": "DET",
+     "kickoff": "2026-09-27T17:00:00Z",
+     "when": "Sun 9/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w03-NE-JAX",
+     "away": "NE",
+     "home": "JAX",
+     "kickoff": "2026-09-27T17:00:00Z",
+     "when": "Sun 9/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w03-KC-MIA",
+     "away": "KC",
+     "home": "MIA",
+     "kickoff": "2026-09-27T17:00:00Z",
+     "when": "Sun 9/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w03-TEN-NYG",
+     "away": "TEN",
+     "home": "NYG",
+     "kickoff": "2026-09-27T17:00:00Z",
+     "when": "Sun 9/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w03-CIN-PIT",
+     "away": "CIN",
+     "home": "PIT",
+     "kickoff": "2026-09-27T17:00:00Z",
+     "when": "Sun 9/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w03-SEA-WAS",
+     "away": "SEA",
+     "home": "WAS",
+     "kickoff": "2026-09-27T17:00:00Z",
+     "when": "Sun 9/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w03-ARI-SF",
+     "away": "ARI",
+     "home": "SF",
+     "kickoff": "2026-09-27T20:05:00Z",
+     "when": "Sun 9/27 4:05 PM ET"
+    },
+    {
+     "id": "2026w03-MIN-TB",
+     "away": "MIN",
+     "home": "TB",
+     "kickoff": "2026-09-27T20:05:00Z",
+     "when": "Sun 9/27 4:05 PM ET"
+    },
+    {
+     "id": "2026w03-BAL-DAL",
+     "away": "BAL",
+     "home": "DAL",
+     "kickoff": "2026-09-27T20:25:00Z",
+     "when": "Sun 9/27 4:25 PM ET"
+    },
+    {
+     "id": "2026w03-LV-NO",
+     "away": "LV",
+     "home": "NO",
+     "kickoff": "2026-09-27T20:25:00Z",
+     "when": "Sun 9/27 4:25 PM ET"
+    },
+    {
+     "id": "2026w03-LAR-DEN",
+     "away": "LAR",
+     "home": "DEN",
+     "kickoff": "2026-09-28T00:20:00Z",
+     "when": "Sun 9/27 8:20 PM ET"
+    },
+    {
+     "id": "2026w03-PHI-CHI",
+     "away": "PHI",
+     "home": "CHI",
+     "kickoff": "2026-09-29T00:15:00Z",
+     "when": "Mon 9/28 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 4,
+   "games": [
+    {
+     "id": "2026w04-PIT-CLE",
+     "away": "PIT",
+     "home": "CLE",
+     "kickoff": "2026-10-02T00:15:00Z",
+     "when": "Thu 10/1 8:15 PM ET"
+    },
+    {
+     "id": "2026w04-IND-WAS",
+     "away": "IND",
+     "home": "WAS",
+     "kickoff": "2026-10-04T13:30:00Z",
+     "when": "Sun 10/4 9:30 AM ET"
+    },
+    {
+     "id": "2026w04-NE-BUF",
+     "away": "NE",
+     "home": "BUF",
+     "kickoff": "2026-10-04T17:00:00Z",
+     "when": "Sun 10/4 1:00 PM ET"
+    },
+    {
+     "id": "2026w04-NYJ-CHI",
+     "away": "NYJ",
+     "home": "CHI",
+     "kickoff": "2026-10-04T17:00:00Z",
+     "when": "Sun 10/4 1:00 PM ET"
+    },
+    {
+     "id": "2026w04-JAX-CIN",
+     "away": "JAX",
+     "home": "CIN",
+     "kickoff": "2026-10-04T17:00:00Z",
+     "when": "Sun 10/4 1:00 PM ET"
+    },
+    {
+     "id": "2026w04-DAL-HOU",
+     "away": "DAL",
+     "home": "HOU",
+     "kickoff": "2026-10-04T17:00:00Z",
+     "when": "Sun 10/4 1:00 PM ET"
+    },
+    {
+     "id": "2026w04-ARI-NYG",
+     "away": "ARI",
+     "home": "NYG",
+     "kickoff": "2026-10-04T17:00:00Z",
+     "when": "Sun 10/4 1:00 PM ET"
+    },
+    {
+     "id": "2026w04-LAR-PHI",
+     "away": "LAR",
+     "home": "PHI",
+     "kickoff": "2026-10-04T17:00:00Z",
+     "when": "Sun 10/4 1:00 PM ET"
+    },
+    {
+     "id": "2026w04-TEN-BAL",
+     "away": "TEN",
+     "home": "BAL",
+     "kickoff": "2026-10-04T17:00:00Z",
+     "when": "Sun 10/4 1:00 PM ET"
+    },
+    {
+     "id": "2026w04-GB-TB",
+     "away": "GB",
+     "home": "TB",
+     "kickoff": "2026-10-04T17:00:00Z",
+     "when": "Sun 10/4 1:00 PM ET"
+    },
+    {
+     "id": "2026w04-MIA-MIN",
+     "away": "MIA",
+     "home": "MIN",
+     "kickoff": "2026-10-04T20:05:00Z",
+     "when": "Sun 10/4 4:05 PM ET"
+    },
+    {
+     "id": "2026w04-KC-LV",
+     "away": "KC",
+     "home": "LV",
+     "kickoff": "2026-10-04T20:25:00Z",
+     "when": "Sun 10/4 4:25 PM ET"
+    },
+    {
+     "id": "2026w04-LAC-SEA",
+     "away": "LAC",
+     "home": "SEA",
+     "kickoff": "2026-10-04T20:25:00Z",
+     "when": "Sun 10/4 4:25 PM ET"
+    },
+    {
+     "id": "2026w04-DEN-SF",
+     "away": "DEN",
+     "home": "SF",
+     "kickoff": "2026-10-04T20:25:00Z",
+     "when": "Sun 10/4 4:25 PM ET"
+    },
+    {
+     "id": "2026w04-DET-CAR",
+     "away": "DET",
+     "home": "CAR",
+     "kickoff": "2026-10-05T00:20:00Z",
+     "when": "Sun 10/4 8:20 PM ET"
+    },
+    {
+     "id": "2026w04-ATL-NO",
+     "away": "ATL",
+     "home": "NO",
+     "kickoff": "2026-10-06T00:15:00Z",
+     "when": "Mon 10/5 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 5,
+   "games": [
+    {
+     "id": "2026w05-TB-DAL",
+     "away": "TB",
+     "home": "DAL",
+     "kickoff": "2026-10-09T00:15:00Z",
+     "when": "Thu 10/8 8:15 PM ET"
+    },
+    {
+     "id": "2026w05-PHI-JAX",
+     "away": "PHI",
+     "home": "JAX",
+     "kickoff": "2026-10-11T13:30:00Z",
+     "when": "Sun 10/11 9:30 AM ET"
+    },
+    {
+     "id": "2026w05-CIN-MIA",
+     "away": "CIN",
+     "home": "MIA",
+     "kickoff": "2026-10-11T17:00:00Z",
+     "when": "Sun 10/11 1:00 PM ET"
+    },
+    {
+     "id": "2026w05-MIN-NO",
+     "away": "MIN",
+     "home": "NO",
+     "kickoff": "2026-10-11T17:00:00Z",
+     "when": "Sun 10/11 1:00 PM ET"
+    },
+    {
+     "id": "2026w05-LV-NE",
+     "away": "LV",
+     "home": "NE",
+     "kickoff": "2026-10-11T17:00:00Z",
+     "when": "Sun 10/11 1:00 PM ET"
+    },
+    {
+     "id": "2026w05-CLE-NYJ",
+     "away": "CLE",
+     "home": "NYJ",
+     "kickoff": "2026-10-11T17:00:00Z",
+     "when": "Sun 10/11 1:00 PM ET"
+    },
+    {
+     "id": "2026w05-HOU-TEN",
+     "away": "HOU",
+     "home": "TEN",
+     "kickoff": "2026-10-11T17:00:00Z",
+     "when": "Sun 10/11 1:00 PM ET"
+    },
+    {
+     "id": "2026w05-IND-PIT",
+     "away": "IND",
+     "home": "PIT",
+     "kickoff": "2026-10-11T17:00:00Z",
+     "when": "Sun 10/11 1:00 PM ET"
+    },
+    {
+     "id": "2026w05-NYG-WAS",
+     "away": "NYG",
+     "home": "WAS",
+     "kickoff": "2026-10-11T17:00:00Z",
+     "when": "Sun 10/11 1:00 PM ET"
+    },
+    {
+     "id": "2026w05-DEN-LAC",
+     "away": "DEN",
+     "home": "LAC",
+     "kickoff": "2026-10-11T20:05:00Z",
+     "when": "Sun 10/11 4:05 PM ET"
+    },
+    {
+     "id": "2026w05-DET-ARI",
+     "away": "DET",
+     "home": "ARI",
+     "kickoff": "2026-10-11T20:25:00Z",
+     "when": "Sun 10/11 4:25 PM ET"
+    },
+    {
+     "id": "2026w05-CHI-GB",
+     "away": "CHI",
+     "home": "GB",
+     "kickoff": "2026-10-11T20:25:00Z",
+     "when": "Sun 10/11 4:25 PM ET"
+    },
+    {
+     "id": "2026w05-SF-SEA",
+     "away": "SF",
+     "home": "SEA",
+     "kickoff": "2026-10-11T20:25:00Z",
+     "when": "Sun 10/11 4:25 PM ET"
+    },
+    {
+     "id": "2026w05-BAL-ATL",
+     "away": "BAL",
+     "home": "ATL",
+     "kickoff": "2026-10-12T00:20:00Z",
+     "when": "Sun 10/11 8:20 PM ET"
+    },
+    {
+     "id": "2026w05-BUF-LAR",
+     "away": "BUF",
+     "home": "LAR",
+     "kickoff": "2026-10-13T00:15:00Z",
+     "when": "Mon 10/12 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 6,
+   "games": [
+    {
+     "id": "2026w06-SEA-DEN",
+     "away": "SEA",
+     "home": "DEN",
+     "kickoff": "2026-10-16T00:15:00Z",
+     "when": "Thu 10/15 8:15 PM ET"
+    },
+    {
+     "id": "2026w06-HOU-JAX",
+     "away": "HOU",
+     "home": "JAX",
+     "kickoff": "2026-10-18T13:30:00Z",
+     "when": "Sun 10/18 9:30 AM ET"
+    },
+    {
+     "id": "2026w06-CHI-ATL",
+     "away": "CHI",
+     "home": "ATL",
+     "kickoff": "2026-10-18T17:00:00Z",
+     "when": "Sun 10/18 1:00 PM ET"
+    },
+    {
+     "id": "2026w06-BAL-CLE",
+     "away": "BAL",
+     "home": "CLE",
+     "kickoff": "2026-10-18T17:00:00Z",
+     "when": "Sun 10/18 1:00 PM ET"
+    },
+    {
+     "id": "2026w06-TEN-IND",
+     "away": "TEN",
+     "home": "IND",
+     "kickoff": "2026-10-18T17:00:00Z",
+     "when": "Sun 10/18 1:00 PM ET"
+    },
+    {
+     "id": "2026w06-NYJ-NE",
+     "away": "NYJ",
+     "home": "NE",
+     "kickoff": "2026-10-18T17:00:00Z",
+     "when": "Sun 10/18 1:00 PM ET"
+    },
+    {
+     "id": "2026w06-NO-NYG",
+     "away": "NO",
+     "home": "NYG",
+     "kickoff": "2026-10-18T17:00:00Z",
+     "when": "Sun 10/18 1:00 PM ET"
+    },
+    {
+     "id": "2026w06-CAR-PHI",
+     "away": "CAR",
+     "home": "PHI",
+     "kickoff": "2026-10-18T17:00:00Z",
+     "when": "Sun 10/18 1:00 PM ET"
+    },
+    {
+     "id": "2026w06-PIT-TB",
+     "away": "PIT",
+     "home": "TB",
+     "kickoff": "2026-10-18T17:00:00Z",
+     "when": "Sun 10/18 1:00 PM ET"
+    },
+    {
+     "id": "2026w06-ARI-LAR",
+     "away": "ARI",
+     "home": "LAR",
+     "kickoff": "2026-10-18T20:05:00Z",
+     "when": "Sun 10/18 4:05 PM ET"
+    },
+    {
+     "id": "2026w06-LAC-KC",
+     "away": "LAC",
+     "home": "KC",
+     "kickoff": "2026-10-18T20:25:00Z",
+     "when": "Sun 10/18 4:25 PM ET"
+    },
+    {
+     "id": "2026w06-BUF-LV",
+     "away": "BUF",
+     "home": "LV",
+     "kickoff": "2026-10-18T20:25:00Z",
+     "when": "Sun 10/18 4:25 PM ET"
+    },
+    {
+     "id": "2026w06-DAL-GB",
+     "away": "DAL",
+     "home": "GB",
+     "kickoff": "2026-10-19T00:20:00Z",
+     "when": "Sun 10/18 8:20 PM ET"
+    },
+    {
+     "id": "2026w06-WAS-SF",
+     "away": "WAS",
+     "home": "SF",
+     "kickoff": "2026-10-20T00:15:00Z",
+     "when": "Mon 10/19 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 7,
+   "games": [
+    {
+     "id": "2026w07-NE-CHI",
+     "away": "NE",
+     "home": "CHI",
+     "kickoff": "2026-10-23T00:15:00Z",
+     "when": "Thu 10/22 8:15 PM ET"
+    },
+    {
+     "id": "2026w07-PIT-NO",
+     "away": "PIT",
+     "home": "NO",
+     "kickoff": "2026-10-25T13:30:00Z",
+     "when": "Sun 10/25 9:30 AM ET"
+    },
+    {
+     "id": "2026w07-SF-ATL",
+     "away": "SF",
+     "home": "ATL",
+     "kickoff": "2026-10-25T17:00:00Z",
+     "when": "Sun 10/25 1:00 PM ET"
+    },
+    {
+     "id": "2026w07-TB-CAR",
+     "away": "TB",
+     "home": "CAR",
+     "kickoff": "2026-10-25T17:00:00Z",
+     "when": "Sun 10/25 1:00 PM ET"
+    },
+    {
+     "id": "2026w07-NYG-HOU",
+     "away": "NYG",
+     "home": "HOU",
+     "kickoff": "2026-10-25T17:00:00Z",
+     "when": "Sun 10/25 1:00 PM ET"
+    },
+    {
+     "id": "2026w07-IND-MIN",
+     "away": "IND",
+     "home": "MIN",
+     "kickoff": "2026-10-25T17:00:00Z",
+     "when": "Sun 10/25 1:00 PM ET"
+    },
+    {
+     "id": "2026w07-MIA-NYJ",
+     "away": "MIA",
+     "home": "NYJ",
+     "kickoff": "2026-10-25T17:00:00Z",
+     "when": "Sun 10/25 1:00 PM ET"
+    },
+    {
+     "id": "2026w07-CLE-TEN",
+     "away": "CLE",
+     "home": "TEN",
+     "kickoff": "2026-10-25T17:00:00Z",
+     "when": "Sun 10/25 1:00 PM ET"
+    },
+    {
+     "id": "2026w07-CIN-BAL",
+     "away": "CIN",
+     "home": "BAL",
+     "kickoff": "2026-10-25T17:00:00Z",
+     "when": "Sun 10/25 1:00 PM ET"
+    },
+    {
+     "id": "2026w07-DEN-ARI",
+     "away": "DEN",
+     "home": "ARI",
+     "kickoff": "2026-10-25T20:05:00Z",
+     "when": "Sun 10/25 4:05 PM ET"
+    },
+    {
+     "id": "2026w07-GB-DET",
+     "away": "GB",
+     "home": "DET",
+     "kickoff": "2026-10-25T20:25:00Z",
+     "when": "Sun 10/25 4:25 PM ET"
+    },
+    {
+     "id": "2026w07-LAR-LV",
+     "away": "LAR",
+     "home": "LV",
+     "kickoff": "2026-10-25T20:25:00Z",
+     "when": "Sun 10/25 4:25 PM ET"
+    },
+    {
+     "id": "2026w07-KC-SEA",
+     "away": "KC",
+     "home": "SEA",
+     "kickoff": "2026-10-26T00:20:00Z",
+     "when": "Sun 10/25 8:20 PM ET"
+    },
+    {
+     "id": "2026w07-DAL-PHI",
+     "away": "DAL",
+     "home": "PHI",
+     "kickoff": "2026-10-27T00:15:00Z",
+     "when": "Mon 10/26 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 8,
+   "games": [
+    {
+     "id": "2026w08-CAR-GB",
+     "away": "CAR",
+     "home": "GB",
+     "kickoff": "2026-10-30T00:15:00Z",
+     "when": "Thu 10/29 8:15 PM ET"
+    },
+    {
+     "id": "2026w08-BAL-BUF",
+     "away": "BAL",
+     "home": "BUF",
+     "kickoff": "2026-11-01T18:00:00Z",
+     "when": "Sun 11/1 1:00 PM ET"
+    },
+    {
+     "id": "2026w08-TEN-CIN",
+     "away": "TEN",
+     "home": "CIN",
+     "kickoff": "2026-11-01T18:00:00Z",
+     "when": "Sun 11/1 1:00 PM ET"
+    },
+    {
+     "id": "2026w08-ARI-DAL",
+     "away": "ARI",
+     "home": "DAL",
+     "kickoff": "2026-11-01T18:00:00Z",
+     "when": "Sun 11/1 1:00 PM ET"
+    },
+    {
+     "id": "2026w08-MIN-DET",
+     "away": "MIN",
+     "home": "DET",
+     "kickoff": "2026-11-01T18:00:00Z",
+     "when": "Sun 11/1 1:00 PM ET"
+    },
+    {
+     "id": "2026w08-IND-JAX",
+     "away": "IND",
+     "home": "JAX",
+     "kickoff": "2026-11-01T18:00:00Z",
+     "when": "Sun 11/1 1:00 PM ET"
+    },
+    {
+     "id": "2026w08-LV-NYJ",
+     "away": "LV",
+     "home": "NYJ",
+     "kickoff": "2026-11-01T18:00:00Z",
+     "when": "Sun 11/1 1:00 PM ET"
+    },
+    {
+     "id": "2026w08-CLE-PIT",
+     "away": "CLE",
+     "home": "PIT",
+     "kickoff": "2026-11-01T18:00:00Z",
+     "when": "Sun 11/1 1:00 PM ET"
+    },
+    {
+     "id": "2026w08-ATL-TB",
+     "away": "ATL",
+     "home": "TB",
+     "kickoff": "2026-11-01T18:00:00Z",
+     "when": "Sun 11/1 1:00 PM ET"
+    },
+    {
+     "id": "2026w08-LAC-LAR",
+     "away": "LAC",
+     "home": "LAR",
+     "kickoff": "2026-11-01T21:05:00Z",
+     "when": "Sun 11/1 4:05 PM ET"
+    },
+    {
+     "id": "2026w08-KC-DEN",
+     "away": "KC",
+     "home": "DEN",
+     "kickoff": "2026-11-01T21:25:00Z",
+     "when": "Sun 11/1 4:25 PM ET"
+    },
+    {
+     "id": "2026w08-NE-MIA",
+     "away": "NE",
+     "home": "MIA",
+     "kickoff": "2026-11-01T21:25:00Z",
+     "when": "Sun 11/1 4:25 PM ET"
+    },
+    {
+     "id": "2026w08-PHI-WAS",
+     "away": "PHI",
+     "home": "WAS",
+     "kickoff": "2026-11-02T01:20:00Z",
+     "when": "Sun 11/1 8:20 PM ET"
+    },
+    {
+     "id": "2026w08-CHI-SEA",
+     "away": "CHI",
+     "home": "SEA",
+     "kickoff": "2026-11-03T01:15:00Z",
+     "when": "Mon 11/2 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 9,
+   "games": [
+    {
+     "id": "2026w09-JAX-BAL",
+     "away": "JAX",
+     "home": "BAL",
+     "kickoff": "2026-11-06T01:15:00Z",
+     "when": "Thu 11/5 8:15 PM ET"
+    },
+    {
+     "id": "2026w09-CIN-ATL",
+     "away": "CIN",
+     "home": "ATL",
+     "kickoff": "2026-11-08T14:30:00Z",
+     "when": "Sun 11/8 9:30 AM ET"
+    },
+    {
+     "id": "2026w09-DEN-CAR",
+     "away": "DEN",
+     "home": "CAR",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "when": "Sun 11/8 1:00 PM ET"
+    },
+    {
+     "id": "2026w09-DAL-IND",
+     "away": "DAL",
+     "home": "IND",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "when": "Sun 11/8 1:00 PM ET"
+    },
+    {
+     "id": "2026w09-NYJ-KC",
+     "away": "NYJ",
+     "home": "KC",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "when": "Sun 11/8 1:00 PM ET"
+    },
+    {
+     "id": "2026w09-DET-MIA",
+     "away": "DET",
+     "home": "MIA",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "when": "Sun 11/8 1:00 PM ET"
+    },
+    {
+     "id": "2026w09-CLE-NO",
+     "away": "CLE",
+     "home": "NO",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "when": "Sun 11/8 1:00 PM ET"
+    },
+    {
+     "id": "2026w09-NYG-PHI",
+     "away": "NYG",
+     "home": "PHI",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "when": "Sun 11/8 1:00 PM ET"
+    },
+    {
+     "id": "2026w09-LAR-WAS",
+     "away": "LAR",
+     "home": "WAS",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "when": "Sun 11/8 1:00 PM ET"
+    },
+    {
+     "id": "2026w09-HOU-LAC",
+     "away": "HOU",
+     "home": "LAC",
+     "kickoff": "2026-11-08T21:05:00Z",
+     "when": "Sun 11/8 4:05 PM ET"
+    },
+    {
+     "id": "2026w09-LV-SF",
+     "away": "LV",
+     "home": "SF",
+     "kickoff": "2026-11-08T21:05:00Z",
+     "when": "Sun 11/8 4:05 PM ET"
+    },
+    {
+     "id": "2026w09-GB-NE",
+     "away": "GB",
+     "home": "NE",
+     "kickoff": "2026-11-08T21:25:00Z",
+     "when": "Sun 11/8 4:25 PM ET"
+    },
+    {
+     "id": "2026w09-ARI-SEA",
+     "away": "ARI",
+     "home": "SEA",
+     "kickoff": "2026-11-08T21:25:00Z",
+     "when": "Sun 11/8 4:25 PM ET"
+    },
+    {
+     "id": "2026w09-TB-CHI",
+     "away": "TB",
+     "home": "CHI",
+     "kickoff": "2026-11-09T01:20:00Z",
+     "when": "Sun 11/8 8:20 PM ET"
+    },
+    {
+     "id": "2026w09-BUF-MIN",
+     "away": "BUF",
+     "home": "MIN",
+     "kickoff": "2026-11-10T01:15:00Z",
+     "when": "Mon 11/9 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 10,
+   "games": [
+    {
+     "id": "2026w10-WAS-NYG",
+     "away": "WAS",
+     "home": "NYG",
+     "kickoff": "2026-11-13T01:15:00Z",
+     "when": "Thu 11/12 8:15 PM ET"
+    },
+    {
+     "id": "2026w10-NE-DET",
+     "away": "NE",
+     "home": "DET",
+     "kickoff": "2026-11-15T14:30:00Z",
+     "when": "Sun 11/15 9:30 AM ET"
+    },
+    {
+     "id": "2026w10-KC-ATL",
+     "away": "KC",
+     "home": "ATL",
+     "kickoff": "2026-11-15T18:00:00Z",
+     "when": "Sun 11/15 1:00 PM ET"
+    },
+    {
+     "id": "2026w10-HOU-CLE",
+     "away": "HOU",
+     "home": "CLE",
+     "kickoff": "2026-11-15T18:00:00Z",
+     "when": "Sun 11/15 1:00 PM ET"
+    },
+    {
+     "id": "2026w10-MIA-IND",
+     "away": "MIA",
+     "home": "IND",
+     "kickoff": "2026-11-15T18:00:00Z",
+     "when": "Sun 11/15 1:00 PM ET"
+    },
+    {
+     "id": "2026w10-MIN-GB",
+     "away": "MIN",
+     "home": "GB",
+     "kickoff": "2026-11-15T18:00:00Z",
+     "when": "Sun 11/15 1:00 PM ET"
+    },
+    {
+     "id": "2026w10-CAR-NO",
+     "away": "CAR",
+     "home": "NO",
+     "kickoff": "2026-11-15T18:00:00Z",
+     "when": "Sun 11/15 1:00 PM ET"
+    },
+    {
+     "id": "2026w10-BUF-NYJ",
+     "away": "BUF",
+     "home": "NYJ",
+     "kickoff": "2026-11-15T18:00:00Z",
+     "when": "Sun 11/15 1:00 PM ET"
+    },
+    {
+     "id": "2026w10-JAX-TEN",
+     "away": "JAX",
+     "home": "TEN",
+     "kickoff": "2026-11-15T18:00:00Z",
+     "when": "Sun 11/15 1:00 PM ET"
+    },
+    {
+     "id": "2026w10-LAR-ARI",
+     "away": "LAR",
+     "home": "ARI",
+     "kickoff": "2026-11-15T21:05:00Z",
+     "when": "Sun 11/15 4:05 PM ET"
+    },
+    {
+     "id": "2026w10-SEA-LV",
+     "away": "SEA",
+     "home": "LV",
+     "kickoff": "2026-11-15T21:05:00Z",
+     "when": "Sun 11/15 4:05 PM ET"
+    },
+    {
+     "id": "2026w10-SF-DAL",
+     "away": "SF",
+     "home": "DAL",
+     "kickoff": "2026-11-15T21:25:00Z",
+     "when": "Sun 11/15 4:25 PM ET"
+    },
+    {
+     "id": "2026w10-PIT-CIN",
+     "away": "PIT",
+     "home": "CIN",
+     "kickoff": "2026-11-16T01:20:00Z",
+     "when": "Sun 11/15 8:20 PM ET"
+    },
+    {
+     "id": "2026w10-LAC-BAL",
+     "away": "LAC",
+     "home": "BAL",
+     "kickoff": "2026-11-17T01:15:00Z",
+     "when": "Mon 11/16 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 11,
+   "games": [
+    {
+     "id": "2026w11-IND-HOU",
+     "away": "IND",
+     "home": "HOU",
+     "kickoff": "2026-11-20T01:15:00Z",
+     "when": "Thu 11/19 8:15 PM ET"
+    },
+    {
+     "id": "2026w11-MIA-BUF",
+     "away": "MIA",
+     "home": "BUF",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "when": "Sun 11/22 1:00 PM ET"
+    },
+    {
+     "id": "2026w11-BAL-CAR",
+     "away": "BAL",
+     "home": "CAR",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "when": "Sun 11/22 1:00 PM ET"
+    },
+    {
+     "id": "2026w11-NO-CHI",
+     "away": "NO",
+     "home": "CHI",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "when": "Sun 11/22 1:00 PM ET"
+    },
+    {
+     "id": "2026w11-TEN-DAL",
+     "away": "TEN",
+     "home": "DAL",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "when": "Sun 11/22 1:00 PM ET"
+    },
+    {
+     "id": "2026w11-TB-DET",
+     "away": "TB",
+     "home": "DET",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "when": "Sun 11/22 1:00 PM ET"
+    },
+    {
+     "id": "2026w11-ARI-KC",
+     "away": "ARI",
+     "home": "KC",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "when": "Sun 11/22 1:00 PM ET"
+    },
+    {
+     "id": "2026w11-JAX-NYG",
+     "away": "JAX",
+     "home": "NYG",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "when": "Sun 11/22 1:00 PM ET"
+    },
+    {
+     "id": "2026w11-NYJ-LAC",
+     "away": "NYJ",
+     "home": "LAC",
+     "kickoff": "2026-11-22T21:05:00Z",
+     "when": "Sun 11/22 4:05 PM ET"
+    },
+    {
+     "id": "2026w11-LV-DEN",
+     "away": "LV",
+     "home": "DEN",
+     "kickoff": "2026-11-22T21:25:00Z",
+     "when": "Sun 11/22 4:25 PM ET"
+    },
+    {
+     "id": "2026w11-PIT-PHI",
+     "away": "PIT",
+     "home": "PHI",
+     "kickoff": "2026-11-22T21:25:00Z",
+     "when": "Sun 11/22 4:25 PM ET"
+    },
+    {
+     "id": "2026w11-MIN-SF",
+     "away": "MIN",
+     "home": "SF",
+     "kickoff": "2026-11-23T01:20:00Z",
+     "when": "Sun 11/22 8:20 PM ET"
+    },
+    {
+     "id": "2026w11-CIN-WAS",
+     "away": "CIN",
+     "home": "WAS",
+     "kickoff": "2026-11-24T01:15:00Z",
+     "when": "Mon 11/23 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 12,
+   "games": [
+    {
+     "id": "2026w12-GB-LAR",
+     "away": "GB",
+     "home": "LAR",
+     "kickoff": "2026-11-26T01:00:00Z",
+     "when": "Wed 11/25 8:00 PM ET"
+    },
+    {
+     "id": "2026w12-CHI-DET",
+     "away": "CHI",
+     "home": "DET",
+     "kickoff": "2026-11-26T18:00:00Z",
+     "when": "Thu 11/26 1:00 PM ET"
+    },
+    {
+     "id": "2026w12-PHI-DAL",
+     "away": "PHI",
+     "home": "DAL",
+     "kickoff": "2026-11-26T21:30:00Z",
+     "when": "Thu 11/26 4:30 PM ET"
+    },
+    {
+     "id": "2026w12-KC-BUF",
+     "away": "KC",
+     "home": "BUF",
+     "kickoff": "2026-11-27T01:20:00Z",
+     "when": "Thu 11/26 8:20 PM ET"
+    },
+    {
+     "id": "2026w12-DEN-PIT",
+     "away": "DEN",
+     "home": "PIT",
+     "kickoff": "2026-11-27T20:00:00Z",
+     "when": "Fri 11/27 3:00 PM ET"
+    },
+    {
+     "id": "2026w12-NO-CIN",
+     "away": "NO",
+     "home": "CIN",
+     "kickoff": "2026-11-29T18:00:00Z",
+     "when": "Sun 11/29 1:00 PM ET"
+    },
+    {
+     "id": "2026w12-LV-CLE",
+     "away": "LV",
+     "home": "CLE",
+     "kickoff": "2026-11-29T18:00:00Z",
+     "when": "Sun 11/29 1:00 PM ET"
+    },
+    {
+     "id": "2026w12-NYG-IND",
+     "away": "NYG",
+     "home": "IND",
+     "kickoff": "2026-11-29T18:00:00Z",
+     "when": "Sun 11/29 1:00 PM ET"
+    },
+    {
+     "id": "2026w12-BAL-HOU",
+     "away": "BAL",
+     "home": "HOU",
+     "kickoff": "2026-11-29T18:00:00Z",
+     "when": "Sun 11/29 1:00 PM ET"
+    },
+    {
+     "id": "2026w12-NYJ-MIA",
+     "away": "NYJ",
+     "home": "MIA",
+     "kickoff": "2026-11-29T18:00:00Z",
+     "when": "Sun 11/29 1:00 PM ET"
+    },
+    {
+     "id": "2026w12-ATL-MIN",
+     "away": "ATL",
+     "home": "MIN",
+     "kickoff": "2026-11-29T18:00:00Z",
+     "when": "Sun 11/29 1:00 PM ET"
+    },
+    {
+     "id": "2026w12-TEN-JAX",
+     "away": "TEN",
+     "home": "JAX",
+     "kickoff": "2026-11-29T21:05:00Z",
+     "when": "Sun 11/29 4:05 PM ET"
+    },
+    {
+     "id": "2026w12-WAS-ARI",
+     "away": "WAS",
+     "home": "ARI",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "when": "Sun 11/29 4:25 PM ET"
+    },
+    {
+     "id": "2026w12-SEA-SF",
+     "away": "SEA",
+     "home": "SF",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "when": "Sun 11/29 4:25 PM ET"
+    },
+    {
+     "id": "2026w12-NE-LAC",
+     "away": "NE",
+     "home": "LAC",
+     "kickoff": "2026-11-30T01:20:00Z",
+     "when": "Sun 11/29 8:20 PM ET"
+    },
+    {
+     "id": "2026w12-CAR-TB",
+     "away": "CAR",
+     "home": "TB",
+     "kickoff": "2026-12-01T01:15:00Z",
+     "when": "Mon 11/30 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 13,
+   "games": [
+    {
+     "id": "2026w13-KC-LAR",
+     "away": "KC",
+     "home": "LAR",
+     "kickoff": "2026-12-04T01:15:00Z",
+     "when": "Thu 12/3 8:15 PM ET"
+    },
+    {
+     "id": "2026w13-DET-ATL",
+     "away": "DET",
+     "home": "ATL",
+     "kickoff": "2026-12-06T18:00:00Z",
+     "when": "Sun 12/6 1:00 PM ET"
+    },
+    {
+     "id": "2026w13-JAX-CHI",
+     "away": "JAX",
+     "home": "CHI",
+     "kickoff": "2026-12-06T18:00:00Z",
+     "when": "Sun 12/6 1:00 PM ET"
+    },
+    {
+     "id": "2026w13-CIN-CLE",
+     "away": "CIN",
+     "home": "CLE",
+     "kickoff": "2026-12-06T18:00:00Z",
+     "when": "Sun 12/6 1:00 PM ET"
+    },
+    {
+     "id": "2026w13-GB-NO",
+     "away": "GB",
+     "home": "NO",
+     "kickoff": "2026-12-06T18:00:00Z",
+     "when": "Sun 12/6 1:00 PM ET"
+    },
+    {
+     "id": "2026w13-SF-NYG",
+     "away": "SF",
+     "home": "NYG",
+     "kickoff": "2026-12-06T18:00:00Z",
+     "when": "Sun 12/6 1:00 PM ET"
+    },
+    {
+     "id": "2026w13-WAS-TEN",
+     "away": "WAS",
+     "home": "TEN",
+     "kickoff": "2026-12-06T18:00:00Z",
+     "when": "Sun 12/6 1:00 PM ET"
+    },
+    {
+     "id": "2026w13-LAC-TB",
+     "away": "LAC",
+     "home": "TB",
+     "kickoff": "2026-12-06T18:00:00Z",
+     "when": "Sun 12/6 1:00 PM ET"
+    },
+    {
+     "id": "2026w13-PHI-ARI",
+     "away": "PHI",
+     "home": "ARI",
+     "kickoff": "2026-12-06T21:05:00Z",
+     "when": "Sun 12/6 4:05 PM ET"
+    },
+    {
+     "id": "2026w13-MIA-DEN",
+     "away": "MIA",
+     "home": "DEN",
+     "kickoff": "2026-12-06T21:05:00Z",
+     "when": "Sun 12/6 4:05 PM ET"
+    },
+    {
+     "id": "2026w13-CAR-MIN",
+     "away": "CAR",
+     "home": "MIN",
+     "kickoff": "2026-12-06T21:25:00Z",
+     "when": "Sun 12/6 4:25 PM ET"
+    },
+    {
+     "id": "2026w13-BUF-NE",
+     "away": "BUF",
+     "home": "NE",
+     "kickoff": "2026-12-06T21:25:00Z",
+     "when": "Sun 12/6 4:25 PM ET"
+    },
+    {
+     "id": "2026w13-HOU-PIT",
+     "away": "HOU",
+     "home": "PIT",
+     "kickoff": "2026-12-07T01:20:00Z",
+     "when": "Sun 12/6 8:20 PM ET"
+    },
+    {
+     "id": "2026w13-DAL-SEA",
+     "away": "DAL",
+     "home": "SEA",
+     "kickoff": "2026-12-08T01:15:00Z",
+     "when": "Mon 12/7 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 14,
+   "games": [
+    {
+     "id": "2026w14-MIN-NE",
+     "away": "MIN",
+     "home": "NE",
+     "kickoff": "2026-12-11T01:15:00Z",
+     "when": "Thu 12/10 8:15 PM ET"
+    },
+    {
+     "id": "2026w14-NO-CAR",
+     "away": "NO",
+     "home": "CAR",
+     "kickoff": "2026-12-13T18:00:00Z",
+     "when": "Sun 12/13 1:00 PM ET"
+    },
+    {
+     "id": "2026w14-ATL-CLE",
+     "away": "ATL",
+     "home": "CLE",
+     "kickoff": "2026-12-13T18:00:00Z",
+     "when": "Sun 12/13 1:00 PM ET"
+    },
+    {
+     "id": "2026w14-TEN-DET",
+     "away": "TEN",
+     "home": "DET",
+     "kickoff": "2026-12-13T18:00:00Z",
+     "when": "Sun 12/13 1:00 PM ET"
+    },
+    {
+     "id": "2026w14-CHI-MIA",
+     "away": "CHI",
+     "home": "MIA",
+     "kickoff": "2026-12-13T18:00:00Z",
+     "when": "Sun 12/13 1:00 PM ET"
+    },
+    {
+     "id": "2026w14-DEN-NYJ",
+     "away": "DEN",
+     "home": "NYJ",
+     "kickoff": "2026-12-13T18:00:00Z",
+     "when": "Sun 12/13 1:00 PM ET"
+    },
+    {
+     "id": "2026w14-IND-PHI",
+     "away": "IND",
+     "home": "PHI",
+     "kickoff": "2026-12-13T18:00:00Z",
+     "when": "Sun 12/13 1:00 PM ET"
+    },
+    {
+     "id": "2026w14-TB-BAL",
+     "away": "TB",
+     "home": "BAL",
+     "kickoff": "2026-12-13T18:00:00Z",
+     "when": "Sun 12/13 1:00 PM ET"
+    },
+    {
+     "id": "2026w14-HOU-WAS",
+     "away": "HOU",
+     "home": "WAS",
+     "kickoff": "2026-12-13T18:00:00Z",
+     "when": "Sun 12/13 1:00 PM ET"
+    },
+    {
+     "id": "2026w14-LAC-LV",
+     "away": "LAC",
+     "home": "LV",
+     "kickoff": "2026-12-13T21:05:00Z",
+     "when": "Sun 12/13 4:05 PM ET"
+    },
+    {
+     "id": "2026w14-KC-CIN",
+     "away": "KC",
+     "home": "CIN",
+     "kickoff": "2026-12-13T21:25:00Z",
+     "when": "Sun 12/13 4:25 PM ET"
+    },
+    {
+     "id": "2026w14-NYG-SEA",
+     "away": "NYG",
+     "home": "SEA",
+     "kickoff": "2026-12-13T21:25:00Z",
+     "when": "Sun 12/13 4:25 PM ET"
+    },
+    {
+     "id": "2026w14-LAR-SF",
+     "away": "LAR",
+     "home": "SF",
+     "kickoff": "2026-12-13T21:25:00Z",
+     "when": "Sun 12/13 4:25 PM ET"
+    },
+    {
+     "id": "2026w14-BUF-GB",
+     "away": "BUF",
+     "home": "GB",
+     "kickoff": "2026-12-14T01:20:00Z",
+     "when": "Sun 12/13 8:20 PM ET"
+    },
+    {
+     "id": "2026w14-PIT-JAX",
+     "away": "PIT",
+     "home": "JAX",
+     "kickoff": "2026-12-15T01:15:00Z",
+     "when": "Mon 12/14 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 15,
+   "games": [
+    {
+     "id": "2026w15-SF-LAC",
+     "away": "SF",
+     "home": "LAC",
+     "kickoff": "2026-12-18T01:15:00Z",
+     "when": "Thu 12/17 8:15 PM ET"
+    },
+    {
+     "id": "2026w15-SEA-PHI",
+     "away": "SEA",
+     "home": "PHI",
+     "kickoff": "2026-12-19T22:00:00Z",
+     "when": "Sat 12/19 5:00 PM ET"
+    },
+    {
+     "id": "2026w15-CHI-BUF",
+     "away": "CHI",
+     "home": "BUF",
+     "kickoff": "2026-12-20T01:20:00Z",
+     "when": "Sat 12/19 8:20 PM ET"
+    },
+    {
+     "id": "2026w15-CIN-CAR",
+     "away": "CIN",
+     "home": "CAR",
+     "kickoff": "2026-12-20T18:00:00Z",
+     "when": "Sun 12/20 1:00 PM ET"
+    },
+    {
+     "id": "2026w15-MIA-GB",
+     "away": "MIA",
+     "home": "GB",
+     "kickoff": "2026-12-20T18:00:00Z",
+     "when": "Sun 12/20 1:00 PM ET"
+    },
+    {
+     "id": "2026w15-JAX-HOU",
+     "away": "JAX",
+     "home": "HOU",
+     "kickoff": "2026-12-20T18:00:00Z",
+     "when": "Sun 12/20 1:00 PM ET"
+    },
+    {
+     "id": "2026w15-CLE-NYG",
+     "away": "CLE",
+     "home": "NYG",
+     "kickoff": "2026-12-20T18:00:00Z",
+     "when": "Sun 12/20 1:00 PM ET"
+    },
+    {
+     "id": "2026w15-IND-TEN",
+     "away": "IND",
+     "home": "TEN",
+     "kickoff": "2026-12-20T18:00:00Z",
+     "when": "Sun 12/20 1:00 PM ET"
+    },
+    {
+     "id": "2026w15-BAL-PIT",
+     "away": "BAL",
+     "home": "PIT",
+     "kickoff": "2026-12-20T18:00:00Z",
+     "when": "Sun 12/20 1:00 PM ET"
+    },
+    {
+     "id": "2026w15-NO-TB",
+     "away": "NO",
+     "home": "TB",
+     "kickoff": "2026-12-20T18:00:00Z",
+     "when": "Sun 12/20 1:00 PM ET"
+    },
+    {
+     "id": "2026w15-ATL-WAS",
+     "away": "ATL",
+     "home": "WAS",
+     "kickoff": "2026-12-20T18:00:00Z",
+     "when": "Sun 12/20 1:00 PM ET"
+    },
+    {
+     "id": "2026w15-NYJ-ARI",
+     "away": "NYJ",
+     "home": "ARI",
+     "kickoff": "2026-12-20T21:05:00Z",
+     "when": "Sun 12/20 4:05 PM ET"
+    },
+    {
+     "id": "2026w15-DEN-LV",
+     "away": "DEN",
+     "home": "LV",
+     "kickoff": "2026-12-20T21:25:00Z",
+     "when": "Sun 12/20 4:25 PM ET"
+    },
+    {
+     "id": "2026w15-DAL-LAR",
+     "away": "DAL",
+     "home": "LAR",
+     "kickoff": "2026-12-20T21:25:00Z",
+     "when": "Sun 12/20 4:25 PM ET"
+    },
+    {
+     "id": "2026w15-DET-MIN",
+     "away": "DET",
+     "home": "MIN",
+     "kickoff": "2026-12-21T01:20:00Z",
+     "when": "Sun 12/20 8:20 PM ET"
+    },
+    {
+     "id": "2026w15-NE-KC",
+     "away": "NE",
+     "home": "KC",
+     "kickoff": "2026-12-22T01:15:00Z",
+     "when": "Mon 12/21 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 16,
+   "games": [
+    {
+     "id": "2026w16-HOU-PHI",
+     "away": "HOU",
+     "home": "PHI",
+     "kickoff": "2026-12-25T01:15:00Z",
+     "when": "Thu 12/24 8:15 PM ET"
+    },
+    {
+     "id": "2026w16-GB-CHI",
+     "away": "GB",
+     "home": "CHI",
+     "kickoff": "2026-12-25T18:00:00Z",
+     "when": "Fri 12/25 1:00 PM ET"
+    },
+    {
+     "id": "2026w16-BUF-DEN",
+     "away": "BUF",
+     "home": "DEN",
+     "kickoff": "2026-12-25T21:30:00Z",
+     "when": "Fri 12/25 4:30 PM ET"
+    },
+    {
+     "id": "2026w16-LAR-SEA",
+     "away": "LAR",
+     "home": "SEA",
+     "kickoff": "2026-12-26T01:15:00Z",
+     "when": "Fri 12/25 8:15 PM ET"
+    },
+    {
+     "id": "2026w16-TB-ATL",
+     "away": "TB",
+     "home": "ATL",
+     "kickoff": "2026-12-27T18:00:00Z",
+     "when": "Sun 12/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w16-CIN-IND",
+     "away": "CIN",
+     "home": "IND",
+     "kickoff": "2026-12-27T18:00:00Z",
+     "when": "Sun 12/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w16-LAC-MIA",
+     "away": "LAC",
+     "home": "MIA",
+     "kickoff": "2026-12-27T18:00:00Z",
+     "when": "Sun 12/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w16-WAS-MIN",
+     "away": "WAS",
+     "home": "MIN",
+     "kickoff": "2026-12-27T18:00:00Z",
+     "when": "Sun 12/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w16-ARI-NO",
+     "away": "ARI",
+     "home": "NO",
+     "kickoff": "2026-12-27T18:00:00Z",
+     "when": "Sun 12/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w16-NE-NYJ",
+     "away": "NE",
+     "home": "NYJ",
+     "kickoff": "2026-12-27T18:00:00Z",
+     "when": "Sun 12/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w16-CAR-PIT",
+     "away": "CAR",
+     "home": "PIT",
+     "kickoff": "2026-12-27T18:00:00Z",
+     "when": "Sun 12/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w16-CLE-BAL",
+     "away": "CLE",
+     "home": "BAL",
+     "kickoff": "2026-12-27T18:00:00Z",
+     "when": "Sun 12/27 1:00 PM ET"
+    },
+    {
+     "id": "2026w16-TEN-LV",
+     "away": "TEN",
+     "home": "LV",
+     "kickoff": "2026-12-27T21:05:00Z",
+     "when": "Sun 12/27 4:05 PM ET"
+    },
+    {
+     "id": "2026w16-SF-KC",
+     "away": "SF",
+     "home": "KC",
+     "kickoff": "2026-12-27T21:25:00Z",
+     "when": "Sun 12/27 4:25 PM ET"
+    },
+    {
+     "id": "2026w16-JAX-DAL",
+     "away": "JAX",
+     "home": "DAL",
+     "kickoff": "2026-12-28T01:20:00Z",
+     "when": "Sun 12/27 8:20 PM ET"
+    },
+    {
+     "id": "2026w16-NYG-DET",
+     "away": "NYG",
+     "home": "DET",
+     "kickoff": "2026-12-29T01:15:00Z",
+     "when": "Mon 12/28 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 17,
+   "games": [
+    {
+     "id": "2026w17-BAL-CIN",
+     "away": "BAL",
+     "home": "CIN",
+     "kickoff": "2027-01-01T01:15:00Z",
+     "when": "Thu 12/31 8:15 PM ET"
+    },
+    {
+     "id": "2027w17-NO-ATL",
+     "away": "NO",
+     "home": "ATL",
+     "kickoff": "2027-01-03T18:00:00Z",
+     "when": "Sun 1/3 1:00 PM ET"
+    },
+    {
+     "id": "2027w17-SEA-CAR",
+     "away": "SEA",
+     "home": "CAR",
+     "kickoff": "2027-01-03T18:00:00Z",
+     "when": "Sun 1/3 1:00 PM ET"
+    },
+    {
+     "id": "2027w17-IND-CLE",
+     "away": "IND",
+     "home": "CLE",
+     "kickoff": "2027-01-03T18:00:00Z",
+     "when": "Sun 1/3 1:00 PM ET"
+    },
+    {
+     "id": "2027w17-NYG-DAL",
+     "away": "NYG",
+     "home": "DAL",
+     "kickoff": "2027-01-03T18:00:00Z",
+     "when": "Sun 1/3 1:00 PM ET"
+    },
+    {
+     "id": "2027w17-WAS-JAX",
+     "away": "WAS",
+     "home": "JAX",
+     "kickoff": "2027-01-03T18:00:00Z",
+     "when": "Sun 1/3 1:00 PM ET"
+    },
+    {
+     "id": "2027w17-BUF-MIA",
+     "away": "BUF",
+     "home": "MIA",
+     "kickoff": "2027-01-03T18:00:00Z",
+     "when": "Sun 1/3 1:00 PM ET"
+    },
+    {
+     "id": "2027w17-DEN-NE",
+     "away": "DEN",
+     "home": "NE",
+     "kickoff": "2027-01-03T18:00:00Z",
+     "when": "Sun 1/3 1:00 PM ET"
+    },
+    {
+     "id": "2027w17-MIN-NYJ",
+     "away": "MIN",
+     "home": "NYJ",
+     "kickoff": "2027-01-03T18:00:00Z",
+     "when": "Sun 1/3 1:00 PM ET"
+    },
+    {
+     "id": "2027w17-PIT-TEN",
+     "away": "PIT",
+     "home": "TEN",
+     "kickoff": "2027-01-03T18:00:00Z",
+     "when": "Sun 1/3 1:00 PM ET"
+    },
+    {
+     "id": "2027w17-KC-LAC",
+     "away": "KC",
+     "home": "LAC",
+     "kickoff": "2027-01-03T18:00:00Z",
+     "when": "Sun 1/3 1:00 PM ET"
+    },
+    {
+     "id": "2027w17-LAR-TB",
+     "away": "LAR",
+     "home": "TB",
+     "kickoff": "2027-01-03T18:00:00Z",
+     "when": "Sun 1/3 1:00 PM ET"
+    },
+    {
+     "id": "2027w17-LV-ARI",
+     "away": "LV",
+     "home": "ARI",
+     "kickoff": "2027-01-03T21:05:00Z",
+     "when": "Sun 1/3 4:05 PM ET"
+    },
+    {
+     "id": "2027w17-DET-CHI",
+     "away": "DET",
+     "home": "CHI",
+     "kickoff": "2027-01-03T21:25:00Z",
+     "when": "Sun 1/3 4:25 PM ET"
+    },
+    {
+     "id": "2027w17-PHI-SF",
+     "away": "PHI",
+     "home": "SF",
+     "kickoff": "2027-01-04T01:20:00Z",
+     "when": "Sun 1/3 8:20 PM ET"
+    },
+    {
+     "id": "2027w17-HOU-GB",
+     "away": "HOU",
+     "home": "GB",
+     "kickoff": "2027-01-05T01:15:00Z",
+     "when": "Mon 1/4 8:15 PM ET"
+    }
+   ]
+  },
+  {
+   "week": 18,
+   "games": [
+    {
+     "id": "2027w18-NYJ-BUF",
+     "away": "NYJ",
+     "home": "BUF",
+     "kickoff": "2027-01-10T18:00:00Z",
+     "when": "Sun 1/10 1:00 PM ET"
+    },
+    {
+     "id": "2027w18-ATL-CAR",
+     "away": "ATL",
+     "home": "CAR",
+     "kickoff": "2027-01-10T18:00:00Z",
+     "when": "Sun 1/10 1:00 PM ET"
+    },
+    {
+     "id": "2027w18-CLE-CIN",
+     "away": "CLE",
+     "home": "CIN",
+     "kickoff": "2027-01-10T18:00:00Z",
+     "when": "Sun 1/10 1:00 PM ET"
+    },
+    {
+     "id": "2027w18-JAX-IND",
+     "away": "JAX",
+     "home": "IND",
+     "kickoff": "2027-01-10T18:00:00Z",
+     "when": "Sun 1/10 1:00 PM ET"
+    },
+    {
+     "id": "2027w18-SF-ARI",
+     "away": "SF",
+     "home": "ARI",
+     "kickoff": "2027-01-10T18:00:00Z",
+     "when": "Sun 1/10 1:00 PM ET"
+    },
+    {
+     "id": "2027w18-LAC-DEN",
+     "away": "LAC",
+     "home": "DEN",
+     "kickoff": "2027-01-10T18:00:00Z",
+     "when": "Sun 1/10 1:00 PM ET"
+    },
+    {
+     "id": "2027w18-DET-GB",
+     "away": "DET",
+     "home": "GB",
+     "kickoff": "2027-01-10T18:00:00Z",
+     "when": "Sun 1/10 1:00 PM ET"
+    },
+    {
+     "id": "2027w18-TEN-HOU",
+     "away": "TEN",
+     "home": "HOU",
+     "kickoff": "2027-01-10T18:00:00Z",
+     "when": "Sun 1/10 1:00 PM ET"
+    },
+    {
+     "id": "2027w18-LV-KC",
+     "away": "LV",
+     "home": "KC",
+     "kickoff": "2027-01-10T18:00:00Z",
+     "when": "Sun 1/10 1:00 PM ET"
+    },
+    {
+     "id": "2027w18-CHI-MIN",
+     "away": "CHI",
+     "home": "MIN",
+     "kickoff": "2027-01-10T18:00:00Z",
+     "when": "Sun 1/10 1:00 PM ET"
+    },
+    {
+     "id": "2027w18-TB-NO",
+     "away": "TB",
+     "home": "NO",
+     "kickoff": "2027-01-10T18:00:00Z",
+     "when": "Sun 1/10 1:00 PM ET"
+    },
+    {
+     "id": "2027w18-MIA-NE",
+     "away": "MIA",
+     "home": "NE",
+     "kickoff": "2027-01-10T18:00:00Z",
+     "when": "Sun 1/10 1:00 PM ET"
+    },
+    {
+     "id": "2027w18-PHI-NYG",
+     "away": "PHI",
+     "home": "NYG",
+     "kickoff": "2027-01-10T18:00:00Z",
+     "when": "Sun 1/10 1:00 PM ET"
+    },
+    {
+     "id": "2027w18-SEA-LAR",
+     "away": "SEA",
+     "home": "LAR",
+     "kickoff": "2027-01-10T18:00:00Z",
+     "when": "Sun 1/10 1:00 PM ET"
+    },
+    {
+     "id": "2027w18-PIT-BAL",
+     "away": "PIT",
+     "home": "BAL",
+     "kickoff": "2027-01-10T18:00:00Z",
+     "when": "Sun 1/10 1:00 PM ET"
+    },
+    {
+     "id": "2027w18-DAL-WAS",
+     "away": "DAL",
+     "home": "WAS",
+     "kickoff": "2027-01-10T18:00:00Z",
+     "when": "Sun 1/10 1:00 PM ET"
+    }
+   ]
+  }
+ ]
+}
