@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snap Deck</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --turf:#0E2A1E; --ink:#16211C; --paper:#EFF1EE; --panel:#FFF;
+  --line:#CBD2CC; --line-soft:#E2E6E2; --mute:#6B7770;
+  --snap0:#E6EAE5; --out:#9B2C1E; --doubt:#B4571C; --quest:#9A7B10;
+  --new:#2C5AA0; --rise:#1F6B3F; --next:#7A3E9B;
+  --sans:"Roboto Condensed","Helvetica Neue Condensed","Arial Narrow",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);
+  font-variant-numeric:tabular-nums;font-size:16px;line-height:1.4;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1220px;margin:0 auto;padding:0 20px 80px}
+
+.ticker{position:sticky;top:0;z-index:20;background:var(--turf);margin:0 -20px;padding:0 20px;
+  overflow-x:auto;white-space:nowrap}
+.ticker-inner{display:inline-flex;padding:6px 0}
+.tm{appearance:none;border:0;background:transparent;color:#93A79B;font-family:inherit;
+  font-weight:700;font-size:14px;letter-spacing:.04em;padding:8px 11px;cursor:pointer;
+  border-bottom:3px solid transparent}
+.tm:hover{color:#DCE7DF}
+.tm[aria-pressed="true"]{color:#fff;border-bottom-color:#6FCF97}
+.tm:focus-visible{outline:2px solid #6FCF97;outline-offset:-2px}
+.tm .flag{color:#E58F6F;font-size:11px;vertical-align:super;margin-left:2px}
+
+header.team{padding:30px 0 14px;border-bottom:2px solid var(--turf)}
+h1{font-size:clamp(32px,5vw,52px);font-weight:700;line-height:.95;margin:0 0 6px;letter-spacing:-.015em}
+.subline{color:var(--mute);font-size:15px;margin:0}
+.subline b{color:var(--ink);font-weight:700}
+
+.controls{display:flex;gap:16px;align-items:center;flex-wrap:wrap;padding:12px 0;
+  border-bottom:1px solid var(--line-soft);font-size:14px}
+.controls label{display:inline-flex;gap:5px;align-items:center;cursor:pointer;color:var(--mute)}
+.controls input{accent-color:var(--turf)}
+
+.group{margin-top:30px}
+.group h2{font-size:15px;font-weight:700;margin:0 0 4px;color:var(--turf)}
+.legend-row,.prow{display:grid;
+  grid-template-columns:48px minmax(210px,1.5fr) 1fr 56px 62px;
+  gap:12px;align-items:center}
+.legend-row{align-items:end;padding:0 0 6px;border-bottom:1px solid var(--line);
+  font-size:12px;color:var(--mute)}
+.legend-row .r{text-align:right}
+.wknums{display:grid;gap:2px;font-size:10px;color:var(--mute)}
+.wknums span{text-align:center}
+
+.prow{width:100%;text-align:left;padding:8px 0;border:0;border-bottom:1px solid var(--line-soft);
+  background:transparent;font-family:inherit;font-size:15px;color:inherit;cursor:pointer}
+.prow:hover,.prow[aria-expanded="true"]{background:#E7EBE7}
+.prow:focus-visible{outline:2px solid var(--turf);outline-offset:-2px}
+.prow.inactive .nm{color:#8A948E}
+
+.dep{font-weight:700;font-size:13px;color:var(--turf);letter-spacing:.02em}
+.dep.res{color:var(--out)} .dep.ps{color:var(--mute)}
+.pname{display:flex;align-items:baseline;gap:6px;min-width:0;flex-wrap:wrap}
+.pname .nm{font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chip{font-size:10px;font-weight:500;padding:1px 4px;border:1px solid var(--line);
+  color:var(--mute);border-radius:2px;flex:none}
+.badge{font-size:10px;font-weight:700;letter-spacing:.04em;padding:1px 5px;border-radius:2px;color:#fff;flex:none}
+.b-out{background:var(--out)} .b-doubt{background:var(--doubt)} .b-quest{background:var(--quest)}
+.b-note{background:#7A857E} .b-new{background:var(--new)} .b-rise{background:var(--rise)}
+.b-next{background:var(--next)}
+.strip{display:grid;gap:2px;height:24px}
+.cell{border-radius:1px;background:var(--snap0)}
+.cell.bye{background:repeating-linear-gradient(45deg,#E6EAE5 0 3px,#DDE2DC 3px 6px)}
+.cell.void{background:transparent}
+.strip.empty{align-items:center;font-size:12px;color:#A6AFA8;display:flex}
+.recent{text-align:right;font-weight:700;font-size:18px}
+.recent .pc{font-size:11px;font-weight:400;color:var(--mute)}
+.rank{text-align:right;font-size:12px;color:var(--mute)}
+.rank.div{color:var(--new);font-weight:700}
+
+.detail{padding:14px 0 18px;border-bottom:1px solid var(--line-soft);
+  display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.detail h3{font-size:13px;margin:0 0 8px;color:var(--turf);font-weight:700}
+.detail p{margin:0 0 8px;font-size:14px;color:var(--mute)}
+.spark{width:100%;height:96px;display:block}
+.gainer{display:flex;align-items:center;gap:10px;padding:4px 0;font-size:14px}
+.gainer .d{font-weight:700;color:var(--rise);width:50px;text-align:right;flex:none}
+.gainer .bar{height:9px;background:var(--rise);opacity:.28;border-radius:1px;flex:none}
+.inj-detail{margin:0}
+.inj-detail dt{color:var(--mute);font-size:12px}
+.inj-detail dd{margin:0 0 6px;font-weight:500;font-size:14px}
+
+.card{background:var(--panel);border:1px solid var(--line);padding:20px;margin-top:20px}
+.card h2{font-size:18px;margin:0 0 6px;font-weight:700}
+.card p{margin:0 0 12px;color:var(--mute);font-size:14.5px;max-width:68ch}
+.card ol{margin:0 0 12px;padding-left:20px;color:var(--mute);font-size:14.5px;max-width:68ch}
+.card li{margin-bottom:4px}
+.card a{color:var(--turf)}
+textarea{width:100%;min-height:100px;font-family:ui-monospace,Menlo,Consolas,monospace;
+  font-size:12px;padding:10px;border:1px solid var(--line);background:#FAFBFA;resize:vertical}
+.btn{appearance:none;font-family:inherit;font-weight:700;font-size:14px;padding:9px 18px;
+  border:0;background:var(--turf);color:#fff;cursor:pointer}
+.btn:hover{background:#17402C}
+.btn.ghost{background:transparent;color:var(--turf);border:1px solid var(--line);font-weight:500}
+.btn.ghost:hover{background:#E7EBE7}
+.btn:focus-visible{outline:2px solid var(--turf);outline-offset:2px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.status{font-size:13.5px;color:var(--mute)}
+.status.ok{color:var(--rise);font-weight:500}
+.status.bad{color:var(--out);font-weight:500}
+.drop{border:2px dashed var(--line);padding:22px;text-align:center;color:var(--mute);
+  font-size:15px;cursor:pointer;background:#FAFBFA}
+.drop.hot{border-color:var(--turf);background:#E7EBE7;color:var(--ink)}
+.meta{font-size:13px;color:var(--mute);margin-top:24px;padding-top:14px;border-top:1px solid var(--line)}
+.keyline{font-size:12px;color:var(--mute);margin-top:10px;display:flex;gap:14px;flex-wrap:wrap}
+details.unmatched summary{cursor:pointer;font-size:13px;color:var(--mute);padding:6px 0}
+details.unmatched ul{font-size:13px;color:var(--mute);columns:3;margin:4px 0}
+.hide{display:none !important}
+@media (max-width:820px){
+  .legend-row,.prow{grid-template-columns:42px minmax(120px,1.3fr) 1fr 50px}
+  .rank{display:none}
+  .detail{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:no-preference){
+  .detail{animation:open .18s ease-out}
+  @keyframes open{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+}
+</style>
+</head>
+<body>
+
+<nav class="ticker" id="ticker" aria-label="Teams"><div class="ticker-inner" id="tickerInner"></div></nav>
+
+<div class="wrap">
+
+<section id="setup">
+  <header class="team" style="border-bottom:0">
+    <h1>Snap Deck</h1>
+    <p class="subline">Full rosters from the depth chart, with real playing time laid over the top.</p>
+  </header>
+
+  <div class="card">
+    <h2>Data lives in the repo</h2>
+    <p>The page loads all three sources from GitHub on every open, so the data follows you between computers. Update the two weekly files there; injuries scrape themselves.</p>
+    <p class="status" id="repoStamp"></p>
+    <div class="row" style="margin-top:10px;flex-wrap:wrap;gap:8px">
+      <a class="btn" id="lnkInj" target="_blank" rel="noopener">Refresh injuries now</a>
+      <a class="btn ghost" id="lnkDepth" target="_blank" rel="noopener">Edit depth charts</a>
+      <a class="btn ghost" id="lnkSnaps" target="_blank" rel="noopener">Edit snap counts</a>
+    </div>
+    <p class="subline" style="margin-top:10px">Refreshing injuries opens the Actions tab. Click <b>Run workflow</b>, wait about 40 seconds, then reload this page. The paste boxes below still work for a one-off look, but anything pasted is replaced by the repo copy on your next reload.</p>
+  </div>
+
+  <div class="card">
+    <h2>1. Depth charts</h2>
+    <p>This is the roster spine. It's the only source that knows a fifth receiver exists before he ever takes a snap. One copy covers all 32 teams.</p>
+    <ol>
+      <li>Open <a href="https://www.ourlads.com/nfldepthcharts/depthcharts.aspx" target="_blank" rel="noopener">the all-teams depth chart</a>.</li>
+      <li>Select the whole page and copy it.</li>
+      <li>Paste below and read it.</li>
+    </ol>
+    <textarea id="depPaste" placeholder="Paste the copied depth chart page here"></textarea>
+    <div class="row" style="margin-top:10px">
+      <button class="btn" id="depBtn">Read depth charts</button>
+      <span class="status" id="depStatus"></span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>2. Snap counts</h2>
+    <p>Drop in the weekly snap-count CSV. Each file replaces the last, so once real numbers arrive the placeholder season disappears on its own.</p>
+    <div class="drop" id="drop" tabindex="0" role="button">
+      Drop the CSV here, or click to choose a file
+      <input type="file" id="file" accept=".csv,text/csv" class="hide">
+    </div>
+    <p class="status" id="csvStatus" style="margin-top:10px"></p>
+  </div>
+
+  <div class="card">
+    <h2>3. Injury report</h2>
+    <p>Same copy and paste. Set the season and week at the top of the page first.</p>
+    <p style="margin-bottom:8px"><a href="https://www.nfl.com/injuries/league/2025/reg1" target="_blank" rel="noopener">Open the NFL injury report</a></p>
+    <textarea id="injPaste" placeholder="Paste the copied injury page here"></textarea>
+    <div class="row" style="margin-top:10px">
+      <button class="btn" id="injBtn">Read injury report</button>
+      <span class="status" id="injStatus"></span>
+    </div>
+  </div>
+
+  <div class="card"><div class="row"><button class="btn ghost" id="backBtn">Back to the charts</button></div></div>
+</section>
+
+<main id="app" class="hide">
+  <header class="team">
+    <h1 id="teamName"></h1>
+    <p class="subline" id="teamSub"></p>
+  </header>
+  <div class="controls" id="controls"></div>
+  <div id="groups"></div>
+  <div class="meta">
+    <div class="row"><span id="metaLine"></span><button class="btn ghost" id="showSetup">Update data</button></div>
+    <div class="keyline">
+      <span><span class="badge b-new">NEW</span> just joined the team</span>
+      <span><span class="badge b-rise">RISING</span> snap share climbing</span>
+      <span><span class="badge b-next">NEXT UP</span> the man in front is hurt</span>
+    </div>
+    <details class="unmatched hide" id="unmatchedBox">
+      <summary id="unmatchedSummary"></summary><ul id="unmatchedList"></ul>
+    </details>
+  </div>
+</main>
+
+</div>
+
+<script>
+const mem={};
+const store={
+  get(k){try{return localStorage.getItem(k)}catch(e){return mem[k]??null}},
+  set(k,v){try{localStorage.setItem(k,v)}catch(e){mem[k]=v}}
+};
+
+/* ---------- repo data ----------
+   Data now lives in the repo instead of browser storage, so it follows
+   you between computers. localStorage is kept only as an offline cache
+   if a fetch fails. */
+const REPO="michaeljhalperin/snapdeck";
+const DATA={depth:"data/ourlads.txt",snaps:"data/snaps.csv",inj:"data/injuries.json"};
+const GH=`https://github.com/${REPO}`;
+// Pages caches hard; without the buster you commit new data and still see the old.
+async function fetchData(path,asJson){
+  const r=await fetch(path+"?v="+Date.now(),{cache:"no-store"});
+  if(!r.ok) throw new Error("couldn't load "+path+" (HTTP "+r.status+")");
+  return asJson?r.json():r.text();
+}
+
+/* ---------- reference tables ---------- */
+const NICK2ABBR={Cardinals:"ARI",Falcons:"ATL",Ravens:"BAL",Bills:"BUF",Panthers:"CAR",
+Bears:"CHI",Bengals:"CIN",Browns:"CLE",Cowboys:"DAL",Broncos:"DEN",Lions:"DET",Packers:"GB",
+Texans:"HOU",Colts:"IND",Jaguars:"JAX",Chiefs:"KC",Raiders:"LV",Chargers:"LAC",Rams:"LAR",
+Dolphins:"MIA",Vikings:"MIN",Patriots:"NE",Saints:"NO",Giants:"NYG",Jets:"NYJ",Eagles:"PHI",
+Steelers:"PIT","49ers":"SF",Seahawks:"SEA",Buccaneers:"TB",Titans:"TEN",Commanders:"WAS"};
+
+const FULL2ABBR={};
+[["Arizona Cardinals","ARI"],["Atlanta Falcons","ATL"],["Baltimore Ravens","BAL"],
+["Buffalo Bills","BUF"],["Carolina Panthers","CAR"],["Chicago Bears","CHI"],
+["Cincinnati Bengals","CIN"],["Cleveland Browns","CLE"],["Dallas Cowboys","DAL"],
+["Denver Broncos","DEN"],["Detroit Lions","DET"],["Green Bay Packers","GB"],
+["Houston Texans","HOU"],["Indianapolis Colts","IND"],["Jacksonville Jaguars","JAX"],
+["Kansas City Chiefs","KC"],["Las Vegas Raiders","LV"],["Los Angeles Chargers","LAC"],
+["Los Angeles Rams","LAR"],["Miami Dolphins","MIA"],["Minnesota Vikings","MIN"],
+["New England Patriots","NE"],["New Orleans Saints","NO"],["New York Giants","NYG"],
+["New York Jets","NYJ"],["Philadelphia Eagles","PHI"],["Pittsburgh Steelers","PIT"],
+["San Francisco 49ers","SF"],["Seattle Seahawks","SEA"],["Tampa Bay Buccaneers","TB"],
+["Tennessee Titans","TEN"],["Washington Commanders","WAS"]].forEach(([n,a])=>FULL2ABBR[n]=a);
+
+// Ourlads uses its own code for two teams.
+const OL2STD={ARZ:"ARI",RAM:"LAR"};
+const OL_TEAMS=new Set([...Object.values(FULL2ABBR),"ARZ","RAM"]);
+const std=t=>OL2STD[t]||t;
+
+const SLOT2GROUP={LWR:"WR",RWR:"WR",SWR:"WR",WR:"WR",RB:"RB",FB:"RB",TE:"TE",QB:"QB"};
+const ALIGN_ORDER={LWR:0,RWR:1,SWR:2};
+const GROUPS=[["QB","Quarterbacks"],["RB","Running backs"],["WR","Wide receivers"],["TE","Tight ends"]];
+const RESERVE=new Set(["IR","PUP","NFI","SUS","EX","RES"]);
+const CSV2GROUP={"Quarterback":"QB","Running Back":"RB","Wide Receiver":"WR","Tight End":"TE"};
+const POSCODES=new Set(["QB","RB","FB","WR","TE","T","OT","G","OG","C","OL","DT","DE","DL",
+"NT","LB","OLB","ILB","MLB","CB","S","FS","SS","DB","K","P","PK","LS","ED"]);
+const GAMESTATUS=new Set(["out","doubtful","questionable"]);
+const TAG_RE=/^(\d{2}\/\d|[A-Z]{1,3}\/[A-Za-z]{2,4}|[A-Z]{2}\d{2})\*?$/;
+
+let DB={snaps:null,depth:null,injuries:null};
+let currentTeam=null,expanded=null;
+let showPos={QB:false,RB:true,WR:true,TE:true};
+
+/* ---------- names ---------- */
+function normName(s){
+  return String(s||"").toLowerCase().replace(/\u2019/g,"'")
+    .replace(/\b(jr|sr|ii|iii|iv|v)\b\.?/g,"").replace(/[^a-z]/g,"");
+}
+function fixCase(tok){
+  if(/[a-z]/.test(tok)) return tok;
+  if(/^(II|III|IV|V|VI|VII)$/.test(tok)) return tok;
+  if(/^(JR|SR)\.?$/.test(tok)) return tok[0]+tok.slice(1).toLowerCase();
+  if(/^[A-Z]\.([A-Z]\.?)+$/.test(tok)) return tok;
+  if(tok.length<=2) return tok;
+  return tok.toLowerCase().replace(/(^|[^a-z])([a-z])/g,(m,a,b)=>a+b.toUpperCase());
+}
+const titleName=s=>s.split(/\s+/).map(fixCase).join(" ");
+
+/* ---------- snap counts ---------- */
+function parseCSV(text){
+  const rows=[];let row=[],cur="",q=false;
+  text=text.replace(/^\uFEFF/,"");
+  for(let i=0;i<text.length;i++){
+    const c=text[i];
+    if(q){ if(c==='"'){ if(text[i+1]==='"'){cur+='"';i++} else q=false } else cur+=c }
+    else if(c==='"') q=true;
+    else if(c===","){row.push(cur);cur=""}
+    else if(c==="\n"){row.push(cur);rows.push(row);row=[];cur=""}
+    else if(c!=="\r") cur+=c;
+  }
+  if(cur.length||row.length){row.push(cur);rows.push(row)}
+  return rows.filter(r=>r.length>1);
+}
+
+function loadSnaps(text,fileName){
+  const rows=parseCSV(text);
+  if(!rows.length) throw new Error("That file looks empty.");
+  const head=rows[0].map(h=>h.trim());
+  for(const n of ["teamId","positionGroup","name"])
+    if(!head.includes(n)) throw new Error("Missing a \u201c"+n+"\u201d column \u2014 is this the snap-count export?");
+  const idx={};head.forEach((h,i)=>idx[h]=i);
+  const weekNums=[];
+  head.forEach(h=>{const m=/^Wk (\d+)$/.exec(h);if(m)weekNums.push(+m[1])});
+  weekNums.sort((a,b)=>a-b);
+
+  const players=[];
+  for(let r=1;r<rows.length;r++){
+    const row=rows[r];
+    if(row.length<head.length-2) continue;
+    const grp=CSV2GROUP[(row[idx.positionGroup]||"").trim()];
+    if(!grp) continue;
+    const snaps={},pct={};
+    for(const w of weekNums){
+      const si=idx["Wk "+w],pi=idx["Wk "+w+" pct"];
+      const sv=si!=null?(row[si]||"").trim():"";
+      const pv=pi!=null?(row[pi]||"").trim():"";
+      snaps[w]=sv===""?null:Number(sv);
+      pct[w]=pv===""?null:Number(pv);
+    }
+    players.push({team:(row[idx.teamId]||"").trim(),group:grp,
+      name:(row[idx.name]||"").trim(),key:normName(row[idx.name]),snaps,pct});
+  }
+  if(!players.length) throw new Error("No skill-position players found in that file.");
+  const weeks=weekNums.filter(w=>players.some(p=>p.snaps[w]!=null));
+
+  const teamPlayed={};
+  for(const p of players){
+    teamPlayed[p.team]=teamPlayed[p.team]||new Set();
+    for(const w of weeks) if(p.snaps[w]>0) teamPlayed[p.team].add(w);
+  }
+  for(const t in teamPlayed) teamPlayed[t]=[...teamPlayed[t]].sort((a,b)=>a-b);
+
+  const byKey={};
+  for(const p of players) (byKey[p.key]=byKey[p.key]||[]).push(p);
+
+  return {players,weeks,byKey,teamPlayed,
+    meta:{loaded:Date.now(),file:fileName||"snap counts",rows:players.length,weeks:weeks.length}};
+}
+
+/* ---------- depth charts ---------- */
+function parsePlayerCell(cell,isReserve){
+  cell=(cell||"").replace(/\u00A0/g," ").trim();
+  if(!cell) return null;
+  const m=/^([^,]+),\s*(.+)$/.exec(cell);
+  if(!m) return null;
+  const last=m[1].trim();
+  const toks=m[2].trim().split(/\s+/);
+  let tag="",resPos="";
+  if(toks.length>1){
+    const t=toks[toks.length-1];
+    if(isReserve&&/^[A-Z]{1,4}\^?$/.test(t)){ resPos=t.replace("^","");toks.pop() }
+    else if(TAG_RE.test(t)){ tag=t;toks.pop() }
+  }
+  const first=toks.join(" ");
+  if(!first) return null;
+  return {name:titleName(first)+" "+titleName(last),tag,resPos};
+}
+
+function loadDepth(text){
+  const lines=text.split(/\r?\n/);
+  const teams={};let team=null,section="ACT",seasonYear=null,n=0;
+
+  for(const raw of lines){
+    const line=raw.replace(/\u00A0/g," ").trimEnd();
+    const flat=line.trim();
+    if(!flat) continue;
+
+    const hdr=/^(?:.*?\t)?([A-Za-z0-9 .'-]+?)\s+Updated:\s*(\S+)/.exec(flat);
+    if(hdr&&FULL2ABBR[hdr[1].trim()]){
+      team=FULL2ABBR[hdr[1].trim()];
+      teams[team]={name:hdr[1].trim(),updated:hdr[2],rows:[]};
+      const y=/\d{1,2}\/\d{1,2}\/(\d{4})/.exec(hdr[2]);if(y) seasonYear=+y[1];
+      section="ACT";continue;
+    }
+    const sec=/^(Offense|Defense|Special Teams|Practice Squad|Reserves)\s*-/.exec(flat);
+    if(sec){ section=sec[1]==="Practice Squad"?"PS":(sec[1]==="Reserves"?"RES":"ACT");continue }
+
+    if(!line.includes("\t")) continue;
+    const f=line.split("\t");
+    const t0=f[0].trim().replace(/\*+/g,"");
+    if(!OL_TEAMS.has(t0)) continue;
+    const abbr=std(t0);
+    teams[abbr]=teams[abbr]||{name:abbr,updated:"",rows:[]};
+    if(team&&std(team)!==abbr){ /* row team wins */ }
+    const slot=(f[1]||"").trim().toUpperCase();
+    if(!slot) continue;
+    const isRes=RESERVE.has(slot);
+
+    for(let i=3,col=1;i<f.length;i+=2,col++){
+      const p=parsePlayerCell(f[i],isRes);
+      if(!p) continue;
+      const posLabel=isRes?(p.resPos||slot):slot;
+      const group=SLOT2GROUP[posLabel];
+      if(!group) continue;
+      teams[abbr].rows.push({team:abbr,group,slot:isRes?posLabel:slot,col,
+        status:isRes?slot:section,name:p.name,key:normName(p.name),tag:p.tag});
+      n++;
+    }
+  }
+  if(!n) throw new Error("Couldn\u2019t find any depth-chart rows. Copy the page itself rather than a print or PDF view \u2014 the columns need to survive the copy.");
+
+  // Depth order in each group: all the first-teamers, then all the seconds.
+  for(const ab in teams){
+    for(const [g] of GROUPS){
+      const act=teams[ab].rows.filter(r=>r.group===g&&r.status==="ACT");
+      act.sort((a,b)=>a.col-b.col||(ALIGN_ORDER[a.slot]??9)-(ALIGN_ORDER[b.slot]??9));
+      act.forEach((r,i)=>r.depth=i+1);
+    }
+  }
+  return {teams,seasonYear:seasonYear||new Date().getFullYear(),
+    meta:{loaded:Date.now(),teams:Object.keys(teams).length,players:n}};
+}
+
+/* ---------- injuries ---------- */
+function loadInjuries(text){
+  const lines=text.split(/\r?\n/);const out={};let team=null,count=0;
+  for(const raw of lines){
+    const line=raw.replace(/\u00A0/g," ").trim();
+    if(!line) continue;
+    if(NICK2ABBR[line]){team=NICK2ABBR[line];out[team]=out[team]||[];continue}
+    if(!team) continue;
+    let f=line.includes("\t")?line.split("\t"):line.split(/ {2,}|\s*\|\s*/);
+    f=f.map(x=>x.trim()).filter(Boolean);
+    if(f.length<2||/^player$/i.test(f[0])) continue;
+    if(!POSCODES.has(f[1].toUpperCase())) continue;
+    const rec={name:f[0],key:normName(f[0]),pos:f[1].toUpperCase(),injury:"",practice:"",status:""};
+    for(const c of f.slice(2)){
+      if(/particip/i.test(c)) rec.practice=c;
+      else if(GAMESTATUS.has(c.toLowerCase())) rec.status=c;
+      else rec.injury=rec.injury?rec.injury+", "+c:c;
+    }
+    out[team].push(rec);count++;
+  }
+  if(!count) throw new Error("Couldn\u2019t find any player rows. Make sure you copied the whole page.");
+  return {injuries:out,meta:{loaded:Date.now(),players:count,teams:Object.keys(out).length}};
+}
+
+// Same output shape as loadInjuries, but fed by the scraper's JSON instead of
+// a pasted page. Keys are rebuilt with normName so injury names normalize
+// identically to roster and snap names — the scraper's own key field uses a
+// different format and must not be trusted here.
+function injuriesFromJSON(j){
+  if(!j||!Array.isArray(j.players)) throw new Error("injuries.json is malformed.");
+  const out={};
+  // A team that filed a clean report is different from a team with no data,
+  // so seed it with an empty list rather than leaving it undefined.
+  (j.teams_reported||[]).forEach(t=>{out[std(t)]=[]});
+  let count=0;
+  for(const p of j.players){
+    const t=std(p.team);
+    (out[t]=out[t]||[]).push({
+      name:p.name,key:normName(p.name),pos:(p.pos||"").toUpperCase(),
+      injury:p.injury||"",practice:p.practice||"",status:p.status||""
+    });
+    count++;
+  }
+  return {injuries:out,meta:{
+    // "loaded" is when the scraper ran, not when this page opened, so the
+    // "read N hr ago" line tells you how stale the injury data actually is.
+    loaded:j.updated?Date.parse(j.updated):Date.now(),
+    players:count,teams:Object.keys(out).length,week:j.week,season:j.season
+  }};
+}
+
+/* ---------- joining and analysis ---------- */
+function snapFor(row){
+  if(!DB.snaps) return null;
+  const hits=DB.snaps.byKey[row.key];
+  if(!hits||!hits.length) return null;
+  return hits.find(h=>h.team===row.team)||(hits.length===1?hits[0]:null);
+}
+function injFor(row){
+  const list=DB.injuries&&DB.injuries.injuries[row.team];
+  if(!list) return null;
+  return list.find(i=>i.key===row.key)
+    ||list.find(i=>i.key.startsWith(row.key)||row.key.startsWith(i.key))||null;
+}
+const teamPlayed=t=>(DB.snaps&&DB.snaps.teamPlayed[t])||[];
+
+function recentShare(sn){
+  if(!sn) return null;
+  const w3=teamPlayed(sn.team).slice(-3);
+  if(!w3.length) return null;
+  const wt=[1,2,3].slice(-w3.length);
+  let num=0,den=0;
+  w3.forEach((w,i)=>{num+=(sn.pct[w]??0)*wt[i];den+=wt[i]});
+  return num/den;
+}
+// Rising is measured against the team's last three games, not the player's own
+// last three appearances — otherwise a player who stopped playing in October
+// gets compared against October and looks like he's trending up.
+function isRising(sn){
+  if(!sn) return false;
+  const p=teamPlayed(sn.team);
+  if(p.length<3) return false;
+  const w3=p.slice(-3).map(w=>sn.pct[w]??0);
+  const last=w3[2],prior=(w3[0]+w3[1])/2;
+  return last>=20&&last-prior>=10;
+}
+// A free-agent tag never expires, so "U/DAL" alone can't tell a 2026 signing
+// from a 2022 one. Year-stamped tags are decisive; a cross-team tag only counts
+// when he also has no snaps for this team.
+function isNew(row,sn,seasonYear){
+  const t=row.tag;
+  if(!t) return false;
+  const yy=String(seasonYear).slice(2);
+  if(new RegExp("^"+yy+"\\/\\d$").test(t)) return true;
+  if(new RegExp("^[A-Z]{2}"+yy+"\\*?$").test(t)) return true;
+  if(!/^[A-Z]{1,3}\/[A-Za-z]{2,4}\*?$/.test(t)) return false;
+  return !sn||sn.team!==row.team;
+}
+function nextUp(row,rows){
+  if(row.status!=="ACT"||row.col<2) return false;
+  const ahead=rows.find(r=>r.status==="ACT"&&r.slot===row.slot&&r.col===row.col-1);
+  if(!ahead) return false;
+  const i=injFor(ahead);
+  return !!i&&(/^(out|doubtful)$/i.test(i.status)||/did not particip/i.test(i.practice));
+}
+function backfill(sn,pool){
+  const played=teamPlayed(sn.team);
+  const missed=played.filter(w=>!(sn.snaps[w]>0));
+  const present=played.filter(w=>sn.snaps[w]>0);
+  if(!missed.length||!present.length) return {missed,present,played,gainers:[]};
+  const avg=(p,ws)=>{const v=ws.map(w=>p.pct[w]).filter(x=>x!=null);
+    return v.length?v.reduce((a,b)=>a+b,0)/v.length:null};
+  const g=[];
+  for(const p of pool){
+    if(p===sn) continue;
+    const a=avg(p,missed),b=avg(p,present);
+    if(a==null||b==null||a-b<=2) continue;
+    g.push({name:p.name,group:p.group,delta:a-b,withOut:a});
+  }
+  g.sort((x,y)=>y.delta-x.delta);
+  return {missed,present,played,gainers:g.slice(0,5)};
+}
+
+/* ---------- rendering ---------- */
+const el=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function snapColor(v){
+  if(v==null) return null;
+  const t=Math.min(1,Math.max(0,v/100)),c0=[230,234,229],c1=[31,107,63];
+  return "rgb("+c0.map((a,i)=>Math.round(a+(c1[i]-a)*Math.pow(t,.85))).join(",")+")";
+}
+function injBadge(i){
+  if(!i) return "";
+  const s=(i.status||"").toLowerCase();
+  if(s==="out") return '<span class="badge b-out">OUT</span>';
+  if(s==="doubtful") return '<span class="badge b-doubt">DOUBT</span>';
+  if(s==="questionable") return '<span class="badge b-quest">QUEST</span>';
+  if(/did not particip/i.test(i.practice)) return '<span class="badge b-note">DNP</span>';
+  if(/limited/i.test(i.practice)) return '<span class="badge b-note">LTD</span>';
+  return "";
+}
+
+function buildTicker(){
+  const teams=Object.keys(DB.depth.teams).sort();
+  el("tickerInner").innerHTML=teams.map(t=>{
+    const f=((DB.injuries&&DB.injuries.injuries[t])||[]).filter(i=>i.status).length;
+    return `<button class="tm" data-team="${t}" aria-pressed="${t===currentTeam}">${t}${f?`<span class="flag">${f}</span>`:""}</button>`;
+  }).join("");
+  el("tickerInner").querySelectorAll(".tm").forEach(b=>{
+    b.onclick=()=>{currentTeam=b.dataset.team;expanded=null;store.set("snapdeck.team",currentTeam);render()};
+  });
+}
+
+function render(){
+  if(!DB.depth||!DB.depth.teams[currentTeam]) return;
+  const T=DB.depth.teams[currentTeam],rows=T.rows;
+  const weeks=DB.snaps?DB.snaps.weeks:[];
+  const seasonYear=DB.depth.seasonYear;
+
+  el("teamName").textContent=T.name;
+  const flagged=rows.filter(r=>{const i=injFor(r);return i&&i.status}).length;
+  el("teamSub").innerHTML=`Depth chart updated ${esc(T.updated||"\u2014")} \u00b7 <b>${rows.length}</b> skill players`+
+    (DB.injuries?` \u00b7 <b>${flagged}</b> with a game status`:" \u00b7 no injury report loaded");
+
+  el("controls").innerHTML=GROUPS.map(([g,label])=>
+    `<label><input type="checkbox" data-g="${g}"${showPos[g]?" checked":""}> ${label}</label>`).join("")+
+    (DB.snaps?`<span style="color:var(--mute);margin-left:auto">${esc(DB.snaps.meta.file)}</span>`:"");
+  el("controls").querySelectorAll("input").forEach(c=>{
+    c.onchange=()=>{showPos[c.dataset.g]=c.checked;store.set("snapdeck.pos",JSON.stringify(showPos));render()};
+  });
+
+  const cols=`repeat(${Math.max(weeks.length,1)}, minmax(0,1fr))`;
+  const order={ACT:0,PS:1};
+  let html="";
+
+  for(const [g,label] of GROUPS){
+    if(!showPos[g]) continue;
+    const list=rows.filter(r=>r.group===g).map(r=>{
+      const sn=snapFor(r);return {r,sn,share:recentShare(sn)};
+    });
+    if(!list.length) continue;
+
+    list.sort((a,b)=>((order[a.r.status]??2)-(order[b.r.status]??2))
+      ||((a.r.depth??99)-(b.r.depth??99))||(a.r.col-b.r.col)||a.r.name.localeCompare(b.r.name));
+
+    const ranked=list.filter(x=>x.share!=null).sort((a,b)=>b.share-a.share);
+    const snapRank=new Map(ranked.map((x,i)=>[x.r,i+1]));
+
+    html+=`<section class="group"><h2>${label}</h2>
+      <div class="legend-row"><span>Chart</span><span>Player</span>
+      <div class="wknums" style="grid-template-columns:${cols}">${weeks.map(w=>`<span>${w}</span>`).join("")}</div>
+      <span class="r">Last 3</span><span class="r">By snaps</span></div>`;
+
+    for(const {r,sn,share} of list){
+      const inj=injFor(r),open=expanded===r.name;
+      const played=sn?teamPlayed(sn.team):[];
+      const lastPlayed=played.length?played[played.length-1]:0;
+
+      const strip=(weeks.length&&sn)?weeks.map(w=>{
+        if(w>lastPlayed) return '<div class="cell void"></div>';
+        if(!played.includes(w)) return `<div class="cell bye" title="Week ${w}: no game"></div>`;
+        const v=sn.pct[w],c=snapColor(v);
+        return `<div class="cell"${c?` style="background:${c}"`:""} title="Week ${w}: ${v==null?"did not play":v+"% ("+sn.snaps[w]+" snaps)"}"></div>`;
+      }).join(""):"";
+
+      const depLabel=r.status==="ACT"?g+r.depth:r.status;
+      const depClass=r.status==="ACT"?"":(r.status==="PS"?"ps":"res");
+      const chips=[];
+      if(ALIGN_ORDER[r.slot]!=null) chips.push(`<span class="chip">${r.slot}</span>`);
+      if(r.tag) chips.push(`<span class="chip">${esc(r.tag)}</span>`);
+      if(sn&&sn.team!==currentTeam) chips.push(`<span class="chip">snaps with ${esc(sn.team)}</span>`);
+      const badges=[injBadge(inj)];
+      if(isNew(r,sn,seasonYear)) badges.push('<span class="badge b-new">NEW</span>');
+      if(isRising(sn)) badges.push('<span class="badge b-rise">RISING</span>');
+      if(nextUp(r,rows)) badges.push('<span class="badge b-next">NEXT UP</span>');
+
+      const sr=snapRank.get(r);
+      const div=sr&&r.depth&&Math.abs(sr-r.depth)>=2;
+
+      html+=`<button class="prow${r.status!=="ACT"?" inactive":""}" data-p="${esc(r.name)}" aria-expanded="${open}">
+        <span class="dep ${depClass}">${depLabel}</span>
+        <span class="pname"><span class="nm">${esc(r.name)}</span>${badges.join("")}${chips.join("")}</span>
+        ${strip?`<div class="strip" style="grid-template-columns:${cols}">${strip}</div>`
+               :'<div class="strip empty">no snaps on file</div>'}
+        <span class="recent">${share==null?"\u2013":Math.round(share)}<span class="pc">%</span></span>
+        <span class="rank${div?" div":""}">${sr?g+sr:"\u2013"}</span>
+      </button>`;
+
+      if(open) html+=detailHTML(r,sn,inj,weeks);
+    }
+    html+="</section>";
+  }
+
+  el("groups").innerHTML=html||'<p class="subline" style="margin-top:28px">Nothing selected \u2014 tick a position above.</p>';
+  el("groups").querySelectorAll(".prow").forEach(b=>{
+    b.onclick=()=>{expanded=expanded===b.dataset.p?null:b.dataset.p;render()};
+  });
+  el("tickerInner").querySelectorAll(".tm").forEach(b=>b.setAttribute("aria-pressed",b.dataset.team===currentTeam));
+
+  const m=[`Depth: ${DB.depth.meta.teams} teams, read ${timeAgo(DB.depth.meta.loaded)}`];
+  m.push(DB.snaps?`Snaps: ${DB.snaps.meta.rows} players, ${DB.snaps.meta.weeks} weeks`:"No snap file loaded");
+  m.push(DB.injuries?`Injuries: read ${timeAgo(DB.injuries.meta.loaded)}`:"No injury report loaded");
+  el("metaLine").textContent=m.join(" \u00b7 ");
+  renderUnmatched();
+}
+
+function detailHTML(r,sn,inj,weeks){
+  let top;
+  if(sn){
+    const pool=DB.snaps.players.filter(p=>p.team===sn.team);
+    const bf=backfill(sn,pool);
+    const W=460,H=96,pad=8;
+    const x=i=>pad+i*(W-2*pad)/Math.max(1,weeks.length-1);
+    const y=v=>H-pad-(v/100)*(H-2*pad);
+    let d="",started=false;
+    weeks.forEach((w,i)=>{
+      const v=bf.played.includes(w)?sn.pct[w]:null;
+      if(v==null){started=false;return}
+      d+=(started?" L":" M")+x(i)+" "+y(v);started=true;
+    });
+    const dots=weeks.map((w,i)=>bf.played.includes(w)&&sn.pct[w]!=null
+      ?`<circle cx="${x(i)}" cy="${y(sn.pct[w])}" r="2.5" fill="var(--turf)"/>`:"").join("");
+    const miss=weeks.map((w,i)=>bf.missed.includes(w)
+      ?`<rect x="${x(i)-4}" y="${pad}" width="8" height="${H-2*pad}" fill="#9B2C1E" opacity=".10"/>`:"").join("");
+    const maxD=Math.max(1,...bf.gainers.map(v=>v.delta));
+    const gain=bf.gainers.length?bf.gainers.map(v=>`<div class="gainer">
+        <span class="d">+${Math.round(v.delta)}%</span>
+        <span class="bar" style="width:${Math.round(v.delta/maxD*140)}px"></span>
+        <span>${esc(v.name)} <span style="color:var(--mute)">${v.group} \u00b7 ${Math.round(v.withOut)}% without him</span></span>
+      </div>`).join("")
+      :`<p>${bf.missed.length?"Nobody's share moved much in those games.":"He hasn't missed a game in this data."}</p>`;
+    top=`<div class="detail">
+      <div><h3>Snap share by week</h3>
+        <svg class="spark" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Snap share trend">
+          ${miss}<line x1="${pad}" y1="${y(50)}" x2="${W-pad}" y2="${y(50)}" stroke="var(--line)" stroke-dasharray="3 3"/>
+          <path d="${d}" fill="none" stroke="var(--turf)" stroke-width="2"/>${dots}</svg>
+        <p>${bf.missed.length?`Shaded columns are games he missed (${bf.missed.length} of ${bf.played.length}).`
+          :"Played in every game on file."} Dashed line is 50%.</p></div>
+      <div><h3>Who played when he didn\u2019t</h3>
+        <p>Change in snap share for teammates in the games he was out.</p>${gain}</div></div>`;
+  }else{
+    top=`<div class="detail"><div><h3>No snap history</h3>
+      <p>He isn\u2019t in the current snap file, so he hasn\u2019t taken a snap in it \u2014 which for a fifth receiver is the normal state right up until it isn\u2019t.</p></div><div></div></div>`;
+  }
+  const injBlock=inj?`<dl class="inj-detail">
+      ${inj.injury?`<dt>Injury</dt><dd>${esc(inj.injury)}</dd>`:""}
+      ${inj.practice?`<dt>Practice</dt><dd>${esc(inj.practice)}</dd>`:""}
+      ${inj.status?`<dt>Game status</dt><dd>${esc(inj.status)}</dd>`:""}</dl>`
+    :"<p>Not on the current injury report.</p>";
+  const roster=r.status==="ACT"?"Active roster":r.status==="PS"?"Practice squad":r.status;
+  return top+`<div class="detail" style="padding-top:0">
+    <div><h3>Status</h3>${injBlock}</div>
+    <div><h3>Roster</h3><p>${roster} \u00b7 listed at ${esc(r.slot)}${r.tag?` \u00b7 tagged ${esc(r.tag)}`:""}</p></div></div>`;
+}
+
+function renderUnmatched(){
+  const box=el("unmatchedBox");
+  if(!DB.snaps){box.classList.add("hide");return}
+  const keys=new Set(DB.depth.teams[currentTeam].rows.map(r=>r.key));
+  const orphan=DB.snaps.players.filter(p=>p.team===currentTeam&&!keys.has(p.key)
+    &&![...keys].some(k=>k.startsWith(p.key)||p.key.startsWith(k)));
+  if(!orphan.length){box.classList.add("hide");return}
+  box.classList.remove("hide");
+  el("unmatchedSummary").textContent=
+    `${orphan.length} player${orphan.length>1?"s":""} with snaps for this team but no depth-chart spot`;
+  el("unmatchedList").innerHTML=orphan.map(p=>`<li>${esc(p.name)} (${p.group})</li>`).join("");
+}
+
+function timeAgo(ts){
+  const m=Math.round((Date.now()-ts)/60000);
+  if(m<1) return "just now";
+  if(m<60) return m+" min ago";
+  const h=Math.round(m/60);
+  return h<24?h+" hr ago":Math.round(h/24)+" days ago";
+}
+
+/* ---------- wiring ---------- */
+function showApp(){
+  if(!DB.depth) return;
+  if(!currentTeam||!DB.depth.teams[currentTeam]) currentTeam=Object.keys(DB.depth.teams).sort()[0];
+  el("setup").classList.add("hide");el("app").classList.remove("hide");
+  buildTicker();render();
+}
+function setStatus(id,msg,cls){el(id).className="status"+(cls?" "+cls:"");el(id).textContent=msg}
+
+function ingestCSV(text,fileName,announce){
+  try{
+    DB.snaps=loadSnaps(text,fileName);
+    store.set("snapdeck.snaps",text);store.set("snapdeck.snapfile",fileName||"");
+    if(announce) setStatus("csvStatus",`Loaded ${DB.snaps.meta.rows} players across ${DB.snaps.meta.weeks} weeks.`,"ok");
+    if(DB.depth) showApp();
+  }catch(e){ setStatus("csvStatus",e.message,"bad") }
+}
+el("drop").onclick=()=>el("file").click();
+el("drop").onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();el("file").click()}};
+el("file").onchange=e=>{const f=e.target.files[0];if(f)f.text().then(t=>ingestCSV(t,f.name,true))};
+["dragenter","dragover"].forEach(ev=>el("drop").addEventListener(ev,e=>{e.preventDefault();el("drop").classList.add("hot")}));
+["dragleave","drop"].forEach(ev=>el("drop").addEventListener(ev,e=>{e.preventDefault();el("drop").classList.remove("hot")}));
+el("drop").addEventListener("drop",e=>{const f=e.dataTransfer.files[0];if(f)f.text().then(t=>ingestCSV(t,f.name,true))});
+
+el("depBtn").onclick=()=>{
+  const t=el("depPaste").value;
+  if(!t.trim()) return setStatus("depStatus","Paste the page first.","bad");
+  try{
+    DB.depth=loadDepth(t);
+    store.set("snapdeck.depth",JSON.stringify(DB.depth));
+    setStatus("depStatus",`Read ${DB.depth.meta.players} skill players across ${DB.depth.meta.teams} teams.`,"ok");
+    el("depPaste").value="";showApp();
+  }catch(e){ setStatus("depStatus",e.message,"bad") }
+};
+el("injBtn").onclick=()=>{
+  const t=el("injPaste").value;
+  if(!t.trim()) return setStatus("injStatus","Paste the page first.","bad");
+  try{
+    DB.injuries=loadInjuries(t);
+    store.set("snapdeck.inj",JSON.stringify(DB.injuries));
+    setStatus("injStatus",`Read ${DB.injuries.meta.players} players across ${DB.injuries.meta.teams} teams.`,"ok");
+    el("injPaste").value="";if(DB.depth) showApp();
+  }catch(e){ setStatus("injStatus",e.message,"bad") }
+};
+el("showSetup").onclick=()=>{
+  el("app").classList.add("hide");el("setup").classList.remove("hide");
+  setStatus("depStatus",DB.depth?`Loaded: ${DB.depth.meta.teams} teams, read ${timeAgo(DB.depth.meta.loaded)}.`:"");
+  setStatus("csvStatus",DB.snaps?`Loaded: ${DB.snaps.meta.file}, ${DB.snaps.meta.weeks} weeks.`:"");
+  setStatus("injStatus",DB.injuries?`Loaded: ${DB.injuries.meta.players} players, read ${timeAgo(DB.injuries.meta.loaded)}.`:"");
+  window.scrollTo(0,0);
+};
+el("backBtn").onclick=()=>{if(DB.depth) showApp()};
+
+function stampRepoLinks(){
+  // Links, not fetches: firing the Action from the page would need a write
+  // token sitting in public JavaScript, readable by anyone viewing source.
+  const set=(id,href)=>{const a=el(id);if(a) a.href=href};
+  set("lnkInj",`${GH}/actions/workflows/update-injuries.yml`);
+  set("lnkDepth",`${GH}/edit/main/${DATA.depth}`);
+  set("lnkSnaps",`${GH}/edit/main/${DATA.snaps}`);
+  const box=el("repoStamp");
+  if(!box) return;
+  const m=DB.injuries&&DB.injuries.meta;
+  box.textContent=m
+    ? `Injuries: week ${m.week??"?"}, ${m.players} players, scraped ${timeAgo(m.loaded)}.`
+    : "Injuries: not loaded.";
+}
+
+async function boot(){
+  try{const p=store.get("snapdeck.pos");if(p) showPos=JSON.parse(p)}catch(e){}
+  currentTeam=store.get("snapdeck.team");
+
+  // All three land independently: one bad file shouldn't blank the whole page.
+  const [d,s,i]=await Promise.allSettled([
+    fetchData(DATA.depth,false),
+    fetchData(DATA.snaps,false),
+    fetchData(DATA.inj,true)
+  ]);
+  const notes=[];
+  const take=(res,label,fn)=>{
+    if(res.status!=="fulfilled") return notes.push(label+": "+res.reason.message);
+    try{ fn(res.value) }catch(e){ notes.push(label+": "+e.message) }
+  };
+  take(d,"Depth charts",v=>{DB.depth=loadDepth(v)});
+  take(s,"Snap counts",v=>{DB.snaps=loadSnaps(v,"snaps.csv")});
+  take(i,"Injuries",v=>{DB.injuries=injuriesFromJSON(v)});
+
+  // Offline or mid-deploy: fall back to whatever this browser saw last.
+  if(!DB.depth){try{const c=store.get("snapdeck.depth");if(c){DB.depth=JSON.parse(c);notes.push("Depth charts: using this browser's cached copy.")}}catch(e){}}
+  if(!DB.injuries){try{const c=store.get("snapdeck.inj");if(c){DB.injuries=JSON.parse(c);notes.push("Injuries: using this browser's cached copy.")}}catch(e){}}
+
+  // Cache what did load, for the next time a fetch fails.
+  try{
+    if(DB.depth) store.set("snapdeck.depth",JSON.stringify(DB.depth));
+    if(DB.injuries) store.set("snapdeck.inj",JSON.stringify(DB.injuries));
+  }catch(e){}
+
+  if(notes.length) console.warn("Snap Deck data notes:",notes);
+  stampRepoLinks();
+
+  if(DB.depth){ showApp() }
+  else{
+    el("setup").classList.remove("hide");
+    setStatus("depStatus",notes.join("  |  ")||"No depth chart data in the repo yet.","bad");
+  }
+}
+boot();
+</script>
+</body>
+</html>
