@@ -105,6 +105,26 @@ textarea{width:100%;min-height:100px;font-family:ui-monospace,Menlo,Consolas,mon
 .btn.ghost{background:transparent;color:var(--turf);border:1px solid var(--line);font-weight:500}
 .btn.ghost:hover{background:#E7EBE7}
 .btn:focus-visible{outline:2px solid var(--turf);outline-offset:2px}
+/* Odds colouring: the best available price should be findable at a glance. */
+.chip.odds{background:#0E2A1E;color:#fff;border-color:#0E2A1E;font-weight:700}
+.chip.odds-ex{background:#1D4E6B;color:#fff;border-color:#1D4E6B;font-weight:700}
+/* Book name rides inside the chip, dimmer than the price, so you can see
+   where the number came from without the name outweighing it. */
+.chip.odds b,.chip.odds-ex b{font-weight:500;opacity:.72;margin-right:4px;
+  font-size:11px;letter-spacing:.01em}
+table.oddsbook{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}
+table.oddsbook th{text-align:left;font-size:11px;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--mute);font-weight:600;padding:3px 8px 3px 0;
+  border-bottom:1px solid var(--line)}
+table.oddsbook td{padding:3px 8px 3px 0;border-bottom:1px solid var(--line-soft)}
+table.oddsbook td.px{font-variant-numeric:tabular-nums;font-weight:600}
+table.oddsbook tr.best td{background:#E4F0E8}
+table.oddsbook tr.best td.px{color:#0E2A1E;font-weight:800}
+table.oddsbook tr.bestex td{background:#E4EDF3}
+table.oddsbook tr.bestex td.px{color:#1D4E6B;font-weight:800}
+table.oddsbook .venue{font-size:11px;color:var(--mute)}
+.edge-pos{color:#1B6B3A;font-weight:700}
+.edge-neg{color:var(--mute)}
 /* .card a{color:var(--turf)} above is more specific than .btn, which paints
    link-buttons dark-on-dark. Re-assert the button colours for anchors. */
 .card a.btn{color:#fff;text-decoration:none}
@@ -229,7 +249,7 @@ const store={
    you between computers. localStorage is kept only as an offline cache
    if a fetch fails. */
 const REPO="michaeljhalperin/snapdeck";
-const DATA={depth:"data/ourlads.txt",snaps:"data/snaps.csv",inj:"data/injuries.json"};
+const DATA={depth:"data/ourlads.txt",snaps:"data/snaps.csv",inj:"data/injuries.json",draft:"data/draft.txt",odds:"data/odds.json"};
 const GH=`https://github.com/${REPO}`;
 // Pages caches hard; without the buster you commit new data and still see the old.
 async function fetchData(path,asJson){
@@ -455,6 +475,87 @@ function loadInjuries(text){
   return {injuries:out,meta:{loaded:Date.now(),players:count,teams:Object.keys(out).length}};
 }
 
+/* ---------- anytime TD odds ----------
+   The feed says which GAME a player is in, never which team he plays for,
+   so each record carries both sides and the depth chart resolves it. That
+   also stops a same-named player in another game being mis-assigned. */
+function parseOdds(j){
+  if(!j||!Array.isArray(j.players)) throw new Error("odds.json is malformed.");
+  const byKey={};
+  for(const p of j.players) byKey[normName(p.name)]=p;
+  return {byKey,meta:{
+    loaded:j.updated?Date.parse(j.updated):Date.now(),
+    players:j.players.length,events:j.events,
+    books:(j.books||[]).length,credits:j.creditsRemaining}};
+}
+
+function oddsFor(row){
+  if(!DB.odds||!row) return null;
+  const o=DB.odds.byKey[row.key];
+  if(!o) return null;
+  // Only trust it if this player's team is actually in that game.
+  if(o.teams&&o.teams.length&&!o.teams.includes(row.team)) return null;
+  return o;
+}
+
+const fmtAm=n=>(n>0?"+":"")+n;
+const BOOK_SHORT={"BetOnline.ag":"BetOnline","Bovada":"Bovada","BetRivers":"BetRivers",
+  "DraftKings":"DraftKings","FanDuel":"FanDuel","BetMGM":"BetMGM",
+  "ProphetX":"ProphetX","Novig":"Novig","Kalshi":"Kalshi",
+  "Polymarket":"Polymkt","BetOpenly":"BetOpenly"};
+const shortBook=b=>BOOK_SHORT[b]||b;
+const amToDec=a=>1+(a>0?a/100:100/Math.abs(a));
+const impliedPct=a=>100/amToDec(a);
+// Fair value is NOT computed from the sportsbooks: their prices carry vig and
+// the feed only returns the "Yes" side, so there is no "No" price to devig
+// against. Where exchanges are present their price is used as the fair-value
+// proxy (they charge commission rather than building juice into the line) and
+// edge is expected value per unit staked at the best book price. Absent
+// exchange data there is no fair value and none is shown.
+function edgeVsExchange(o){
+  if(!o||o.best==null||o.exImplied==null) return null;
+  return amToDec(o.best)*o.exImplied-1;
+}
+
+/* ---------- draft board ----------
+   Ourlads' tag carries the draft year and round ("26/3") but never the pick
+   number, so the exact slot comes from a pasted Pro-Football-Reference draft
+   table instead. Tab-separated, columns Rnd / Pick / Tm / Player / Pos ... */
+const PFR2STD={LVR:"LV",NWE:"NE",GNB:"GB",KAN:"KC",NOR:"NO",SFO:"SF",TAM:"TB"};
+
+function parseDraft(text){
+  const byKey={},rounds=new Set();
+  let count=0,dupes=0;
+  for(const line of String(text||"").split(/\r?\n/)){
+    // Tabs are the real format, but some editors swallow them on paste.
+    // Falling back to runs of 2+ spaces keeps multi-word names intact.
+    const f=(line.includes("\t")?line.split("\t"):line.split(/\s{2,}/)).map(s=>s.trim());
+    // Requiring digits in both leading columns skips the banner line and every
+    // repeated "Rnd Pick Tm" header without needing to count them.
+    if(f.length<4||!/^\d+$/.test(f[0])||!/^\d+$/.test(f[1])) continue;
+    const name=f[3];
+    if(!name) continue;
+    const key=normName(name);
+    if(byKey[key]){dupes++;continue}   // first pick wins; names repeat rarely
+    const tm=(f[2]||"").toUpperCase();
+    byKey[key]={round:+f[0],pick:+f[1],team:PFR2STD[tm]||tm,
+                pos:(f[4]||"").toUpperCase(),college:f[27]||""};
+    rounds.add(+f[0]);count++;
+  }
+  if(!count) throw new Error("No draft rows found. Expect tab-separated Rnd/Pick/Tm/Player columns.");
+  return {byKey,meta:{picks:count,rounds:rounds.size,dupes,loaded:Date.now()}};
+}
+
+// A veteran can share a name with a rookie, so when Ourlads year-stamped the
+// tag it has to agree with this draft class before the pick is shown.
+function draftFor(row,seasonYear){
+  if(!DB.draft||!row) return null;
+  const d=DB.draft.byKey[row.key];
+  if(!d) return null;
+  const m=/^(\d{2})\/\d/.exec(row.tag||"");
+  if(m&&seasonYear&&+m[1]!==seasonYear%100) return null;
+  return d;
+}
 // Same output shape as loadInjuries, but fed by the scraper's JSON instead of
 // a pasted page. Keys are rebuilt with normName so injury names normalize
 // identically to roster and snap names — the scraper's own key field uses a
@@ -641,6 +742,24 @@ function render(){
       const chips=[];
       if(ALIGN_ORDER[r.slot]!=null) chips.push(`<span class="chip">${r.slot}</span>`);
       if(r.tag) chips.push(`<span class="chip">${esc(r.tag)}</span>`);
+      const od=oddsFor(r);
+      if(od){
+        // Naming the book on the row means you know where to go without
+        // opening the panel. Colour still separates book (green) from
+        // exchange (blue), so the old TD/EX labels are redundant.
+        if(od.best!=null) chips.push(
+          `<span class="chip odds" title="Best sportsbook price, ${od.books} books priced">`+
+          `<b>${esc(shortBook(od.bestBook))}</b>${fmtAm(od.best)}</span>`);
+        if(od.ex!=null) chips.push(
+          `<span class="chip odds-ex" title="Best exchange price, ${od.exBooks} exchange(s) priced">`+
+          `<b>${esc(shortBook(od.exBook))}</b>${fmtAm(od.ex)}</span>`);
+      }
+      const dr=draftFor(r,seasonYear);
+      if(dr){
+        chips.push(`<span class="chip">R${dr.round} #${dr.pick}</span>`);
+        // Drafted elsewhere and already moved: worth seeing at a glance.
+        if(dr.team&&dr.team!==currentTeam) chips.push(`<span class="chip">drafted ${esc(dr.team)}</span>`);
+      }
       if(sn&&sn.team!==currentTeam) chips.push(`<span class="chip">snaps with ${esc(sn.team)}</span>`);
       const badges=[injBadge(inj)];
       if(isNew(r,sn,seasonYear)) badges.push('<span class="badge b-new">NEW</span>');
@@ -723,7 +842,25 @@ function detailHTML(r,sn,inj,weeks){
   const roster=r.status==="ACT"?"Active roster":r.status==="PS"?"Practice squad":r.status;
   return top+`<div class="detail" style="padding-top:0">
     <div><h3>Status</h3>${injBlock}</div>
-    <div><h3>Roster</h3><p>${roster} \u00b7 listed at ${esc(r.slot)}${r.tag?` \u00b7 tagged ${esc(r.tag)}`:""}</p></div></div>`;
+    ${(()=>{const o=oddsFor(r);if(!o) return "";
+      const rows=[];
+      const add=(book,price,isEx,isBest)=>rows.push(
+        `<tr class="${isBest?(isEx?"bestex":"best"):""}">
+           <td>${esc(book)}${isEx?' <span class="venue">exchange</span>':""}</td>
+           <td class="px">${fmtAm(price)}</td>
+           <td class="px">${impliedPct(price).toFixed(1)}%</td></tr>`);
+      Object.entries(o.exPrices||{}).forEach(([b,p])=>add(b,p,true,p===o.ex));
+      Object.entries(o.prices||{}).forEach(([b,p])=>add(b,p,false,p===o.best));
+      const e=edgeVsExchange(o);
+      const note=e==null
+        ? `<p class="subline">No exchange price for this player, so there's no fair-value reference \u2014 the book numbers below still carry vig.</p>`
+        : `<p class="subline">Best book ${fmtAm(o.best)} against the exchange's ${(o.exImplied*100).toFixed(1)}%:
+             <span class="${e>0?"edge-pos":"edge-neg"}">${e>0?"+":""}${(e*100).toFixed(1)}% edge</span>.
+             Treats the exchange as fair value; it isn't devigged, and exchange props run thin.</p>`;
+      return `<div><h3>Anytime TD</h3>${note}
+        <table class="oddsbook"><thead><tr><th>Book</th><th>Price</th><th>Implied</th></tr></thead>
+        <tbody>${rows.join("")}</tbody></table></div>`;})()}
+    <div><h3>Roster</h3><p>${roster} \u00b7 listed at ${esc(r.slot)}${r.tag?` \u00b7 tagged ${esc(r.tag)}`:""}${(()=>{const d=draftFor(r,DB.depth&&DB.depth.seasonYear);return d?` \u00b7 round ${d.round}, pick ${d.pick} by ${esc(d.team)}${d.college?` (${esc(d.college)})`:""}`:"";})()}</p></div></div>`;
 }
 
 function renderUnmatched(){
@@ -820,10 +957,12 @@ async function boot(){
   currentTeam=store.get("snapdeck.team");
 
   // All three land independently: one bad file shouldn't blank the whole page.
-  const [d,s,i]=await Promise.allSettled([
+  const [d,s,i,dr,od]=await Promise.allSettled([
     fetchData(DATA.depth,false),
     fetchData(DATA.snaps,false),
-    fetchData(DATA.inj,true)
+    fetchData(DATA.inj,true),
+    fetchData(DATA.draft,false),
+    fetchData(DATA.odds,true)
   ]);
   const notes=[];
   const take=(res,label,fn)=>{
@@ -833,6 +972,9 @@ async function boot(){
   take(d,"Depth charts",v=>{DB.depth=loadDepth(v)});
   take(s,"Snap counts",v=>{DB.snaps=loadSnaps(v,"snaps.csv")});
   take(i,"Injuries",v=>{DB.injuries=injuriesFromJSON(v)});
+  // Optional: no draft file just means no pick numbers, not a broken page.
+  take(dr,"Draft board",v=>{DB.draft=parseDraft(v)});
+  take(od,"TD odds",v=>{DB.odds=parseOdds(v)});
 
   // Offline or mid-deploy: fall back to whatever this browser saw last.
   if(!DB.depth){try{const c=store.get("snapdeck.depth");if(c){DB.depth=JSON.parse(c);notes.push("Depth charts: using this browser's cached copy.")}}catch(e){}}
