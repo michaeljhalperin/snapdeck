@@ -71,6 +71,26 @@ TEAMS = {
 
 SUFFIXES = {"JR", "SR", "II", "III", "IV", "V"}
 DST_RE = re.compile(r"\b(D/ST|Defense|Special Teams)\b", re.I)
+# Side labels, never player names. Anything else in `name` is a candidate.
+SIDE_WORDS = {"yes", "no", "over", "under"}
+
+
+def outcome_name(out):
+    """Player name from an outcome, whichever field the venue used.
+
+    Sportsbooks and the betting exchanges send {name: "Yes",
+    description: "Sam Darnold"}. The prediction markets (Kalshi,
+    Polymarket) don't always populate `description`, and reading only
+    that field silently dropped every one of their prices.
+    """
+    desc = (out.get("description") or "").strip()
+    if desc:
+        return desc
+    alt = (out.get("name") or "").strip()
+    # Never fall back to a side label - that would invent a player "Yes".
+    if alt and alt.lower() not in SIDE_WORDS:
+        return alt
+    return ""
 
 
 def norm_key(name):
@@ -182,6 +202,9 @@ def main():
         raise SystemExit("No matching games. Nothing fetched, existing file untouched.")
 
     fetched, ok_events, titles = {}, [], {}
+    # Per-venue tallies so a venue that returns rows we then discard is
+    # visibly different from one that returned nothing at all.
+    seen, dropped = {}, {}
     for e in soon:
         home, away = e["_home"], e["_away"]
         try:
@@ -200,8 +223,12 @@ def main():
                 if mkt.get("key") != MARKET:
                     continue
                 for out in mkt.get("outcomes", []):
-                    name = (out.get("description") or "").strip()
-                    if not name or DST_RE.search(name) or out.get("price") is None:
+                    seen[bkey] = seen.get(bkey, 0) + 1
+                    name = outcome_name(out)
+                    if not name:
+                        dropped[bkey] = dropped.get(bkey, 0) + 1
+                        continue
+                    if DST_RE.search(name) or out.get("price") is None:
                         continue
                     k = norm_key(name)
                     rec = fetched.setdefault(k, {
@@ -251,6 +278,16 @@ def main():
     with open(OUT_PATH, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, indent=1, ensure_ascii=False)
         fh.write("\n")
+
+    print("\nPer-venue outcomes returned:")
+    for b in sorted(seen, key=lambda k: -seen[k]):
+        tag = " <- EXCHANGE" if b in EXCHANGES else ""
+        d = dropped.get(b, 0)
+        note = f"  ({d} unusable)" if d else ""
+        print(f"  {titles.get(b, b):<16}{seen[b]:>5} outcomes{note}{tag}")
+    absent = EXCHANGES - set(seen)
+    if absent:
+        print(f"  exchanges that returned nothing at all: {', '.join(sorted(absent))}")
 
     with_ex = sum(1 for p in new_players if "ex" in p)
     print(f"\nRefreshed {len(ok_events)} game(s): {len(new_players)} players "
