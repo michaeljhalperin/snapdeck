@@ -1,120 +1,120 @@
 {
- "updated": "2026-09-08T21:10:09Z",
+ "updated": "2026-09-08T21:13:15Z",
  "market": "player_anytime_td",
  "regions": "us,us_ex",
- "creditsRemaining": "19888",
+ "creditsRemaining": "19856",
  "events": [
   {
    "id": "8c94552d022acec4a0458d70c19d3da9",
    "away": "NE",
    "home": "SEA",
    "commence": "2026-09-10T00:20:00Z",
-   "refreshed": "2026-09-08T21:10:06Z"
+   "refreshed": "2026-09-08T21:13:13Z"
   },
   {
    "id": "acc580d74344ea3b31bbcdd057fe6a9c",
    "away": "SF",
    "home": "LAR",
    "commence": "2026-09-11T00:35:00Z",
-   "refreshed": "2026-09-08T21:10:07Z"
+   "refreshed": "2026-09-08T21:13:13Z"
   },
   {
    "id": "95c01d1bb797d6df14824b106c5a9130",
    "away": "ATL",
    "home": "PIT",
    "commence": "2026-09-13T17:00:00Z",
-   "refreshed": "2026-09-08T21:10:07Z"
+   "refreshed": "2026-09-08T21:13:14Z"
   },
   {
    "id": "b6cfdcbafa61ce220ba87dc2d9b80c77",
    "away": "BAL",
    "home": "IND",
    "commence": "2026-09-13T17:00:00Z",
-   "refreshed": "2026-09-08T21:10:07Z"
+   "refreshed": "2026-09-08T21:13:14Z"
   },
   {
    "id": "7e09efed7e12c659b82740b67ce2f9a1",
    "away": "BUF",
    "home": "HOU",
    "commence": "2026-09-13T17:00:00Z",
-   "refreshed": "2026-09-08T21:10:07Z"
+   "refreshed": "2026-09-08T21:13:14Z"
   },
   {
    "id": "fc362aff0d889ec52d358307a70c32ed",
    "away": "CHI",
    "home": "CAR",
    "commence": "2026-09-13T17:00:00Z",
-   "refreshed": "2026-09-08T21:10:07Z"
+   "refreshed": "2026-09-08T21:13:14Z"
   },
   {
    "id": "ed6d24ff979f9c71979fead577b0b3f7",
    "away": "TB",
    "home": "CIN",
    "commence": "2026-09-13T17:00:00Z",
-   "refreshed": "2026-09-08T21:10:08Z"
+   "refreshed": "2026-09-08T21:13:14Z"
   },
   {
    "id": "e55c6fe19fce094ce214c8b0e5b504e9",
    "away": "CLE",
    "home": "JAX",
    "commence": "2026-09-13T17:00:00Z",
-   "refreshed": "2026-09-08T21:10:08Z"
+   "refreshed": "2026-09-08T21:13:14Z"
   },
   {
    "id": "c1d3fcec25aaeb06ebd2244d33d338e0",
    "away": "NO",
    "home": "DET",
    "commence": "2026-09-13T17:00:00Z",
-   "refreshed": "2026-09-08T21:10:08Z"
+   "refreshed": "2026-09-08T21:13:14Z"
   },
   {
    "id": "7dddb296a42e7a41a774b24bd1709ce1",
    "away": "NYJ",
    "home": "TEN",
    "commence": "2026-09-13T17:00:00Z",
-   "refreshed": "2026-09-08T21:10:08Z"
+   "refreshed": "2026-09-08T21:13:15Z"
   },
   {
    "id": "1edfa5ceaa1ad2cb57df1c1b908731f6",
    "away": "ARI",
    "home": "LAC",
    "commence": "2026-09-13T20:25:00Z",
-   "refreshed": "2026-09-08T21:10:08Z"
+   "refreshed": "2026-09-08T21:13:15Z"
   },
   {
    "id": "cb77efed7e711d25a72c1a2a0a1af119",
    "away": "GB",
    "home": "MIN",
    "commence": "2026-09-13T20:25:00Z",
-   "refreshed": "2026-09-08T21:10:09Z"
+   "refreshed": "2026-09-08T21:13:15Z"
   },
   {
    "id": "c5d95f48a16849ab6bebc68fbbfcb74a",
    "away": "MIA",
    "home": "LV",
    "commence": "2026-09-13T20:25:00Z",
-   "refreshed": "2026-09-08T21:10:09Z"
+   "refreshed": "2026-09-08T21:13:15Z"
   },
   {
    "id": "17885cb8dcade8f6c3bce14b2de805e8",
    "away": "WAS",
    "home": "PHI",
    "commence": "2026-09-13T20:25:00Z",
-   "refreshed": "2026-09-08T21:10:09Z"
+   "refreshed": "2026-09-08T21:13:15Z"
   },
   {
    "id": "3e646c7479c57f5d9752d8c7dfe7059b",
    "away": "DAL",
    "home": "NYG",
    "commence": "2026-09-14T00:20:00Z",
-   "refreshed": "2026-09-08T21:10:09Z"
+   "refreshed": "2026-09-08T21:13:15Z"
   },
   {
    "id": "5ad8135dc2b5f27de0b777acd317855a",
    "away": "DEN",
    "home": "KC",
    "commence": "2026-09-15T00:15:00Z",
-   "refreshed": "2026-09-08T21:10:09Z"
+   "refreshed": "2026-09-08T21:13:15Z"
   }
  ],
  "players": [
@@ -179,36 +179,6 @@
    "exBooks": 2
   },
   {
-   "key": "OMARION HAMPTON",
-   "name": "Omarion Hampton",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": -175,
-   "bestBook": "FanDuel",
-   "prices": {
-    "FanDuel": -175,
-    "BetMGM": -175,
-    "Caesars": -179,
-    "DraftKings": -185,
-    "Bovada": -186,
-    "BetRivers": -190,
-    "Fanatics": -195,
-    "BetOnline.ag": -200
-   },
-   "implied": 0.6497,
-   "books": 8,
-   "ex": -194,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": -194
-   },
-   "exImplied": 0.6599,
-   "exBooks": 1
-  },
-  {
    "key": "MARSHAWN LLOYD",
    "name": "MarShawn Lloyd",
    "teams": [
@@ -237,6 +207,37 @@
     "ProphetX": -330
    },
    "exImplied": 0.6468,
+   "exBooks": 2
+  },
+  {
+   "key": "OMARION HAMPTON",
+   "name": "Omarion Hampton",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": -175,
+   "bestBook": "FanDuel",
+   "prices": {
+    "FanDuel": -175,
+    "BetMGM": -175,
+    "Caesars": -179,
+    "DraftKings": -185,
+    "Bovada": -186,
+    "BetRivers": -190,
+    "Fanatics": -195,
+    "BetOnline.ag": -200
+   },
+   "implied": 0.6497,
+   "books": 8,
+   "ex": -170,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": -170,
+    "ProphetX": -194
+   },
+   "exImplied": 0.6447,
    "exBooks": 2
   },
   {
@@ -646,10 +647,10 @@
     "PHI"
    ],
    "event": "17885cb8dcade8f6c3bce14b2de805e8",
-   "best": 170,
+   "best": 175,
    "bestBook": "Fanatics",
    "prices": {
-    "Fanatics": 170,
+    "Fanatics": 175,
     "BetMGM": 150,
     "DraftKings": 145,
     "FanDuel": 145,
@@ -808,9 +809,9 @@
     "Caesars": 177,
     "DraftKings": 175,
     "FanDuel": 175,
-    "Fanatics": 175,
     "Bovada": 175,
     "BetOnline.ag": 170,
+    "Fanatics": 165,
     "BetMGM": 155
    },
    "implied": 0.3636,
@@ -884,37 +885,6 @@
     "ProphetX": -230
    },
    "exImplied": 0.5258,
-   "exBooks": 2
-  },
-  {
-   "key": "AMON RA ST BROWN",
-   "name": "Amon-Ra St. Brown",
-   "teams": [
-    "NO",
-    "DET"
-   ],
-   "event": "c1d3fcec25aaeb06ebd2244d33d338e0",
-   "best": 115,
-   "bestBook": "BetMGM",
-   "prices": {
-    "BetMGM": 115,
-    "DraftKings": 100,
-    "Caesars": 100,
-    "BetRivers": 100,
-    "Bovada": 100,
-    "FanDuel": -110,
-    "Fanatics": -110,
-    "BetOnline.ag": -111
-   },
-   "implied": 0.5,
-   "books": 8,
-   "ex": 100,
-   "exBook": "Novig",
-   "exPrices": {
-    "Novig": 100,
-    "ProphetX": -122
-   },
-   "exImplied": 0.5248,
    "exBooks": 2
   },
   {
@@ -1031,6 +1001,37 @@
     "BetOnline.ag": -111
    },
    "implied": 0.5122,
+   "books": 8,
+   "ex": 100,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 100,
+    "ProphetX": -117
+   },
+   "exImplied": 0.5196,
+   "exBooks": 2
+  },
+  {
+   "key": "AMON RA ST BROWN",
+   "name": "Amon-Ra St. Brown",
+   "teams": [
+    "NO",
+    "DET"
+   ],
+   "event": "c1d3fcec25aaeb06ebd2244d33d338e0",
+   "best": 115,
+   "bestBook": "BetMGM",
+   "prices": {
+    "BetMGM": 115,
+    "DraftKings": 100,
+    "Caesars": 100,
+    "BetRivers": 100,
+    "Bovada": 100,
+    "FanDuel": -110,
+    "Fanatics": -110,
+    "BetOnline.ag": -111
+   },
+   "implied": 0.5,
    "books": 8,
    "ex": 100,
    "exBook": "Novig",
@@ -1336,10 +1337,11 @@
     "Fanatics": 110,
     "BetOnline.ag": 110,
     "Bovada": 110,
-    "BetRivers": -103
+    "BetRivers": -103,
+    "BetMGM": -105
    },
    "implied": 0.4762,
-   "books": 7,
+   "books": 8,
    "ex": 111,
    "exBook": "ProphetX",
    "exPrices": {
@@ -1378,66 +1380,6 @@
    },
    "exImplied": 0.4674,
    "exBooks": 2
-  },
-  {
-   "key": "LADD MCCONKEY",
-   "name": "Ladd McConkey",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 130,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 130,
-    "BetMGM": 130,
-    "BetRivers": 128,
-    "Caesars": 126,
-    "DraftKings": 125,
-    "FanDuel": 125,
-    "Bovada": 125,
-    "BetOnline.ag": 120
-   },
-   "implied": 0.4435,
-   "books": 8,
-   "ex": 116,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 116
-   },
-   "exImplied": 0.463,
-   "exBooks": 1
-  },
-  {
-   "key": "QUENTIN JOHNSTON",
-   "name": "Quentin Johnston",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 180,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 180,
-    "BetRivers": 163,
-    "BetMGM": 135,
-    "Caesars": 133,
-    "DraftKings": 130,
-    "Bovada": 130,
-    "FanDuel": 125,
-    "BetOnline.ag": 120
-   },
-   "implied": 0.432,
-   "books": 8,
-   "ex": 116,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 116
-   },
-   "exImplied": 0.463,
-   "exBooks": 1
   },
   {
    "key": "TYLER WARREN",
@@ -1570,10 +1512,10 @@
     "PHI"
    ],
    "event": "17885cb8dcade8f6c3bce14b2de805e8",
-   "best": 300,
+   "best": 280,
    "bestBook": "Fanatics",
    "prices": {
-    "Fanatics": 300,
+    "Fanatics": 280,
     "DraftKings": 245,
     "Bovada": 245,
     "BetRivers": 230,
@@ -1780,6 +1722,37 @@
    "exBooks": 2
   },
   {
+   "key": "LADD MCCONKEY",
+   "name": "Ladd McConkey",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 130,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 130,
+    "BetMGM": 130,
+    "BetRivers": 128,
+    "Caesars": 126,
+    "DraftKings": 125,
+    "FanDuel": 125,
+    "Bovada": 125,
+    "BetOnline.ag": 120
+   },
+   "implied": 0.4435,
+   "books": 8,
+   "ex": 130,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 130,
+    "ProphetX": 116
+   },
+   "exImplied": 0.4489,
+   "exBooks": 2
+  },
+  {
    "key": "JAYDEN DANIELS",
    "name": "Jayden Daniels",
    "teams": [
@@ -1787,11 +1760,11 @@
     "PHI"
    ],
    "event": "17885cb8dcade8f6c3bce14b2de805e8",
-   "best": 280,
-   "bestBook": "Fanatics",
+   "best": 265,
+   "bestBook": "DraftKings",
    "prices": {
-    "Fanatics": 280,
     "DraftKings": 265,
+    "Fanatics": 265,
     "Bovada": 265,
     "FanDuel": 250,
     "BetMGM": 250,
@@ -1839,6 +1812,37 @@
     "ProphetX": -160
    },
    "exImplied": 0.4477,
+   "exBooks": 2
+  },
+  {
+   "key": "QUENTIN JOHNSTON",
+   "name": "Quentin Johnston",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 180,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 180,
+    "BetRivers": 163,
+    "BetMGM": 135,
+    "Caesars": 133,
+    "DraftKings": 130,
+    "Bovada": 130,
+    "FanDuel": 125,
+    "BetOnline.ag": 120
+   },
+   "implied": 0.432,
+   "books": 8,
+   "ex": 133,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 133,
+    "ProphetX": 116
+   },
+   "exImplied": 0.4461,
    "exBooks": 2
   },
   {
@@ -1995,37 +1999,6 @@
    "exBooks": 2
   },
   {
-   "key": "TRE TUCKER",
-   "name": "Tre Tucker",
-   "teams": [
-    "MIA",
-    "LV"
-   ],
-   "event": "c5d95f48a16849ab6bebc68fbbfcb74a",
-   "best": 310,
-   "bestBook": "BetRivers",
-   "prices": {
-    "BetRivers": 310,
-    "DraftKings": 300,
-    "Bovada": 300,
-    "Fanatics": 280,
-    "Caesars": 270,
-    "FanDuel": 260,
-    "BetOnline.ag": 260,
-    "BetMGM": 250
-   },
-   "implied": 0.2667,
-   "books": 8,
-   "ex": 270,
-   "exBook": "Novig",
-   "exPrices": {
-    "Novig": 270,
-    "ProphetX": -160
-   },
-   "exImplied": 0.4428,
-   "exBooks": 2
-  },
-  {
    "key": "JOSH DOWNS",
    "name": "Josh Downs",
    "teams": [
@@ -2046,6 +2019,37 @@
     "BetRivers": 210
    },
    "implied": 0.2822,
+   "books": 8,
+   "ex": 277,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 277,
+    "ProphetX": -160
+   },
+   "exImplied": 0.4403,
+   "exBooks": 2
+  },
+  {
+   "key": "TRE TUCKER",
+   "name": "Tre Tucker",
+   "teams": [
+    "MIA",
+    "LV"
+   ],
+   "event": "c5d95f48a16849ab6bebc68fbbfcb74a",
+   "best": 310,
+   "bestBook": "BetRivers",
+   "prices": {
+    "BetRivers": 310,
+    "DraftKings": 300,
+    "Bovada": 300,
+    "Fanatics": 280,
+    "Caesars": 270,
+    "FanDuel": 260,
+    "BetOnline.ag": 260,
+    "BetMGM": 250
+   },
+   "implied": 0.2667,
    "books": 8,
    "ex": 277,
    "exBook": "Novig",
@@ -2274,37 +2278,6 @@
    "exBooks": 2
   },
   {
-   "key": "GEORGE PICKENS",
-   "name": "George Pickens",
-   "teams": [
-    "DAL",
-    "NYG"
-   ],
-   "event": "3e646c7479c57f5d9752d8c7dfe7059b",
-   "best": 155,
-   "bestBook": "FanDuel",
-   "prices": {
-    "FanDuel": 155,
-    "Fanatics": 150,
-    "BetRivers": 150,
-    "Caesars": 149,
-    "DraftKings": 145,
-    "Bovada": 145,
-    "BetOnline.ag": 140,
-    "BetMGM": 135
-   },
-   "implied": 0.4049,
-   "books": 8,
-   "ex": 144,
-   "exBook": "Novig",
-   "exPrices": {
-    "Novig": 144,
-    "ProphetX": 134
-   },
-   "exImplied": 0.4186,
-   "exBooks": 2
-  },
-  {
    "key": "RASHEE RICE",
    "name": "Rashee Rice",
    "teams": [
@@ -2331,6 +2304,37 @@
     "ProphetX": 132
    },
    "exImplied": 0.4155,
+   "exBooks": 2
+  },
+  {
+   "key": "GEORGE PICKENS",
+   "name": "George Pickens",
+   "teams": [
+    "DAL",
+    "NYG"
+   ],
+   "event": "3e646c7479c57f5d9752d8c7dfe7059b",
+   "best": 155,
+   "bestBook": "FanDuel",
+   "prices": {
+    "FanDuel": 155,
+    "Fanatics": 150,
+    "BetRivers": 150,
+    "Caesars": 149,
+    "DraftKings": 145,
+    "Bovada": 145,
+    "BetOnline.ag": 140,
+    "BetMGM": 135
+   },
+   "implied": 0.4049,
+   "books": 8,
+   "ex": 144,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 144,
+    "ProphetX": 138
+   },
+   "exImplied": 0.415,
    "exBooks": 2
   },
   {
@@ -2379,7 +2383,7 @@
     "Fanatics": 130,
     "BetOnline.ag": 130,
     "Caesars": 128,
-    "BetMGM": 125,
+    "BetMGM": 120,
     "BetRivers": 116
    },
    "implied": 0.4348,
@@ -2414,12 +2418,12 @@
    },
    "implied": 0.4348,
    "books": 8,
-   "ex": 144,
+   "ex": 146,
    "exBook": "ProphetX",
    "exPrices": {
-    "ProphetX": 144
+    "ProphetX": 146
    },
-   "exImplied": 0.4098,
+   "exImplied": 0.4065,
    "exBooks": 1
   },
   {
@@ -2673,9 +2677,10 @@
     "SEA"
    ],
    "event": "8c94552d022acec4a0458d70c19d3da9",
-   "best": 160,
-   "bestBook": "DraftKings",
+   "best": 165,
+   "bestBook": "BetMGM",
    "prices": {
+    "BetMGM": 165,
     "DraftKings": 160,
     "Bovada": 160,
     "Caesars": 159,
@@ -2684,8 +2689,8 @@
     "BetRivers": 155,
     "BetOnline.ag": 150
    },
-   "implied": 0.3922,
-   "books": 7,
+   "implied": 0.3891,
+   "books": 8,
    "ex": 168,
    "exBook": "ProphetX",
    "exPrices": {
@@ -2876,66 +2881,6 @@
    "exBooks": 2
   },
   {
-   "key": "TREY MCBRIDE",
-   "name": "Trey McBride",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 200,
-   "bestBook": "FanDuel",
-   "prices": {
-    "FanDuel": 200,
-    "Fanatics": 190,
-    "Caesars": 189,
-    "BetRivers": 185,
-    "DraftKings": 180,
-    "BetOnline.ag": 180,
-    "BetMGM": 180,
-    "Bovada": 180
-   },
-   "implied": 0.354,
-   "books": 8,
-   "ex": 186,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 186
-   },
-   "exImplied": 0.3497,
-   "exBooks": 1
-  },
-  {
-   "key": "JEREMIYAH LOVE",
-   "name": "Jeremiyah Love",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 210,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 210,
-    "FanDuel": 200,
-    "DraftKings": 195,
-    "Bovada": 195,
-    "Caesars": 187,
-    "BetOnline.ag": 170,
-    "BetRivers": 155,
-    "BetMGM": 145
-   },
-   "implied": 0.3437,
-   "books": 8,
-   "ex": 186,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 186
-   },
-   "exImplied": 0.3497,
-   "exBooks": 1
-  },
-  {
    "key": "CHRIS RODRIGUEZ",
    "name": "Chris Rodriguez Jr.",
    "teams": [
@@ -2956,6 +2901,37 @@
     "BetRivers": 155
    },
    "implied": 0.3472,
+   "books": 8,
+   "ex": 190,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 190,
+    "ProphetX": 186
+   },
+   "exImplied": 0.3472,
+   "exBooks": 2
+  },
+  {
+   "key": "TREY MCBRIDE",
+   "name": "Trey McBride",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 200,
+   "bestBook": "FanDuel",
+   "prices": {
+    "FanDuel": 200,
+    "Fanatics": 190,
+    "Caesars": 189,
+    "BetRivers": 185,
+    "DraftKings": 180,
+    "BetOnline.ag": 180,
+    "BetMGM": 180,
+    "Bovada": 180
+   },
+   "implied": 0.354,
    "books": 8,
    "ex": 190,
    "exBook": "Novig",
@@ -2993,6 +2969,37 @@
     "ProphetX": 178
    },
    "exImplied": 0.3471,
+   "exBooks": 2
+  },
+  {
+   "key": "JEREMIYAH LOVE",
+   "name": "Jeremiyah Love",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 210,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 210,
+    "FanDuel": 200,
+    "DraftKings": 195,
+    "Bovada": 195,
+    "Caesars": 187,
+    "BetOnline.ag": 170,
+    "BetRivers": 155,
+    "BetMGM": 145
+   },
+   "implied": 0.3437,
+   "books": 8,
+   "ex": 194,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 194,
+    "ProphetX": 186
+   },
+   "exImplied": 0.3449,
    "exBooks": 2
   },
   {
@@ -3194,36 +3201,6 @@
    "exBooks": 1
   },
   {
-   "key": "TYLER ALLGEIER",
-   "name": "Tyler Allgeier",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 240,
-   "bestBook": "BetMGM",
-   "prices": {
-    "BetMGM": 240,
-    "FanDuel": 230,
-    "DraftKings": 225,
-    "Bovada": 225,
-    "BetOnline.ag": 220,
-    "BetRivers": 210,
-    "Caesars": 210,
-    "Fanatics": 115
-   },
-   "implied": 0.3101,
-   "books": 8,
-   "ex": 215,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 215
-   },
-   "exImplied": 0.3175,
-   "exBooks": 1
-  },
-  {
    "key": "CHRIS GODWIN",
    "name": "Chris Godwin",
    "teams": [
@@ -3286,34 +3263,35 @@
    "exBooks": 2
   },
   {
-   "key": "KIMANI VIDAL",
-   "name": "Kimani Vidal",
+   "key": "TYLER ALLGEIER",
+   "name": "Tyler Allgeier",
    "teams": [
     "ARI",
     "LAC"
    ],
    "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 440,
-   "bestBook": "BetRivers",
+   "best": 240,
+   "bestBook": "BetMGM",
    "prices": {
-    "BetRivers": 440,
-    "DraftKings": 260,
-    "BetMGM": 260,
-    "Bovada": 260,
-    "Caesars": 255,
-    "BetOnline.ag": 250,
-    "FanDuel": 250,
-    "Fanatics": 230
+    "BetMGM": 240,
+    "FanDuel": 230,
+    "DraftKings": 225,
+    "Bovada": 225,
+    "BetOnline.ag": 220,
+    "BetRivers": 210,
+    "Caesars": 210,
+    "Fanatics": 115
    },
-   "implied": 0.2797,
+   "implied": 0.3101,
    "books": 8,
-   "ex": 225,
-   "exBook": "ProphetX",
+   "ex": 228,
+   "exBook": "Novig",
    "exPrices": {
-    "ProphetX": 225
+    "Novig": 228,
+    "ProphetX": 215
    },
-   "exImplied": 0.3077,
-   "exBooks": 1
+   "exImplied": 0.3112,
+   "exBooks": 2
   },
   {
    "key": "TYJAE SPEARS",
@@ -3439,36 +3417,6 @@
    "exBooks": 2
   },
   {
-   "key": "MARVIN HARRISON",
-   "name": "Marvin Harrison Jr.",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 255,
-   "bestBook": "DraftKings",
-   "prices": {
-    "DraftKings": 255,
-    "Caesars": 255,
-    "Bovada": 255,
-    "BetOnline.ag": 250,
-    "Fanatics": 250,
-    "FanDuel": 250,
-    "BetMGM": 250,
-    "BetRivers": 235
-   },
-   "implied": 0.2857,
-   "books": 8,
-   "ex": 235,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 235
-   },
-   "exImplied": 0.2985,
-   "exBooks": 1
-  },
-  {
    "key": "JAKOBI MEYERS",
    "name": "Jakobi Meyers",
    "teams": [
@@ -3500,6 +3448,37 @@
    "exBooks": 2
   },
   {
+   "key": "KIMANI VIDAL",
+   "name": "Kimani Vidal",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 440,
+   "bestBook": "BetRivers",
+   "prices": {
+    "BetRivers": 440,
+    "DraftKings": 260,
+    "BetMGM": 260,
+    "Bovada": 260,
+    "Caesars": 255,
+    "BetOnline.ag": 250,
+    "FanDuel": 250,
+    "Fanatics": 230
+   },
+   "implied": 0.2797,
+   "books": 8,
+   "ex": 257,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 257,
+    "ProphetX": 225
+   },
+   "exImplied": 0.2939,
+   "exBooks": 2
+  },
+  {
    "key": "GEORGE KITTLE",
    "name": "George Kittle",
    "teams": [
@@ -3525,9 +3504,9 @@
    "exBook": "Novig",
    "exPrices": {
     "Novig": 245,
-    "ProphetX": 235
+    "ProphetX": 240
    },
-   "exImplied": 0.2942,
+   "exImplied": 0.292,
    "exBooks": 2
   },
   {
@@ -3562,64 +3541,35 @@
    "exBooks": 2
   },
   {
-   "key": "TRE HARRIS",
-   "name": "Tre Harris",
+   "key": "MARVIN HARRISON",
+   "name": "Marvin Harrison Jr.",
    "teams": [
     "ARI",
     "LAC"
    ],
    "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 340,
-   "bestBook": "Fanatics",
+   "best": 255,
+   "bestBook": "DraftKings",
    "prices": {
-    "Fanatics": 340,
-    "BetRivers": 310,
-    "BetMGM": 300,
-    "DraftKings": 290,
-    "Caesars": 290,
-    "Bovada": 290,
-    "BetOnline.ag": 280,
-    "FanDuel": 280
-   },
-   "implied": 0.2564,
-   "books": 8,
-   "ex": 245,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 245
-   },
-   "exImplied": 0.2899,
-   "exBooks": 1
-  },
-  {
-   "key": "KEATON MITCHELL",
-   "name": "Keaton Mitchell",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 280,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 280,
-    "DraftKings": 275,
-    "Bovada": 275,
-    "BetRivers": 250,
+    "DraftKings": 255,
+    "Caesars": 255,
+    "Bovada": 255,
+    "BetOnline.ag": 250,
+    "Fanatics": 250,
     "FanDuel": 250,
     "BetMGM": 250,
-    "Caesars": 245,
-    "BetOnline.ag": 220
+    "BetRivers": 235
    },
    "implied": 0.2857,
    "books": 8,
-   "ex": 250,
-   "exBook": "ProphetX",
+   "ex": 257,
+   "exBook": "Novig",
    "exPrices": {
-    "ProphetX": 250
+    "Novig": 257,
+    "ProphetX": 235
    },
-   "exImplied": 0.2857,
-   "exBooks": 1
+   "exImplied": 0.2893,
+   "exBooks": 2
   },
   {
    "key": "BRENTON STRANGE",
@@ -3681,6 +3631,37 @@
     "ProphetX": 245
    },
    "exImplied": 0.285,
+   "exBooks": 2
+  },
+  {
+   "key": "KEATON MITCHELL",
+   "name": "Keaton Mitchell",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 280,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 280,
+    "DraftKings": 275,
+    "Bovada": 275,
+    "BetRivers": 250,
+    "FanDuel": 250,
+    "BetMGM": 250,
+    "Caesars": 245,
+    "BetOnline.ag": 220
+   },
+   "implied": 0.2857,
+   "books": 8,
+   "ex": 257,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 257,
+    "ProphetX": 250
+   },
+   "exImplied": 0.2829,
    "exBooks": 2
   },
   {
@@ -3772,6 +3753,37 @@
     "ProphetX": 250
    },
    "exImplied": 0.278,
+   "exBooks": 2
+  },
+  {
+   "key": "TRE HARRIS",
+   "name": "Tre Harris",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 340,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 340,
+    "BetRivers": 310,
+    "BetMGM": 300,
+    "DraftKings": 290,
+    "Caesars": 290,
+    "Bovada": 290,
+    "BetOnline.ag": 280,
+    "FanDuel": 280
+   },
+   "implied": 0.2564,
+   "books": 8,
+   "ex": 285,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 285,
+    "ProphetX": 245
+   },
+   "exImplied": 0.2748,
    "exBooks": 2
   },
   {
@@ -3913,36 +3925,6 @@
    "exBooks": 1
   },
   {
-   "key": "MICHAEL WILSON",
-   "name": "Michael Wilson",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 360,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 360,
-    "DraftKings": 330,
-    "FanDuel": 330,
-    "Bovada": 330,
-    "BetOnline.ag": 325,
-    "Caesars": 325,
-    "BetRivers": 270,
-    "BetMGM": 270
-   },
-   "implied": 0.2339,
-   "books": 8,
-   "ex": 285,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 285
-   },
-   "exImplied": 0.2597,
-   "exBooks": 1
-  },
-  {
    "key": "MALIK WILLIS",
    "name": "Malik Willis",
    "teams": [
@@ -4061,6 +4043,37 @@
    },
    "exImplied": 0.2532,
    "exBooks": 1
+  },
+  {
+   "key": "CHARLIE KOLAR",
+   "name": "Charlie Kolar",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 400,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 400,
+    "Bovada": 400,
+    "Fanatics": 380,
+    "BetMGM": 360,
+    "Caesars": 340,
+    "BetRivers": 320,
+    "FanDuel": 320,
+    "BetOnline.ag": 300
+   },
+   "implied": 0.2223,
+   "books": 8,
+   "ex": 300,
+   "exBook": "ProphetX",
+   "exPrices": {
+    "ProphetX": 300,
+    "Novig": 292
+   },
+   "exImplied": 0.2526,
+   "exBooks": 2
   },
   {
    "key": "SAMAJE PERINE",
@@ -4185,34 +4198,35 @@
    "exBooks": 1
   },
   {
-   "key": "CHARLIE KOLAR",
-   "name": "Charlie Kolar",
+   "key": "MICHAEL WILSON",
+   "name": "Michael Wilson",
    "teams": [
     "ARI",
     "LAC"
    ],
    "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 400,
-   "bestBook": "DraftKings",
+   "best": 360,
+   "bestBook": "Fanatics",
    "prices": {
-    "DraftKings": 400,
-    "Bovada": 400,
-    "Fanatics": 380,
-    "BetMGM": 360,
-    "Caesars": 340,
-    "BetRivers": 320,
-    "FanDuel": 320,
-    "BetOnline.ag": 300
+    "Fanatics": 360,
+    "DraftKings": 330,
+    "FanDuel": 330,
+    "Bovada": 330,
+    "BetOnline.ag": 325,
+    "Caesars": 325,
+    "BetRivers": 270,
+    "BetMGM": 270
    },
-   "implied": 0.2223,
+   "implied": 0.2339,
    "books": 8,
-   "ex": 300,
-   "exBook": "ProphetX",
+   "ex": 317,
+   "exBook": "Novig",
    "exPrices": {
-    "ProphetX": 300
+    "Novig": 317,
+    "ProphetX": 285
    },
-   "exImplied": 0.25,
-   "exBooks": 1
+   "exImplied": 0.2498,
+   "exBooks": 2
   },
   {
    "key": "HAROLD FANNIN",
@@ -4262,10 +4276,11 @@
     "Bovada": 285,
     "FanDuel": 280,
     "BetOnline.ag": 280,
-    "BetRivers": 280
+    "BetRivers": 280,
+    "BetMGM": 270
    },
-   "implied": 0.2597,
-   "books": 7,
+   "implied": 0.2614,
+   "books": 8,
    "ex": 315,
    "exBook": "ProphetX",
    "exPrices": {
@@ -4312,10 +4327,10 @@
     "PHI"
    ],
    "event": "17885cb8dcade8f6c3bce14b2de805e8",
-   "best": 370,
+   "best": 400,
    "bestBook": "Fanatics",
    "prices": {
-    "Fanatics": 370,
+    "Fanatics": 400,
     "BetMGM": 340,
     "DraftKings": 330,
     "Caesars": 330,
@@ -4822,36 +4837,6 @@
    "exBooks": 2
   },
   {
-   "key": "DAVID NJOKU",
-   "name": "David Njoku",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 450,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 450,
-    "FanDuel": 420,
-    "DraftKings": 400,
-    "BetOnline.ag": 400,
-    "BetRivers": 400,
-    "Caesars": 400,
-    "Bovada": 400,
-    "BetMGM": 333
-   },
-   "implied": 0.2,
-   "books": 8,
-   "ex": 355,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 355
-   },
-   "exImplied": 0.2198,
-   "exBooks": 1
-  },
-  {
    "key": "KAYSHON BOUTTE",
    "name": "Kayshon Boutte",
    "teams": [
@@ -5115,6 +5100,37 @@
    "exBooks": 1
   },
   {
+   "key": "DAVID NJOKU",
+   "name": "David Njoku",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 450,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 450,
+    "FanDuel": 420,
+    "DraftKings": 400,
+    "BetOnline.ag": 400,
+    "BetRivers": 400,
+    "Caesars": 400,
+    "Bovada": 400,
+    "BetMGM": 333
+   },
+   "implied": 0.2,
+   "books": 8,
+   "ex": 400,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 400,
+    "ProphetX": 355
+   },
+   "exImplied": 0.2099,
+   "exBooks": 2
+  },
+  {
    "key": "PAT BRYANT",
    "name": "Pat Bryant",
    "teams": [
@@ -5174,66 +5190,6 @@
    "exBooks": 1
   },
   {
-   "key": "JALEN NAILOR",
-   "name": "Jalen Nailor",
-   "teams": [
-    "MIA",
-    "LV"
-   ],
-   "event": "c5d95f48a16849ab6bebc68fbbfcb74a",
-   "best": 500,
-   "bestBook": "BetRivers",
-   "prices": {
-    "BetRivers": 500,
-    "Fanatics": 450,
-    "DraftKings": 425,
-    "BetMGM": 425,
-    "Bovada": 420,
-    "Caesars": 400,
-    "FanDuel": 380,
-    "BetOnline.ag": 350
-   },
-   "implied": 0.1914,
-   "books": 8,
-   "ex": 388,
-   "exBook": "Novig",
-   "exPrices": {
-    "Novig": 388
-   },
-   "exImplied": 0.2049,
-   "exBooks": 1
-  },
-  {
-   "key": "OLLIE GORDON",
-   "name": "Ollie Gordon II",
-   "teams": [
-    "MIA",
-    "LV"
-   ],
-   "event": "c5d95f48a16849ab6bebc68fbbfcb74a",
-   "best": 900,
-   "bestBook": "BetRivers",
-   "prices": {
-    "BetRivers": 900,
-    "Fanatics": 800,
-    "BetMGM": 600,
-    "DraftKings": 500,
-    "Bovada": 500,
-    "Caesars": 400,
-    "FanDuel": 330,
-    "BetOnline.ag": 325
-   },
-   "implied": 0.1667,
-   "books": 8,
-   "ex": 388,
-   "exBook": "Novig",
-   "exPrices": {
-    "Novig": 388
-   },
-   "exImplied": 0.2049,
-   "exBooks": 1
-  },
-  {
    "key": "TANK BIGSBY",
    "name": "Tank Bigsby",
    "teams": [
@@ -5241,10 +5197,10 @@
     "PHI"
    ],
    "event": "17885cb8dcade8f6c3bce14b2de805e8",
-   "best": 575,
+   "best": 600,
    "bestBook": "Fanatics",
    "prices": {
-    "Fanatics": 575,
+    "Fanatics": 600,
     "BetRivers": 510,
     "BetMGM": 425,
     "DraftKings": 400,
@@ -5271,11 +5227,11 @@
     "PHI"
    ],
    "event": "17885cb8dcade8f6c3bce14b2de805e8",
-   "best": 475,
-   "bestBook": "Fanatics",
+   "best": 450,
+   "bestBook": "DraftKings",
    "prices": {
-    "Fanatics": 475,
     "DraftKings": 450,
+    "Fanatics": 450,
     "Bovada": 440,
     "BetRivers": 420,
     "BetMGM": 390,
@@ -5306,14 +5262,14 @@
    "prices": {
     "Fanatics": 575,
     "FanDuel": 460,
-    "BetRivers": 440,
     "DraftKings": 425,
     "Caesars": 425,
     "Bovada": 420,
+    "BetRivers": 410,
     "BetOnline.ag": 400,
     "BetMGM": 400
    },
-   "implied": 0.1905,
+   "implied": 0.1914,
    "books": 8,
    "ex": 426,
    "exBook": "Novig",
@@ -5429,6 +5385,66 @@
    "books": 1
   },
   {
+   "key": "JALEN NAILOR",
+   "name": "Jalen Nailor",
+   "teams": [
+    "MIA",
+    "LV"
+   ],
+   "event": "c5d95f48a16849ab6bebc68fbbfcb74a",
+   "best": 500,
+   "bestBook": "BetRivers",
+   "prices": {
+    "BetRivers": 500,
+    "Fanatics": 450,
+    "DraftKings": 425,
+    "BetMGM": 425,
+    "Bovada": 420,
+    "Caesars": 400,
+    "FanDuel": 380,
+    "BetOnline.ag": 350
+   },
+   "implied": 0.1914,
+   "books": 8,
+   "ex": 400,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 400
+   },
+   "exImplied": 0.2,
+   "exBooks": 1
+  },
+  {
+   "key": "OLLIE GORDON",
+   "name": "Ollie Gordon II",
+   "teams": [
+    "MIA",
+    "LV"
+   ],
+   "event": "c5d95f48a16849ab6bebc68fbbfcb74a",
+   "best": 900,
+   "bestBook": "BetRivers",
+   "prices": {
+    "BetRivers": 900,
+    "Fanatics": 800,
+    "BetMGM": 600,
+    "DraftKings": 500,
+    "Bovada": 500,
+    "Caesars": 400,
+    "FanDuel": 330,
+    "BetOnline.ag": 325
+   },
+   "implied": 0.1667,
+   "books": 8,
+   "ex": 400,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 400
+   },
+   "exImplied": 0.2,
+   "exBooks": 1
+  },
+  {
    "key": "JUSTIN HERBERT",
    "name": "Justin Herbert",
    "teams": [
@@ -5453,10 +5469,11 @@
    "ex": 405,
    "exBook": "ProphetX",
    "exPrices": {
-    "ProphetX": 405
+    "ProphetX": 405,
+    "Novig": 400
    },
-   "exImplied": 0.198,
-   "exBooks": 1
+   "exImplied": 0.199,
+   "exBooks": 2
   },
   {
    "key": "CHIG OKONKWO",
@@ -5471,8 +5488,8 @@
    "prices": {
     "DraftKings": 500,
     "Bovada": 500,
+    "Fanatics": 475,
     "FanDuel": 450,
-    "Fanatics": 450,
     "BetRivers": 425,
     "Caesars": 425,
     "BetOnline.ag": 400,
@@ -5652,13 +5669,13 @@
     "Fanatics": 540,
     "DraftKings": 400,
     "Caesars": 400,
-    "BetOnline.ag": 400,
     "Bovada": 400,
     "FanDuel": 390,
     "BetRivers": 370,
+    "BetOnline.ag": 350,
     "BetMGM": 333
    },
-   "implied": 0.2,
+   "implied": 0.202,
    "books": 8,
    "ex": 441,
    "exBook": "Novig",
@@ -5777,7 +5794,7 @@
     "Bovada": 460,
     "BetOnline.ag": 450,
     "BetMGM": 425,
-    "BetRivers": 400
+    "BetRivers": 410
    },
    "implied": 0.1762,
    "books": 8,
@@ -5925,27 +5942,6 @@
    },
    "exImplied": 0.1799,
    "exBooks": 1
-  },
-  {
-   "key": "COREY KINER",
-   "name": "Corey Kiner",
-   "teams": [
-    "NE",
-    "SEA"
-   ],
-   "event": "8c94552d022acec4a0458d70c19d3da9",
-   "best": 600,
-   "bestBook": "FanDuel",
-   "prices": {
-    "FanDuel": 600,
-    "Fanatics": 525,
-    "Caesars": 500,
-    "DraftKings": 425,
-    "Bovada": 420,
-    "BetRivers": 360
-   },
-   "implied": 0.1786,
-   "books": 6
   },
   {
    "key": "JUSTICE HILL",
@@ -6388,13 +6384,36 @@
    },
    "implied": 0.16,
    "books": 8,
-   "ex": 490,
-   "exBook": "ProphetX",
+   "ex": 506,
+   "exBook": "Novig",
    "exPrices": {
+    "Novig": 506,
     "ProphetX": 490
    },
-   "exImplied": 0.1695,
-   "exBooks": 1
+   "exImplied": 0.1673,
+   "exBooks": 2
+  },
+  {
+   "key": "COREY KINER",
+   "name": "Corey Kiner",
+   "teams": [
+    "NE",
+    "SEA"
+   ],
+   "event": "8c94552d022acec4a0458d70c19d3da9",
+   "best": 600,
+   "bestBook": "FanDuel",
+   "prices": {
+    "FanDuel": 600,
+    "BetMGM": 600,
+    "Fanatics": 525,
+    "Caesars": 500,
+    "DraftKings": 425,
+    "Bovada": 420,
+    "BetRivers": 360
+   },
+   "implied": 0.1667,
+   "books": 7
   },
   {
    "key": "JAYLIN NOEL",
@@ -6787,36 +6806,6 @@
    "exBooks": 1
   },
   {
-   "key": "JALEN TOLBERT",
-   "name": "Jalen Tolbert",
-   "teams": [
-    "MIA",
-    "LV"
-   ],
-   "event": "c5d95f48a16849ab6bebc68fbbfcb74a",
-   "best": 800,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 800,
-    "BetMGM": 725,
-    "DraftKings": 700,
-    "Bovada": 700,
-    "BetRivers": 600,
-    "Caesars": 550,
-    "FanDuel": 500,
-    "BetOnline.ag": 500
-   },
-   "implied": 0.1339,
-   "books": 8,
-   "ex": 545,
-   "exBook": "Novig",
-   "exPrices": {
-    "Novig": 545
-   },
-   "exImplied": 0.155,
-   "exBooks": 1
-  },
-  {
    "key": "DESHAUN WATSON",
    "name": "Deshaun Watson",
    "teams": [
@@ -6937,25 +6926,27 @@
    "exBooks": 1
   },
   {
-   "key": "JACK ENDRIES",
-   "name": "Jack Endries",
+   "key": "JALEN TOLBERT",
+   "name": "Jalen Tolbert",
    "teams": [
-    "TB",
-    "CIN"
+    "MIA",
+    "LV"
    ],
-   "event": "ed6d24ff979f9c71979fead577b0b3f7",
-   "best": 1050,
-   "bestBook": "BetRivers",
+   "event": "c5d95f48a16849ab6bebc68fbbfcb74a",
+   "best": 800,
+   "bestBook": "Fanatics",
    "prices": {
-    "BetRivers": 1050,
-    "DraftKings": 800,
-    "Bovada": 800,
-    "Caesars": 575,
+    "Fanatics": 800,
+    "BetMGM": 725,
+    "DraftKings": 700,
+    "Bovada": 700,
+    "BetRivers": 600,
+    "Caesars": 550,
     "FanDuel": 500,
     "BetOnline.ag": 500
    },
-   "implied": 0.1296,
-   "books": 6,
+   "implied": 0.1339,
+   "books": 8,
    "ex": 567,
    "exBook": "Novig",
    "exPrices": {
@@ -6989,10 +6980,11 @@
    "ex": 580,
    "exBook": "ProphetX",
    "exPrices": {
-    "ProphetX": 580
+    "ProphetX": 580,
+    "Novig": 567
    },
-   "exImplied": 0.1471,
-   "exBooks": 1
+   "exImplied": 0.1485,
+   "exBooks": 2
   },
   {
    "key": "KEON COLEMAN",
@@ -7046,6 +7038,34 @@
    },
    "implied": 0.1404,
    "books": 8,
+   "ex": 590,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 590
+   },
+   "exImplied": 0.1449,
+   "exBooks": 1
+  },
+  {
+   "key": "JACK ENDRIES",
+   "name": "Jack Endries",
+   "teams": [
+    "TB",
+    "CIN"
+   ],
+   "event": "ed6d24ff979f9c71979fead577b0b3f7",
+   "best": 1050,
+   "bestBook": "BetRivers",
+   "prices": {
+    "BetRivers": 1050,
+    "DraftKings": 800,
+    "Bovada": 800,
+    "Caesars": 575,
+    "FanDuel": 500,
+    "BetOnline.ag": 500
+   },
+   "implied": 0.1296,
+   "books": 6,
    "ex": 590,
    "exBook": "Novig",
    "exPrices": {
@@ -7616,10 +7636,10 @@
     "PHI"
    ],
    "event": "17885cb8dcade8f6c3bce14b2de805e8",
-   "best": 1050,
+   "best": 1000,
    "bestBook": "Fanatics",
    "prices": {
-    "Fanatics": 1050,
+    "Fanatics": 1000,
     "BetRivers": 800,
     "DraftKings": 750,
     "Bovada": 725,
@@ -7741,10 +7761,11 @@
     "Bovada": 700,
     "FanDuel": 650,
     "Caesars": 650,
-    "BetOnline.ag": 600
+    "BetOnline.ag": 600,
+    "BetMGM": 500
    },
-   "implied": 0.125,
-   "books": 7,
+   "implied": 0.1292,
+   "books": 8,
    "ex": 700,
    "exBook": "ProphetX",
    "exPrices": {
@@ -8011,6 +8032,36 @@
    "exBooks": 1
   },
   {
+   "key": "BRENEN THOMPSON",
+   "name": "Brenen Thompson",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 1000,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 1000,
+    "BetRivers": 900,
+    "BetMGM": 825,
+    "DraftKings": 800,
+    "Caesars": 800,
+    "Bovada": 800,
+    "BetOnline.ag": 750,
+    "FanDuel": 750
+   },
+   "implied": 0.1111,
+   "books": 8,
+   "ex": 733,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 733
+   },
+   "exImplied": 0.12,
+   "exBooks": 1
+  },
+  {
    "key": "BREVYN SPANN FORD",
    "name": "Brevyn Spann-Ford",
    "teams": [
@@ -8164,12 +8215,12 @@
     "BetRivers": 850,
     "DraftKings": 800,
     "Bovada": 800,
-    "BetMGM": 725,
     "Caesars": 675,
+    "BetMGM": 675,
     "FanDuel": 650,
     "BetOnline.ag": 650
    },
-   "implied": 0.1162,
+   "implied": 0.1201,
    "books": 8,
    "ex": 760,
    "exBook": "ProphetX",
@@ -8535,52 +8586,6 @@
    "exBooks": 2
   },
   {
-   "key": "ELIJAH HIGGINS",
-   "name": "Elijah Higgins",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 1300,
-   "bestBook": "BetRivers",
-   "prices": {
-    "BetRivers": 1300,
-    "Fanatics": 1200,
-    "FanDuel": 1000,
-    "Caesars": 850,
-    "DraftKings": 750,
-    "BetMGM": 750,
-    "Bovada": 725,
-    "BetOnline.ag": 700
-   },
-   "implied": 0.1115,
-   "books": 8
-  },
-  {
-   "key": "BRENEN THOMPSON",
-   "name": "Brenen Thompson",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 1000,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 1000,
-    "BetRivers": 900,
-    "BetMGM": 825,
-    "DraftKings": 800,
-    "Caesars": 800,
-    "Bovada": 800,
-    "BetOnline.ag": 750,
-    "FanDuel": 750
-   },
-   "implied": 0.1111,
-   "books": 8
-  },
-  {
    "key": "DEVIN SINGLETARY",
    "name": "Devin Singletary",
    "teams": [
@@ -8661,6 +8666,36 @@
    },
    "implied": 0.1,
    "books": 7,
+   "ex": 809,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 809
+   },
+   "exImplied": 0.11,
+   "exBooks": 1
+  },
+  {
+   "key": "ELIJAH HIGGINS",
+   "name": "Elijah Higgins",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 1300,
+   "bestBook": "BetRivers",
+   "prices": {
+    "BetRivers": 1300,
+    "Fanatics": 1200,
+    "FanDuel": 1000,
+    "Caesars": 850,
+    "DraftKings": 750,
+    "BetMGM": 750,
+    "Bovada": 725,
+    "BetOnline.ag": 700
+   },
+   "implied": 0.1115,
+   "books": 8,
    "ex": 809,
    "exBook": "Novig",
    "exPrices": {
@@ -8838,6 +8873,66 @@
    "exBooks": 1
   },
   {
+   "key": "JACOBY BRISSETT",
+   "name": "Jacoby Brissett",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 1050,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 1050,
+    "FanDuel": 950,
+    "DraftKings": 900,
+    "BetOnline.ag": 900,
+    "Caesars": 900,
+    "Bovada": 900,
+    "BetRivers": 750,
+    "BetMGM": 450
+   },
+   "implied": 0.1,
+   "books": 8,
+   "ex": 900,
+   "exBook": "ProphetX",
+   "exPrices": {
+    "ProphetX": 900,
+    "Novig": 809
+   },
+   "exImplied": 0.105,
+   "exBooks": 2
+  },
+  {
+   "key": "KEANDRE LAMBERT SMITH",
+   "name": "KeAndre Lambert-Smith",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 1400,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 1400,
+    "BetRivers": 1400,
+    "BetMGM": 1350,
+    "Fanatics": 1200,
+    "Caesars": 850,
+    "BetOnline.ag": 750,
+    "FanDuel": 750
+   },
+   "implied": 0.0769,
+   "books": 7,
+   "ex": 852,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 852
+   },
+   "exImplied": 0.105,
+   "exBooks": 1
+  },
+  {
    "key": "KAYTRON ALLEN",
    "name": "Kaytron Allen",
    "teams": [
@@ -9005,7 +9100,7 @@
     "BetOnline.ag": 900,
     "Caesars": 900,
     "Bovada": 900,
-    "BetMGM": 675
+    "BetMGM": 700
    },
    "implied": 0.1,
    "books": 8,
@@ -9032,36 +9127,6 @@
    },
    "implied": 0.1,
    "books": 1
-  },
-  {
-   "key": "JACOBY BRISSETT",
-   "name": "Jacoby Brissett",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 1050,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 1050,
-    "FanDuel": 950,
-    "DraftKings": 900,
-    "BetOnline.ag": 900,
-    "Caesars": 900,
-    "Bovada": 900,
-    "BetRivers": 750,
-    "BetMGM": 450
-   },
-   "implied": 0.1,
-   "books": 8,
-   "ex": 900,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 900
-   },
-   "exImplied": 0.1,
-   "exBooks": 1
   },
   {
    "key": "CHRIS BELL",
@@ -9110,8 +9175,8 @@
     "Bovada": 900,
     "BetMGM": 850,
     "BetOnline.ag": 800,
-    "Fanatics": 750,
-    "BetRivers": 700
+    "BetRivers": 700,
+    "Fanatics": 700
    },
    "implied": 0.1026,
    "books": 8,
@@ -10091,28 +10156,6 @@
    "exBooks": 2
   },
   {
-   "key": "KEANDRE LAMBERT SMITH",
-   "name": "KeAndre Lambert-Smith",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 1400,
-   "bestBook": "DraftKings",
-   "prices": {
-    "DraftKings": 1400,
-    "BetRivers": 1400,
-    "BetMGM": 1350,
-    "Fanatics": 1200,
-    "Caesars": 850,
-    "BetOnline.ag": 750,
-    "FanDuel": 750
-   },
-   "implied": 0.0769,
-   "books": 7
-  },
-  {
    "key": "LUKE MUSGRAVE",
    "name": "Luke Musgrave",
    "teams": [
@@ -10893,7 +10936,7 @@
    "bestBook": "BetRivers",
    "prices": {
     "BetRivers": 2200,
-    "Fanatics": 1900,
+    "Fanatics": 2200,
     "BetMGM": 1750,
     "DraftKings": 1700,
     "Bovada": 1700,
@@ -10953,13 +10996,13 @@
    "prices": {
     "DraftKings": 3500,
     "BetRivers": 2800,
-    "Fanatics": 2200,
     "BetMGM": 2200,
+    "Fanatics": 1900,
     "Caesars": 1400,
     "FanDuel": 1200,
     "BetOnline.ag": 1100
    },
-   "implied": 0.0435,
+   "implied": 0.05,
    "books": 7,
    "ex": 1438,
    "exBook": "Novig",
@@ -11024,29 +11067,6 @@
    },
    "exImplied": 0.065,
    "exBooks": 1
-  },
-  {
-   "key": "REGGIE VIRGIL",
-   "name": "Reggie Virgil",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 2200,
-   "bestBook": "FanDuel",
-   "prices": {
-    "FanDuel": 2200,
-    "Fanatics": 1900,
-    "BetMGM": 1900,
-    "BetRivers": 1600,
-    "DraftKings": 1400,
-    "Caesars": 1400,
-    "Bovada": 1400,
-    "BetOnline.ag": 1100
-   },
-   "implied": 0.0627,
-   "books": 8
   },
   {
    "key": "JORDAN WATKINS",
@@ -11230,27 +11250,56 @@
    "exBooks": 1
   },
   {
-   "key": "KIRK COUSINS",
-   "name": "Kirk Cousins",
+   "key": "REGGIE VIRGIL",
+   "name": "Reggie Virgil",
    "teams": [
-    "MIA",
-    "LV"
+    "ARI",
+    "LAC"
    ],
-   "event": "c5d95f48a16849ab6bebc68fbbfcb74a",
-   "best": 2400,
-   "bestBook": "BetRivers",
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 2200,
+   "bestBook": "FanDuel",
    "prices": {
-    "BetRivers": 2400,
-    "DraftKings": 2200,
-    "Bovada": 2200,
-    "FanDuel": 1700,
-    "Fanatics": 1700,
-    "BetOnline.ag": 1700,
-    "BetMGM": 1700,
-    "Caesars": 1600
+    "FanDuel": 2200,
+    "Fanatics": 1900,
+    "BetMGM": 1900,
+    "BetRivers": 1600,
+    "DraftKings": 1400,
+    "Caesars": 1400,
+    "Bovada": 1400,
+    "BetOnline.ag": 1100
+   },
+   "implied": 0.0627,
+   "books": 8,
+   "ex": 1567,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 1567
+   },
+   "exImplied": 0.06,
+   "exBooks": 1
+  },
+  {
+   "key": "DERIUS DAVIS",
+   "name": "Derius Davis",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 1900,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 1900,
+    "FanDuel": 1900,
+    "DraftKings": 1700,
+    "Bovada": 1700,
+    "Caesars": 1600,
+    "BetOnline.ag": 1400,
+    "BetRivers": 900
    },
    "implied": 0.0556,
-   "books": 8,
+   "books": 7,
    "ex": 1567,
    "exBook": "Novig",
    "exPrices": {
@@ -11297,10 +11346,10 @@
     "PHI"
    ],
    "event": "17885cb8dcade8f6c3bce14b2de805e8",
-   "best": 2200,
+   "best": 2500,
    "bestBook": "Fanatics",
    "prices": {
-    "Fanatics": 2200,
+    "Fanatics": 2500,
     "DraftKings": 1900,
     "Bovada": 1900,
     "FanDuel": 1800,
@@ -11478,28 +11527,6 @@
    },
    "implied": 0.0556,
    "books": 1
-  },
-  {
-   "key": "DERIUS DAVIS",
-   "name": "Derius Davis",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 1900,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 1900,
-    "FanDuel": 1900,
-    "DraftKings": 1700,
-    "Bovada": 1700,
-    "Caesars": 1600,
-    "BetOnline.ag": 1400,
-    "BetRivers": 900
-   },
-   "implied": 0.0556,
-   "books": 7
   },
   {
    "key": "JALEN BROOKS",
@@ -11757,6 +11784,36 @@
    "exBooks": 1
   },
   {
+   "key": "KIRK COUSINS",
+   "name": "Kirk Cousins",
+   "teams": [
+    "MIA",
+    "LV"
+   ],
+   "event": "c5d95f48a16849ab6bebc68fbbfcb74a",
+   "best": 2400,
+   "bestBook": "BetRivers",
+   "prices": {
+    "BetRivers": 2400,
+    "DraftKings": 2200,
+    "Bovada": 2200,
+    "FanDuel": 1700,
+    "Fanatics": 1700,
+    "BetOnline.ag": 1700,
+    "BetMGM": 1700,
+    "Caesars": 1600
+   },
+   "implied": 0.0556,
+   "books": 8,
+   "ex": 1718,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 1718
+   },
+   "exImplied": 0.055,
+   "exBooks": 1
+  },
+  {
    "key": "IAN THOMAS",
    "name": "Ian Thomas",
    "teams": [
@@ -11812,28 +11869,6 @@
    "exBooks": 1
   },
   {
-   "key": "REGGIE GILLIAM",
-   "name": "Reggie Gilliam",
-   "teams": [
-    "NE",
-    "SEA"
-   ],
-   "event": "8c94552d022acec4a0458d70c19d3da9",
-   "best": 2800,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 2800,
-    "FanDuel": 2200,
-    "Caesars": 1900,
-    "DraftKings": 1800,
-    "Bovada": 1800,
-    "BetOnline.ag": 1700,
-    "BetRivers": 1700
-   },
-   "implied": 0.0526,
-   "books": 7
-  },
-  {
    "key": "MATTHEW STAFFORD",
    "name": "Matthew Stafford",
    "teams": [
@@ -11864,26 +11899,26 @@
    "exBooks": 2
   },
   {
-   "key": "DEVIN DUVERNAY",
-   "name": "Devin Duvernay",
+   "key": "REGGIE GILLIAM",
+   "name": "Reggie Gilliam",
    "teams": [
-    "ARI",
-    "LAC"
+    "NE",
+    "SEA"
    ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 2800,
+   "event": "8c94552d022acec4a0458d70c19d3da9",
+   "best": 3300,
    "bestBook": "BetMGM",
    "prices": {
-    "BetMGM": 2800,
-    "FanDuel": 2500,
-    "DraftKings": 2200,
-    "Bovada": 2200,
-    "Caesars": 1600,
-    "Fanatics": 1300,
-    "BetRivers": 1150,
-    "BetOnline.ag": 1100
+    "BetMGM": 3300,
+    "Fanatics": 2800,
+    "FanDuel": 2200,
+    "Caesars": 1900,
+    "DraftKings": 1800,
+    "Bovada": 1800,
+    "BetOnline.ag": 1700,
+    "BetRivers": 1700
    },
-   "implied": 0.0512,
+   "implied": 0.0513,
    "books": 8
   },
   {
@@ -11935,7 +11970,40 @@
     "BetOnline.ag": 1400
    },
    "implied": 0.05,
-   "books": 7
+   "books": 7,
+   "ex": 1900,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 1900
+   },
+   "exImplied": 0.05,
+   "exBooks": 1
+  },
+  {
+   "key": "HUNTER LONG",
+   "name": "Hunter Long",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 2500,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 2500,
+    "Caesars": 2300,
+    "FanDuel": 2200,
+    "BetRivers": 1800
+   },
+   "implied": 0.0426,
+   "books": 4,
+   "ex": 1900,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 1900
+   },
+   "exImplied": 0.05,
+   "exBooks": 1
   },
   {
    "key": "DYAMI BROWN",
@@ -12219,6 +12287,36 @@
    "exBooks": 1
   },
   {
+   "key": "DEVIN DUVERNAY",
+   "name": "Devin Duvernay",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 2800,
+   "bestBook": "BetMGM",
+   "prices": {
+    "BetMGM": 2800,
+    "FanDuel": 2500,
+    "DraftKings": 2200,
+    "Bovada": 2200,
+    "Caesars": 1600,
+    "Fanatics": 1300,
+    "BetRivers": 1150,
+    "BetOnline.ag": 1100
+   },
+   "implied": 0.0512,
+   "books": 8,
+   "ex": 2074,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 2074
+   },
+   "exImplied": 0.046,
+   "exBooks": 1
+  },
+  {
    "key": "J MICHAEL STURDIVANT",
    "name": "J. Michael Sturdivant",
    "teams": [
@@ -12387,25 +12485,6 @@
    "exBooks": 1
   },
   {
-   "key": "HUNTER LONG",
-   "name": "Hunter Long",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 2500,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 2500,
-    "Caesars": 2300,
-    "FanDuel": 2200,
-    "BetRivers": 1800
-   },
-   "implied": 0.0426,
-   "books": 4
-  },
-  {
    "key": "TYLAN WALLACE",
    "name": "Tylan Wallace",
    "teams": [
@@ -12550,6 +12629,35 @@
    },
    "implied": 0.0361,
    "books": 8,
+   "ex": 2339,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 2339
+   },
+   "exImplied": 0.041,
+   "exBooks": 1
+  },
+  {
+   "key": "ALEC INGOLD",
+   "name": "Alec Ingold",
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
+   "best": 2800,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 2800,
+    "Bovada": 2800,
+    "FanDuel": 2700,
+    "Fanatics": 2500,
+    "Caesars": 2200,
+    "BetOnline.ag": 1900,
+    "BetRivers": 1900
+   },
+   "implied": 0.0385,
+   "books": 7,
    "ex": 2339,
    "exBook": "Novig",
    "exPrices": {
@@ -12740,28 +12848,6 @@
    "books": 1
   },
   {
-   "key": "ALEC INGOLD",
-   "name": "Alec Ingold",
-   "teams": [
-    "ARI",
-    "LAC"
-   ],
-   "event": "1edfa5ceaa1ad2cb57df1c1b908731f6",
-   "best": 2800,
-   "bestBook": "DraftKings",
-   "prices": {
-    "DraftKings": 2800,
-    "Bovada": 2800,
-    "FanDuel": 2700,
-    "Fanatics": 2500,
-    "Caesars": 2200,
-    "BetOnline.ag": 1900,
-    "BetRivers": 1900
-   },
-   "implied": 0.0385,
-   "books": 7
-  },
-  {
    "key": "RONNIE RIVERS",
    "name": "Ronnie Rivers",
    "teams": [
@@ -12802,15 +12888,15 @@
    "bestBook": "DraftKings",
    "prices": {
     "DraftKings": 3500,
-    "Fanatics": 3500,
     "Bovada": 3300,
     "FanDuel": 3000,
     "BetOnline.ag": 2900,
+    "Fanatics": 2800,
     "Caesars": 2800,
     "BetMGM": 2200,
     "BetRivers": 2000
    },
-   "implied": 0.0328,
+   "implied": 0.0339,
    "books": 8,
    "ex": 2603,
    "exBook": "Novig",
@@ -12850,10 +12936,10 @@
    ],
    "event": "17885cb8dcade8f6c3bce14b2de805e8",
    "best": 4000,
-   "bestBook": "Fanatics",
+   "bestBook": "BetMGM",
    "prices": {
-    "Fanatics": 4000,
     "BetMGM": 4000,
+    "Fanatics": 3500,
     "FanDuel": 3000,
     "Caesars": 2900,
     "DraftKings": 2800,
@@ -12998,10 +13084,10 @@
     "PHI"
    ],
    "event": "17885cb8dcade8f6c3bce14b2de805e8",
-   "best": 8000,
+   "best": 7000,
    "bestBook": "Fanatics",
    "prices": {
-    "Fanatics": 8000,
+    "Fanatics": 7000,
     "DraftKings": 4000,
     "BetMGM": 4000,
     "Bovada": 4000,
