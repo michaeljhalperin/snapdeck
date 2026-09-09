@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-09T16:57:28Z",
+ "updated": "2026-09-09T19:45:25Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 1,
@@ -297,6 +297,87 @@
    "pos": "LB",
    "injury": "",
    "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "CAR",
+   "name": "Jonathon Brooks",
+   "key": "JONATHON BROOKS",
+   "pos": "RB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "CAR",
+   "name": "Bobby Brown III",
+   "key": "BOBBY BROWN",
+   "pos": "DT",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "CAR",
+   "name": "Patrick Jones II",
+   "key": "PATRICK JONES",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "TEN",
+   "name": "Keldric Faulk",
+   "key": "KELDRIC FAULK",
+   "pos": "DE",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "TEN",
+   "name": "Cedric Gray",
+   "key": "CEDRIC GRAY",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "IND",
+   "name": "A.J. Haulcy",
+   "key": "A J HAULCY",
+   "pos": "S",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "IND",
+   "name": "Andrew Ogletree",
+   "key": "ANDREW OGLETREE",
+   "pos": "TE",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "IND",
+   "name": "Alec Pierce",
+   "key": "ALEC PIERCE",
+   "pos": "WR",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "IND",
+   "name": "Sedrick Van Pran-Granger",
+   "key": "SEDRICK VAN PRAN GRANGER",
+   "pos": "C",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
    "status": ""
   }
  ]
