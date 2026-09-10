@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-09T22:52:52Z",
+ "updated": "2026-09-10T05:25:20Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 1,
@@ -151,9 +151,9 @@
    "name": "Alfred Collins",
    "key": "ALFRED COLLINS",
    "pos": "DT",
-   "injury": "",
+   "injury": "Knee",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "SF",
@@ -161,7 +161,7 @@
    "key": "LUKE GIFFORD",
    "pos": "LB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -170,7 +170,7 @@
    "key": "RENARDO GREEN",
    "pos": "CB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -179,7 +179,7 @@
    "key": "DRE GREENLAW",
    "pos": "LB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -188,7 +188,7 @@
    "key": "GRACEN HALTON",
    "pos": "DT",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -197,7 +197,7 @@
    "key": "ROMELLO HEIGHT",
    "pos": "DE",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -232,9 +232,9 @@
    "name": "James Thompson Jr.",
    "key": "JAMES THOMPSON",
    "pos": "DT",
-   "injury": "",
+   "injury": "Hamstring",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "LAR",
@@ -287,7 +287,7 @@
    "key": "JAYLEN WATSON",
    "pos": "CB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -871,6 +871,69 @@
    "name": "Sedrick Van Pran-Granger",
    "key": "SEDRICK VAN PRAN GRANGER",
    "pos": "C",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Isaiah Adams",
+   "key": "ISAIAH ADAMS",
+   "pos": "G",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Blake Gillikin",
+   "key": "BLAKE GILLIKIN",
+   "pos": "P",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Will Johnson",
+   "key": "WILL JOHNSON",
+   "pos": "CB",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Jeremiyah Love",
+   "key": "JEREMIYAH LOVE",
+   "pos": "RB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Josh Sweat",
+   "key": "JOSH SWEAT",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Dadrion Taylor-Demerson",
+   "key": "DADRION TAYLOR DEMERSON",
+   "pos": "S",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Garrett Williams",
+   "key": "GARRETT WILLIAMS",
+   "pos": "CB",
    "injury": "",
    "practice": "Limited Participation in Practice",
    "status": ""
