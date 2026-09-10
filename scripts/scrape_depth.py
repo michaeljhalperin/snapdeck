@@ -29,13 +29,31 @@ OUT_PATH = os.path.join(
     "data", "ourlads.txt",
 )
 
-# Ourlads' own codes, including the two that differ from the CSV's.
+# Accept BOTH Ourlads' historic codes and the standard ones. Ourlads has
+# used ARZ/RAM, but a code this list doesn't know causes every row for that
+# team to be skipped while its section headers still come through - which
+# looks like an empty roster rather than a parsing failure.
 OL_TEAMS = {
-    "ARZ", "ATL", "BAL", "BUF", "CAR", "CHI", "CIN", "CLE", "DAL", "DEN",
-    "DET", "GB", "HOU", "IND", "JAX", "KC", "LAC", "LV", "MIA", "MIN",
-    "NE", "NO", "NYG", "NYJ", "PHI", "PIT", "RAM", "SEA", "SF", "TB",
+    "ARI", "ARZ", "ATL", "BAL", "BUF", "CAR", "CHI", "CIN", "CLE", "DAL",
+    "DEN", "DET", "GB", "GNB", "HOU", "IND", "JAX", "JAC", "KC", "KAN",
+    "LA", "LAC", "LAR", "LV", "LVR", "MIA", "MIN", "NE", "NWE", "NO",
+    "NOR", "NYG", "NYJ", "PHI", "PIT", "RAM", "SEA", "SF", "SFO", "TB",
+    "TAM", "TEN", "WAS", "WSH",
+}
+
+# Every team we expect to see, in the CSV's convention.
+EXPECTED = {
+    "ARI", "ATL", "BAL", "BUF", "CAR", "CHI", "CIN", "CLE", "DAL", "DEN",
+    "DET", "GB", "HOU", "IND", "JAX", "KC", "LAC", "LAR", "LV", "MIA",
+    "MIN", "NE", "NO", "NYG", "NYJ", "PHI", "PIT", "SEA", "SF", "TB",
     "TEN", "WAS",
 }
+
+# Alternate codes -> the standard one, for counting coverage only. The row
+# text itself is written out verbatim; index.html does its own mapping.
+ALIASES = {"ARZ": "ARI", "RAM": "LAR", "LA": "LAR", "GNB": "GB", "KAN": "KC",
+           "NWE": "NE", "NOR": "NO", "SFO": "SF", "TAM": "TB", "LVR": "LV",
+           "JAC": "JAX", "WSH": "WAS"}
 
 SECTION_RE = re.compile(
     r"^(Offense|Defense|Special Teams|Practice Squad|Reserves)\s*-", re.I)
@@ -53,6 +71,7 @@ def clean(node):
 def scrape(html):
     soup = BeautifulSoup(html, "lxml")
     lines, teams_seen, row_count = [], set(), 0
+    unknown = {}
 
     # Walk every row on the page in document order and classify by content
     # rather than by CSS class, so a restyle doesn't break this.
@@ -79,15 +98,20 @@ def scrape(html):
             lines.append(first)
             continue
 
+        if first and first not in OL_TEAMS and re.fullmatch(r"[A-Z]{2,4}", first):
+            # Looks like a team code we don't recognise. Never skip this
+            # silently - it is exactly how a whole roster disappears.
+            unknown[first] = unknown.get(first, 0) + 1
+
         if first in OL_TEAMS:
             # Emit the row verbatim as tabs. Trailing empty cells are kept:
             # parsePlayerCell ignores blanks, and dropping them would shift
             # the column index that decides depth order.
             lines.append("\t".join(texts))
-            teams_seen.add(first)
+            teams_seen.add(ALIASES.get(first, first))
             row_count += 1
 
-    return "\n".join(lines) + "\n", teams_seen, row_count
+    return "\n".join(lines) + "\n", teams_seen, row_count, unknown
 
 
 def fetch(url, tries=3):
@@ -111,8 +135,22 @@ def fetch(url, tries=3):
 
 def main():
     print(f"Fetching {URL}")
-    text, teams, rows = scrape(fetch(URL))
+    text, teams, rows, unknown = scrape(fetch(URL))
     print(f"  {len(teams)} teams, {rows} chart rows, {len(text)} chars")
+
+    if unknown:
+        print(f"  ! unrecognised team codes: {unknown}")
+    missing = sorted(EXPECTED - teams)
+    if missing:
+        print(f"  ! NO ROWS PARSED FOR: {', '.join(missing)}")
+
+    # One silently empty roster is a bug, not a bad day at Ourlads.
+    if missing:
+        raise SystemExit(
+            f"{len(missing)} team(s) produced no rows: {', '.join(missing)}.\n"
+            + (f"Unrecognised codes seen: {unknown}\n" if unknown else "")
+            + "Refusing to overwrite data/ourlads.txt - the previous chart stands."
+        )
 
     if len(teams) < MIN_TEAMS or rows < MIN_ROWS:
         raise SystemExit(
