@@ -439,7 +439,7 @@ function parsePlayerCell(cell,isReserve){
 
 function loadDepth(text){
   const lines=text.split(/\r?\n/);
-  const teams={};let team=null,section="ACT",seasonYear=null,n=0;
+  const teams={};const unknownTeams={};let team=null,section="ACT",seasonYear=null,n=0;
 
   for(const raw of lines){
     const line=raw.replace(/\u00A0/g," ").trimEnd();
@@ -449,7 +449,10 @@ function loadDepth(text){
     const hdr=/^(?:.*?\t)?([A-Za-z0-9 .'-]+?)\s+Updated:\s*(\S+)/.exec(flat);
     if(hdr&&FULL2ABBR[hdr[1].trim()]){
       team=FULL2ABBR[hdr[1].trim()];
-      teams[team]={name:hdr[1].trim(),updated:hdr[2],rows:[]};
+      // Merge rather than replace: a second "Updated:" line for the same
+      // team would otherwise reset rows already collected to empty.
+      teams[team]=Object.assign(teams[team]||{rows:[]},
+        {name:hdr[1].trim(),updated:hdr[2]});
       const y=/\d{1,2}\/\d{1,2}\/(\d{4})/.exec(hdr[2]);if(y) seasonYear=+y[1];
       section="ACT";continue;
     }
@@ -459,7 +462,12 @@ function loadDepth(text){
     if(!line.includes("\t")) continue;
     const f=line.split("\t");
     const t0=f[0].trim().replace(/\*+/g,"");
-    if(!OL_TEAMS.has(t0)) continue;
+    if(!OL_TEAMS.has(t0)){
+      // Looks like a data row but the team code isn't one we know. Silently
+      // skipping these is how a whole roster disappears without a trace.
+      if(/^[A-Z]{2,4}$/.test(t0)) unknownTeams[t0]=(unknownTeams[t0]||0)+1;
+      continue;
+    }
     const abbr=std(t0);
     teams[abbr]=teams[abbr]||{name:abbr,updated:"",rows:[]};
     if(team&&std(team)!==abbr){ /* row team wins */ }
@@ -488,7 +496,12 @@ function loadDepth(text){
       act.forEach((r,i)=>r.depth=i+1);
     }
   }
-  return {teams,seasonYear:seasonYear||new Date().getFullYear(),
+  const empties=Object.keys(teams).filter(t=>!teams[t].rows.length);
+  if(Object.keys(unknownTeams).length||empties.length)
+    console.warn("Snap Deck depth chart:",
+      Object.keys(unknownTeams).length?`unrecognised team codes ${JSON.stringify(unknownTeams)}`:"",
+      empties.length?`teams with zero rows: ${empties.join(", ")}`:"");
+  return {teams,unknownTeams,empties,seasonYear:seasonYear||new Date().getFullYear(),
     meta:{loaded:Date.now(),teams:Object.keys(teams).length,players:n}};
 }
 
@@ -547,16 +560,12 @@ const BOOK_SHORT={"BetOnline.ag":"BetOnline","Bovada":"Bovada","BetRivers":"BetR
 const shortBook=b=>BOOK_SHORT[b]||b;
 const amToDec=a=>1+(a>0?a/100:100/Math.abs(a));
 const impliedPct=a=>100/amToDec(a);
-// Fair value is NOT computed from the sportsbooks: their prices carry vig and
-// the feed only returns the "Yes" side, so there is no "No" price to devig
-// against. Where exchanges are present their price is used as the fair-value
-// proxy (they charge commission rather than building juice into the line) and
-// edge is expected value per unit staked at the best book price. Absent
-// exchange data there is no fair value and none is shown.
-function edgeVsExchange(o){
-  if(!o||o.best==null||o.exImplied==null) return null;
-  return amToDec(o.best)*o.exImplied-1;
-}
+// Fair value is a genuine two-way devig, computed in the scraper from a single
+// venue that quotes BOTH sides: p(yes) and p(no) each carry that venue's
+// margin, so normalising by their sum removes it. The venue with the tightest
+// overround wins, since a wide one means a placeholder rather than a market.
+// Sportsbook prices are never used for fair value - one side can't be devigged.
+const edgeOf=o=>(o&&o.edge!=null)?o.edge:null;
 
 /* ---------- draft board ----------
    Ourlads' tag carries the draft year and round ("26/3") but never the pick
@@ -919,12 +928,21 @@ function detailHTML(r,sn,inj,weeks){
            <td class="px">${impliedPct(price).toFixed(1)}%</td></tr>`);
       Object.entries(o.exPrices||{}).forEach(([b,p])=>add(b,p,true,p===o.ex));
       Object.entries(o.prices||{}).forEach(([b,p])=>add(b,p,false,p===o.best));
-      const e=edgeVsExchange(o);
-      const note=e==null
-        ? `<p class="subline">No exchange price for this player, so there's no fair-value reference \u2014 the book numbers below still carry vig.</p>`
-        : `<p class="subline">Best book ${fmtAm(o.best)} against the exchange's ${(o.exImplied*100).toFixed(1)}%:
-             <span class="${e>0?"edge-pos":"edge-neg"}">${e>0?"+":""}${(e*100).toFixed(1)}% edge</span>.
-             Treats the exchange as fair value; it isn't devigged, and exchange props run thin.</p>`;
+      const e=edgeOf(o);
+      let note;
+      if(o.fair==null){
+        note=`<p class="subline">No venue quoted both sides, so there's no devigged fair value.
+          The prices below all carry vig and can't be compared to a true probability.</p>`;
+      }else{
+        const q=o.fairQuotes?Object.entries(o.fairQuotes):[];
+        const detail=q.map(([v,x])=>`${esc(v)} ${(x.fair*100).toFixed(1)}% (${((x.overround-1)*100).toFixed(1)}% wide)`).join(" \u00b7 ");
+        note=`<p class="subline">Fair <b>${(o.fair*100).toFixed(1)}%</b> \u2014 devigged from ${esc(o.fairFrom)},
+          whose two-way quote is ${((o.fairOverround-1)*100).toFixed(1)}% wide.`+
+          (e==null?" No sportsbook price to compare."
+                 :` Best book ${fmtAm(o.best)} gives <span class="${e>0?"edge-pos":"edge-neg"}">${e>0?"+":""}${(e*100).toFixed(1)}% edge</span>.`)+
+          (q.length>1?`<br><span style="opacity:.8">All two-way quotes: ${detail}</span>`:"")+
+          `</p>`;
+      }
       return `<div><h3>Anytime TD</h3>${note}
         <table class="oddsbook"><thead><tr><th>Book</th><th>Price</th><th>Implied</th></tr></thead>
         <tbody>${rows.join("")}</tbody></table></div>`;})()}
@@ -962,7 +980,15 @@ function renderGame(g){
         if(!showPos[grp]) continue;
         inner+=groupSectionHTML(team,grp,label,weeks);
       }
-      if(!inner) inner='<div class="gvempty">Nothing selected \u2014 tick a position above.</div>';
+      if(!inner){
+        const anyTicked=GROUPS.some(([g])=>showPos[g]);
+        inner=!T.rows.length
+          ? `<div class="gvempty">No players parsed for ${esc(team)}. The depth chart file has a
+             heading for this team but no readable rows \u2014 usually an unrecognised team code.
+             Check the browser console for details.</div>`
+          : (anyTicked?'<div class="gvempty">No players in the selected positions.</div>'
+                      :'<div class="gvempty">Nothing selected \u2014 tick a position above.</div>');
+      }
     }
     const flagged=T?T.rows.filter(r=>{const i=injFor(r);return i&&i.status}).length:0;
     return `<div class="gvside"><h3>${esc(T?T.name:team)}<span class="away">${isAway?"away":"home"}`+
