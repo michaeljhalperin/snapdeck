@@ -867,10 +867,55 @@ LAC	IR	71	Taylor, Branson OG^	44	Matlock, Scott TE^	6	PERRYMAN, DENZEL ILB^	63	B
 LAC	NFI	67	World, Isaiah OT^								
 Los Angeles Rams Updated: 09/08/2026 9:44PM
 Offense - Los Angeles Rams
+LAR	LWR	17	ADAMS, DAVANTE CC/NYJ	4	Mumpfield, Konata 25/7						
+LAR	RWR	12	Nacua, Puka 23/5	8	Atwell, Tutu T/Mia	6	Daniels, CJ 26/6				
+LAR	SWR	88	Whittington, Jordan 24/6	19	Smith, Xavier CF23						
+LAR	LT	77	Jackson, Alaric CF21	68	QUESSENBERRY, DAVID U/Min						
+LAR	LG	73	Avila, Steve 23/2	66	Murray, Bill SF26						
+LAR	C	65	SHELTON, COLEMAN U/Chi	63	McMahon, Dylan P/Phi						
+LAR	RG	69	Dotson, Kevin T/Pit	50	Limmer, Beaux 24/6						
+LAR	RT	71	McClendon Jr., Warren 23/5								
+LAR	TE	84	Parkinson, Colby U/Sea	89	HIGBEE, TYLER 16/4	18	Ferguson, Terrance 25/2	87	Allen, Davis 23/5	86	Klare, Max 26/2
+LAR	QB	9	STAFFORD, MATTHEW T/Det	13	Bennett IV, Stetson 23/4	15	Simpson, Ty 26/1				
+LAR	RB	23	Williams, Kyren 22/5	24	Corum, Blake 24/3	20	Rivers, Ronnie SF22				
 Defense - Los Angeles Rams
+LAR	DE	99	DONALD, AARON 14/1	55	Fiske, Braden 24/2						
+LAR	NT	97	FORD, POONA U/LAC	90	Davis, Tyler 24/6						
+LAR	DT	91	Turner, Kobie 23/3	57	Hamilton, Ty 25/5						
+LAR	LOLB	0	Young, Byron 23/3	10	Stewart, Josaiah 25/3	47	Bailey, Wesley CF26				
+LAR	LILB	53	Landman, Nate U/Atl	56	Dolac, Shaun CF25						
+LAR	RILB	48	Speights, Omar CF24	44	Stuard, Grant U/Det						
+LAR	ROLB	95	GARRETT, MYLES T/Cle	94	Johnson, Desjuan 23/7						
+LAR	LCB	35	Watson, Jaylen U/KC	1	Forbes Jr., Emmanuel W/Was						
+LAR	SS	3	Curl, Kam U/Was	2	McCollough, Jaylen CF24						
+LAR	FS	5	Kinchens, Kamren 24/3								
+LAR	RCB	22	McDuffie, Trent T/KC								
+LAR	NB	37	Lake, Quentin 22/6	30	Wallace, Josh CF24						
 Special Teams - Los Angeles Rams
+LAR	PT	42	Evans, Ethan 23/7								
+LAR	PK	92	Mevis, Harrison SF25								
+LAR	LS	49	CARDONA, JOE U/Mia								
+LAR	H	42	Evans, Ethan 23/7								
+LAR	KO	42	Evans, Ethan 23/7								
+LAR	PR	19	Smith, Xavier CF23	4	Mumpfield, Konata 25/7						
+LAR	KR	88	Whittington, Jordan 24/6	20	Rivers, Ronnie SF22						
 Practice Squad - Los Angeles Rams
+LAR	WR	11	BACHMAN, ALEX U/LV	81	Presley, Brennan CF25						
+LAR	OT	64	Blaske, Austin CF26								
+LAR	OG	72	HANCE, BLAKE U/Ten								
+LAR	C										
+LAR	TE	83	Villari, Dan CF26								
+LAR	QB										
+LAR	RB	33	Connors, Dean CF26	32	Waters, Jordan CF25						
+LAR	ED	59	Peterson III, Darryl CF26	54	Sheriff, Jamie SF26						
+LAR	DT	93	Norton, Bill CF25	52	Murchison, Larrell W/Ten						
+LAR	LB	58	Neal, Elias CF24								
+LAR	CB	25	Fourqurean, Nyzier CF26	21	Lampkin, Cam CF24						
+LAR	S	45	Andersen, Nick CF26	34	Ingle, Tanner CF23						
+LAR	PT	14	Bouwmeester, Jack SF26*								
 Reserves - Los Angeles Rams
+LAR	IR	79	Trost, Keagen OT^	67	Dedich, Justin OG^	36	Johnson, Alex CB	40	Rickert, Daniel OLB	16	Caldwell, Matthew QB
+LAR	IR	51	Walls III, Eddie OLB	11	Thomas, Keir OLB						
 Las Vegas Raiders Updated: 09/08/2026 9:33PM
 Offense - Las Vegas Raiders
 LV	LWR	1	Tucker, Tre 23/3								
