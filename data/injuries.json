@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T15:57:00Z",
+ "updated": "2026-09-12T22:47:44Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 1,
@@ -1008,7 +1008,7 @@
    "pos": "LB",
    "injury": "Hamstring",
    "practice": "Did Not Participate In Practice",
-   "status": "Questionable"
+   "status": "Out"
   },
   {
    "team": "IND",
@@ -1303,9 +1303,9 @@
    "name": "Eli Stowers",
    "key": "ELI STOWERS",
    "pos": "TE",
-   "injury": "Hamstring",
+   "injury": "Hamstring, Quadricep",
    "practice": "Limited Participation in Practice",
-   "status": "Questionable"
+   "status": "Out"
   },
   {
    "team": "MIA",
@@ -1591,9 +1591,9 @@
    "name": "Chamarri Conner",
    "key": "CHAMARRI CONNER",
    "pos": "S",
-   "injury": "",
+   "injury": "Knee",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "KC",
@@ -1610,7 +1610,7 @@
    "key": "CHRIS JONES",
    "pos": "DT",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -1636,9 +1636,9 @@
    "name": "Josh Simmons",
    "key": "JOSH SIMMONS",
    "pos": "T",
-   "injury": "",
+   "injury": "Back",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "KC",
@@ -1655,7 +1655,7 @@
    "key": "L JARIUS SNEED",
    "pos": "CB",
    "injury": "",
-   "practice": "Full Participation in Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
