@@ -1,4 +1,4 @@
-Arizona Cardinals Updated: 09/11/2026 4:58PM
+Arizona Cardinals Updated: 09/12/2026 5:58PM
 Offense - Arizona Cardinals
 ARZ	LWR	18	Harrison Jr., Marvin 24/1	86	Brooks, Jalen SF25						
 ARZ	RWR	14	Wilson, Michael 23/3	80	Fehoko, Simi U/LAC	82	Virgil, Reggie 26/5				
@@ -8,11 +8,11 @@ ARZ	LG	73	SEUMALO, ISAAC U/Pit	58	Conner, Hayden 25/6
 ARZ	C	72	FROHOLDT, HJALTE U/Cle								
 ARZ	RG	74	Adams, Isaiah 24/3	71	Gaines II, Jon 23/4						
 ARZ	RT	65	WILKINSON, ELIJAH U/Atl	66	Williams, Jayden 26/7						
-ARZ	TE	85	McBride, Trey 22/2	84	Higgins, Elijah W/Mia	89	Long, Hunter T/Jax	87	Reiman, Tip 24/3		
+ARZ	TE	85	McBride, Trey 22/2	84	Higgins, Elijah W/Mia	89	Long, Hunter T/Jax				
 ARZ	QB	7	BRISSETT, JACOBY U/NE	15	MINSHEW II, GARDNER U/KC	19	Beck, Carson 26/3				
-ARZ	RB	4	Love, Jeremiyah 26/1	22	Allgeier, Tyler U/Atl	6	CONNER, JAMES U/Pit	20	Knight, Bam SF25		
+ARZ	RB	4	Love, Jeremiyah 26/1	22	Allgeier, Tyler U/Atl	20	Knight, Bam SF25				
 Defense - Arizona Cardinals
-ARZ	LDE	97	Nolen III, Walter 25/1	91	COLLIER, L.J. U/Sea	90	Carter, Zach SF25				
+ARZ	LDE	97	Nolen III, Walter 25/1	91	COLLIER, L.J. U/Sea						
 ARZ	NT	51	Lopez, Roy U/Det	95	BILLINGS, ANDREW U/Chi						
 ARZ	RDE	55	Stills, Dante 23/6	56	Robinson, Darius 24/1						
 ARZ	LOLB	25	Collins, Zaven 21/1	5	Browning, Baron T/Den						
@@ -22,7 +22,7 @@ ARZ	ROLB	10	Sweat, Josh U/Phi	52	Burch, Jordan 25/3	54	Leota, Eku SF25
 ARZ	LCB	16	Melton, Max 24/2	13	Clark, Kei'Trel 23/6						
 ARZ	SS	3	BAKER, BUDDA 17/2	36	Crawford, Kitan 25/7	31	Williams Jr., Wydett CF26				
 ARZ	FS	28	Wingard, Andrew U/Jax	42	Taylor-Demerson, Dadrion 24/4						
-ARZ	RCB	2	Johnson, Will 25/2								
+ARZ	RCB	2	Johnson, Will 25/2	35	King, Kalen P/Car						
 ARZ	NB	21	Williams, Garrett 23/3	29	Burke, Denzel 25/5						
 Special Teams - Arizona Cardinals
 ARZ	PT	12	Gillikin, Blake SF23								
@@ -43,11 +43,13 @@ ARZ	RB	26	Hull, Evan W/Hou
 ARZ	ED	49	Robertson, Cameron CF26								
 ARZ	DT	96	Williams, Damonic CF26	93	Horsley, Cam W/Ten	98	Harrison-Hunte, Jared SF26				
 ARZ	LB	48	Asante, Eugene SF26								
-ARZ	CB	24	Thomas V, Starling W/Det	35	King, Kalen P/Car	27	Jamison, D'Shawn SF26				
+ARZ	CB	24	Thomas V, Starling W/Det	27	Jamison, D'Shawn SF26						
 ARZ	S										
 Reserves - Arizona Cardinals
-ARZ	IR	94	Proctor, Kaleb DE	57	Bisontis, Chase OG	32	Blount, Joey S	46	Geers, Jameson TE	33	Benson, Trey RB
-Atlanta Falcons Updated: 09/10/2026 5:04PM
+ARZ	IR	6	CONNER, JAMES RB^	90	Carter, Zach DE^	32	Blount, Joey S	46	Geers, Jameson TE	33	Benson, Trey RB
+ARZ	IR	94	Proctor, Kaleb DE	57	Bisontis, Chase OG						
+ARZ	PUP	87	Reiman, Tip TE^								
+Atlanta Falcons Updated: 09/12/2026 6:23PM
 Offense - Atlanta Falcons
 ATL	LWR	5	London, Drake 22/1	19	Blair, Chris SF23						
 ATL	RWR	4	Dotson, Jahan U/Phi								
@@ -56,15 +58,15 @@ ATL	LT	70	MATTHEWS, JAKE 14/1	72	Jerrell, Michael T/Sea
 ATL	LG	65	Bergeron, Matthew 23/2	68	Hinton, Kyle SF23						
 ATL	C	64	Neuzil, Ryan CF21	62	LEVIN, COREY U/Ten						
 ATL	RG	63	Lindstrom, Chris 19/1								
-ATL	RT	71	Taylor, Jawaan CC/KC	75	Onianwa, Ethan 26/7	73	Williams, Cameron W/Phi				
-ATL	TE	8	Pitts Sr., Kyle 21/1	89	Woerner, Charlie U/SF	81	HOOPER, AUSTIN U/NE				
+ATL	RT	71	Taylor, Jawaan CC/KC	75	Onianwa, Ethan 26/7						
+ATL	TE	8	Pitts Sr., Kyle 21/1	89	Woerner, Charlie U/SF	81	HOOPER, AUSTIN U/NE	87	Muse, Nick SF26		
 ATL	QB	9	Penix Jr., Michael 24/1	1	Tagovailoa, Tua CC/Mia	13	RUSH, COOPER CC/Bal	18	Strand, Jack CF26		
 ATL	RB	7	Robinson, Bijan 23/1	15	Robinson, Brian U/SF						
 Defense - Atlanta Falcons
 ATL	DE	54	Dorlus, Brandon 24/4	90	HAND, DA'SHAWN U/LAC						
-ATL	NT	94	London, LaCale SF23								
-ATL	DT	92	Smith, Maason T/Jax	95	Dexter Sr., Gervon T/Chi						
-ATL	LOLB	55	SMITH, ZA'DARIUS SF26	51	Ivey, Jared W/Sea						
+ATL	NT	92	Smith, Maason T/Jax	94	London, LaCale SF23						
+ATL	DT	95	Dexter Sr., Gervon T/Chi								
+ATL	LOLB	55	SMITH, ZA'DARIUS SF26	51	Ivey, Jared W/Sea	48	Trice, Bralen 24/3				
 ATL	LILB	0	Deablo, Divine U/LV	45	Harris, Christian U/Hou	46	WOODS, JOSH U/Arz				
 ATL	RILB	53	Daniels, Kendal 26/4	56	Perkins Jr., Harold 26/6						
 ATL	ROLB	99	Thomas, Cameron U/Cle	52	EBUKAM, SAMSON U/Ind	22	Abdullah, Yasir W/Jax				
@@ -72,7 +74,7 @@ ATL	LCB	21	Hughes, Mike U/Det	28	FORD JR., MIKE U/Cle	36	DeWalt IV, Malcolm CF26
 ATL	SS	3	Bates III, Jessie U/Cin	23	Hellams, DeMarcco 23/7						
 ATL	FS	31	Watts, Xavier 25/3	29	Brown, Sydney T/Phi						
 ATL	RCB	24	Terrell Jr., A.J. 20/1	26	Henderson, C.J. U/Pit						
-ATL	NB	12	Terrell, Avieon 26/2	33	Bowman Jr., Billy 25/4						
+ATL	NB	33	Bowman Jr., Billy 25/4	12	Terrell, Avieon 26/2						
 Special Teams - Atlanta Falcons
 ATL	PT	16	Bailey, Jake U/Mia								
 ATL	PK	6	FOLK, NICK U/NYJ								
@@ -95,13 +97,13 @@ ATL	LB
 ATL	CB	30	Holmes, Darnay U/LV								
 ATL	S	34	Robinson, Jammie SF25								
 Reserves - Atlanta Falcons
-ATL	IR	88	Collins, Beaux WR^	40	Bertrand, JD ILB^	11	Walker, Jalon OLB	44	Sermon, Trey RB	43	Verdon, Malik ILB
+ATL	IR	73	Williams, Cameron OT^	40	Bertrand, JD ILB^	88	Collins, Beaux WR^	11	Walker, Jalon OLB	44	Sermon, Trey RB
 ATL	PUP	77	NORTON, STORM OT	50	Malone, DeAngelo OLB						
 ATL	NFI	98	Thompson, Anterio DT^								
 ATL	SUS	27	Pearce Jr., James OLB^								
-Baltimore Ravens Updated: 09/11/2026 4:44PM
+Baltimore Ravens Updated: 09/12/2026 5:56PM
 Offense - Baltimore Ravens
-BAL	LWR	7	Bateman, Rashod 21/1	13	Sarratt, Elijah 26/4						
+BAL	LWR	7	Bateman, Rashod 21/1	13	Sarratt, Elijah 26/4	17	MOORE, CHRIS U/Was				
 BAL	RWR	81	Walker, Devontez 24/4	6	Lane, Ja'Kobi 26/3						
 BAL	SWR	4	Flowers, Zay 23/1	10	Wester, LaJohntay 25/6						
 BAL	LT	79	STANLEY, RONNIE 16/1	76	Vinson, Carson 25/5						
@@ -117,7 +119,7 @@ BAL	DE	93	CAMPBELL, CALAIS U/Arz	90	Peebles, Aeneas 25/6
 BAL	NT	98	Jones, Travis 22/3	94	JENKINS, JOHN U/LV						
 BAL	DT	92	Madubuike, Nnamdi 20/3	96	Washington Jr., Broderick 20/5						
 BAL	RUSH	91	HENDRICKSON, TREY U/Cin	15	Green, Mike 25/2						
-BAL	WLB	40	Buchanan, Teddye 25/4	32	Simpson, Trenton 23/3						
+BAL	WLB	40	Buchanan, Teddye 25/4	32	Simpson, Trenton 23/3	48	Jones Jr., Carl W/Chi				
 BAL	MLB	0	Smith, Roquan T/Chi	49	Higgins IV, Jay CF25						
 BAL	SLB	95	Robinson, Tavius 23/4	9	Young, Zion 26/2	97	Burke, Ethan CF26				
 BAL	LCB	44	HUMPHREY, MARLON 17/1	27	Tampa Jr., T.J. 24/4						
@@ -134,7 +136,7 @@ BAL	KO	33	Loop, Tyler 25/6
 BAL	PR	10	Wester, LaJohntay 25/6	13	Sarratt, Elijah 26/4						
 BAL	KR	26	Ali, Rasheen 24/5	10	Wester, LaJohntay 25/6	43	Hill, Justice 19/4				
 Practice Squad - Baltimore Ravens
-BAL	WR	17	MOORE, CHRIS U/Was	16	Guillory, Xavier CF25						
+BAL	WR	16	Guillory, Xavier CF25								
 BAL	OT	78	Lichtenhan, Gerad CF25	61	Arcuri, A.J. SF26						
 BAL	OG	75	Edoga, Chuma SF26								
 BAL	C										
@@ -143,17 +145,17 @@ BAL	QB
 BAL	RB	35	Ward, Jonathan SF25								
 BAL	ED	50	Isaac, Adisa 24/3	56	Rucker, Kaimon CF25						
 BAL	DT	99	Benny, Rayshaun 26/7	65	Olajiga, David SF25*						
-BAL	LB	48	Jones Jr., Carl W/Chi	42	DeLuca, Dominic CF26						
-BAL	CB	34	Webb Jr., Lardarius CF26								
+BAL	LB	42	DeLuca, Dominic CF26	47	Johnson, Jamon SF26						
+BAL	CB										
 BAL	S	25	Wallace, K'Von SF26								
 BAL	PK	45	Moody, Jake SF26								
 Reserves - Baltimore Ravens
 BAL	IR	23	Randall, Adam RB^	31	Kone, Bilhal CB^	11	Thompson, Skylar QB	41	Robinson, Jahquez S	63	PINTER, DANNY C
-Buffalo Bills Updated: 09/08/2026 6:45PM
+Buffalo Bills Updated: 09/12/2026 5:47PM
 Offense - Buffalo Bills
 BUF	LWR	0	Coleman, Keon 24/2	5	Palmer, Joshua U/LAC						
-BUF	RWR	2	Moore, DJ T/Chi								
-BUF	SWR	10	Shakir, Khalil 22/5	13	Bell, Skyler 26/4						
+BUF	RWR	2	Moore, DJ T/Chi	13	Bell, Skyler 26/4						
+BUF	SWR	10	Shakir, Khalil 22/5	19	Dortch, Greg SF26						
 BUF	LT	73	DAWKINS, DION 17/2	74	Bowry, Jude 26/4						
 BUF	LG	70	Anderson, Alec CF22	63	CORBETT, AUSTIN U/Car						
 BUF	C	66	McGovern, Connor U/Dal	53	Cushenberry, Lloyd CC/Ten						
@@ -161,7 +163,7 @@ BUF	RG	64	Torrence, O'Cyrus 23/2	60	Reed-Adams, Ar'maj 26/7
 BUF	RT	79	Brown, Spencer 21/3	68	Grable, Tylan 24/6						
 BUF	TE	86	Kincaid, Dalton 23/1	88	Knox, Dawson 19/3	85	Hawes, Jackson 25/5	83	Latu, Keleki CF25		
 BUF	QB	17	ALLEN, JOSH 18/1	11	ALLEN, KYLE U/Det						
-BUF	RB	4	Cook III, James 22/2	26	Johnson, Ty SF23	7	Davis, Ray 24/4				
+BUF	RB	4	Cook III, James 22/2	26	Johnson, Ty SF23	7	Davis, Ray 24/4	20	Gore Jr., Frank CF24		
 Defense - Buffalo Bills
 BUF	DE	98	Sanders, T.J. 25/2	94	Jackson, Landon 25/3						
 BUF	NT	96	Walker, Deone 25/4	97	GAINES, GREG U/TB						
@@ -181,16 +183,16 @@ BUF	PK	16	Bass, Tyler 20/6
 BUF	LS	69	FERGUSON, REID CF16								
 BUF	H	39	Doman Jr., Tommy 26/7								
 BUF	KO	16	Bass, Tyler 20/6								
-BUF	PR	23	Alford, Dee U/Atl	7	Davis, Ray 24/4	10	Shakir, Khalil 22/5				
+BUF	PR	19	Dortch, Greg SF26	23	Alford, Dee U/Atl	7	Davis, Ray 24/4	10	Shakir, Khalil 22/5		
 BUF	KR	7	Davis, Ray 24/4	26	Johnson, Ty SF23						
 Practice Squad - Buffalo Bills
-BUF	WR	18	SHERFIELD, TRENT SF26	89	Gosnell, Stephen CF25	84	Maclin, Ja'Mori CF26	19	Dortch, Greg SF26		
+BUF	WR	18	SHERFIELD, TRENT SF26	89	Gosnell, Stephen CF25	84	Maclin, Ja'Mori CF26				
 BUF	OT	65	Broeker, Nick SF26	71	Wills Jr., Jedrick SF26						
 BUF	OG	77	Lundt, Chase 25/6								
 BUF	C										
 BUF	TE										
 BUF	QB	6	Buechele, Shane SF25								
-BUF	RB	20	Gore Jr., Frank CF24								
+BUF	RB										
 BUF	ED	59	Jones Jr., Andre SF25								
 BUF	DT	67	Clayton, Travis 24/7*								
 BUF	LB	49	Jenkins, Keonta CF25	54	THOMPSON, SHAQ U/Car						
@@ -201,7 +203,7 @@ BUF	IR	92	Durant, Zane DT^
 BUF	PUP	14	Shavers, Tyrell WR^								
 BUF	NFI	43	Strong, Dorian CB								
 BUF	SUS	72	Mathis, Phidarian DT^								
-Carolina Panthers Updated: 09/09/2026 3:10PM
+Carolina Panthers Updated: 09/12/2026 5:57PM
 Offense - Carolina Panthers
 CAR	LWR	4	McMillan, Tetairoa 25/1	87	Tremayne, Brycen SF25						
 CAR	RWR	17	Legette, Xavier 24/1	13	Metchie III, John U/NYJ						
@@ -218,12 +220,12 @@ Defense - Carolina Panthers
 CAR	LDE	95	Brown, Derrick 20/1	94	Hall, Aaron CF26						
 CAR	NT	92	Hunter, Lee 26/2	99	Jackson, Cam 25/5						
 CAR	RDE	97	Brown III, Bobby U/LAR	93	Edwards, TeRah T/LAC						
-CAR	LOLB	5	Phillips, Jaelan U/Phi	3	Umanmielen, Princely 25/3						
+CAR	LOLB	5	Phillips, Jaelan U/Phi	3	Umanmielen, Princely 25/3	56	Moon, Jeremiah U/Pit				
 CAR	LILB	58	OKEREKE, BOBBY CC/NYG	53	Cherelus, Claudin W/NYJ						
 CAR	RILB	55	Lloyd, Devin U/Jax	46	Kuwatch, Jackson 26/7						
 CAR	ROLB	91	Jones II, Patrick U/Min	52	Gipson, Trevis P/SF	48	Incoom, Thomas SF24				
 CAR	LCB	2	Jackson, Mike T/Sea	29	Evans, Akayleb W/Min						
-CAR	SS	7	Moehrig, Tre'von U/LV	22	Ransom, Lathan 25/4						
+CAR	SS	7	Moehrig, Tre'von U/LV	22	Ransom, Lathan 25/4	27	Simmons, Isaiah SF25				
 CAR	FS	21	SCOTT, NICK CC/Cin	20	Wheatley, Zakee 26/5						
 CAR	RCB	8	Horn, Jaycee 21/1	24	Lee III, Will 26/4						
 CAR	NB	26	Smith-Wade, Chau 24/5								
@@ -243,20 +245,20 @@ CAR	C	65	Simpkins III, Torricelli SF26
 CAR	TE										
 CAR	QB										
 CAR	RB	34	Tyus III, Anthony SF25	37	Marshall, Ahmani SF26						
-CAR	ED	56	Moon, Jeremiah U/Pit								
+CAR	ED										
 CAR	DT	69	Petersen, Parker CF26	96	Goodlow, Anthony SF26						
 CAR	LB	42	Mwansa, Mapalo SF25*	33	Dodson, Tyrel SF26						
 CAR	CB	43	Smith, DeVonta CF26	31	Thornton, Corey CF25	32	Childress, Zion SF26				
-CAR	S	27	Simmons, Isaiah SF25								
+CAR	S										
 Reserves - Carolina Panthers
 CAR	IR	23	Etienne, Trevor RB^	54	Martin-Scott, Bam ILB^	70	Christensen, Brady OG^	11	Scourton, Nic OLB	19	Brazzell II, Chris WR
 CAR	IR	35	Meiga, Malick WR	45	Pierre, Bryce TE						
 CAR	PUP	98	Wharton, Tershawn DE^								
 CAR	NFI	72	MOTON, TAYLOR OT^	79	Ekwonu, Ikem OT^						
-Chicago Bears Updated: 09/10/2026 2:55PM
+Chicago Bears Updated: 09/12/2026 6:07PM
 Offense - Chicago Bears
 CHI	LWR	15	Odunze, Rome 24/1	9	Walker, Jahdae CF25						
-CHI	RWR	10	Burden III, Luther 25/2								
+CHI	RWR	10	Burden III, Luther 25/2	81	Davis, Kaden SF26						
 CHI	SWR	14	RAYMOND, KALIF U/Det	13	Thomas, Zavion 26/3						
 CHI	LT	70	Jones, Braxton 22/5	75	Trapilo, Ozzy 25/2						
 CHI	LG	62	THUNEY, JOE T/KC	74	McFadden, Jordan W/LAC						
@@ -264,7 +266,7 @@ CHI	C	67	BRADBURY, GARRETT T/NE	54	Jones, Logan 26/2
 CHI	RG	73	Jackson, Jonah T/LAR	65	Newman, Luke 25/6						
 CHI	RT	58	Wright, Darnell 23/1	79	Benedet, Theo CF24						
 CHI	TE	84	Loveland, Colston 25/1	85	Kmet, Cole 20/2	87	Roush, Sam 26/3				
-CHI	QB	18	Williams, Caleb 24/1	17	Bagent, Tyson CF23	11	KEENUM, CASE U/Hou				
+CHI	QB	18	Williams, Caleb 24/1	17	Bagent, Tyson CF23	11	KEENUM, CASE U/Hou	16	Moss, Miller CF26		
 CHI	RB	4	Swift, D'Andre U/Phi	25	Monangai, Kyle 25/7	23	Johnson, Roschon 23/4				
 Defense - Chicago Bears
 CHI	LDE	98	SWEAT, MONTEZ T/Was	94	Booker, Austin 24/5	59	Kromah, Jamree SF24				
@@ -287,7 +289,7 @@ CHI	KO	8	SANTOS, CAIRO SF20
 CHI	PR	14	RAYMOND, KALIF U/Det	13	Thomas, Zavion 26/3						
 CHI	KR	14	RAYMOND, KALIF U/Det	13	Thomas, Zavion 26/3						
 Practice Squad - Chicago Bears
-CHI	WR	81	Davis, Kaden SF26	82	Miller, Scotty U/Pit	83	Richardson, JP CF25				
+CHI	WR	83	Richardson, JP CF25	82	Miller, Scotty U/Pit						
 CHI	OT	72	Jones, Christian SF26								
 CHI	OG	76	Barnett, Caden CF26								
 CHI	C	60	Hergel, Kyle SF25								
@@ -298,12 +300,12 @@ CHI	ED	52	DAVENPORT, MARCUS U/Det
 CHI	DT										
 CHI	LB	35	Matthews III, Wayne CF26	47	Johnson, Buddy SF26						
 CHI	CB	37	Prince, Deantre SF26								
-CHI	S	26	Johnson Jr., Anthony SF26	33	Smith, Keidron SF26						
+CHI	S	26	Johnson Jr., Anthony SF26								
 Reserves - Chicago Bears
 CHI	IR	2	Bryant, Coby S^	43	Large, Hayden TE^	86	Kalinic, Nikola TE	46	Sewell, Nephi LB	43	Fields II, Tony LB
 CHI	IR	47	Hyppolite II, Ruben LB	38	Brown, Brittain RB	52	Garvin, Jonathan DE	37	Flowers, Dallis CB		
 CHI	PUP	6	Gordon, Kyler CB^	95	Turner, Shemar DE^	44	Sewell, Noah LB^				
-Cincinnati Bengals Updated: 09/08/2026 6:57PM
+Cincinnati Bengals Updated: 09/12/2026 5:52PM
 Offense - Cincinnati Bengals
 CIN	LWR	1	Chase, Ja'Marr 21/1	12	Williams, Ke'Shawn W/Pit						
 CIN	RWR	5	Higgins, Tee 20/2	86	Young, Colbie 26/4						
@@ -313,7 +315,7 @@ CIN	LG	63	Fairchild, Dylan 25/3	74	Rivers, Jalen 25/5
 CIN	C	64	KARRAS, TED U/NE	65	Lew, Connor 26/4						
 CIN	RG	66	RISNER, DALTON U/Min	69	Bayer, Jacob SF25						
 CIN	RT	71	Mims, Amarius 24/1	77	Hinton, Myles W/Phi						
-CIN	TE	89	SAMPLE, DREW 19/2	88	GESICKI, MIKE U/NE	83	All Jr., Erick 24/4	84	Endries, Jack 26/7		
+CIN	TE	89	SAMPLE, DREW 19/2	88	GESICKI, MIKE U/NE	83	All Jr., Erick 24/4	87	HUDSON, TANNER SF22	84	Endries, Jack 26/7
 CIN	QB	9	Burrow, Joe 20/1	16	FLACCO, JOE T/Cle						
 CIN	RB	30	Brown, Chase 23/5	34	PERINE, SAMAJE U/KC	25	Brooks, Tahj 25/6				
 Defense - Cincinnati Bengals
@@ -321,7 +323,7 @@ CIN	LDE	99	Murphy, Myles 23/1	94	Stewart, Shemar 25/1	52	Johnson, Cedric 24/6
 CIN	NT	97	Lawrence II, Dexter T/NYG	98	Slaton Jr., T.J. U/GB	90	Jenkins Jr., Kris 24/2				
 CIN	DT	93	ALLEN, JONATHAN CC/Min	92	HILL, B.J. T/NYG	96	Robinson, Landon 26/7				
 CIN	RDE	53	Mafe, Boye U/Sea	55	Howell, Cashius 26/2						
-CIN	WLB	44	Knight Jr., Demetrius 25/2	42	BURKS, OREN U/Phi						
+CIN	WLB	44	Knight Jr., Demetrius 25/2	42	BURKS, OREN U/Phi	43	Giles-Harris, Joe U/Jax				
 CIN	MLB	49	Carter, Barrett 25/4	47	Bozeman, Swayze W/NYG						
 CIN	LCB	23	Hill, Dax 22/1	20	Davis, Tacario 26/3						
 CIN	SS	27	Battle, Jordan 23/3	29	DUGGER, KYLE U/Pit						
@@ -341,17 +343,17 @@ CIN	WR	17	Thomas, Noah CF26	14	Moore, Jordan CF25
 CIN	OT	76	Freeland, Blake SF26								
 CIN	OG										
 CIN	C										
-CIN	TE	87	HUDSON, TANNER SF22								
+CIN	TE										
 CIN	QB	4	Clifford, Sean SF25	11	JOHNSON, JOSH U/Was						
 CIN	RB	36	Milton, Kendall SF24	31	Bullock, Kentrel CF26						
 CIN	ED	51	Foskey, Isaiah SF25	56	Randolph, Garmon SF26						
 CIN	DT	95	Cross III, Howard CF25								
-CIN	LB	43	Giles-Harris, Joe U/Jax	50	Heyward, Shaka CF23						
+CIN	LB	50	Heyward, Shaka CF23								
 CIN	CB	21	Lux, Bralyn CF25	24	Bridges, Trikweze SF26						
 CIN	S	22	Yeast, Russ SF25								
 Reserves - Cincinnati Bengals
 CIN	IR	62	Parker II, Brian OG^	26	Taylor, Ja'Sir CB^						
-Cleveland Browns Updated: 09/08/2026 7:03PM
+Cleveland Browns Updated: 09/12/2026 5:34PM
 Offense - Cleveland Browns
 CLE	LWR	12	Boston, Denzel 26/2	11	Corley, Malachi SF25						
 CLE	RWR	3	Jeudy, Jerry T/Den	16	Wallace, Tylan U/Bal						
@@ -371,12 +373,12 @@ CLE	LDT	96	COLLINS, MALIEK CC/SF	51	Hall Jr., Mike 24/2
 CLE	RDT	94	Graham, Mason 25/1	98	Huntington, Adin CF25						
 CLE	RDE	57	McGuire, Isaiah 23/4	97	BARNETT, DEREK U/Hou						
 CLE	WLB	5	WILLIAMS, QUINCY U/NYJ	42	Mascarenas-Arnold, Easton CF25	59	Reid, Winston CF24				
-CLE	MLB	49	Schwesinger, Carson 25/2	17	Jefferson, Justin 26/5						
-CLE	LCB	21	Ward, Denzel 18/1	20	Igbinoghene, Noah SF26						
+CLE	MLB	49	Schwesinger, Carson 25/2	17	Jefferson, Justin 26/5	40	Watson, Nathaniel 24/6				
+CLE	LCB	21	Ward, Denzel 18/1	29	Blackmon, Mekhi W/Ind						
 CLE	SS	9	Delpit, Grant 20/2	31	McMillon, Donovan CF25	24	Thomas, Daniel U/Det				
 CLE	FS	33	Hickman, Ronnie CF23	28	McNeil-Warren, Emmanuel 26/2						
-CLE	RCB	7	Campbell, Tyson T/Jax	29	Blackmon, Mekhi W/Ind						
-CLE	NB	26	Harden, Myles 24/7	35	Pride Jr., Toriano W/Buf						
+CLE	RCB	7	Campbell, Tyson T/Jax	38	Ross, D'Angelo P/Hou						
+CLE	NB	26	Harden, Myles 24/7	20	Igbinoghene, Noah SF26	35	Pride Jr., Toriano W/Buf				
 Special Teams - Cleveland Browns
 CLE	PT	13	BOJORQUEZ, COREY U/GB								
 CLE	PK	25	Szmyt, Andre SF24								
@@ -395,15 +397,15 @@ CLE	QB
 CLE	RB	38	McLaughlin, Jaleel SF26								
 CLE	ED	99	Fano, Logan CF26	90	Sydnor, Khordae CF26	60	Tucker, Nadame SF26				
 CLE	DT	92	Kamara, Sam SF22	61	Williams, Chris SF26	69	Logue, Zion SF26				
-CLE	LB	40	Watson, Nathaniel 24/6								
-CLE	CB	27	Bryant, Myles U/Hou	38	Ross, D'Angelo P/Hou	39	Coats Jr., Michael CF26				
+CLE	LB										
+CLE	CB	27	Bryant, Myles U/Hou	39	Coats Jr., Michael CF26						
 CLE	S	30	Washington, Zion CF26								
 Reserves - Cleveland Browns
 CLE	IR	6	Gabriel, Dillon QB^	93	Davis, Kalia DT^	53	Green, Kendrick OG	37	Mathis, Damarri CB	91	Wright, Alex DE
 CLE	IR	54	Ulofoshio, Edefuan LB	62	Chatman, Elijah DT	66	Bell, Travis DT				
 CLE	PUP	6	Owusu-Koramoah, Jeremiah LB								
 CLE	NFI	18	Royer, Joe TE^								
-Dallas Cowboys Updated: 09/09/2026 4:55PM
+Dallas Cowboys Updated: 09/12/2026 5:34PM
 Offense - Dallas Cowboys
 DAL	LWR	3	Pickens, George T/Pit	80	Brown, Camden CF26						
 DAL	RWR	88	Lamb, CeeDee 20/1	18	Mingo, Jonathan T/Car						
@@ -415,7 +417,7 @@ DAL	RG	52	Booker, Tyler 25/1	65	Cornelius, Ajani 25/6
 DAL	RT	78	Steele, Terence CF20	77	Jones, Broderick T/Pit						
 DAL	TE	87	Ferguson, Jake 22/4	89	Spann-Ford, Brevyn CF24	86	Schoonmaker, Luke 23/2				
 DAL	QB	4	PRESCOTT, DAK 16/4	16	Howell, Sam U/Phi						
-DAL	RB	33	Williams, Javonte U/Den	20	Davis, Malik CF22	31	Demercado, Emari W/KC				
+DAL	RB	33	Williams, Javonte U/Den	31	Demercado, Emari W/KC	25	Abanikanda, Israel SF25				
 DAL	FB	30	Luepke, Hunter CF23								
 Defense - Dallas Cowboys
 DAL	DE	91	Ogbonnia, Otito U/LAC	99	Overton, LT 26/4						
@@ -437,7 +439,7 @@ DAL	LS	44	SIEG, TRENT SF23
 DAL	H	5	ANGER, BRYAN CC/Hou								
 DAL	KO	17	AUBREY, BRANDON SF23								
 DAL	PR	9	TURPIN, KAVONTAE SF22	13	Downs, Caleb 26/1	18	Mingo, Jonathan T/Car				
-DAL	KR	9	TURPIN, KAVONTAE SF22	20	Davis, Malik CF22						
+DAL	KR	9	TURPIN, KAVONTAE SF22								
 Practice Squad - Dallas Cowboys
 DAL	WR	83	Smith, Anthony 26/7	81	Hudson, Jordan CF26						
 DAL	OT	79	Johnson, Marcellus SF25	64	Morris, Wanya SF26						
@@ -445,15 +447,15 @@ DAL	OG	71	TOMLINSON, LAKEN SF26
 DAL	C	51	Leverett, Nick SF25								
 DAL	TE	46	Trigg, Michael CF26	84	Mitchell, James SF26						
 DAL	QB	10	Milton III, Joe T/NE								
-DAL	RB	25	Abanikanda, Israel SF25								
+DAL	RB										
 DAL	ED	58	Land, Isaiah SF25								
 DAL	DT	95	Dunn, Tommy CF26	93	Garcia, Elijah SF26	96	Odeleye, Adedayo SF25*				
 DAL	LB	45	Barron, Justin CF25	42	Robinson, Curtis U/SF						
 DAL	CB	15	Kendrick, Derion U/LAR	27	Steward, Reddy W/Min						
 DAL	S										
 Reserves - Dallas Cowboys
-DAL	IR	73	Smith, Tyler OG^	29	Moore, Devin CB^	35	Liufau, Marist OLB^	85	Fant, Princeton TE	94	Gilliam, Kelvin DE
-DAL	IR	49	Rogers, DJ TE	72	Hennessy, Matt C						
+DAL	IR	20	Davis, Malik RB^	73	Smith, Tyler OG^	29	Moore, Devin CB^	35	Liufau, Marist OLB^	94	Gilliam, Kelvin DE
+DAL	IR	49	Rogers, DJ TE	72	Hennessy, Matt C	85	Fant, Princeton TE				
 Denver Broncos Updated: 09/10/2026 5:25PM
 Offense - Denver Broncos
 DEN	LWR	14	SUTTON, COURTLAND 18/2	13	Bryant, Pat 25/3						
@@ -506,7 +508,7 @@ Reserves - Denver Broncos
 DEN	IR	84	Lohner, Caleb TE^	73	Crum, Frank OT^	91	Henningsen, Matt DE	67	DEITER, MICHAEL C	56	Bailey, Levelle ILB
 DEN	PUP	66	Gargiulo, Nick OG^								
 DEN	CE	0	Cooper, Jonathon OLB								
-Detroit Lions Updated: 09/11/2026 4:47PM
+Detroit Lions Updated: 09/12/2026 5:48PM
 Offense - Detroit Lions
 DET	LWR	18	TeSlaa, Isaac 25/3	17	Martin, Tay SF26						
 DET	RWR	1	Williams, Jameson 22/1								
@@ -521,7 +523,7 @@ DET	QB	16	GOFF, JARED T/LAR	11	DOBBS, JOSHUA CC/NE
 DET	RB	0	Gibbs, Jahmyr 23/1	33	Vaki, Sione 24/4	25	Saylors, Jacob SF25				
 Defense - Detroit Lions
 DET	LDE	97	Hutchinson, Aidan 22/1	8	Moore, Derrick 26/2	66	O'Neill, Eric CF26				
-DET	LDT	91	Williams, Tyleik 25/1	50	Gill-Howard, Skyler 26/6						
+DET	LDT	91	Williams, Tyleik 25/1	50	Gill-Howard, Skyler 26/6	96	Stille, Ben SF26				
 DET	RDT	54	McNeill, Alim 21/3	94	Wingo, Mekhi 24/6						
 DET	RDE	98	Wonnum, DJ U/Car	93	Lacy, Tyler W/Jax	99	Hassanein, Ahmed 25/6				
 DET	WLB	45	White, Devin U/LV	44	Rodriguez, Malcolm 22/6	35	Bachie, Joe U/Ten				
@@ -549,7 +551,7 @@ DET	TE	82	Gordon, Thomas SF26
 DET	QB	15	Altmyer, Luke CF26								
 DET	RB	26	Small, Jabari SF25								
 DET	ED	61	Lucas, Anthony CF26								
-DET	DT	90	Smith, Chris CF23	96	Stille, Ben SF26						
+DET	DT	90	Smith, Chris CF23	95	Onwuzurike, Levi 21/2						
 DET	LB	57	Ogbongbemiga, Amen CC/Chi								
 DET	CB	24	Brown, Aamaris CF26	38	Whiteside, Nick SF25						
 DET	S	28	Brooks, Natrone SF26								
@@ -558,9 +560,9 @@ DET	IR	64	Mays, Cade C^	10	Pacheco, Isiah RB^	11	Clark, Damone LB	92	Turner, Pay
 DET	PS/IR	63	Miller, Mason OG^								
 DET	PUP	32	Branch, Brian S^	31	Joseph, Kerby S^						
 DET	NFI	59	Manu, Giovanni OT^								
-Green Bay Packers Updated: 09/11/2026 5:46PM
+Green Bay Packers Updated: 09/12/2026 5:43PM
 Offense - Green Bay Packers
-GB	LWR	9	Watson, Christian 22/2								
+GB	LWR	9	Watson, Christian 22/2	16	Melton, Bo P/Sea						
 GB	RWR	0	Golden, Matthew 25/1	87	Sturdivant, J. Michael CF26						
 GB	SWR	11	Reed, Jayden 23/2	23	Moore, Skyy U/SF						
 GB	LT	77	Morgan, Jordan 24/1	73	Williams, John 25/7						
@@ -576,7 +578,7 @@ GB	LDE	94	Brooks, Karl 23/6	91	Brinson, Warren 25/6	93	Campbell, Anthony SF25
 GB	NT	98	HARGRAVE, JAVON CC/Min	96	Ford, Jonathan W/Chi						
 GB	RDE	95	Wyatt, Devonte 22/1	55	McClellan, Chris 26/3						
 GB	LOLB	90	Van Ness, Lukas 23/1	57	Cox Jr., Brenton CF23						
-GB	WLB	56	Cooper, Edgerrin 24/2	59	Hopper, Ty'Ron 24/3						
+GB	WLB	56	Cooper, Edgerrin 24/2	59	Hopper, Ty'Ron 24/3	54	Welch, Kristian U/Bal				
 GB	MLB	44	FRANKLIN, ZAIRE T/Ind	58	McDuffie, Isaiah 21/6	31	Niemann, Nick SF25				
 GB	ROLB	99	Sorrell, Barryn 25/4	51	Dennis-Sutton, Dani 26/4						
 GB	LCB	25	Nixon, Keisean U/LV	21	St-Juste, Benjamin U/LAC						
@@ -593,7 +595,7 @@ GB	KO	28	Smack, Trey 26/6
 GB	PR	23	Moore, Skyy U/SF	11	Reed, Jayden 23/2						
 GB	KR	23	Moore, Skyy U/SF								
 Practice Squad - Green Bay Packers
-GB	WR	37	Hilton Jr., Chris W/Was	80	Neyor, Isaiah SF25	16	Melton, Bo P/Sea				
+GB	WR	37	Hilton Jr., Chris W/Was	80	Neyor, Isaiah SF25						
 GB	OT	78	Cooper, Dalton SF25								
 GB	OG	76	Gesky, Josh CF26	68	Wade, Dillon CF26						
 GB	C										
@@ -602,7 +604,7 @@ GB	QB	17	Slovis, Kedon SF26
 GB	RB	22	Strong Jr., Pierre SF25	35	Bankston, Damon SF26						
 GB	ED	47	Kelly, Nyjalik CF26	53	Mosby, Arron W/Car						
 GB	DT										
-GB	LB	54	Welch, Kristian U/Bal								
+GB	LB										
 GB	CB	20	Jackson, Domani 26/6								
 GB	S	34	Hailassie, Kahlef SF26								
 GB	PK	38	Krieg, Lenny SF26*								
@@ -663,7 +665,7 @@ Reserves - Houston Texans
 HOU	IR	1	Dell, Tank WR^	20	Ingram, Ja'Marcus CB^	71	SMITH, BRADEN OT^	76	Hagen, Sam OT^	52	Ossai, K.C. LB
 HOU	IR	81	Higgins, Jayden WR	92	Horton, Dylan DE	95	Gaye, Ali DE	50	Byrd, Solomon DE	18	Mertz, Graham QB
 HOU	PUP	45	SPEED, E.J. LB^	29	STEWART, M.J. S^						
-Indianapolis Colts Updated: 09/08/2026 9:26PM
+Indianapolis Colts Updated: 09/12/2026 6:10PM
 Offense - Indianapolis Colts
 IND	LWR	14	Pierce, Alec 22/2	13	TREADWELL, LAQUON SF24						
 IND	RWR	10	ALLEN, KEENAN U/LAC	16	Dulin, Ashton CF19						
@@ -686,7 +688,7 @@ IND	MLB	51	Davis-Gaither, Akeem CC/Arz	53	Allen, CJ 26/2	58	Ajiake, Austin SF23
 IND	LCB	7	WARD, CHARVARIUS U/SF	35	Edwards, Johnathan CF25						
 IND	SS	25	Haulcy, AJ 26/3	30	Wohler, Hunter 25/7						
 IND	FS	0	Bynum, Cam U/Min	38	OWENS, JONATHAN U/Chi						
-IND	RCB	1	Gardner, Sauce T/NYJ								
+IND	RCB	1	Gardner, Sauce T/NYJ	33	Harris, Kenneth SF26						
 IND	NB	27	Walley, Justin 25/3	34	Gushiken, Kapena W/Phi						
 Special Teams - Indianapolis Colts
 IND	PT	8	SANCHEZ, RIGOBERTO CF17								
@@ -707,12 +709,12 @@ IND	RB	42	Castle, Anderson CF26	36	Booth, Davon SF26
 IND	ED	54	Melton, Mitchell CF26								
 IND	DT	92	Ball, Cam CF26								
 IND	LB	47	Weeks, West CF26								
-IND	CB	39	Carter Jr., Rob SF26	33	Harris, Kenneth SF26						
+IND	CB	39	Carter Jr., Rob SF26								
 IND	S	32	Scott, Daniel 23/5	41	Washington, Trey CF25						
 Reserves - Indianapolis Colts
 IND	IR	86	Mallory, Will TE^	2	Montgomery, D.J. WR	43	Mitchell, Cameron CB	45	Towt, Carson TE		
 IND	SUS	29	Taylor-Britt, Cam CB^								
-Jacksonville Jaguars Updated: 09/08/2026 6:17PM
+Jacksonville Jaguars Updated: 09/12/2026 5:47PM
 Offense - Jacksonville Jaguars
 JAX	LWR	7	Thomas Jr., Brian 24/1	19	Cameron, Josh 26/6						
 JAX	RWR	3	Meyers, Jakobi T/LV	18	Williams, CJ 26/6						
@@ -723,7 +725,7 @@ JAX	C	73	Hainsey, Robert U/TB	60	Monheim, Jonah 25/7
 JAX	RG	76	Cleveland, Ezra T/Min	64	Milum, Wyatt 25/3						
 JAX	RT	70	Van Lanen, Cole T/GB								
 JAX	TE	85	Strange, Brenton 23/2	87	Boerkircher, Nate 26/2	80	Morris, Quintin U/Buf	88	Koziol, Tanner 26/5		
-JAX	QB	16	Lawrence, Trevor 21/1	10	Ewers, Quinn T/Mia						
+JAX	QB	16	Lawrence, Trevor 21/1	14	MULLENS, NICK U/Min	10	Ewers, Quinn T/Mia				
 JAX	RB	33	Tuten, Bhayshul 25/4	24	Rodriguez Jr., Chris U/Was	5	Allen Jr., LeQuint 25/7	20	ABDULLAH, AMEER U/Ind		
 Defense - Jacksonville Jaguars
 JAX	LDE	44	Walker, Travon 22/1	92	Striggow, Danny CF25	90	Williams, Wesley 26/4				
@@ -752,7 +754,7 @@ JAX	OT	78	Zierer, Kilian SF25*	61	CHRISTIAN SR., GERON SF26
 JAX	OG										
 JAX	C	66	Cox, Eli SF26								
 JAX	TE	83	Rucci, Hayden SF26								
-JAX	QB	14	MULLENS, NICK U/Min	17	Aguilar, Joey CF26						
+JAX	QB	17	Aguilar, Joey CF26								
 JAX	RB	30	Taylor, J'Mari CF26								
 JAX	ED										
 JAX	DT	94	Bollers, T.J. CF26								
@@ -913,9 +915,9 @@ LAR	PT	14	Bouwmeester, Jack SF26*
 Reserves - Los Angeles Rams
 LAR	IR	79	Trost, Keagen OT^	67	Dedich, Justin OG^	40	Rickert, Daniel OLB	16	Caldwell, Matthew QB	51	Walls III, Eddie OLB
 LAR	IR	11	Thomas, Keir OLB								
-Las Vegas Raiders Updated: 09/10/2026 4:59PM
+Las Vegas Raiders Updated: 09/12/2026 5:44PM
 Offense - Las Vegas Raiders
-LV	LWR	1	Tucker, Tre 23/3								
+LV	LWR	1	Tucker, Tre 23/3	82	White, Cody SF26						
 LV	RWR	9	Nailor, Jalen U/Min	19	Benson, Malik 26/6						
 LV	SWR	18	Bech, Jack 25/2	81	Young, Dareke U/Sea						
 LV	LT	74	MILLER, KOLTON 18/1	60	Grant, Charles 25/3						
@@ -923,7 +925,7 @@ LV	LG	70	Burford, Spencer U/SF		Cabeldue, Bryce W/Sea
 LV	C	65	Linderbaum, Tyler U/Bal								
 LV	RG	58	Powers-Johnson, Jackson 24/2	76	Rogers, Caleb 25/3						
 LV	RT	71	Glaze, DJ 24/3	66	Zuhn III, Trey 26/3						
-LV	TE	89	Bowers, Brock 24/1	87	Mayer, Michael 23/2	80	THOMAS, IAN U/Car				
+LV	TE	89	Bowers, Brock 24/1	87	Mayer, Michael 23/2	80	THOMAS, IAN U/Car	41	MYARICK, CHRIS SF26		
 LV	QB	8	COUSINS, KIRK CC/Atl	15	Mendoza, Fernando 26/1	12	O'Connell, Aidan 23/4				
 LV	RB	2	Jeanty, Ashton 25/1	4	Washington Jr., Mike 26/4	23	Laube, Dylan 24/6				
 LV	FB	34	Heyward, Connor U/Pit								
@@ -948,11 +950,11 @@ LV	KO	4	GAY, MATT SF26
 LV	PR	19	Benson, Malik 26/6	23	Laube, Dylan 24/6						
 LV	KR	23	Laube, Dylan 24/6	81	Young, Dareke U/Sea						
 Practice Squad - Las Vegas Raiders
-LV	WR	83	Thompkins, Deven SF26	82	White, Cody SF26	16	Bell, Ronnie SF26				
+LV	WR	83	Thompkins, Deven SF26	16	Bell, Ronnie SF26						
 LV	OT										
 LV	OG	73	Henning, Niklas CF26	72	Neal, Evan SF26						
 LV	C	67	Putnam, Will CF24								
-LV	TE	41	MYARICK, CHRIS SF26	45	Gurd, Patrick CF26						
+LV	TE	45	Gurd, Patrick CF26								
 LV	QB										
 LV	RB	32	OGUNBOWALE, DARE U/Hou	37	Hemby, Roman CF26						
 LV	ED	48	Slone, Cian CF26	52	Ojulari, Azeez SF26						
@@ -964,7 +966,7 @@ LV	PK	38	Matsuzawa, Kansei CF26*
 Reserves - Las Vegas Raiders
 LV	IR	84	Runyon, Carter TE^	10	Thornton Jr., Dont'e WR^	42	Crawford, Keyron DE	54	Jackson, Brennan DE	77	Pickett, Justin OG
 LV	IR	33	Collier, Chris RB	29	Anusiem, Chigozie CB	88	Shorter, Justin WR	82	Rucker, Corey WR		
-Miami Dolphins Updated: 09/08/2026 4:06PM
+Miami Dolphins Updated: 09/12/2026 5:35PM
 Offense - Miami Dolphins
 MIA	LWR	18	Bell, Chris 26/3	1	Tolbert, Jalen U/Dal						
 MIA	RWR	7	Douglas, Caleb 26/3	84	Miller, Ryan W/NYG						
@@ -979,7 +981,7 @@ MIA	QB	2	Willis, Malik U/GB	14	McCord, Kyle T/GB	15	Cook, Brady W/NYJ
 MIA	RB	28	Achane, De'Von 23/3	5	Wright, Jaylen 24/4	0	Gordon II, Ollie 25/6				
 MIA	FB	34	Herman, DJ CF26								
 Defense - Miami Dolphins
-MIA	LDE	44	Robinson, Chop 24/1	90	Herring, Malik SF26						
+MIA	LDE	44	Robinson, Chop 24/1	90	Herring, Malik SF26	98	Ferrell, Clelin U/SF				
 MIA	LDT	94	Phillips, Jordan 25/5	97	Cooper Jr., Keith SF26						
 MIA	RDT	92	SIELER, ZACH W/Bal	93	Biggers, Zeek 25/7						
 MIA	RDE	9	Uche, Josh U/Phi	51	Beal Jr., Robert U/SF						
@@ -1006,7 +1008,7 @@ MIA	C
 MIA	TE	87	Watson, Tre SF26								
 MIA	QB										
 MIA	RB	31	Hunter, Jarquez T/LAR	26	Washington Jr., Carlos SF26						
-MIA	ED	59	McGraw, Rodney CF26	98	Ferrell, Clelin U/SF	57	Llewellyn, Max 26/7				
+MIA	ED	59	McGraw, Rodney CF26	57	Llewellyn, Max 26/7						
 MIA	DT	96	Miller, Jordan SF26	91	Smith, Mazi SF26						
 MIA	LB	53	Gainer, Amari SF26	50	Anderson, Liam SF26						
 MIA	CB	32	Simpson, Jaylin SF26	27	Bonner, Ethan CF23						
@@ -1014,7 +1016,7 @@ MIA	S	43	Burns, Major SF26
 Reserves - Miami Dolphins
 MIA	IR	78	Grant, Kenneth DT^	17	Moore, Trey LB^	87	Turner, Cole TE	95	Konga, Rene DT		
 MIA	PUP	29	Duck, Storm CB^	22	Baker Jr., Darrell CB^						
-Minnesota Vikings Updated: 09/10/2026 5:28PM
+Minnesota Vikings Updated: 09/12/2026 6:00PM
 Offense - Minnesota Vikings
 MIN	LWR	18	Jefferson, Justin 20/1	13	Felton, Tai 25/3						
 MIN	RWR	3	Addison, Jordan 23/1								
@@ -1026,13 +1028,13 @@ MIN	RG	76	Fries, Will U/Ind	69	Keegan, Trevor W/Dal
 MIN	RT	75	O'NEILL, BRIAN 18/2	78	Tiernan, Caleb 26/3						
 MIN	TE	87	Hockenson, T.J. T/Det	84	Oliver, Josh U/Bal	86	Bartholomew, Gavin 25/6				
 MIN	QB	1	Murray, Kyler CC/Arz	11	WENTZ, CARSON U/KC	9	McCarthy, J.J. 24/1				
-MIN	RB	33	JONES SR., AARON CC/GB	27	Mason, Jordan T/SF	21	Claiborne, Demond 26/6				
+MIN	RB	33	JONES SR., AARON CC/GB	27	Mason, Jordan T/SF	21	Claiborne, Demond 26/6	31	Dallas, DeeJay SF26		
 MIN	FB	45	Bredeson, Max 26/5								
 Defense - Minnesota Vikings
 MIN	DE	90	Ingram-Dawkins, Tyrion 25/5	95	Banks, Caleb 26/1						
 MIN	NT	50	Rodriguez, Levi Drake 24/7	97	Orange, Domonique 26/3						
 MIN	DT	61	Redmond, Jalen SF24	99	Williams, Elijah CF25						
-MIN	LOLB	15	Turner, Dallas 24/1	32	Chambliss, Chaz CF25						
+MIN	LOLB	15	Turner, Dallas 24/1	32	Chambliss, Chaz CF25	17	VAN NOY, KYLE U/Bal				
 MIN	WLB	55	WILSON, ERIC U/GB	41	Golday, Jake 26/2						
 MIN	MLB	51	CASHMAN, BLAKE U/Hou	0	Pace Jr., Ivan CF23						
 MIN	ROLB	43	VAN GINKEL, ANDREW U/Mia	98	Richter, Bo CF24						
@@ -1056,15 +1058,15 @@ MIN	OG	68	Byrd, Henry SF23
 MIN	C										
 MIN	TE	83	Grandy, Cam SF26								
 MIN	QB	12	Brosmer, Max CF25								
-MIN	RB	31	Dallas, DeeJay SF26								
-MIN	ED	17	VAN NOY, KYLE U/Bal	52	WARD, JIHAD U/Ten						
+MIN	RB										
+MIN	ED	52	WARD, JIHAD U/Ten								
 MIN	DT	96	Ritzie, Jahvaree SF26	91	Jones, Naquan SF26						
 MIN	LB	59	Kamara, Bangally CF26								
 MIN	CB	38	Armstead, Da'Veawn CF26	35	Phillips, Bryce SF26						
 MIN	S	37	THOMAS, TAVIERRE U/TB								
 Reserves - Minnesota Vikings
 MIN	IR	85	Yurosek, Ben TE^	65	Jurgens, Michael C^	28	Chappell, Tyreek CB	92	Batty, Tyler OLB	94	Taimani, Taki DT
-MIN	IR	32	ADAMS, JAMAL S	17	Jefferson, Jermar RB						
+MIN	IR	32	ADAMS, JAMAL S								
 MIN	SUS	82	Jones, Jeshaun WR^								
 New England Patriots Updated: 09/11/2026 4:36PM
 Offense - New England Patriots
@@ -1120,19 +1122,19 @@ NE	IR	1	Brown, A.J. WR^	52	Bryant, Marcus OT^	17	Baringer, Bryce PT^	59	Jacobs, 
 NE	IR	80	Hill, Julian TE	29	Webb, Jeremiah WR						
 NE	PUP	2	LANDRY III, HAROLD OLB^								
 NE	NFI	41	Schooler, Brenden S^								
-New Orleans Saints Updated: 09/09/2026 5:14PM
+New Orleans Saints Updated: 09/12/2026 5:41PM
 Offense - New Orleans Saints
-NO	LWR	19	Brown, Barion 26/6	18	Lance, Bryce 26/4						
-NO	RWR	12	Olave, Chris 22/1								
+NO	LWR	19	Brown, Barion 26/6	81	Austin Jr., Kevin SF24						
+NO	RWR	12	Olave, Chris 22/1	18	Lance, Bryce 26/4						
 NO	SWR	14	Vele, Devaughn T/Den								
 NO	LT	71	Banks Jr., Kelvin 25/1	72	Richards, Asim T/Dal						
 NO	LG	76	Edwards, David U/Buf								
 NO	C	78	McCoy, Erik 19/2	66	Sherman, William SF25						
 NO	RG	51	Ruiz, Cesar 20/1	65	Wright, Jeremiah 26/4						
 NO	RT	75	Fuaga, Taliese 24/1	74	Murphy, Mason W/Chi						
-NO	TE	83	JOHNSON, JUWAN CF20	87	Fant, Noah U/Cin	4	Delp, Oscar 26/3				
+NO	TE	83	JOHNSON, JUWAN CF20	87	Fant, Noah U/Cin	4	Delp, Oscar 26/3	82	Welch, Treyton SF24		
 NO	QB	6	Shough, Tyler 25/2	2	Rattler, Spencer 24/5	11	Wilson, Zach U/Mia				
-NO	RB	3	Etienne Jr., Travis U/Jax	41	KAMARA, ALVIN 17/3	5	Miller, Kendre 23/3	30	Estimé, Audric SF25		
+NO	RB	3	Etienne Jr., Travis U/Jax	41	KAMARA, ALVIN 17/3	5	Miller, Kendre 23/3	43	Donaldson, CJ CF26		
 Defense - New Orleans Saints
 NO	DE	91	Broughton, Vernon 25/3	50	Wooden, Colby W/Ind						
 NO	NT	92	GODCHAUX, DAVON T/NE	52	Miller, Christen 26/2	97	Boyd, Khristian 24/6				
@@ -1155,13 +1157,13 @@ NO	KO	10	CARLSON, DANIEL U/LV
 NO	PR	19	Brown, Barion 26/6	38	Price, Jayden SF25						
 NO	KR	19	Brown, Barion 26/6	18	Lance, Bryce 26/4						
 Practice Squad - New Orleans Saints
-NO	WR	85	Moreno-Cropper, Jalen SF26	16	Palmer, Trey W/TB	13	Tillman, Cedric SF26	81	Austin Jr., Kevin SF24		Rowan, Kyrese SF26
+NO	WR	85	Moreno-Cropper, Jalen SF26	16	Palmer, Trey W/TB	13	Tillman, Cedric SF26		Rowan, Kyrese SF26		
 NO	OT	70	Herron, Alan CF26	79	Wollschlaeger, Alex CF26						
 NO	OG	73	Kilty, Easton CF25								
 NO	C										
-NO	TE	84	Smartt, Stone SF26	82	Welch, Treyton SF24						
+NO	TE	84	Smartt, Stone SF26								
 NO	QB										
-NO	RB	43	Donaldson, CJ CF26	26	White, Zamir T/SF						
+NO	RB	26	White, Zamir T/SF								
 NO	ED	40	Diggs, Fadil 25/7								
 NO	DT	62	Suggs, Jay'Viar CF26								
 NO	LB	47	Sirmon, Jackson SF26								
@@ -1169,15 +1171,16 @@ NO	CB	34	Hall Jr., TJ 26/7
 NO	S										
 NO	PK	39	Smyth, Charlie SF24*								
 Reserves - New Orleans Saints
-NO	IR	0	Tyson, Jordyn WR^	53	Ford, Jaylan ILB^	36	Styles Jr., Lorenzo CB^	90	Bresee, Bryan DE	25	Wright, Rejzohn CB
-NO	IR	77	Radunz, Dillon OG	80	Matavao, Moliki TE	45	Long Jr., David CB	24	Neal, Devin RB	32	Chandler, Ty RB
+NO	IR	30	Estimé, Audric RB^	0	Tyson, Jordyn WR^	53	Ford, Jaylan ILB^	36	Styles Jr., Lorenzo CB^	24	Neal, Devin RB
+NO	IR	77	Radunz, Dillon OG	80	Matavao, Moliki TE	45	Long Jr., David CB	90	Bresee, Bryan DE	25	Wright, Rejzohn CB
+NO	IR	32	Chandler, Ty RB								
 NO	PUP	15	Tipton, Mason WR^	64	Saldiveri, Nick OG						
 NO	SUS	89	Rechsteiner, Brock WR^								
-New York Giants Updated: 09/08/2026 10:38PM
+New York Giants Updated: 09/12/2026 6:02PM
 Offense - New York Giants
 NYG	LWR	1	Nabers, Malik 24/1	13	BECKHAM JR., ODELL SF26						
-NYG	RWR	88	Fields, Malachi 26/3								
-NYG	SWR	17	Mooney, Darnell CC/Atl								
+NYG	RWR	88	Fields, Malachi 26/3	83	Cambre, Dalen CF25						
+NYG	SWR	17	Mooney, Darnell CC/Atl	87	BERRIOS, BRAXTON U/Hou						
 NYG	LT	78	Thomas, Andrew 20/1	74	Davis, J.C. 26/6						
 NYG	LG	76	Runyan Jr., Jon U/GB	64	STINNIE, AARON U/TB						
 NYG	C	61	Schmitz Jr., John Michael 23/2	60	Hudson, Bryan SF24						
@@ -1193,7 +1196,7 @@ NYG	NT	98	READER, DJ U/Det	99	Okoye, C.J. T/Bal
 NYG	DT	93	HARRIS, SHELBY U/Cle	97	Jamison-Travis, Bobby 26/6						
 NYG	RUSH	0	Burns, Brian T/Car								
 NYG	WLB	52	Reese, Arvell 26/1	51	Kelly, Jack 26/6	46	Barnes, Zaire SF25				
-NYG	MLB	49	Edmunds, Tremaine CC/Chi	41	McFadden, Micah 22/5						
+NYG	MLB	49	Edmunds, Tremaine CC/Chi	41	McFadden, Micah 22/5	54	Harrison, Malik SF26				
 NYG	SLB	3	Carter, Abdul 25/1	5	Thibodeaux, Kayvon 22/1						
 NYG	LCB	2	Banks, Deonte 23/1	21	Adebo, Paulson U/NO						
 NYG	SS	27	Nubin, Tyler 24/2	25	Pinnock, Jason U/SF						
@@ -1206,10 +1209,10 @@ NYG	PK	34	Zvada, Dominic CF26
 NYG	LS	58	Mann, Ben CF26								
 NYG	H	15	Stout, Jordan U/Bal								
 NYG	KO	34	Zvada, Dominic CF26								
-NYG	PR	8	Holland, Jevón U/Mia								
-NYG	KR	2	Banks, Deonte 23/1	26	Singletary, Devin U/Hou	29	Tracy Jr., Tyrone 24/5				
+NYG	PR	87	BERRIOS, BRAXTON U/Hou	8	Holland, Jevón U/Mia						
+NYG	KR	87	BERRIOS, BRAXTON U/Hou	2	Banks, Deonte 23/1	26	Singletary, Devin U/Hou	29	Tracy Jr., Tyrone 24/5		
 Practice Squad - New York Giants
-NYG	WR	87	BERRIOS, BRAXTON U/Hou	83	Cambre, Dalen CF25	81	Hyatt, Jalin 23/3	89	Jones, Charlie SF26		
+NYG	WR	81	Hyatt, Jalin 23/3	89	Jones, Charlie SF26						
 NYG	OT	70	Schernecke, Ryan CF26	79	Gray, Jarrod CF26*						
 NYG	OG	75	Kinnard, Darian SF26	69	VanDeMark, Geno SF26						
 NYG	C	66	Eguakun, Kingsley SF26								
@@ -1218,15 +1221,15 @@ NYG	QB	18	Haener, Jake SF26
 NYG	RB	47	Finley, Grant CF26								
 NYG	ED	48	Ford, Trace CF25								
 NYG	DT	94	TUPOU, JOSH SF26								
-NYG	LB	55	Martin, Chandler SF26	54	Harrison, Malik SF26						
+NYG	LB	55	Martin, Chandler SF26								
 NYG	CB	37	Jones, Elijah SF26								
 NYG	S	43	Layne, Raheem U/LAC								
 Reserves - New York Giants
 NYG	IR	38	Black, Korie CB^	95	ROBERTSON-HARRIS, ROY DE	39	Dixon, Thaddeus CB	80	Olszewski, Gunner WR	36	Payton, Rico CB
 NYG	IR	35	Bernard-Converse, Jarrick CB	82	Austin III, Calvin WR						
-New York Jets Updated: 09/11/2026 3:28PM
+New York Jets Updated: 09/12/2026 5:36PM
 Offense - New York Jets
-NYJ	LWR	15	Mitchell, Adonai T/Ind	17	PATRICK, TIM U/Jax						
+NYJ	LWR	15	Mitchell, Adonai T/Ind								
 NYJ	RWR	5	Wilson, Garrett 22/1	82	Smith, Arian 25/4						
 NYJ	SWR	18	Williams, Isaiah P/Cin	11	Cooper Jr., Omar 26/1						
 NYJ	LT	74	Fashanu, Olu 24/1	61	Mitchell, Max 22/4						
@@ -1274,19 +1277,20 @@ NYJ	CB	38	Bamba, Mory CF26	33	Clark, Jordan CF25	22	Womack III, Samuel SF25
 NYJ	S										
 NYJ	PK										
 Reserves - New York Jets
-NYJ	IR	72	Cooper, Anez OG^	34	Payne, VJ S^	40	Trayanum, Chip RB	57	Jonathan, Kingsley OLB	30	Brown, Tre CB
+NYJ	IR	17	PATRICK, TIM WR^	72	Cooper, Anez OG^	34	Payne, VJ S^	40	Trayanum, Chip RB	30	Brown, Tre CB
+NYJ	IR	57	Jonathan, Kingsley OLB								
 NYJ	PUP	94	Baron, Tyler OLB^								
-Philadelphia Eagles Updated: 09/11/2026 4:40PM
+Philadelphia Eagles Updated: 09/12/2026 6:14PM
 Offense - Philadelphia Eagles
 PHI	LWR	13	Wicks, Dontayvion T/GB	80	Cooper, Darius CF25						
 PHI	RWR	6	Smith, DeVonta 21/1	0	Brown, Hollywood U/KC						
-PHI	SWR	9	Lemon, Makai 26/1	19	Moore, Elijah SF26						
+PHI	SWR	9	Lemon, Makai 26/1	19	Moore, Elijah SF26	85	Covey, Britain SF25				
 PHI	LT	68	Mailata, Jordan 18/7	72	Bell, Markel 26/3						
 PHI	LG	69	Dickerson, Landon 21/2	61	Lampkin, Willie CF25						
 PHI	C	51	Jurgens, Cam 22/2	66	Kendall, Drew 25/5						
 PHI	RG	56	Steen, Tyler 23/3	76	Morris, Micah 26/6						
 PHI	RT	65	JOHNSON, LANE 13/1	74	Johnson, Fred T/Jax						
-PHI	TE	88	GOEDERT, DALLAS 18/2	83	MUNDT, JOHNNY CC/Jax	87	Stowers, Eli 26/2	84	Jenkins, E.J. SF24		
+PHI	TE	88	GOEDERT, DALLAS 18/2	83	MUNDT, JOHNNY CC/Jax	84	Jenkins, E.J. SF24				
 PHI	QB	1	Hurts, Jalen 20/2	16	McKee, Tanner 23/6	14	DALTON, ANDY T/Car	18	Payton, Cole 26/5		
 PHI	RB	26	Barkley, Saquon U/NYG	8	Bigsby, Tank T/Jax	28	Shipley, Will 24/4				
 Defense - Philadelphia Eagles
@@ -1308,10 +1312,10 @@ PHI	PK	4	ELLIOTT, JAKE P/Cin
 PHI	LS	41	Underwood, Rocco CF26								
 PHI	H	10	Mann, Braden SF23								
 PHI	KO	4	ELLIOTT, JAKE P/Cin								
-PHI	PR	9	Lemon, Makai 26/1	19	Moore, Elijah SF26						
+PHI	PR	85	Covey, Britain SF25	9	Lemon, Makai 26/1	19	Moore, Elijah SF26				
 PHI	KR	28	Shipley, Will 24/4	8	Bigsby, Tank T/Jax						
 Practice Squad - Philadelphia Eagles
-PHI	WR	85	Covey, Britain SF25		Gipson, Xavier SF26						
+PHI	WR		Gipson, Xavier SF26								
 PHI	OT	67	Ojukwu, John SF25	73	Amegadjie, Kiran SF26						
 PHI	OG										
 PHI	C	75	Majors, Jake SF25								
@@ -1324,10 +1328,10 @@ PHI	LB	59	Campbell, Chance U/Ten
 PHI	CB	38	Longerbeam, Robert SF26								
 PHI	S	21	Wisniewski, Cole 26/7	36	Pulley, Maximus CF26						
 Reserves - Philadelphia Eagles
-PHI	IR	23	Bennett, Jakorian CB^	81	Calcaterra, Grant TE^	89	Wilson, Johnny WR	32	Sam, Andre' S		
+PHI	IR	87	Stowers, Eli TE^	23	Bennett, Jakorian CB^	81	Calcaterra, Grant TE^	89	Wilson, Johnny WR	32	Sam, Andre' S
 PHI	PS/IR	82	Gray, Danny WR^								
 PHI	NFI	37	Large, Tucker S								
-Pittsburgh Steelers Updated: 09/08/2026 10:49PM
+Pittsburgh Steelers Updated: 09/12/2026 6:15PM
 Offense - Pittsburgh Steelers
 PIT	LWR	4	Metcalf, DK T/Sea	15	Skowronek, Ben SF24						
 PIT	RWR	11	Pittman Jr., Michael T/Ind	17	Bernard, Germie 26/2						
@@ -1349,7 +1353,7 @@ PIT	LOLB	90	WATT, T.J. 17/1	51	Herbig, Nick 23/4
 PIT	LILB	6	Queen, Patrick U/Bal	44	Bruener, Carson 25/7						
 PIT	RILB	41	Wilson, Payton 24/3	55	HOLCOMB, COLE U/Was						
 PIT	ROLB	56	Highsmith, Alex 20/3	33	Sawyer, Jack 25/4						
-PIT	LCB	24	Porter Jr., Joey 23/2	22	Samuel Jr., Asante U/LAC						
+PIT	LCB	24	Porter Jr., Joey 23/2	22	Samuel Jr., Asante U/LAC	40	Slaughter, Doneiko SF26				
 PIT	SS	20	JENKINS, RAYSHAWN U/Cle								
 PIT	FS	3	Brisker, Jaquan U/Chi	28	Spears-Jennings, Robert 26/7						
 PIT	RCB	35	Dean, Jamel U/TB	23	Everette, Daylen 26/3						
@@ -1373,7 +1377,7 @@ PIT	RB	21	Homer, Travis U/Chi	31	Nichols, Lew SF25
 PIT	ED	45	Welschof, Julius CF24*	57	Swinson, Bradyn SF26						
 PIT	DT	65	Baugh, Kyler SF25	93	Otomewo, Esezi U/Jax						
 PIT	LB	53	Windmon, Jacoby SF26								
-PIT	CB	40	Slaughter, Doneiko SF26	42	Vigers, Car'lin SF26						
+PIT	CB	42	Vigers, Car'lin SF26								
 PIT	S	49	Castro, Sebastian W/TB	38	Fitzgerald, Bishop SF26						
 Reserves - Pittsburgh Steelers
 PIT	IR	25	Elliott, DeShon S^	68	Driscoll, Jack OT^	31	Hardy, Daequan CB	85	Burgess, Cole WR	91	Lee, Logan DT
@@ -1483,7 +1487,7 @@ SF	IR	95	Collins, Alfred DT^	1	Pearsall, Ricky WR	29	Forrest, Darrick S	63	Zakel
 SF	IR	50	Farmer II, Andrew DE	59	Kamara, Mikail DE	50	Henry, K.J. DE				
 SF	PUP	98	Williams, Mykel DE^	31	Guerendo, Isaac RB^						
 SF	LEFT	11	Aiyuk, Brandon WR								
-Tampa Bay Buccaneers Updated: 09/08/2026 10:56PM
+Tampa Bay Buccaneers Updated: 09/12/2026 6:18PM
 Offense - Tampa Bay Buccaneers
 TB	LWR	11	McMillan, Jalen 24/3	17	Hurst III, Ted 26/3						
 TB	RWR	2	Egbuka, Emeka 25/1	15	Johnson, Tez 25/7						
@@ -1495,7 +1499,7 @@ TB	RG	69	Mauch, Cody 23/2	72	Haggard, Luke CF23
 TB	RT	67	Goedeke, Luke 22/2	77	Skule, Justin U/Min						
 TB	TE	88	Otton, Cade 22/4	87	Durham, Payne 23/5	41	Kieft, Ko 22/6	84	Sharp, Bauer 26/6		
 TB	QB	6	MAYFIELD, BAKER U/LAR	10	Daniels, Jalon CF26						
-TB	RB	7	Irving, Bucky 24/4	1	Gainwell, Kenny U/Pit	44	Tucker, Sean CF23				
+TB	RB	7	Irving, Bucky 24/4	1	Gainwell, Kenny U/Pit	44	Tucker, Sean CF23	18	Williams, Josh CF25		
 Defense - Tampa Bay Buccaneers
 TB	LDE	94	Kancey, Calijah 23/1	56	NUÑEZ-ROCHES, RAKEEM U/NYG						
 TB	NT	50	VEA, VITA 18/1	90	Capehart, DeMonte 26/5	92	Simmons, Elijah P/Arz				
@@ -1505,7 +1509,7 @@ TB	WLB	34	ANZALONE, ALEX U/Det	52	Rozeboom, Christian U/Car
 TB	MLB	45	Trotter, Josiah 26/2	8	Dennis, SirVocea 23/5						
 TB	ROLB	0	Diaby, Yaya 23/3	98	Nelson, Anthony 19/4	51	Walker, David 25/4				
 TB	LCB	27	McCollum, Zyon 22/5	24	Garnes, Ayden CF26						
-TB	SS	23	Smith, Tykee 24/3								
+TB	SS	23	Smith, Tykee 24/3	5	Melifonwu, Ifeatu U/Mia						
 TB	FS	31	Winfield Jr., Antoine 20/2	29	KILLEBREW, MILES U/Pit						
 TB	RCB	25	Parrish, Jacob 25/3	21	Morrison, Benjamin 25/2						
 TB	NB	22	Scott, Keionte 26/4	38	Knowles, Kevin W/KC						
@@ -1524,21 +1528,21 @@ TB	OG	61	Lutovsky, Henry CF26
 TB	C	66	Scott, Ben CF25								
 TB	TE	82	Dippre, CJ SF26								
 TB	QB	16	STICK, EASTON SF26								
-TB	RB	18	Williams, Josh CF25								
+TB	RB										
 TB	ED	57	Holmes, Yasir CF26								
 TB	DT	93	Jones, Jayson SF25								
 TB	LB	48	Wright, Javin CF26	46	Fordham, Caden CF26						
 TB	CB	26	Murphy-Bunting, Sean SF26								
-TB	S	5	Melifonwu, Ifeatu U/Mia	36	Roberts, JJ CF25	33	Walters, Silas SF26				
+TB	S	33	Walters, Silas SF26	36	Roberts, JJ CF25						
 Reserves - Tampa Bay Buccaneers
 TB	IR	32	Hayes, Josh CB^	80	SILLS V, DAVID WR^	73	McKnight, Deshawn DE	59	Kamara, Mohamed OLB		
-Tennessee Titans Updated: 09/10/2026 2:51PM
+Tennessee Titans Updated: 09/12/2026 6:20PM
 Offense - Tennessee Titans
 TEN	LWR	0	RIDLEY, CALVIN U/Jax	5	Ayomanor, Elic 25/4						
 TEN	RWR	14	Tate, Carnell 26/1								
 TEN	SWR	4	Robinson, Wan'Dale U/NYG	17	Dike, Chimere 25/4						
 TEN	LT	75	Moore Jr., Dan U/Pit	59	Hudson III, James SF26						
-TEN	LG	77	Skoronski, Peter 23/1	71	Dellinger, Garrett W/Cle						
+TEN	LG	77	Skoronski, Peter 23/1		Mafi, Atonio W/LV						
 TEN	C	51	SCHLOTTMANN, AUSTIN U/NYG	79	Coogan, Pat 26/6						
 TEN	RG	66	Carmona Jr., Fernando 26/5	64	Slater, Jackson 25/5						
 TEN	RT	55	Latham, JC 24/1	78	Crenshaw-Dickson, Brandon CF25						
@@ -1551,12 +1555,12 @@ TEN	LDT	98	Simmons, Jeffery 19/1	90	THOMAS, SOLOMON T/Dal	96	Marshall, Jackie 26
 TEN	RDT	91	Franklin-Myers, John U/Den	95	Elliott, Jordan U/SF	93	Stackhouse, Nazir W/GB				
 TEN	RDE	57	MARTIN, JACOB U/Was	15	Faulk, Keldric 26/1	56	Jones, Truman P/NE				
 TEN	WLB	33	Gray, Cedric 24/4	52	Williams Sr., James 24/7	40	Pappoe, Owen W/Arz				
-TEN	MLB	50	Barton, Cody U/Den	53	Hill Jr., Anthony 26/2						
+TEN	MLB	50	Barton, Cody U/Den	53	Hill Jr., Anthony 26/2	44	Diabate, Mohamoud U/Cle				
 TEN	LCB	18	Flott, Cor'Dale U/NYG	21	Robinson, Micah P/GB						
 TEN	SS	37	Hooker, Amani 19/4	29	Adams, Tony U/NYJ						
 TEN	FS	23	Winston Jr., Kevin 25/3	38	Burgess, Terrell SF26						
 TEN	RCB	24	Taylor, Alontae U/NO	42	Jones, Jaylon SF26						
-TEN	NB	26	Harris, Marcus 25/6								
+TEN	NB	26	Harris, Marcus 25/6	41	Hallett II, Erick P/Det						
 Special Teams - Tennessee Titans
 TEN	PT	3	TOWNSEND, TOMMY U/Hou								
 TEN	PK	6	SLYE, JOEY U/NE								
@@ -1575,21 +1579,21 @@ TEN	QB	16	Hooker, Hendon U/NYJ
 TEN	RB	35	Carter, Michael U/Arz	31	Mullings, Kalel 25/6						
 TEN	ED	97	HOLMES, JALYN U/Was								
 TEN	DT	94	Horne, Timmy U/NYG	68	Tasi, Laki SF26*						
-TEN	LB	44	Diabate, Mohamoud U/Cle								
+TEN	LB										
 TEN	CB	47	McMurray, Jalen CF26	45	Bartholomew, Shemar SF26						
-TEN	S	41	Hallett II, Erick P/Det	28	Oliver, Isaiah SF26						
+TEN	S	28	Oliver, Isaiah SF26								
 Reserves - Tennessee Titans
 TEN	IR	25	Williams, Joshua CB^	54	Mausi, Dorian LB^	58	KPASSAGNON, TANOH DE	36	Johnson, Nazeeh CB	92	Harrell, Jaylen DE
 TEN	IR	81	Kanak, Jaren TE	45	Eifler, Milo LB	30	Brooks, Kendell S				
-Washington Commanders Updated: 09/11/2026 4:53PM
+Washington Commanders Updated: 09/12/2026 6:21PM
 Offense - Washington Commanders
 WAS	LWR	17	MCLAURIN, TERRY 19/3	6	Brown, Dyami U/Jax						
 WAS	RWR	13	Burks, Treylon SF25	14	Williams, Antonio 26/3						
 WAS	SWR	3	DIGGS, STEFON CC/NE	11	McCaffrey, Luke 24/3	83	Lane, Jaylin 25/4				
 WAS	LT	74	Coleman, Brandon 24/3								
 WAS	LG	75	Paul, Chris 22/7	62	Togiai, Tanoa CF26						
-WAS	C	67	ALLEGRETTI, NICK U/KC	66	Gulbin, Matt 26/6						
-WAS	RG	76	Cosmi, Sam 21/2								
+WAS	C	67	ALLEGRETTI, NICK U/KC	61	Good-Jones, Julian P/Phi						
+WAS	RG	76	Cosmi, Sam 21/2	66	Gulbin, Matt 26/6						
 WAS	RT	72	Conerly Jr., Josh 25/1	71	WYLIE, ANDREW U/KC						
 WAS	TE	85	Okonkwo, Chig U/Ten	87	Bates, John 21/4	82	Sinnott, Ben 24/2	80	Yankoff, Colson CF24		
 WAS	QB	5	Daniels, Jayden 24/1	8	MARIOTA, MARCUS U/Phi	16	Kaliakmanis, Athan 26/7				
@@ -1599,7 +1603,7 @@ WAS	DE	99	Kinlaw, Javon U/NYJ	90	Omenihu, Charles U/KC
 WAS	NT	97	Settle, Tim U/Hou	96	TUTTLE, SHY W/Ten						
 WAS	DT	94	Payne, Daron 18/1	50	Barber, Ricky CF25						
 WAS	LOLB	45	Chaisson, K'Lavon U/NE	41	Jean-Baptiste, Javontae 24/7						
-WAS	WLB	4	Luvu, Frankie U/Car	58	Magee, Jordan 24/5	56	Medrano, Kain 25/6				
+WAS	WLB	4	LUVU, FRANKIE U/Car	58	Magee, Jordan 24/5	56	Medrano, Kain 25/6				
 WAS	MLB	52	Styles, Sonny 26/1	54	Chenal, Leo U/KC						
 WAS	ROLB	98	Oweh, Odafe U/LAC	48	Josephs, Joshua 26/5						
 WAS	LCB	29	DOUGLAS, RASUL U/Mia	24	MOREAU, FABIAN U/Min						
@@ -1619,7 +1623,7 @@ Practice Squad - Washington Commanders
 WAS	WR	86	Bradley, Jaden CF26	12	JEFFERSON, VAN U/Ten						
 WAS	OT	73	SCOTT, TRENT U/Pit	77	Pole, Esa SF26						
 WAS	OG										
-WAS	C	61	Good-Jones, Julian P/Phi								
+WAS	C										
 WAS	TE	89	Westover, Jack SF26								
 WAS	QB	15	Hartman, Sam CF24								
 WAS	RB	30	Henry Jr., Robert CF26	32	REYNOLDS, CRAIG SF26						
