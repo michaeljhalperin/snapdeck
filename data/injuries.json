@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-16T23:29:49Z",
+ "updated": "2026-09-17T05:34:42Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 2,
@@ -1251,6 +1251,105 @@
    "pos": "S",
    "injury": "",
    "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Isaiah Adams",
+   "key": "ISAIAH ADAMS",
+   "pos": "G",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Budda Baker",
+   "key": "BUDDA BAKER",
+   "pos": "S",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Jack Gibbens",
+   "key": "JACK GIBBENS",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Roy Lopez",
+   "key": "ROY LOPEZ",
+   "pos": "DT",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Trey McBride",
+   "key": "TREY MCBRIDE",
+   "pos": "TE",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Max Melton",
+   "key": "MAX MELTON",
+   "pos": "CB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Isaac Seumalo",
+   "key": "ISAAC SEUMALO",
+   "pos": "G",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Cody Simon",
+   "key": "CODY SIMON",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Josh Sweat",
+   "key": "JOSH SWEAT",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Dadrion Taylor-Demerson",
+   "key": "DADRION TAYLOR DEMERSON",
+   "pos": "S",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Garrett Williams",
+   "key": "GARRETT WILLIAMS",
+   "pos": "CB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
