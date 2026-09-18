@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-17T23:20:46Z",
+ "updated": "2026-09-18T05:22:36Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 2,
@@ -2059,6 +2059,51 @@
    "name": "Andrew Thomas",
    "key": "ANDREW THOMAS",
    "pos": "T",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "LAR",
+   "name": "Davante Adams",
+   "key": "DAVANTE ADAMS",
+   "pos": "WR",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "LAR",
+   "name": "Kam Curl",
+   "key": "KAM CURL",
+   "pos": "S",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "LAR",
+   "name": "Kamren Kinchens",
+   "key": "KAMREN KINCHENS",
+   "pos": "S",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "LAR",
+   "name": "Nate Landman",
+   "key": "NATE LANDMAN",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "LAR",
+   "name": "Omar Speights",
+   "key": "OMAR SPEIGHTS",
+   "pos": "LB",
    "injury": "",
    "practice": "Limited Participation in Practice",
    "status": ""
