@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19T16:10:37Z",
+ "updated": "2026-09-19T22:37:36Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 2,
@@ -163,6 +163,15 @@
    "injury": "",
    "practice": "Limited Participation in Practice",
    "status": ""
+  },
+  {
+   "team": "CLE",
+   "name": "Noah Igbinoghene",
+   "key": "NOAH IGBINOGHENE",
+   "pos": "CB",
+   "injury": "Hand",
+   "practice": "",
+   "status": "Questionable"
   },
   {
    "team": "CLE",
@@ -531,7 +540,7 @@
    "pos": "CB",
    "injury": "Neck",
    "practice": "Did Not Participate In Practice",
-   "status": "Questionable"
+   "status": "Out"
   },
   {
    "team": "NE",
@@ -1467,7 +1476,7 @@
    "pos": "G",
    "injury": "Knee, Hip",
    "practice": "Did Not Participate In Practice",
-   "status": "Questionable"
+   "status": "Out"
   },
   {
    "team": "SEA",
@@ -2140,9 +2149,9 @@
    "name": "Deonte Banks",
    "key": "DEONTE BANKS",
    "pos": "CB",
-   "injury": "",
+   "injury": "Calf",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "NYG",
@@ -2150,7 +2159,7 @@
    "key": "CHAUNCEY GOLSTON",
    "pos": "DE",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2159,7 +2168,7 @@
    "key": "FRANCIS MAUIGOA",
    "pos": "T",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2167,9 +2176,9 @@
    "name": "Micah McFadden",
    "key": "MICAH MCFADDEN",
    "pos": "LB",
-   "injury": "",
+   "injury": "Neck",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "NYG",
@@ -2177,7 +2186,7 @@
    "key": "GREG NEWSOME",
    "pos": "CB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2209,12 +2218,39 @@
   },
   {
    "team": "LAR",
-   "name": "Kamren Kinchens",
-   "key": "KAMREN KINCHENS",
-   "pos": "S",
+   "name": "Aaron Donald",
+   "key": "AARON DONALD",
+   "pos": "DT",
    "injury": "",
    "practice": "Did Not Participate In Practice",
    "status": ""
+  },
+  {
+   "team": "LAR",
+   "name": "Tyler Higbee",
+   "key": "TYLER HIGBEE",
+   "pos": "TE",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "LAR",
+   "name": "Alaric Jackson",
+   "key": "ALARIC JACKSON",
+   "pos": "T",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "LAR",
+   "name": "Kamren Kinchens",
+   "key": "KAMREN KINCHENS",
+   "pos": "S",
+   "injury": "Hamstring",
+   "practice": "Did Not Participate In Practice",
+   "status": "Out"
   },
   {
    "team": "LAR",
@@ -2230,9 +2266,9 @@
    "name": "Puka Nacua",
    "key": "PUKA NACUA",
    "pos": "WR",
-   "injury": "",
+   "injury": "Hip",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "LAR",
@@ -2240,7 +2276,7 @@
    "key": "OMAR SPEIGHTS",
    "pos": "LB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2248,6 +2284,15 @@
    "name": "Jordan Whittington",
    "key": "JORDAN WHITTINGTON",
    "pos": "WR",
+   "injury": "Quadricep",
+   "practice": "Did Not Participate In Practice",
+   "status": "Doubtful"
+  },
+  {
+   "team": "LAR",
+   "name": "Byron Young",
+   "key": "BYRON YOUNG",
+   "pos": "LB",
    "injury": "",
    "practice": "Did Not Participate In Practice",
    "status": ""
