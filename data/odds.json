@@ -1,8 +1,8 @@
 {
- "updated": "2026-09-20T15:21:28Z",
+ "updated": "2026-09-21T16:51:18Z",
  "market": "player_anytime_td",
  "regions": "us,us_ex",
- "creditsRemaining": "19371",
+ "creditsRemaining": "19345",
  "events": [
   {
    "id": "8c94552d022acec4a0458d70c19d3da9",
@@ -226,10 +226,3777 @@
    "away": "NYG",
    "home": "LAR",
    "commence": "2026-09-22T00:15:00Z",
-   "refreshed": "2026-09-20T15:21:27Z"
+   "refreshed": "2026-09-21T16:51:16Z"
+  },
+  {
+   "id": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "away": "ATL",
+   "home": "GB",
+   "commence": "2026-09-25T00:15:00Z",
+   "refreshed": "2026-09-21T16:51:16Z"
+  },
+  {
+   "id": "b225458a282e140c44c45651255f2f6c",
+   "away": "LAC",
+   "home": "BUF",
+   "commence": "2026-09-27T17:00:00Z",
+   "refreshed": "2026-09-21T16:51:16Z"
+  },
+  {
+   "id": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "away": "CAR",
+   "home": "CLE",
+   "commence": "2026-09-27T17:00:00Z",
+   "refreshed": "2026-09-21T16:51:16Z"
+  },
+  {
+   "id": "71123be049587b6facce3a20c53e5d09",
+   "away": "CIN",
+   "home": "PIT",
+   "commence": "2026-09-27T17:00:00Z",
+   "refreshed": "2026-09-21T16:51:16Z"
+  },
+  {
+   "id": "07f552badfa8a565d1be22123713e4da",
+   "away": "NYJ",
+   "home": "DET",
+   "commence": "2026-09-27T17:00:00Z",
+   "refreshed": "2026-09-21T16:51:17Z"
+  },
+  {
+   "id": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "away": "NE",
+   "home": "JAX",
+   "commence": "2026-09-27T17:00:00Z",
+   "refreshed": "2026-09-21T16:51:17Z"
+  },
+  {
+   "id": "0339a0e41bcee12820eb3e64bb5fadb4",
+   "away": "KC",
+   "home": "MIA",
+   "commence": "2026-09-27T17:00:00Z",
+   "refreshed": "2026-09-21T16:51:17Z"
+  },
+  {
+   "id": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "away": "SEA",
+   "home": "WAS",
+   "commence": "2026-09-27T17:00:00Z",
+   "refreshed": "2026-09-21T16:51:17Z"
+  },
+  {
+   "id": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "away": "ARI",
+   "home": "SF",
+   "commence": "2026-09-27T20:05:00Z",
+   "refreshed": "2026-09-21T16:51:18Z"
+  },
+  {
+   "id": "f1724dead3eab61546033032fc782375",
+   "away": "MIN",
+   "home": "TB",
+   "commence": "2026-09-27T20:05:00Z",
+   "refreshed": "2026-09-21T16:51:18Z"
+  },
+  {
+   "id": "84cfca14efc21363fd605508404cf1ff",
+   "away": "BAL",
+   "home": "DAL",
+   "commence": "2026-09-27T20:25:00Z",
+   "refreshed": "2026-09-21T16:51:18Z"
+  },
+  {
+   "id": "2e523fcb0497aa689473e290eb2b97de",
+   "away": "LV",
+   "home": "NO",
+   "commence": "2026-09-27T20:25:00Z",
+   "refreshed": "2026-09-21T16:51:18Z"
   }
  ],
  "players": [
+  {
+   "key": "JAMES COOK",
+   "name": "James Cook",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "best": -175,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": -175
+   },
+   "implied": 0.6364,
+   "books": 1,
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BRENEN THOMPSON",
+   "name": "Brenen Thompson",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "CHARLIE KOLAR",
+   "name": "Charlie Kolar",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DALTON KINCAID",
+   "name": "Dalton Kincaid",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DAVID NJOKU",
+   "name": "David Njoku",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DAWSON KNOX",
+   "name": "Dawson Knox",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DERIUS DAVIS",
+   "name": "Derius Davis",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "GARY JENNINGS",
+   "name": "Gary Jennings",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JACKSON HAWES",
+   "name": "Jackson Hawes",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JOSHUA PALMER",
+   "name": "Joshua Palmer",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JUSTIN HERBERT",
+   "name": "Justin Herbert",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KEATON MITCHELL",
+   "name": "Keaton Mitchell",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KELEKI LATU",
+   "name": "Keleki Latu",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KEON COLEMAN",
+   "name": "Keon Coleman",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KHALIL SHAKIR",
+   "name": "Khalil Shakir",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KIMANI VIDAL",
+   "name": "Kimani Vidal",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "LADD MCCONKEY",
+   "name": "Ladd McConkey",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ORONDE GADSDEN",
+   "name": "Oronde Gadsden II",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "RAY DAVIS",
+   "name": "Ray Davis",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "SKYLER BELL",
+   "name": "Skyler Bell",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TRE HARRIS",
+   "name": "Tre Harris",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "CHUBA HUBBARD",
+   "name": "Chuba Hubbard",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "best": -115,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": -115
+   },
+   "implied": 0.5349,
+   "books": 1,
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "AJ DILLON",
+   "name": "AJ Dillon",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BLAKE WHITEHEART",
+   "name": "Blake Whiteheart",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BRYCE YOUNG",
+   "name": "Bryce Young",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BRYCEN TREMAYNE",
+   "name": "Brycen Tremayne",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "CARSEN RYAN",
+   "name": "Carsen Ryan",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DARREN WALLER",
+   "name": "Darren Waller",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DESHAUN WATSON",
+   "name": "Deshaun Watson",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "FELEIPE FRANKS",
+   "name": "Feleipe Franks",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "HAROLD FANNIN",
+   "name": "Harold Fannin Jr.",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ISAIAH BOND",
+   "name": "Isaiah Bond",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JA TAVION SANDERS",
+   "name": "Ja'Tavion Sanders",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JALEEL MCLAUGHLIN",
+   "name": "Jaleel McLaughlin",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JALEN COKER",
+   "name": "Jalen Coker",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JERRY JEUDY",
+   "name": "Jerry Jeudy",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JOHN METCHIE",
+   "name": "John Metchie III",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JONATHON BROOKS",
+   "name": "Jonathon Brooks",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KC CONCEPCION",
+   "name": "KC Concepcion",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "MALACHI CORLEY",
+   "name": "Malachi Corley",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "MITCHELL EVANS",
+   "name": "Mitchell Evans",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "RAHEIM SANDERS",
+   "name": "Raheim Sanders",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TOMMY TREMBLE",
+   "name": "Tommy Tremble",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TYLAN WALLACE",
+   "name": "Tylan Wallace",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "XAVIER LEGETTE",
+   "name": "Xavier Legette",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "AARON RODGERS",
+   "name": "Aaron Rodgers",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ANDREI IOSIVAS",
+   "name": "Andrei Iosivas",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BEN SKOWRONEK",
+   "name": "Ben Skowronek",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "CHASE BROWN",
+   "name": "Chase Brown",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "COLBIE YOUNG",
+   "name": "Colbie Young",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DARNELL WASHINGTON",
+   "name": "Darnell Washington",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DK METCALF",
+   "name": "DK Metcalf",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DOHNTE MEYERS",
+   "name": "Dohnte Meyers",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DREW SAMPLE",
+   "name": "Drew Sample",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ELI HEIDENREICH",
+   "name": "Eli Heidenreich",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ERICK ALL",
+   "name": "Erick All",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "GERMIE BERNARD",
+   "name": "Germie Bernard",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JA MARR CHASE",
+   "name": "Ja'Marr Chase",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JACK ENDRIES",
+   "name": "Jack Endries",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JAYLEN WARREN",
+   "name": "Jaylen Warren",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KADEN WETJEN",
+   "name": "Kaden Wetjen",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KE SHAWN WILLIAMS",
+   "name": "Ke'Shawn Williams",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "MIKE GESICKI",
+   "name": "Mike Gesicki",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "PAT FREIERMUTH",
+   "name": "Pat Freiermuth",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "RICO DOWDLE",
+   "name": "Rico Dowdle",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ROBERT TONYAN",
+   "name": "Robert Tonyan",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ROMAN WILSON",
+   "name": "Roman Wilson",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "SAMAJE PERINE",
+   "name": "Samaje Perine",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TAHJ BROOKS",
+   "name": "Tahj Brooks",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TEE HIGGINS",
+   "name": "Tee Higgins",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TRAVIS HOMER",
+   "name": "Travis Homer",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JOE BURROW",
+   "name": "Joe Burrow",
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "event": "71123be049587b6facce3a20c53e5d09",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JAHMYR GIBBS",
+   "name": "Jahmyr Gibbs",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "best": -250,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": -250
+   },
+   "implied": 0.7143,
+   "books": 1,
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ADONAI MITCHELL",
+   "name": "Adonai Mitchell",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BRAELON ALLEN",
+   "name": "Braelon Allen",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BROCK WRIGHT",
+   "name": "Brock Wright",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "GENO SMITH",
+   "name": "Geno Smith",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JACOB SAYLORS",
+   "name": "Jacob Saylors",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JAMESON WILLIAMS",
+   "name": "Jameson Williams",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JARED GOFF",
+   "name": "Jared Goff",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JELANI WOODS",
+   "name": "Jelani Woods",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JEREMY RUCKERT",
+   "name": "Jeremy Ruckert",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "SAM LAPORTA",
+   "name": "Sam LaPorta",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "SIONE VAKI",
+   "name": "Sione Vaki",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TAY MARTIN",
+   "name": "Tay Martin",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TOM KENNEDY",
+   "name": "Tom Kennedy",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TYLER CONKLIN",
+   "name": "Tyler Conklin",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ARIAN SMITH",
+   "name": "Arian Smith",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ISAAC TESLAA",
+   "name": "Isaac TeSlaa",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ISAIAH DAVIS",
+   "name": "Isaiah Davis",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ISAIAH WILLIAMS",
+   "name": "Isaiah Williams",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JACKSON MEEKS",
+   "name": "Jackson Meeks",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KENYON SADIQ",
+   "name": "Kenyon Sadiq",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "MASON TAYLOR",
+   "name": "Mason Taylor",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "AMEER ABDULLAH",
+   "name": "Ameer Abdullah",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BRENTON STRANGE",
+   "name": "Brenton Strange",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BRIAN THOMAS",
+   "name": "Brian Thomas Jr",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "CAMERON LATU",
+   "name": "Cameron Latu",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "CHRIS RODRIGUEZ",
+   "name": "Chris Rodriguez Jr.",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "COREY KINER",
+   "name": "Corey Kiner",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DEMARIO DOUGLAS",
+   "name": "DeMario Douglas",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "EFTON CHISM",
+   "name": "Efton Chism III",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ELI RARIDON",
+   "name": "Eli Raridon",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "HUNTER HENRY",
+   "name": "Hunter Henry",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JAKOBI MEYERS",
+   "name": "Jakobi Meyers",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JOSH CAMERON",
+   "name": "Josh Cameron",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KYLE WILLIAMS",
+   "name": "Kyle Williams",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "LEQUINT ALLEN",
+   "name": "LeQuint Allen Jr.",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "MACK HOLLINS",
+   "name": "Mack Hollins",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "NATE BOERKIRCHER",
+   "name": "Nate Boerkircher",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "QUINTIN MORRIS",
+   "name": "Quintin Morris",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "RHAMONDRE STEVENSON",
+   "name": "Rhamondre Stevenson",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ROMEO DOUBS",
+   "name": "Romeo Doubs",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TRAVIS HUNTER",
+   "name": "Travis Hunter",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TREVOR LAWRENCE",
+   "name": "Trevor Lawrence",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "AJ BARNER",
+   "name": "AJ Barner",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ANTONIO WILLIAMS",
+   "name": "Antonio Williams",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BEN SINNOTT",
+   "name": "Ben Sinnott",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "COLSON YANKOFF",
+   "name": "Colson Yankoff",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "COOPER KUPP",
+   "name": "Cooper Kupp",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DYAMI BROWN",
+   "name": "Dyami Brown",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ELIJAH ARROYO",
+   "name": "Elijah Arroyo",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "EMANUEL WILSON",
+   "name": "Emanuel Wilson",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ERIC SAUBERT",
+   "name": "Eric Saubert",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "GEORGE HOLANI",
+   "name": "George Holani",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JACORY CROSKEY MERRITT",
+   "name": "Jacory Croskey-Merritt",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JADARIAN PRICE",
+   "name": "Jadarian Price",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JAXON SMITH NJIGBA",
+   "name": "Jaxon Smith-Njigba",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JAYDEN DANIELS",
+   "name": "Jayden Daniels",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JAYLIN LANE",
+   "name": "Jaylin Lane",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JOHN BATES",
+   "name": "John Bates",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KAYTRON ALLEN",
+   "name": "Kaytron Allen",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "NICK KALLERUP",
+   "name": "Nick Kallerup",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "RACHAAD WHITE",
+   "name": "Rachaad White",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "RASHID SHAHEED",
+   "name": "Rashid Shaheed",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "STEFON DIGGS",
+   "name": "Stefon Diggs",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TERRY MCLAURIN",
+   "name": "Terry McLaurin",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TORY HORTON",
+   "name": "Tory Horton",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TREYLON BURKS",
+   "name": "Treylon Burks",
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "event": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BAM KNIGHT",
+   "name": "Bam Knight",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BRAYDEN WILLIS",
+   "name": "Brayden Willis",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BROCK PURDY",
+   "name": "Brock Purdy",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "CHRISTIAN MCCAFFREY",
+   "name": "Christian McCaffrey",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DEEBO SAMUEL",
+   "name": "Deebo Samuel",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DEMARCUS ROBINSON",
+   "name": "Demarcus Robinson",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DEVIN DUVERNAY",
+   "name": "Devin Duvernay",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ELIJAH HIGGINS",
+   "name": "Elijah Higgins",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "GEORGE KITTLE",
+   "name": "George Kittle",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "HUNTER LONG",
+   "name": "Hunter Long",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JACOB COWING",
+   "name": "Jacob Cowing",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JACOBY BRISSETT",
+   "name": "Jacoby Brissett",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JALEN BROOKS",
+   "name": "Jalen Brooks",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JEREMIYAH LOVE",
+   "name": "Jeremiyah Love",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JAMES JORDAN",
+   "name": "James Jordan",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KHADAREL HODGE",
+   "name": "KhaDarel Hodge",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "LUKE FARRELL",
+   "name": "Luke Farrell",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "MARVIN HARRISON",
+   "name": "Marvin Harrison Jr.",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "MIKE EVANS",
+   "name": "Mike Evans",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "SIMI FEHOKO",
+   "name": "Simi Fehoko",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TREY MCBRIDE",
+   "name": "Trey McBride",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TYLER ALLGEIER",
+   "name": "Tyler Allgeier",
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "event": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "AARON JONES",
+   "name": "Aaron Jones",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BAKER MAYFIELD",
+   "name": "Baker Mayfield",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BAUER SHARP",
+   "name": "Bauer Sharp",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BUCKY IRVING",
+   "name": "Bucky Irving",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "CADE OTTON",
+   "name": "Cade Otton",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "CHRIS GODWIN",
+   "name": "Chris Godwin",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DEEJAY DALLAS",
+   "name": "DeeJay Dallas",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DEMOND CLAIBORNE",
+   "name": "Demond Claiborne",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DILLON BELL",
+   "name": "Dillon Bell",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "EMEKA EGBUKA",
+   "name": "Emeka Egbuka",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "GAVIN BARTHOLOMEW",
+   "name": "Gavin Bartholomew",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JALEN MCMILLAN",
+   "name": "Jalen McMillan",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JORDAN ADDISON",
+   "name": "Jordan Addison",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JOSH OLIVER",
+   "name": "Josh Oliver",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KAMERON JOHNSON",
+   "name": "Kameron Johnson",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KENNY GAINWELL",
+   "name": "Kenny Gainwell",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KO KIEFT",
+   "name": "Ko Kieft",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "MYLES PRICE",
+   "name": "Myles Price",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "PAYNE DURHAM",
+   "name": "Payne Durham",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "SEAN TUCKER",
+   "name": "Sean Tucker",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "T J HOCKENSON",
+   "name": "T.J. Hockenson",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TAI FELTON",
+   "name": "Tai Felton",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TED HURST",
+   "name": "Ted Hurst III",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TEZ JOHNSON",
+   "name": "Tez Johnson",
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "event": "f1724dead3eab61546033032fc782375",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DERRICK HENRY",
+   "name": "Derrick Henry",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "best": -265,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": -265
+   },
+   "implied": 0.726,
+   "books": 1,
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JAVONTE WILLIAMS",
+   "name": "Javonte Williams",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "best": -185,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": -185
+   },
+   "implied": 0.6491,
+   "books": 1,
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BREVYN SPANN FORD",
+   "name": "Brevyn Spann-Ford",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "CHRIS MOORE",
+   "name": "Chris Moore",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DAK PRESCOTT",
+   "name": "Dak Prescott",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DEVONTEZ WALKER",
+   "name": "Devontez Walker",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DURHAM SMYTHE",
+   "name": "Durham Smythe",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ELIJAH SARRATT",
+   "name": "Elijah Sarratt",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "EMARI DEMERCADO",
+   "name": "Emari Demercado",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "GEORGE PICKENS",
+   "name": "George Pickens",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JAKE FERGUSON",
+   "name": "Jake Ferguson",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JONATHAN MINGO",
+   "name": "Jonathan Mingo",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JOSH CUEVAS",
+   "name": "Josh Cuevas",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JUSTICE HILL",
+   "name": "Justice Hill",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KAVONTAE TURPIN",
+   "name": "KaVontae Turpin",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "LAJOHNTAY WESTER",
+   "name": "LaJohntay Wester",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "LUKE SCHOONMAKER",
+   "name": "Luke Schoonmaker",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "MARK ANDREWS",
+   "name": "Mark Andrews",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "MATTHEW HIBNER",
+   "name": "Matthew Hibner",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "RASHEEN ALI",
+   "name": "Rasheen Ali",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "RASHOD BATEMAN",
+   "name": "Rashod Bateman",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "RYAN FLOURNOY",
+   "name": "Ryan Flournoy",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "ALVIN KAMARA",
+   "name": "Alvin Kamara",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "CHRIS MYARICK",
+   "name": "Chris Myarick",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "CODY WHITE",
+   "name": "Cody White",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DAREKE YOUNG",
+   "name": "Dareke Young",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DEVAUGHN VELE",
+   "name": "Devaughn Vele",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "DYLAN LAUBE",
+   "name": "Dylan Laube",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "IAN THOMAS",
+   "name": "Ian Thomas",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JALEN NAILOR",
+   "name": "Jalen Nailor",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JUWAN JOHNSON",
+   "name": "Juwan Johnson",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KEVIN AUSTIN",
+   "name": "Kevin Austin",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "KIRK COUSINS",
+   "name": "Kirk Cousins",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "MICHAEL MAYER",
+   "name": "Michael Mayer",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "NOAH FANT",
+   "name": "Noah Fant",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TRE TUCKER",
+   "name": "Tre Tucker",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TREYTON WELCH",
+   "name": "Treyton Welch",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "TYLER SHOUGH",
+   "name": "Tyler Shough",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "BRYCE LANCE",
+   "name": "Bryce Lance",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "CJ DONALDSON",
+   "name": "CJ Donaldson",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "JACK BECH",
+   "name": "Jack Bech",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "MIKE WASHINGTON",
+   "name": "Mike Washington Jr.",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
+  {
+   "key": "OSCAR DELP",
+   "name": "Oscar Delp",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "ex": -9900,
+   "exBook": "Polymarket",
+   "exPrices": {
+    "Polymarket": -9900
+   },
+   "exImplied": 0.99,
+   "exBooks": 1
+  },
   {
    "key": "SEAN TUCKER",
    "name": "Sean Tucker",
@@ -254,6 +4021,334 @@
    "exBooks": 1
   },
   {
+   "key": "ASHTON JEANTY",
+   "name": "Ashton Jeanty",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "best": -105,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": -105
+   },
+   "implied": 0.5122,
+   "books": 1,
+   "ex": -122,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": -122,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.7698,
+   "exBooks": 2
+  },
+  {
+   "key": "BREECE HALL",
+   "name": "Breece Hall",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "best": 105,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 105
+   },
+   "implied": 0.4878,
+   "books": 1,
+   "ex": -111,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": -111,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.758,
+   "exBooks": 2
+  },
+  {
+   "key": "BHAYSHUL TUTEN",
+   "name": "Bhayshul Tuten",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "best": 120,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 120
+   },
+   "implied": 0.4545,
+   "books": 1,
+   "ex": 104,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 104,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.7401,
+   "exBooks": 2
+  },
+  {
+   "key": "CEEDEE LAMB",
+   "name": "CeeDee Lamb",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "best": 125,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 125
+   },
+   "implied": 0.4444,
+   "books": 1,
+   "ex": 108,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 108,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.7354,
+   "exBooks": 2
+  },
+  {
+   "key": "QUINSHON JUDKINS",
+   "name": "Quinshon Judkins",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "best": 145,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 145
+   },
+   "implied": 0.4082,
+   "books": 1,
+   "ex": 127,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 127,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.7153,
+   "exBooks": 2
+  },
+  {
+   "key": "TRAVIS ETIENNE",
+   "name": "Travis Etienne Jr.",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "best": 150,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 150
+   },
+   "implied": 0.4,
+   "books": 1,
+   "ex": 133,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 133,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.7096,
+   "exBooks": 2
+  },
+  {
+   "key": "GARRETT WILSON",
+   "name": "Garrett Wilson",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "best": 155,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 155
+   },
+   "implied": 0.3922,
+   "books": 1,
+   "ex": 135,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 135,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.7078,
+   "exBooks": 2
+  },
+  {
+   "key": "CHRIS OLAVE",
+   "name": "Chris Olave",
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "event": "2e523fcb0497aa689473e290eb2b97de",
+   "best": 155,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 155
+   },
+   "implied": 0.3922,
+   "books": 1,
+   "ex": 135,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 135,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.7078,
+   "exBooks": 2
+  },
+  {
+   "key": "TETAIROA MCMILLAN",
+   "name": "Tetairoa McMillan",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "best": 160,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 160
+   },
+   "implied": 0.3846,
+   "books": 1,
+   "ex": 141,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 141,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.7025,
+   "exBooks": 2
+  },
+  {
+   "key": "TREVEYON HENDERSON",
+   "name": "TreVeyon Henderson",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "best": 160,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 160
+   },
+   "implied": 0.3846,
+   "books": 1,
+   "ex": 141,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 141,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.7025,
+   "exBooks": 2
+  },
+  {
+   "key": "PARKER WASHINGTON",
+   "name": "Parker Washington",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "best": 175,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 175
+   },
+   "implied": 0.3636,
+   "books": 1,
+   "ex": 153,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 153,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.6926,
+   "exBooks": 2
+  },
+  {
+   "key": "KENNETH WALKER",
+   "name": "Kenneth Walker III",
+   "teams": [
+    "KC",
+    "MIA"
+   ],
+   "event": "0339a0e41bcee12820eb3e64bb5fadb4",
+   "best": -225,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": -225
+   },
+   "implied": 0.6923,
+   "books": 1
+  },
+  {
+   "key": "QUENTIN JOHNSTON",
+   "name": "Quentin Johnston",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "best": 185,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 185
+   },
+   "implied": 0.3509,
+   "books": 1,
+   "ex": 163,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 163,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.6851,
+   "exBooks": 2
+  },
+  {
+   "key": "LAMAR JACKSON",
+   "name": "Lamar Jackson",
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "event": "84cfca14efc21363fd605508404cf1ff",
+   "best": 200,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 200
+   },
+   "implied": 0.3333,
+   "books": 1,
+   "ex": 178,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 178,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.6749,
+   "exBooks": 2
+  },
+  {
    "key": "DARIUS SLAYTON",
    "name": "Darius Slayton",
    "teams": [
@@ -268,6 +4363,175 @@
    },
    "exImplied": 0.6377,
    "exBooks": 1
+  },
+  {
+   "key": "DENZEL BOSTON",
+   "name": "Denzel Boston",
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "event": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "best": 295,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 295
+   },
+   "implied": 0.2532,
+   "books": 1,
+   "ex": 264,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 264,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.6324,
+   "exBooks": 2
+  },
+  {
+   "key": "DRAKE MAYE",
+   "name": "Drake Maye",
+   "teams": [
+    "NE",
+    "JAX"
+   ],
+   "event": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+   "best": 330,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 330
+   },
+   "implied": 0.2326,
+   "books": 1,
+   "ex": 292,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 292,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.6226,
+   "exBooks": 2
+  },
+  {
+   "key": "JOSH ALLEN",
+   "name": "Josh Allen",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "best": -140,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": -140
+   },
+   "implied": 0.5833,
+   "books": 1,
+   "ex": -150,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": -150,
+    "ProphetX": -156,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.6094,
+   "exBooks": 3
+  },
+  {
+   "key": "BIJAN ROBINSON",
+   "name": "Bijan Robinson",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": -140,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": -140,
+    "DraftKings": -145,
+    "Caesars": -148,
+    "Bovada": -148,
+    "FanDuel": -150,
+    "BetMGM": -165,
+    "BetOnline.ag": -167
+   },
+   "implied": 0.5968,
+   "books": 7,
+   "ex": -142,
+   "exBook": "ProphetX",
+   "exPrices": {
+    "ProphetX": -142,
+    "Novig": -147
+   },
+   "exImplied": 0.591,
+   "exBooks": 2
+  },
+  {
+   "key": "OMARION HAMPTON",
+   "name": "Omarion Hampton",
+   "teams": [
+    "LAC",
+    "BUF"
+   ],
+   "event": "b225458a282e140c44c45651255f2f6c",
+   "best": -125,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": -125
+   },
+   "implied": 0.5556,
+   "books": 1,
+   "ex": -135,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": -135,
+    "ProphetX": -142,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.5868,
+   "exBooks": 3
+  },
+  {
+   "key": "AMON RA ST BROWN",
+   "name": "Amon-Ra St. Brown",
+   "teams": [
+    "NYJ",
+    "DET"
+   ],
+   "event": "07f552badfa8a565d1be22123713e4da",
+   "best": -120,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": -120
+   },
+   "implied": 0.5455,
+   "books": 1,
+   "ex": -130,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": -130,
+    "ProphetX": -136,
+    "Polymarket": -9900
+   },
+   "exImplied": 0.5763,
+   "exBooks": 3
+  },
+  {
+   "key": "DE VON ACHANE",
+   "name": "De'Von Achane",
+   "teams": [
+    "KC",
+    "MIA"
+   ],
+   "event": "0339a0e41bcee12820eb3e64bb5fadb4",
+   "best": -110,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": -110
+   },
+   "implied": 0.5238,
+   "books": 1
   },
   {
    "key": "BIJAN ROBINSON",
@@ -511,6 +4775,37 @@
    "exBooks": 1
   },
   {
+   "key": "DAVANTE ADAMS",
+   "name": "Davante Adams",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": -105,
+   "bestBook": "BetMGM",
+   "prices": {
+    "BetMGM": -105,
+    "Fanatics": -110,
+    "DraftKings": -115,
+    "Bovada": -117,
+    "Caesars": -120,
+    "FanDuel": -120,
+    "BetRivers": -121,
+    "BetOnline.ag": -125
+   },
+   "implied": 0.5423,
+   "books": 8,
+   "ex": 102,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 102,
+    "ProphetX": -102
+   },
+   "exImplied": 0.5,
+   "exBooks": 2
+  },
+  {
    "key": "KYREN WILLIAMS",
    "name": "Kyren Williams",
    "teams": [
@@ -561,36 +4856,6 @@
     "BetOnline.ag": -125
    },
    "implied": 0.5122,
-   "books": 8,
-   "ex": 101,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 101
-   },
-   "exImplied": 0.4975,
-   "exBooks": 1
-  },
-  {
-   "key": "PUKA NACUA",
-   "name": "Puka Nacua",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 110,
-   "bestBook": "BetRivers",
-   "prices": {
-    "BetRivers": 110,
-    "Fanatics": 105,
-    "Caesars": 102,
-    "DraftKings": 100,
-    "Bovada": 100,
-    "FanDuel": -105,
-    "BetMGM": -105,
-    "BetOnline.ag": -111
-   },
-   "implied": 0.5,
    "books": 8,
    "ex": 101,
    "exBook": "ProphetX",
@@ -1081,36 +5346,6 @@
    "exBooks": 1
   },
   {
-   "key": "DAVANTE ADAMS",
-   "name": "Davante Adams",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 115,
-   "bestBook": "BetMGM",
-   "prices": {
-    "BetMGM": 115,
-    "Fanatics": 105,
-    "BetRivers": -104,
-    "FanDuel": -105,
-    "DraftKings": -110,
-    "Caesars": -110,
-    "BetOnline.ag": -111,
-    "Bovada": -114
-   },
-   "implied": 0.518,
-   "books": 8,
-   "ex": 120,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 120
-   },
-   "exImplied": 0.4545,
-   "exBooks": 1
-  },
-  {
    "key": "RHAMONDRE STEVENSON",
    "name": "Rhamondre Stevenson",
    "teams": [
@@ -1442,6 +5677,37 @@
    "exBooks": 1
   },
   {
+   "key": "CAM SKATTEBO",
+   "name": "Cam Skattebo",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 125,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 125,
+    "BetMGM": 120,
+    "DraftKings": 115,
+    "FanDuel": 115,
+    "Bovada": 115,
+    "BetRivers": 112,
+    "Caesars": 110,
+    "BetOnline.ag": 110
+   },
+   "implied": 0.4651,
+   "books": 8,
+   "ex": 133,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 133,
+    "ProphetX": 125
+   },
+   "exImplied": 0.4368,
+   "exBooks": 2
+  },
+  {
    "key": "JAMES COOK",
    "name": "James Cook",
    "teams": [
@@ -1590,6 +5856,36 @@
    },
    "exImplied": 0.431,
    "exBooks": 1
+  },
+  {
+   "key": "CHRISTIAN WATSON",
+   "name": "Christian Watson",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 155,
+   "bestBook": "Bovada",
+   "prices": {
+    "Bovada": 155,
+    "Fanatics": 150,
+    "DraftKings": 135,
+    "Caesars": 135,
+    "FanDuel": 130,
+    "BetOnline.ag": 130,
+    "BetMGM": 125
+   },
+   "implied": 0.4255,
+   "books": 7,
+   "ex": 133,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 133,
+    "ProphetX": 132
+   },
+   "exImplied": 0.4301,
+   "exBooks": 2
   },
   {
    "key": "JALEN HURTS",
@@ -1856,27 +6152,28 @@
     "LAR"
    ],
    "event": "32367f882fac1a0c20a6335619922025",
-   "best": -167,
-   "bestBook": "BetRivers",
+   "best": -170,
+   "bestBook": "DraftKings",
    "prices": {
-    "BetRivers": -167,
-    "DraftKings": -175,
+    "DraftKings": -170,
+    "Bovada": -174,
     "BetMGM": -175,
     "Fanatics": -175,
-    "Bovada": -176,
-    "Caesars": -190,
-    "FanDuel": -195,
+    "Caesars": -179,
+    "FanDuel": -180,
+    "BetRivers": -182,
     "BetOnline.ag": -200
    },
-   "implied": 0.637,
+   "implied": 0.639,
    "books": 8,
-   "ex": 138,
-   "exBook": "ProphetX",
+   "ex": 141,
+   "exBook": "Novig",
    "exPrices": {
+    "Novig": 141,
     "ProphetX": 138
    },
-   "exImplied": 0.4202,
-   "exBooks": 1
+   "exImplied": 0.4176,
+   "exBooks": 2
   },
   {
    "key": "JAYLEN WARREN",
@@ -1969,6 +6266,23 @@
    "exBooks": 1
   },
   {
+   "key": "PUKA NACUA",
+   "name": "Puka Nacua",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "ex": 147,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 147,
+    "ProphetX": 136
+   },
+   "exImplied": 0.4143,
+   "exBooks": 2
+  },
+  {
    "key": "JAXON SMITH NJIGBA",
    "name": "Jaxon Smith-Njigba",
    "teams": [
@@ -2050,36 +6364,6 @@
     "BetRivers": -230
    },
    "implied": 0.6441,
-   "books": 8,
-   "ex": 144,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 144
-   },
-   "exImplied": 0.4098,
-   "exBooks": 1
-  },
-  {
-   "key": "CAM SKATTEBO",
-   "name": "Cam Skattebo",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 120,
-   "bestBook": "BetMGM",
-   "prices": {
-    "BetMGM": 120,
-    "Fanatics": 115,
-    "DraftKings": 110,
-    "Caesars": 110,
-    "Bovada": 110,
-    "FanDuel": 105,
-    "BetRivers": 102,
-    "BetOnline.ag": 100
-   },
-   "implied": 0.4762,
    "books": 8,
    "ex": 144,
    "exBook": "ProphetX",
@@ -2331,6 +6615,29 @@
    "exBooks": 1
   },
   {
+   "key": "TRAVIS KELCE",
+   "name": "Travis Kelce",
+   "teams": [
+    "KC",
+    "MIA"
+   ],
+   "event": "0339a0e41bcee12820eb3e64bb5fadb4",
+   "best": 175,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 175
+   },
+   "implied": 0.3636,
+   "books": 1,
+   "ex": 153,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 153
+   },
+   "exImplied": 0.3953,
+   "exBooks": 1
+  },
+  {
    "key": "BHAYSHUL TUTEN",
    "name": "Bhayshul Tuten",
    "teams": [
@@ -2571,6 +6878,36 @@
    "exBooks": 1
   },
   {
+   "key": "MARSHAWN LLOYD",
+   "name": "MarShawn Lloyd",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 230,
+   "bestBook": "Bovada",
+   "prices": {
+    "Bovada": 230,
+    "Fanatics": 175,
+    "DraftKings": 165,
+    "Caesars": 161,
+    "FanDuel": 160,
+    "BetOnline.ag": 160,
+    "BetMGM": 150
+   },
+   "implied": 0.3831,
+   "books": 7,
+   "ex": 167,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 167,
+    "ProphetX": 164
+   },
+   "exImplied": 0.3767,
+   "exBooks": 2
+  },
+  {
    "key": "JUSTIN JEFFERSON",
    "name": "Justin Jefferson",
    "teams": [
@@ -2691,6 +7028,36 @@
    "exBooks": 1
   },
   {
+   "key": "TUCKER KRAFT",
+   "name": "Tucker Kraft",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 200,
+   "bestBook": "BetMGM",
+   "prices": {
+    "BetMGM": 200,
+    "Fanatics": 185,
+    "Bovada": 175,
+    "DraftKings": 170,
+    "Caesars": 167,
+    "FanDuel": 165,
+    "BetOnline.ag": 160
+   },
+   "implied": 0.3704,
+   "books": 7,
+   "ex": 172,
+   "exBook": "ProphetX",
+   "exPrices": {
+    "ProphetX": 172,
+    "Novig": 170
+   },
+   "exImplied": 0.369,
+   "exBooks": 2
+  },
+  {
    "key": "NICO COLLINS",
    "name": "Nico Collins",
    "teams": [
@@ -2749,6 +7116,36 @@
    },
    "exImplied": 0.365,
    "exBooks": 1
+  },
+  {
+   "key": "MATTHEW GOLDEN",
+   "name": "Matthew Golden",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 190,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 190,
+    "Bovada": 190,
+    "DraftKings": 175,
+    "BetMGM": 175,
+    "Caesars": 174,
+    "FanDuel": 170,
+    "BetOnline.ag": 170
+   },
+   "implied": 0.3636,
+   "books": 7,
+   "ex": 178,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 178,
+    "ProphetX": 170
+   },
+   "exImplied": 0.365,
+   "exBooks": 2
   },
   {
    "key": "LADD MCCONKEY",
@@ -3039,6 +7436,35 @@
    },
    "exImplied": 0.3571,
    "exBooks": 1
+  },
+  {
+   "key": "KALEB JOHNSON",
+   "name": "Kaleb Johnson",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 200,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 200,
+    "FanDuel": 180,
+    "Caesars": 175,
+    "Bovada": 175,
+    "DraftKings": 170,
+    "BetMGM": 160
+   },
+   "implied": 0.3636,
+   "books": 6,
+   "ex": 186,
+   "exBook": "ProphetX",
+   "exPrices": {
+    "ProphetX": 186,
+    "Novig": 178
+   },
+   "exImplied": 0.3547,
+   "exBooks": 2
   },
   {
    "key": "DERRICK HENRY",
@@ -3344,36 +7770,6 @@
    "key": "BLAKE CORUM",
    "name": "Blake Corum",
    "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 220,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 220,
-    "FanDuel": 195,
-    "Caesars": 185,
-    "DraftKings": 180,
-    "BetOnline.ag": 180,
-    "Bovada": 180,
-    "BetRivers": 155,
-    "BetMGM": 140
-   },
-   "implied": 0.3571,
-   "books": 8,
-   "ex": 186,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 186
-   },
-   "exImplied": 0.3497,
-   "exBooks": 1
-  },
-  {
-   "key": "BLAKE CORUM",
-   "name": "Blake Corum",
-   "teams": [
     "SF",
     "LAR"
    ],
@@ -3391,36 +7787,6 @@
     "BetMGM": 155
    },
    "implied": 0.3623,
-   "books": 8,
-   "ex": 188,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 188
-   },
-   "exImplied": 0.3472,
-   "exBooks": 1
-  },
-  {
-   "key": "MALIK NABERS",
-   "name": "Malik Nabers",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 210,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 210,
-    "FanDuel": 185,
-    "Caesars": 183,
-    "DraftKings": 180,
-    "BetOnline.ag": 180,
-    "BetRivers": 180,
-    "BetMGM": 180,
-    "Bovada": 180
-   },
-   "implied": 0.3571,
    "books": 8,
    "ex": 188,
    "exBook": "ProphetX",
@@ -3700,6 +8066,36 @@
    },
    "exImplied": 0.3378,
    "exBooks": 1
+  },
+  {
+   "key": "CHRIS BROOKS",
+   "name": "Chris Brooks",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 210,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 210,
+    "Fanatics": 210,
+    "Bovada": 205,
+    "Caesars": 191,
+    "FanDuel": 190,
+    "BetOnline.ag": 190,
+    "BetMGM": 185
+   },
+   "implied": 0.3436,
+   "books": 7,
+   "ex": 203,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 203,
+    "ProphetX": 196
+   },
+   "exImplied": 0.3339,
+   "exBooks": 2
   },
   {
    "key": "MARK ANDREWS",
@@ -4122,6 +8518,68 @@
    "exBooks": 1
   },
   {
+   "key": "MALIK NABERS",
+   "name": "Malik Nabers",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 205,
+   "bestBook": "BetRivers",
+   "prices": {
+    "BetRivers": 205,
+    "Fanatics": 200,
+    "FanDuel": 195,
+    "Caesars": 194,
+    "DraftKings": 190,
+    "BetOnline.ag": 190,
+    "Bovada": 190,
+    "BetMGM": 180
+   },
+   "implied": 0.3425,
+   "books": 8,
+   "ex": 208,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 208,
+    "ProphetX": 205
+   },
+   "exImplied": 0.3263,
+   "exBooks": 2
+  },
+  {
+   "key": "BLAKE CORUM",
+   "name": "Blake Corum",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 230,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 230,
+    "BetRivers": 215,
+    "DraftKings": 200,
+    "BetOnline.ag": 200,
+    "FanDuel": 200,
+    "Bovada": 200,
+    "Caesars": 199,
+    "BetMGM": 135
+   },
+   "implied": 0.3333,
+   "books": 8,
+   "ex": 213,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 213,
+    "ProphetX": 205
+   },
+   "exImplied": 0.3237,
+   "exBooks": 2
+  },
+  {
    "key": "DK METCALF",
    "name": "DK Metcalf",
    "teams": [
@@ -4360,6 +8818,36 @@
    },
    "exImplied": 0.3226,
    "exBooks": 1
+  },
+  {
+   "key": "DRAKE LONDON",
+   "name": "Drake London",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 220,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 220,
+    "DraftKings": 215,
+    "FanDuel": 210,
+    "Caesars": 205,
+    "BetOnline.ag": 200,
+    "BetMGM": 200,
+    "Bovada": 195
+   },
+   "implied": 0.3279,
+   "books": 7,
+   "ex": 215,
+   "exBook": "ProphetX",
+   "exPrices": {
+    "ProphetX": 215,
+    "Novig": 208
+   },
+   "exImplied": 0.3211,
+   "exBooks": 2
   },
   {
    "key": "JEREMIYAH LOVE",
@@ -4783,34 +9271,32 @@
    "exBooks": 1
   },
   {
-   "key": "JAXSON DART",
-   "name": "Jaxson Dart",
+   "key": "TYRONE TRACY",
+   "name": "Tyrone Tracy Jr.",
    "teams": [
     "NYG",
     "LAR"
    ],
    "event": "32367f882fac1a0c20a6335619922025",
-   "best": 265,
-   "bestBook": "Fanatics",
+   "best": 950,
+   "bestBook": "BetMGM",
    "prices": {
-    "Fanatics": 265,
-    "BetMGM": 240,
-    "DraftKings": 235,
-    "Bovada": 235,
-    "Caesars": 230,
-    "BetOnline.ag": 230,
-    "FanDuel": 230,
-    "BetRivers": 195
+    "BetMGM": 950,
+    "Caesars": 800,
+    "BetOnline.ag": 800,
+    "BetRivers": 800,
+    "Fanatics": 800
    },
-   "implied": 0.3008,
-   "books": 8,
-   "ex": 225,
-   "exBook": "ProphetX",
+   "implied": 0.1111,
+   "books": 5,
+   "ex": 770,
+   "exBook": "Novig",
    "exPrices": {
-    "ProphetX": 225
+    "Novig": 770,
+    "ProphetX": 100
    },
-   "exImplied": 0.3077,
-   "exBooks": 1
+   "exImplied": 0.3075,
+   "exBooks": 2
   },
   {
    "key": "GEORGE HOLANI",
@@ -5857,6 +10343,37 @@
    "exBooks": 1
   },
   {
+   "key": "JAXSON DART",
+   "name": "Jaxson Dart",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 265,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 265,
+    "FanDuel": 260,
+    "DraftKings": 250,
+    "Caesars": 250,
+    "BetOnline.ag": 250,
+    "Bovada": 250,
+    "BetMGM": 220,
+    "BetRivers": 210
+   },
+   "implied": 0.2857,
+   "books": 8,
+   "ex": 265,
+   "exBook": "ProphetX",
+   "exPrices": {
+    "ProphetX": 265,
+    "Novig": 264
+   },
+   "exImplied": 0.2743,
+   "exBooks": 2
+  },
+  {
    "key": "ROMEO DOUBS",
    "name": "Romeo Doubs",
    "teams": [
@@ -5877,36 +10394,6 @@
     "BetMGM": 250
    },
    "implied": 0.2703,
-   "books": 8,
-   "ex": 265,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 265
-   },
-   "exImplied": 0.274,
-   "exBooks": 1
-  },
-  {
-   "key": "TERRANCE FERGUSON",
-   "name": "Terrance Ferguson",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 420,
-   "bestBook": "BetRivers",
-   "prices": {
-    "BetRivers": 420,
-    "Fanatics": 400,
-    "FanDuel": 340,
-    "DraftKings": 330,
-    "Caesars": 330,
-    "Bovada": 330,
-    "BetOnline.ag": 325,
-    "BetMGM": 300
-   },
-   "implied": 0.2326,
    "books": 8,
    "ex": 265,
    "exBook": "ProphetX",
@@ -6316,34 +10803,35 @@
    "exBooks": 1
   },
   {
-   "key": "ISAIAH LIKELY",
-   "name": "Isaiah Likely",
+   "key": "TERRANCE FERGUSON",
+   "name": "Terrance Ferguson",
    "teams": [
     "NYG",
     "LAR"
    ],
    "event": "32367f882fac1a0c20a6335619922025",
    "best": 280,
-   "bestBook": "FanDuel",
+   "bestBook": "Fanatics",
    "prices": {
-    "FanDuel": 280,
     "Fanatics": 280,
-    "DraftKings": 275,
-    "Bovada": 275,
-    "BetOnline.ag": 270,
-    "Caesars": 265,
-    "BetRivers": 235,
-    "BetMGM": 230
+    "BetRivers": 255,
+    "BetMGM": 250,
+    "DraftKings": 240,
+    "Caesars": 240,
+    "BetOnline.ag": 240,
+    "FanDuel": 240,
+    "Bovada": 240
    },
-   "implied": 0.2685,
+   "implied": 0.2941,
    "books": 8,
-   "ex": 280,
-   "exBook": "ProphetX",
+   "ex": 292,
+   "exBook": "Novig",
    "exPrices": {
-    "ProphetX": 280
+    "Novig": 292,
+    "ProphetX": 275
    },
-   "exImplied": 0.2632,
-   "exBooks": 1
+   "exImplied": 0.2609,
+   "exBooks": 2
   },
   {
    "key": "LAMAR JACKSON",
@@ -6557,6 +11045,29 @@
    "exBooks": 2
   },
   {
+   "key": "MALIK WILLIS",
+   "name": "Malik Willis",
+   "teams": [
+    "KC",
+    "MIA"
+   ],
+   "event": "0339a0e41bcee12820eb3e64bb5fadb4",
+   "best": 320,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 320
+   },
+   "implied": 0.2381,
+   "books": 1,
+   "ex": 285,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 285
+   },
+   "exImplied": 0.2597,
+   "exBooks": 1
+  },
+  {
    "key": "JAKE FERGUSON",
    "name": "Jake Ferguson",
    "teams": [
@@ -6655,27 +11166,28 @@
     "LAR"
    ],
    "event": "32367f882fac1a0c20a6335619922025",
-   "best": 410,
+   "best": 295,
    "bestBook": "BetRivers",
    "prices": {
-    "BetRivers": 410,
-    "Fanatics": 325,
-    "DraftKings": 290,
-    "Bovada": 290,
-    "Caesars": 285,
-    "BetOnline.ag": 280,
-    "FanDuel": 280,
+    "BetRivers": 295,
+    "Fanatics": 265,
+    "Caesars": 250,
+    "FanDuel": 250,
+    "DraftKings": 245,
+    "Bovada": 245,
+    "BetOnline.ag": 240,
     "BetMGM": 210
    },
-   "implied": 0.2581,
+   "implied": 0.2878,
    "books": 8,
-   "ex": 295,
-   "exBook": "ProphetX",
+   "ex": 300,
+   "exBook": "Novig",
    "exPrices": {
+    "Novig": 300,
     "ProphetX": 295
    },
-   "exImplied": 0.2532,
-   "exBooks": 1
+   "exImplied": 0.2516,
+   "exBooks": 2
   },
   {
    "key": "KAYSHON BOUTTE",
@@ -6788,36 +11300,6 @@
     "Bovada": 300
    },
    "implied": 0.2485,
-   "books": 8,
-   "ex": 300,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 300
-   },
-   "exImplied": 0.25,
-   "exBooks": 1
-  },
-  {
-   "key": "TYLER HIGBEE",
-   "name": "Tyler Higbee",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 480,
-   "bestBook": "BetRivers",
-   "prices": {
-    "BetRivers": 480,
-    "BetMGM": 450,
-    "Fanatics": 325,
-    "DraftKings": 320,
-    "Bovada": 320,
-    "Caesars": 305,
-    "BetOnline.ag": 280,
-    "FanDuel": 280
-   },
-   "implied": 0.2381,
    "books": 8,
    "ex": 300,
    "exBook": "ProphetX",
@@ -6946,6 +11428,37 @@
     "Novig": 292
    },
    "exImplied": 0.2466,
+   "exBooks": 2
+  },
+  {
+   "key": "ISAIAH LIKELY",
+   "name": "Isaiah Likely",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 290,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 290,
+    "Bovada": 290,
+    "Caesars": 280,
+    "BetOnline.ag": 280,
+    "FanDuel": 280,
+    "BetRivers": 275,
+    "Fanatics": 265,
+    "BetMGM": 225
+   },
+   "implied": 0.2632,
+   "books": 8,
+   "ex": 317,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 317,
+    "ProphetX": 295
+   },
+   "exImplied": 0.2465,
    "exBooks": 2
   },
   {
@@ -9357,6 +13870,36 @@
    "exBooks": 1
   },
   {
+   "key": "SKYY MOORE",
+   "name": "Skyy Moore",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 500,
+   "bestBook": "BetMGM",
+   "prices": {
+    "BetMGM": 500,
+    "Fanatics": 450,
+    "DraftKings": 400,
+    "Caesars": 390,
+    "FanDuel": 390,
+    "Bovada": 380,
+    "BetOnline.ag": 350
+   },
+   "implied": 0.2041,
+   "books": 7,
+   "ex": 405,
+   "exBook": "ProphetX",
+   "exPrices": {
+    "ProphetX": 405,
+    "Novig": 400
+   },
+   "exImplied": 0.199,
+   "exBooks": 2
+  },
+  {
    "key": "MALIK WASHINGTON",
    "name": "Malik Washington",
    "teams": [
@@ -9536,6 +14079,36 @@
    },
    "exImplied": 0.1923,
    "exBooks": 1
+  },
+  {
+   "key": "KYLE PITTS",
+   "name": "Kyle Pitts",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 475,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 475,
+    "DraftKings": 450,
+    "Caesars": 400,
+    "FanDuel": 400,
+    "BetOnline.ag": 400,
+    "Bovada": 380,
+    "BetMGM": 340
+   },
+   "implied": 0.2,
+   "books": 7,
+   "ex": 430,
+   "exBook": "ProphetX",
+   "exPrices": {
+    "ProphetX": 430,
+    "Novig": 413
+   },
+   "exImplied": 0.1918,
+   "exBooks": 2
   },
   {
    "key": "ISAAC TESLAA",
@@ -9978,96 +14551,6 @@
     "BetMGM": 340
    },
    "implied": 0.1878,
-   "books": 8,
-   "ex": 435,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 435
-   },
-   "exImplied": 0.1869,
-   "exBooks": 1
-  },
-  {
-   "key": "DEVIN SINGLETARY",
-   "name": "Devin Singletary",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 475,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 475,
-    "BetRivers": 460,
-    "DraftKings": 425,
-    "Bovada": 420,
-    "FanDuel": 410,
-    "Caesars": 400,
-    "BetOnline.ag": 400,
-    "BetMGM": 360
-   },
-   "implied": 0.1942,
-   "books": 8,
-   "ex": 435,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 435
-   },
-   "exImplied": 0.1869,
-   "exBooks": 1
-  },
-  {
-   "key": "MALACHI FIELDS",
-   "name": "Malachi Fields",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 500,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 500,
-    "FanDuel": 440,
-    "DraftKings": 425,
-    "Bovada": 420,
-    "Caesars": 400,
-    "BetOnline.ag": 400,
-    "BetMGM": 400,
-    "BetRivers": 370
-   },
-   "implied": 0.1962,
-   "books": 8,
-   "ex": 435,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 435
-   },
-   "exImplied": 0.1869,
-   "exBooks": 1
-  },
-  {
-   "key": "NAJEE HARRIS",
-   "name": "Najee Harris",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 650,
-   "bestBook": "BetMGM",
-   "prices": {
-    "BetMGM": 650,
-    "DraftKings": 600,
-    "BetRivers": 600,
-    "Bovada": 600,
-    "Fanatics": 500,
-    "Caesars": 475,
-    "FanDuel": 410,
-    "BetOnline.ag": 400
-   },
-   "implied": 0.1548,
    "books": 8,
    "ex": 435,
    "exBook": "ProphetX",
@@ -10590,36 +15073,6 @@
    "exBooks": 1
   },
   {
-   "key": "KONATA MUMPFIELD",
-   "name": "Konata Mumpfield",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 1050,
-   "bestBook": "BetRivers",
-   "prices": {
-    "BetRivers": 1050,
-    "Fanatics": 750,
-    "DraftKings": 650,
-    "BetOnline.ag": 650,
-    "FanDuel": 650,
-    "Caesars": 625,
-    "Bovada": 625,
-    "BetMGM": 600
-   },
-   "implied": 0.1333,
-   "books": 8,
-   "ex": 470,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 470
-   },
-   "exImplied": 0.1754,
-   "exBooks": 1
-  },
-  {
    "key": "COLE KMET",
    "name": "Cole Kmet",
    "teams": [
@@ -10671,6 +15124,36 @@
    },
    "implied": 0.1802,
    "books": 8,
+   "ex": 490,
+   "exBook": "ProphetX",
+   "exPrices": {
+    "ProphetX": 490,
+    "Novig": 471
+   },
+   "exImplied": 0.1723,
+   "exBooks": 2
+  },
+  {
+   "key": "BRIAN ROBINSON",
+   "name": "Brian Robinson Jr.",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 550,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 550,
+    "DraftKings": 475,
+    "FanDuel": 470,
+    "Caesars": 450,
+    "Bovada": 440,
+    "BetOnline.ag": 400,
+    "BetMGM": 340
+   },
+   "implied": 0.1818,
+   "books": 7,
    "ex": 490,
    "exBook": "ProphetX",
    "exPrices": {
@@ -11042,6 +15525,37 @@
    "exBooks": 1
   },
   {
+   "key": "MALACHI FIELDS",
+   "name": "Malachi Fields",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 575,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 575,
+    "DraftKings": 500,
+    "Bovada": 500,
+    "FanDuel": 480,
+    "Caesars": 475,
+    "BetOnline.ag": 450,
+    "BetRivers": 450,
+    "BetMGM": 425
+   },
+   "implied": 0.1732,
+   "books": 8,
+   "ex": 525,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 525,
+    "ProphetX": 495
+   },
+   "exImplied": 0.164,
+   "exBooks": 2
+  },
+  {
    "key": "XAVIER HUTCHINSON",
    "name": "Xavier Hutchinson",
    "teams": [
@@ -11063,35 +15577,6 @@
    },
    "implied": 0.1762,
    "books": 8,
-   "ex": 510,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 510
-   },
-   "exImplied": 0.1639,
-   "exBooks": 1
-  },
-  {
-   "key": "TUTU ATWELL",
-   "name": "Tutu Atwell",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 850,
-   "bestBook": "BetRivers",
-   "prices": {
-    "BetRivers": 850,
-    "Caesars": 800,
-    "Fanatics": 750,
-    "DraftKings": 650,
-    "BetOnline.ag": 650,
-    "FanDuel": 650,
-    "Bovada": 625
-   },
-   "implied": 0.1333,
-   "books": 7,
    "ex": 510,
    "exBook": "ProphetX",
    "exPrices": {
@@ -11188,6 +15673,23 @@
    },
    "exImplied": 0.1613,
    "exBooks": 1
+  },
+  {
+   "key": "JORDAN WHITTINGTON",
+   "name": "Jordan Whittington",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "ex": 669,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 669,
+    "ProphetX": 430
+   },
+   "exImplied": 0.1594,
+   "exBooks": 2
   },
   {
    "key": "BRIAN ROBINSON",
@@ -11549,6 +16051,37 @@
    "exBooks": 1
   },
   {
+   "key": "DEVIN SINGLETARY",
+   "name": "Devin Singletary",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 525,
+   "bestBook": "BetRivers",
+   "prices": {
+    "BetRivers": 525,
+    "Fanatics": 525,
+    "DraftKings": 500,
+    "FanDuel": 500,
+    "Bovada": 500,
+    "Caesars": 475,
+    "BetOnline.ag": 450,
+    "BetMGM": 360
+   },
+   "implied": 0.1667,
+   "books": 8,
+   "ex": 545,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 545,
+    "ProphetX": 530
+   },
+   "exImplied": 0.1569,
+   "exBooks": 2
+  },
+  {
    "key": "ORONDE GADSDEN",
    "name": "Oronde Gadsden II",
    "teams": [
@@ -11727,24 +16260,6 @@
    },
    "exImplied": 0.1538,
    "exBooks": 1
-  },
-  {
-   "key": "JORDAN WHITTINGTON",
-   "name": "Jordan Whittington",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 650,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 650,
-    "BetRivers": 550,
-    "Caesars": 500
-   },
-   "implied": 0.1538,
-   "books": 3
   },
   {
    "key": "TYQUAN THORNTON",
@@ -12286,34 +16801,96 @@
    "exBooks": 1
   },
   {
-   "key": "DARNELL MOONEY",
-   "name": "Darnell Mooney",
+   "key": "TYLER HIGBEE",
+   "name": "Tyler Higbee",
    "teams": [
     "NYG",
     "LAR"
    ],
    "event": "32367f882fac1a0c20a6335619922025",
-   "best": 850,
-   "bestBook": "FanDuel",
+   "best": 550,
+   "bestBook": "Fanatics",
    "prices": {
-    "FanDuel": 850,
-    "Fanatics": 800,
-    "DraftKings": 700,
-    "Caesars": 700,
-    "BetOnline.ag": 700,
-    "Bovada": 700,
-    "BetRivers": 650,
-    "BetMGM": 575
+    "Fanatics": 550,
+    "BetRivers": 525,
+    "DraftKings": 500,
+    "Bovada": 500,
+    "FanDuel": 480,
+    "Caesars": 475,
+    "BetMGM": 475,
+    "BetOnline.ag": 450
    },
-   "implied": 0.125,
+   "implied": 0.1695,
    "books": 8,
-   "ex": 590,
+   "ex": 614,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 614,
+    "ProphetX": 570
+   },
+   "exImplied": 0.1447,
+   "exBooks": 2
+  },
+  {
+   "key": "KONATA MUMPFIELD",
+   "name": "Konata Mumpfield",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 650,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 650,
+    "BetRivers": 575,
+    "DraftKings": 550,
+    "Caesars": 550,
+    "FanDuel": 550,
+    "BetMGM": 525,
+    "Bovada": 525,
+    "BetOnline.ag": 500
+   },
+   "implied": 0.1538,
+   "books": 8,
+   "ex": 614,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 614,
+    "ProphetX": 570
+   },
+   "exImplied": 0.1447,
+   "exBooks": 2
+  },
+  {
+   "key": "JORDAN LOVE",
+   "name": "Jordan Love",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 750,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 750,
+    "Bovada": 625,
+    "DraftKings": 600,
+    "Caesars": 600,
+    "FanDuel": 600,
+    "BetOnline.ag": 600,
+    "BetMGM": 525
+   },
+   "implied": 0.1429,
+   "books": 7,
+   "ex": 620,
    "exBook": "ProphetX",
    "exPrices": {
-    "ProphetX": 590
+    "ProphetX": 620,
+    "Novig": 567
    },
-   "exImplied": 0.1449,
-   "exBooks": 1
+   "exImplied": 0.1444,
+   "exBooks": 2
   },
   {
    "key": "GUNNAR HELM",
@@ -12455,6 +17032,35 @@
    },
    "implied": 0.1404,
    "books": 8
+  },
+  {
+   "key": "JONNU SMITH",
+   "name": "Jonnu Smith",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 650,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 650,
+    "Fanatics": 650,
+    "Caesars": 625,
+    "FanDuel": 600,
+    "Bovada": 600,
+    "BetMGM": 575
+   },
+   "implied": 0.1404,
+   "books": 6,
+   "ex": 620,
+   "exBook": "ProphetX",
+   "exPrices": {
+    "ProphetX": 620,
+    "Novig": 614
+   },
+   "exImplied": 0.1395,
+   "exBooks": 2
   },
   {
    "key": "DARNELL WASHINGTON",
@@ -13319,6 +17925,25 @@
    "exBooks": 1
   },
   {
+   "key": "BO MELTON",
+   "name": "Bo Melton",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 900,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 900,
+    "BetMGM": 700,
+    "Caesars": 675,
+    "BetOnline.ag": 550
+   },
+   "implied": 0.127,
+   "books": 4
+  },
+  {
    "key": "GENO SMITH",
    "name": "Geno Smith",
    "teams": [
@@ -13454,6 +18079,36 @@
    "books": 1
   },
   {
+   "key": "JAHAN DOTSON",
+   "name": "Jahan Dotson",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 800,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 800,
+    "Bovada": 725,
+    "FanDuel": 700,
+    "Caesars": 675,
+    "DraftKings": 650,
+    "BetOnline.ag": 650,
+    "BetMGM": 575
+   },
+   "implied": 0.129,
+   "books": 7,
+   "ex": 740,
+   "exBook": "ProphetX",
+   "exPrices": {
+    "ProphetX": 740,
+    "Novig": 669
+   },
+   "exImplied": 0.1245,
+   "exBooks": 2
+  },
+  {
    "key": "CHRIS BELL",
    "name": "Chris Bell",
    "teams": [
@@ -13481,65 +18136,6 @@
     "ProphetX": 710
    },
    "exImplied": 0.1235,
-   "exBooks": 1
-  },
-  {
-   "key": "XAVIER SMITH",
-   "name": "Xavier Smith",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 1500,
-   "bestBook": "BetRivers",
-   "prices": {
-    "BetRivers": 1500,
-    "Fanatics": 1050,
-    "FanDuel": 1000,
-    "DraftKings": 950,
-    "Caesars": 950,
-    "BetOnline.ag": 900,
-    "Bovada": 900,
-    "BetMGM": 675
-   },
-   "implied": 0.0952,
-   "books": 8,
-   "ex": 710,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 710
-   },
-   "exImplied": 0.1235,
-   "exBooks": 1
-  },
-  {
-   "key": "CJ DANIELS",
-   "name": "CJ Daniels",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 1150,
-   "bestBook": "BetRivers",
-   "prices": {
-    "BetRivers": 1150,
-    "Fanatics": 1050,
-    "FanDuel": 1000,
-    "DraftKings": 950,
-    "Caesars": 950,
-    "BetOnline.ag": 900,
-    "Bovada": 900
-   },
-   "implied": 0.0952,
-   "books": 7,
-   "ex": 720,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 720
-   },
-   "exImplied": 0.122,
    "exBooks": 1
   },
   {
@@ -14571,34 +19167,34 @@
    "exBooks": 1
   },
   {
-   "key": "THEO JOHNSON",
-   "name": "Theo Johnson",
+   "key": "OLAMIDE ZACCHEAUS",
+   "name": "Olamide Zaccheaus",
    "teams": [
-    "NYG",
-    "LAR"
+    "ATL",
+    "GB"
    ],
-   "event": "32367f882fac1a0c20a6335619922025",
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
    "best": 900,
    "bestBook": "Fanatics",
    "prices": {
     "Fanatics": 900,
-    "DraftKings": 850,
-    "Bovada": 825,
-    "BetRivers": 800,
-    "Caesars": 750,
-    "BetOnline.ag": 750,
-    "FanDuel": 750,
-    "BetMGM": 600
+    "BetMGM": 900,
+    "DraftKings": 800,
+    "Caesars": 800,
+    "FanDuel": 800,
+    "BetOnline.ag": 800,
+    "Bovada": 725
    },
-   "implied": 0.1144,
-   "books": 8,
-   "ex": 810,
+   "implied": 0.1111,
+   "books": 7,
+   "ex": 820,
    "exBook": "ProphetX",
    "exPrices": {
-    "ProphetX": 810
+    "ProphetX": 820,
+    "Novig": 809
    },
-   "exImplied": 0.1099,
-   "exBooks": 1
+   "exImplied": 0.1094,
+   "exBooks": 2
   },
   {
    "key": "SIONE VAKI",
@@ -14719,6 +19315,35 @@
    },
    "exImplied": 0.1075,
    "exBooks": 1
+  },
+  {
+   "key": "MICHAEL PENIX",
+   "name": "Michael Penix Jr.",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 1200,
+   "bestBook": "FanDuel",
+   "prices": {
+    "FanDuel": 1200,
+    "DraftKings": 1100,
+    "BetOnline.ag": 1100,
+    "Bovada": 1100,
+    "Caesars": 1000,
+    "BetMGM": 775
+   },
+   "implied": 0.0833,
+   "books": 6,
+   "ex": 1076,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 1076,
+    "ProphetX": 680
+   },
+   "exImplied": 0.1066,
+   "exBooks": 2
   },
   {
    "key": "TRAVIS HUNTER",
@@ -14898,6 +19523,37 @@
    "exBooks": 2
   },
   {
+   "key": "DARNELL MOONEY",
+   "name": "Darnell Mooney",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 1000,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 1000,
+    "FanDuel": 850,
+    "DraftKings": 750,
+    "Caesars": 750,
+    "BetOnline.ag": 750,
+    "BetMGM": 725,
+    "Bovada": 725,
+    "BetRivers": 650
+   },
+   "implied": 0.1176,
+   "books": 8,
+   "ex": 900,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 900,
+    "ProphetX": 830
+   },
+   "exImplied": 0.1038,
+   "exBooks": 2
+  },
+  {
    "key": "C J STROUD",
    "name": "C.J. Stroud",
    "teams": [
@@ -14926,6 +19582,37 @@
    },
    "exImplied": 0.1031,
    "exBooks": 1
+  },
+  {
+   "key": "THEO JOHNSON",
+   "name": "Theo Johnson",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 900,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 900,
+    "Bovada": 900,
+    "Caesars": 850,
+    "FanDuel": 850,
+    "BetRivers": 850,
+    "BetOnline.ag": 800,
+    "Fanatics": 800,
+    "BetMGM": 625
+   },
+   "implied": 0.1053,
+   "books": 8,
+   "ex": 900,
+   "exBook": "ProphetX",
+   "exPrices": {
+    "ProphetX": 900,
+    "Novig": 852
+   },
+   "exImplied": 0.1025,
+   "exBooks": 2
   },
   {
    "key": "DEMARCUS ROBINSON",
@@ -15465,35 +20152,6 @@
    "exBooks": 1
   },
   {
-   "key": "DAVIS ALLEN",
-   "name": "Davis Allen",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 1600,
-   "bestBook": "BetRivers",
-   "prices": {
-    "BetRivers": 1600,
-    "Fanatics": 1300,
-    "DraftKings": 1100,
-    "Caesars": 1100,
-    "BetOnline.ag": 1100,
-    "Bovada": 1100,
-    "BetMGM": 825
-   },
-   "implied": 0.0833,
-   "books": 7,
-   "ex": 920,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 920
-   },
-   "exImplied": 0.098,
-   "exBooks": 1
-  },
-  {
    "key": "AJ DILLON",
    "name": "AJ Dillon",
    "teams": [
@@ -15743,6 +20401,37 @@
    },
    "exImplied": 0.0943,
    "exBooks": 1
+  },
+  {
+   "key": "XAVIER SMITH",
+   "name": "Xavier Smith",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 900,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 900,
+    "FanDuel": 850,
+    "BetRivers": 800,
+    "Caesars": 750,
+    "DraftKings": 700,
+    "BetOnline.ag": 700,
+    "Bovada": 700,
+    "BetMGM": 500
+   },
+   "implied": 0.1213,
+   "books": 8,
+   "ex": 1011,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 1011,
+    "ProphetX": 920
+   },
+   "exImplied": 0.094,
+   "exBooks": 2
   },
   {
    "key": "TANNER HUDSON",
@@ -16194,6 +20883,35 @@
    "exBooks": 2
   },
   {
+   "key": "AUSTIN HOOPER",
+   "name": "Austin Hooper",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 1700,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 1700,
+    "BetMGM": 1650,
+    "DraftKings": 1500,
+    "Caesars": 1200,
+    "FanDuel": 1200,
+    "BetOnline.ag": 1100
+   },
+   "implied": 0.0697,
+   "books": 6,
+   "ex": 1329,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 1329,
+    "ProphetX": 830
+   },
+   "exImplied": 0.0888,
+   "exBooks": 2
+  },
+  {
    "key": "SAM DARNOLD",
    "name": "Sam Darnold",
    "teams": [
@@ -16214,6 +20932,67 @@
     "BetMGM": 800
    },
    "implied": 0.0976,
+   "books": 8,
+   "ex": 1050,
+   "exBook": "ProphetX",
+   "exPrices": {
+    "ProphetX": 1050,
+    "Novig": 1011
+   },
+   "exImplied": 0.0885,
+   "exBooks": 2
+  },
+  {
+   "key": "NAJEE HARRIS",
+   "name": "Najee Harris",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 1050,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 1050,
+    "FanDuel": 1000,
+    "DraftKings": 900,
+    "Caesars": 900,
+    "Bovada": 900,
+    "BetOnline.ag": 800,
+    "BetRivers": 700
+   },
+   "implied": 0.1,
+   "books": 7,
+   "ex": 1050,
+   "exBook": "ProphetX",
+   "exPrices": {
+    "ProphetX": 1050,
+    "Novig": 1011
+   },
+   "exImplied": 0.0885,
+   "exBooks": 2
+  },
+  {
+   "key": "TUTU ATWELL",
+   "name": "Tutu Atwell",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 1250,
+   "bestBook": "BetMGM",
+   "prices": {
+    "BetMGM": 1250,
+    "Fanatics": 1050,
+    "DraftKings": 900,
+    "Caesars": 900,
+    "BetOnline.ag": 900,
+    "FanDuel": 900,
+    "Bovada": 900,
+    "BetRivers": 800
+   },
+   "implied": 0.1,
    "books": 8,
    "ex": 1050,
    "exBook": "ProphetX",
@@ -17087,6 +21866,64 @@
    "exBooks": 1
   },
   {
+   "key": "MARK REDMAN",
+   "name": "Mark Redman",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 1900,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 1900,
+    "BetMGM": 1700,
+    "DraftKings": 1400,
+    "Caesars": 1400,
+    "FanDuel": 1400
+   },
+   "implied": 0.0667,
+   "books": 5,
+   "ex": 1438,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 1438,
+    "ProphetX": 840
+   },
+   "exImplied": 0.0857,
+   "exBooks": 2
+  },
+  {
+   "key": "ZACHARIAH BRANCH",
+   "name": "Zachariah Branch",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 2200,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 2200,
+    "FanDuel": 1700,
+    "BetMGM": 1600,
+    "Caesars": 1500,
+    "DraftKings": 1400,
+    "BetOnline.ag": 1400,
+    "Bovada": 1200
+   },
+   "implied": 0.0625,
+   "books": 7,
+   "ex": 1438,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 1438,
+    "ProphetX": 840
+   },
+   "exImplied": 0.0857,
+   "exBooks": 2
+  },
+  {
    "key": "ELI STOWERS",
    "name": "Eli Stowers",
    "teams": [
@@ -17875,6 +22712,35 @@
    "exBooks": 1
   },
   {
+   "key": "JOSH WHYLE",
+   "name": "Josh Whyle",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 2200,
+   "bestBook": "BetMGM",
+   "prices": {
+    "BetMGM": 2200,
+    "DraftKings": 1700,
+    "Fanatics": 1700,
+    "Caesars": 1400,
+    "FanDuel": 1400,
+    "BetOnline.ag": 1100
+   },
+   "implied": 0.0611,
+   "books": 6,
+   "ex": 1438,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 1438,
+    "ProphetX": 960
+   },
+   "exImplied": 0.0797,
+   "exBooks": 2
+  },
+  {
    "key": "ASHTON DULIN",
    "name": "Ashton Dulin",
    "teams": [
@@ -17890,6 +22756,36 @@
    },
    "implied": 0.0792,
    "books": 2
+  },
+  {
+   "key": "MAX KLARE",
+   "name": "Max Klare",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 1700,
+   "bestBook": "BetRivers",
+   "prices": {
+    "BetRivers": 1700,
+    "Fanatics": 1700,
+    "DraftKings": 1400,
+    "Caesars": 1400,
+    "Bovada": 1400,
+    "BetOnline.ag": 1300,
+    "FanDuel": 1300
+   },
+   "implied": 0.0667,
+   "books": 7,
+   "ex": 1329,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 1329,
+    "ProphetX": 1050
+   },
+   "exImplied": 0.0785,
+   "exBooks": 2
   },
   {
    "key": "ROBERT TONYAN",
@@ -18359,6 +23255,66 @@
    "exBooks": 1
   },
   {
+   "key": "DAVIS ALLEN",
+   "name": "Davis Allen",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 1500,
+   "bestBook": "BetRivers",
+   "prices": {
+    "BetRivers": 1500,
+    "Fanatics": 1500,
+    "Caesars": 1300,
+    "FanDuel": 1300,
+    "DraftKings": 1200,
+    "Bovada": 1200,
+    "BetOnline.ag": 1100,
+    "BetMGM": 750
+   },
+   "implied": 0.0742,
+   "books": 8,
+   "ex": 1329,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 1329,
+    "ProphetX": 1200
+   },
+   "exImplied": 0.0735,
+   "exBooks": 2
+  },
+  {
+   "key": "CHARLIE WOERNER",
+   "name": "Charlie Woerner",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 3000,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 3000,
+    "FanDuel": 2200,
+    "DraftKings": 2000,
+    "Caesars": 2000,
+    "BetMGM": 2000,
+    "BetOnline.ag": 1900
+   },
+   "implied": 0.0476,
+   "books": 6,
+   "ex": 1941,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 1941,
+    "ProphetX": 960
+   },
+   "exImplied": 0.0717,
+   "exBooks": 2
+  },
+  {
    "key": "LUKE FARRELL",
    "name": "Luke Farrell",
    "teams": [
@@ -18576,6 +23532,37 @@
    },
    "exImplied": 0.0714,
    "exBooks": 1
+  },
+  {
+   "key": "ODELL BECKHAM",
+   "name": "Odell Beckham Jr.",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 1700,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 1700,
+    "BetOnline.ag": 1700,
+    "FanDuel": 1700,
+    "BetRivers": 1700,
+    "Bovada": 1700,
+    "Fanatics": 1700,
+    "Caesars": 1600,
+    "BetMGM": 1100
+   },
+   "implied": 0.0556,
+   "books": 8,
+   "ex": 1567,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 1567,
+    "ProphetX": 1150
+   },
+   "exImplied": 0.07,
+   "exBooks": 2
   },
   {
    "key": "ELI RARIDON",
@@ -19142,36 +24129,6 @@
    "exBooks": 1
   },
   {
-   "key": "MATTHEW STAFFORD",
-   "name": "Matthew Stafford",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 2400,
-   "bestBook": "BetRivers",
-   "prices": {
-    "BetRivers": 2400,
-    "Fanatics": 2200,
-    "DraftKings": 2000,
-    "Bovada": 2000,
-    "Caesars": 1700,
-    "FanDuel": 1600,
-    "BetMGM": 1500,
-    "BetOnline.ag": 1400
-   },
-   "implied": 0.0516,
-   "books": 8,
-   "ex": 1350,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 1350
-   },
-   "exImplied": 0.069,
-   "exBooks": 1
-  },
-  {
    "key": "LUKE MCCAFFREY",
    "name": "Luke McCaffrey",
    "teams": [
@@ -19438,36 +24395,6 @@
     "BetOnline.ag": 1400
    },
    "implied": 0.0476,
-   "books": 8,
-   "ex": 1400,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 1400
-   },
-   "exImplied": 0.0667,
-   "exBooks": 1
-  },
-  {
-   "key": "ODELL BECKHAM",
-   "name": "Odell Beckham Jr.",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 1900,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 1900,
-    "FanDuel": 1600,
-    "BetRivers": 1600,
-    "DraftKings": 1400,
-    "Caesars": 1400,
-    "BetOnline.ag": 1400,
-    "Bovada": 1400,
-    "BetMGM": 1350
-   },
-   "implied": 0.0667,
    "books": 8,
    "ex": 1400,
    "exBook": "ProphetX",
@@ -19820,35 +24747,6 @@
    "exBooks": 1
   },
   {
-   "key": "MAX KLARE",
-   "name": "Max Klare",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 2500,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 2500,
-    "DraftKings": 2200,
-    "BetRivers": 2200,
-    "Bovada": 2200,
-    "Caesars": 1900,
-    "FanDuel": 1800,
-    "BetOnline.ag": 1700
-   },
-   "implied": 0.0435,
-   "books": 7,
-   "ex": 1450,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 1450
-   },
-   "exImplied": 0.0645,
-   "exBooks": 1
-  },
-  {
    "key": "KYLE WILLIAMS",
    "name": "Kyle Williams",
    "teams": [
@@ -20075,6 +24973,36 @@
    },
    "exImplied": 0.0625,
    "exBooks": 1
+  },
+  {
+   "key": "CJ DANIELS",
+   "name": "CJ Daniels",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 1800,
+   "bestBook": "FanDuel",
+   "prices": {
+    "FanDuel": 1800,
+    "Fanatics": 1700,
+    "DraftKings": 1400,
+    "Bovada": 1400,
+    "Caesars": 1300,
+    "BetOnline.ag": 900,
+    "BetRivers": 850
+   },
+   "implied": 0.0667,
+   "books": 7,
+   "ex": 1718,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 1718,
+    "ProphetX": 1400
+   },
+   "exImplied": 0.0608,
+   "exBooks": 2
   },
   {
    "key": "KONATA MUMPFIELD",
@@ -20313,6 +25241,35 @@
     "Novig": 1329
    },
    "exImplied": 0.0594,
+   "exBooks": 2
+  },
+  {
+   "key": "CHRIS BLAIR",
+   "name": "Chris Blair",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 4000,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 4000,
+    "BetMGM": 3300,
+    "DraftKings": 3000,
+    "Caesars": 2700,
+    "FanDuel": 2700,
+    "BetOnline.ag": 2400
+   },
+   "implied": 0.034,
+   "books": 6,
+   "ex": 2532,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 2532,
+    "ProphetX": 1150
+   },
+   "exImplied": 0.059,
    "exBooks": 2
   },
   {
@@ -21321,6 +26278,22 @@
    "exBooks": 1
   },
   {
+   "key": "J MICHAEL STURDIVANT",
+   "name": "J. Michael Sturdivant",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 1700,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 1700
+   },
+   "implied": 0.0556,
+   "books": 1
+  },
+  {
    "key": "SAM ROUSH",
    "name": "Sam Roush",
    "teams": [
@@ -21589,6 +26562,37 @@
    "exBooks": 1
   },
   {
+   "key": "MATTHEW STAFFORD",
+   "name": "Matthew Stafford",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 2000,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 2000,
+    "FanDuel": 2000,
+    "BetRivers": 2000,
+    "Bovada": 2000,
+    "Caesars": 1800,
+    "Fanatics": 1700,
+    "BetMGM": 1550,
+    "BetOnline.ag": 900
+   },
+   "implied": 0.0501,
+   "books": 8,
+   "ex": 1941,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 1941,
+    "ProphetX": 1650
+   },
+   "exImplied": 0.0531,
+   "exBooks": 2
+  },
+  {
    "key": "VELUS JONES",
    "name": "Velus Jones Jr.",
    "teams": [
@@ -21689,33 +26693,6 @@
    },
    "implied": 0.0379,
    "books": 8,
-   "ex": 1800,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 1800
-   },
-   "exImplied": 0.0526,
-   "exBooks": 1
-  },
-  {
-   "key": "BRAXTON BERRIOS",
-   "name": "Braxton Berrios",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 3000,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 3000,
-    "BetRivers": 2900,
-    "DraftKings": 2500,
-    "Caesars": 2500,
-    "Bovada": 2500
-   },
-   "implied": 0.0385,
-   "books": 5,
    "ex": 1800,
    "exBook": "ProphetX",
    "exPrices": {
@@ -22051,62 +27028,6 @@
    "exBooks": 1
   },
   {
-   "key": "RONNIE RIVERS",
-   "name": "Ronnie Rivers",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 4500,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 4500,
-    "DraftKings": 3000,
-    "Bovada": 2800,
-    "Caesars": 2700,
-    "FanDuel": 2700,
-    "BetRivers": 2500,
-    "BetOnline.ag": 2400,
-    "BetMGM": 2200
-   },
-   "implied": 0.0357,
-   "books": 8,
-   "ex": 1850,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 1850
-   },
-   "exImplied": 0.0513,
-   "exBooks": 1
-  },
-  {
-   "key": "TYRONE TRACY",
-   "name": "Tyrone Tracy Jr.",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 800,
-   "bestBook": "Fanatics",
-   "prices": {
-    "Fanatics": 800,
-    "BetOnline.ag": 700,
-    "Caesars": 675,
-    "BetRivers": 650
-   },
-   "implied": 0.127,
-   "books": 4,
-   "ex": 1850,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 1850
-   },
-   "exImplied": 0.0513,
-   "exBooks": 1
-  },
-  {
    "key": "JOHN BATES",
    "name": "John Bates",
    "teams": [
@@ -22300,6 +27221,37 @@
    },
    "exImplied": 0.05,
    "exBooks": 1
+  },
+  {
+   "key": "RONNIE RIVERS",
+   "name": "Ronnie Rivers",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 2500,
+   "bestBook": "Fanatics",
+   "prices": {
+    "Fanatics": 2500,
+    "DraftKings": 2200,
+    "Bovada": 2200,
+    "Caesars": 2000,
+    "FanDuel": 2000,
+    "BetMGM": 2000,
+    "BetOnline.ag": 1900,
+    "BetRivers": 1500
+   },
+   "implied": 0.0476,
+   "books": 8,
+   "ex": 2841,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 2841,
+    "ProphetX": 1450
+   },
+   "exImplied": 0.0493,
+   "exBooks": 2
   },
   {
    "key": "MARLIN KLEIN",
@@ -24030,35 +28982,6 @@
    "exBooks": 1
   },
   {
-   "key": "THOMAS FIDONE",
-   "name": "Thomas Fidone",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 5500,
-   "bestBook": "BetRivers",
-   "prices": {
-    "BetRivers": 5500,
-    "DraftKings": 3500,
-    "Fanatics": 3500,
-    "Bovada": 3300,
-    "Caesars": 2800,
-    "FanDuel": 2700,
-    "BetOnline.ag": 2400
-   },
-   "implied": 0.0294,
-   "books": 7,
-   "ex": 2200,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 2200
-   },
-   "exImplied": 0.0435,
-   "exBooks": 1
-  },
-  {
    "key": "KAMERON JOHNSON",
    "name": "Kameron Johnson",
    "teams": [
@@ -24825,6 +29748,64 @@
    "exBooks": 1
   },
   {
+   "key": "BRAXTON BERRIOS",
+   "name": "Braxton Berrios",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 5000,
+   "bestBook": "BetMGM",
+   "prices": {
+    "BetMGM": 5000,
+    "BetRivers": 3400,
+    "DraftKings": 2800,
+    "Caesars": 2800,
+    "Bovada": 2800
+   },
+   "implied": 0.0345,
+   "books": 5,
+   "ex": 3233,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 3233,
+    "ProphetX": 2100
+   },
+   "exImplied": 0.0377,
+   "exBooks": 2
+  },
+  {
+   "key": "THOMAS FIDONE",
+   "name": "Thomas Fidone",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 6000,
+   "bestBook": "BetRivers",
+   "prices": {
+    "BetRivers": 6000,
+    "Fanatics": 5000,
+    "DraftKings": 4000,
+    "Bovada": 4000,
+    "Caesars": 3000,
+    "FanDuel": 2700,
+    "BetOnline.ag": 2400
+   },
+   "implied": 0.0244,
+   "books": 7,
+   "ex": 3126,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 3126,
+    "ProphetX": 2200
+   },
+   "exImplied": 0.0372,
+   "exBooks": 2
+  },
+  {
    "key": "KE SHAWN WILLIAMS",
    "name": "Ke'Shawn Williams",
    "teams": [
@@ -25537,6 +30518,54 @@
    "books": 8
   },
   {
+   "key": "NICK MUSE",
+   "name": "Nick Muse",
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "event": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "best": 3400,
+   "bestBook": "BetOnline.ag",
+   "prices": {
+    "BetOnline.ag": 3400,
+    "Fanatics": 3000
+   },
+   "implied": 0.0304,
+   "books": 2
+  },
+  {
+   "key": "PATRICK RICARD",
+   "name": "Patrick Ricard",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 3500,
+   "bestBook": "DraftKings",
+   "prices": {
+    "DraftKings": 3500,
+    "BetMGM": 3300,
+    "Bovada": 3300,
+    "FanDuel": 3000,
+    "Fanatics": 3000,
+    "BetOnline.ag": 2900,
+    "Caesars": 2500,
+    "BetRivers": 2200
+   },
+   "implied": 0.0323,
+   "books": 8,
+   "ex": 3471,
+   "exBook": "Novig",
+   "exPrices": {
+    "Novig": 3471,
+    "ProphetX": 3300
+   },
+   "exImplied": 0.0287,
+   "exBooks": 2
+  },
+  {
    "key": "CHARLIE WOERNER",
    "name": "Charlie Woerner",
    "teams": [
@@ -25669,6 +30698,37 @@
    },
    "exImplied": 0.027,
    "exBooks": 1
+  },
+  {
+   "key": "CHRIS MANHERTZ",
+   "name": "Chris Manhertz",
+   "teams": [
+    "NYG",
+    "LAR"
+   ],
+   "event": "32367f882fac1a0c20a6335619922025",
+   "best": 4000,
+   "bestBook": "BetMGM",
+   "prices": {
+    "BetMGM": 4000,
+    "Fanatics": 4000,
+    "BetRivers": 3300,
+    "DraftKings": 3000,
+    "Caesars": 2800,
+    "Bovada": 2800,
+    "FanDuel": 2700,
+    "BetOnline.ag": 2400
+   },
+   "implied": 0.0334,
+   "books": 8,
+   "ex": 4100,
+   "exBook": "ProphetX",
+   "exPrices": {
+    "ProphetX": 4100,
+    "Novig": 3471
+   },
+   "exImplied": 0.0259,
+   "exBooks": 2
   },
   {
    "key": "KEVIN COLEMAN",
@@ -25995,36 +31055,6 @@
     "BetMGM": 2000
    },
    "implied": 0.0294,
-   "books": 8,
-   "ex": 4700,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 4700
-   },
-   "exImplied": 0.0208,
-   "exBooks": 1
-  },
-  {
-   "key": "PATRICK RICARD",
-   "name": "Patrick Ricard",
-   "teams": [
-    "NYG",
-    "LAR"
-   ],
-   "event": "32367f882fac1a0c20a6335619922025",
-   "best": 3500,
-   "bestBook": "DraftKings",
-   "prices": {
-    "DraftKings": 3500,
-    "Fanatics": 3500,
-    "BetMGM": 3300,
-    "Bovada": 3300,
-    "FanDuel": 3000,
-    "Caesars": 2900,
-    "BetOnline.ag": 2900,
-    "BetRivers": 2500
-   },
-   "implied": 0.0308,
    "books": 8,
    "ex": 4700,
    "exBook": "ProphetX",
@@ -26531,34 +31561,20 @@
    "exBooks": 1
   },
   {
-   "key": "CHRIS MANHERTZ",
-   "name": "Chris Manhertz",
+   "key": "NO SCORER",
+   "name": "No Scorer",
    "teams": [
     "NYG",
     "LAR"
    ],
    "event": "32367f882fac1a0c20a6335619922025",
-   "best": 5500,
-   "bestBook": "BetRivers",
+   "best": 8000,
+   "bestBook": "Fanatics",
    "prices": {
-    "BetRivers": 5500,
-    "BetMGM": 5500,
-    "Fanatics": 4000,
-    "DraftKings": 2800,
-    "Caesars": 2800,
-    "Bovada": 2800,
-    "FanDuel": 2700,
-    "BetOnline.ag": 2400
+    "Fanatics": 8000
    },
-   "implied": 0.0345,
-   "books": 8,
-   "ex": 5250,
-   "exBook": "ProphetX",
-   "exPrices": {
-    "ProphetX": 5250
-   },
-   "exImplied": 0.0187,
-   "exBooks": 1
+   "implied": 0.0123,
+   "books": 1
   },
   {
    "key": "NO SCORER",
