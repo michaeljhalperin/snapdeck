@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-23T23:24:41Z",
+ "updated": "2026-09-24T05:37:30Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 3,
@@ -1690,6 +1690,87 @@
    "name": "Andrew Thomas",
    "key": "ANDREW THOMAS",
    "pos": "T",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Jacoby Brissett",
+   "key": "JACOBY BRISSETT",
+   "pos": "QB",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Hjalte Froholdt",
+   "key": "HJALTE FROHOLDT",
+   "pos": "C",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Roy Lopez",
+   "key": "ROY LOPEZ",
+   "pos": "DT",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Max Melton",
+   "key": "MAX MELTON",
+   "pos": "CB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Isaac Seumalo",
+   "key": "ISAAC SEUMALO",
+   "pos": "G",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Josh Sweat",
+   "key": "JOSH SWEAT",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Dadrion Taylor-Demerson",
+   "key": "DADRION TAYLOR DEMERSON",
+   "pos": "S",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Garrett Williams",
+   "key": "GARRETT WILLIAMS",
+   "pos": "CB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
+   "name": "Mack Wilson",
+   "key": "MACK WILSON",
+   "pos": "LB",
    "injury": "",
    "practice": "Limited Participation in Practice",
    "status": ""
