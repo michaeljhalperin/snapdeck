@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-26T17:18:21Z",
+ "updated": "2026-09-26T23:20:51Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 3,
@@ -2582,7 +2582,7 @@
    "key": "TANK BIGSBY",
    "pos": "RB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2590,9 +2590,9 @@
    "name": "Marquise Brown",
    "key": "MARQUISE BROWN",
    "pos": "WR",
-   "injury": "",
+   "injury": "Ankle",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "PHI",
@@ -2608,18 +2608,27 @@
    "name": "Dallas Goedert",
    "key": "DALLAS GOEDERT",
    "pos": "TE",
-   "injury": "",
+   "injury": "Knee",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "PHI",
    "name": "Jonathan Greenard",
    "key": "JONATHAN GREENARD",
    "pos": "LB",
-   "injury": "",
-   "practice": "Limited Participation in Practice",
-   "status": ""
+   "injury": "Pectoral",
+   "practice": "Full Participation in Practice",
+   "status": "Questionable"
+  },
+  {
+   "team": "PHI",
+   "name": "Fred Johnson",
+   "key": "FRED JOHNSON",
+   "pos": "T",
+   "injury": "Knee",
+   "practice": "Did Not Participate In Practice",
+   "status": "Out"
   },
   {
    "team": "PHI",
@@ -2645,7 +2654,7 @@
    "key": "DEVONTA SMITH",
    "pos": "WR",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2662,9 +2671,9 @@
    "name": "Tyson Bagent",
    "key": "TYSON BAGENT",
    "pos": "QB",
-   "injury": "",
-   "practice": "Did Not Participate In Practice",
-   "status": ""
+   "injury": "Concussion",
+   "practice": "Full Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "CHI",
@@ -2690,7 +2699,7 @@
    "key": "CAIRO SANTOS",
    "pos": "K",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2698,9 +2707,9 @@
    "name": "Noah Sewell",
    "key": "NOAH SEWELL",
    "pos": "LB",
-   "injury": "",
+   "injury": "Achilles",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "CHI",
@@ -2708,7 +2717,7 @@
    "key": "TYRIQUE STEVENSON",
    "pos": "CB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2717,7 +2726,7 @@
    "key": "JOE THUNEY",
    "pos": "G",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2725,18 +2734,18 @@
    "name": "Shemar Turner",
    "key": "SHEMAR TURNER",
    "pos": "DE",
-   "injury": "",
+   "injury": "Knee",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "CHI",
    "name": "Caleb Williams",
    "key": "CALEB WILLIAMS",
    "pos": "QB",
-   "injury": "",
+   "injury": "Hamstring",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   }
  ]
 }
