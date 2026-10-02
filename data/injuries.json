@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T06:23:47Z",
+ "updated": "2026-10-02T18:08:50Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 4,
@@ -143,7 +143,7 @@
    "key": "MO ALIE COX",
    "pos": "TE",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -152,7 +152,7 @@
    "key": "KEENAN ALLEN",
    "pos": "WR",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -188,7 +188,7 @@
    "key": "GROVER STEWART",
    "pos": "DT",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1052,7 +1052,7 @@
    "key": "BUDDA BAKER",
    "pos": "S",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1088,7 +1088,7 @@
    "key": "ISAAC SEUMALO",
    "pos": "G",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1097,7 +1097,7 @@
    "key": "JOSH SWEAT",
    "pos": "LB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1115,7 +1115,7 @@
    "key": "MACK WILSON",
    "pos": "LB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1552,6 +1552,15 @@
   },
   {
    "team": "LAR",
+   "name": "Poona Ford",
+   "key": "POONA FORD",
+   "pos": "DT",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "LAR",
    "name": "Kamren Kinchens",
    "key": "KAMREN KINCHENS",
    "pos": "S",
@@ -1903,11 +1912,20 @@
   },
   {
    "team": "LAC",
+   "name": "Bud Dupree",
+   "key": "BUD DUPREE",
+   "pos": "DE",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "LAC",
    "name": "Justin Eboigbe",
    "key": "JUSTIN EBOIGBE",
    "pos": "DE",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -1916,7 +1934,7 @@
    "key": "DONTE JACKSON",
    "pos": "CB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -1925,7 +1943,7 @@
    "key": "DERWIN JAMES",
    "pos": "S",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -1952,7 +1970,7 @@
    "key": "KHALIL MACK",
    "pos": "DE",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1961,7 +1979,7 @@
    "key": "LADD MCCONKEY",
    "pos": "WR",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -2002,6 +2020,15 @@
   },
   {
    "team": "SEA",
+   "name": "Zach Charbonnet",
+   "key": "ZACH CHARBONNET",
+   "pos": "RB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
    "name": "Nick Emmanwori",
    "key": "NICK EMMANWORI",
    "pos": "S",
@@ -2033,7 +2060,7 @@
    "key": "TY OKADA",
    "pos": "S",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -2051,7 +2078,7 @@
    "key": "JADARIAN PRICE",
    "pos": "RB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -2060,7 +2087,7 @@
    "key": "JARRAN REED",
    "pos": "DT",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2078,7 +2105,7 @@
    "key": "LEONARD WILLIAMS",
    "pos": "DT",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2087,7 +2114,7 @@
    "key": "GREY ZABEL",
    "pos": "G",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2384,7 +2411,7 @@
    "key": "CHRISTIAN MCCAFFREY",
    "pos": "RB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2420,7 +2447,7 @@
    "key": "TRENT WILLIAMS",
    "pos": "T",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -2455,18 +2482,18 @@
    "name": "Jalen Coker",
    "key": "JALEN COKER",
    "pos": "WR",
-   "injury": "",
+   "injury": "Quadricep",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "CAR",
    "name": "Monroe Freeling",
    "key": "MONROE FREELING",
    "pos": "T",
-   "injury": "",
-   "practice": "Limited Participation in Practice",
-   "status": ""
+   "injury": "Concussion",
+   "practice": "Full Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "CAR",
@@ -2482,6 +2509,15 @@
    "name": "Lee Hunter",
    "key": "LEE HUNTER",
    "pos": "DT",
+   "injury": "Foot",
+   "practice": "Limited Participation in Practice",
+   "status": "Questionable"
+  },
+  {
+   "team": "CAR",
+   "name": "Cam Jackson",
+   "key": "CAM JACKSON",
+   "pos": "DT",
    "injury": "",
    "practice": "Limited Participation in Practice",
    "status": ""
@@ -2491,18 +2527,18 @@
    "name": "Xavier Legette",
    "key": "XAVIER LEGETTE",
    "pos": "WR",
-   "injury": "",
+   "injury": "Knee",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "CAR",
    "name": "Damien Lewis",
    "key": "DAMIEN LEWIS",
    "pos": "G",
-   "injury": "",
+   "injury": "Elbow",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "CAR",
