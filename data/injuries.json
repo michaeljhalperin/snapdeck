@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T16:55:00Z",
+ "updated": "2026-10-03T23:29:04Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 4,
@@ -2722,11 +2722,20 @@
   },
   {
    "team": "ATL",
+   "name": "Yasir Abdullah",
+   "key": "YASIR ABDULLAH",
+   "pos": "LB",
+   "injury": "Illness",
+   "practice": "Full Participation in Practice",
+   "status": "Questionable"
+  },
+  {
+   "team": "ATL",
    "name": "Kendal Daniels",
    "key": "KENDAL DANIELS",
    "pos": "LB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2734,17 +2743,26 @@
    "name": "Divine Deablo",
    "key": "DIVINE DEABLO",
    "pos": "LB",
-   "injury": "",
+   "injury": "Hamstring",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "ATL",
    "name": "Samson Ebukam",
    "key": "SAMSON EBUKAM",
    "pos": "DE",
+   "injury": "Hamstring",
+   "practice": "Full Participation in Practice",
+   "status": "Questionable"
+  },
+  {
+   "team": "ATL",
+   "name": "Jake Matthews",
+   "key": "JAKE MATTHEWS",
+   "pos": "T",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -2753,7 +2771,7 @@
    "key": "ZA DARIUS SMITH",
    "pos": "DE",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2762,7 +2780,7 @@
    "key": "JAWAAN TAYLOR",
    "pos": "T",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2780,7 +2798,7 @@
    "key": "BARION BROWN",
    "pos": "WR",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2788,9 +2806,9 @@
    "name": "Kaden Elliss",
    "key": "KADEN ELLISS",
    "pos": "LB",
-   "injury": "",
+   "injury": "Calf",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "NO",
@@ -2806,9 +2824,9 @@
    "name": "Noah Fant",
    "key": "NOAH FANT",
    "pos": "TE",
-   "injury": "",
+   "injury": "Abdomen",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "NO",
@@ -2816,7 +2834,7 @@
    "key": "DAVON GODCHAUX",
    "pos": "DT",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2824,18 +2842,18 @@
    "name": "Carl Granderson",
    "key": "CARL GRANDERSON",
    "pos": "LB",
-   "injury": "",
+   "injury": "Ankle",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "NO",
    "name": "Anfernee Jennings",
    "key": "ANFERNEE JENNINGS",
    "pos": "LB",
-   "injury": "",
+   "injury": "Knee",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "NO",
@@ -2843,7 +2861,34 @@
    "key": "CHRISTEN MILLER",
    "pos": "DT",
    "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "NO",
+   "name": "Jayden Price",
+   "key": "JAYDEN PRICE",
+   "pos": "CB",
+   "injury": "",
    "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "NO",
+   "name": "Nathan Shepherd",
+   "key": "NATHAN SHEPHERD",
+   "pos": "DT",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "NO",
+   "name": "Treyton Welch",
+   "key": "TREYTON WELCH",
+   "pos": "TE",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -2851,9 +2896,9 @@
    "name": "Pete Werner",
    "key": "PETE WERNER",
    "pos": "LB",
-   "injury": "",
+   "injury": "Shoulder",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Questionable"
   }
  ]
 }
