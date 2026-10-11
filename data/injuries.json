@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T17:34:34Z",
+ "updated": "2026-10-11T00:04:02Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 5,
@@ -3057,7 +3057,7 @@
    "key": "CHRISTIAN BENFORD",
    "pos": "CB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -3066,7 +3066,7 @@
    "key": "TERREL BERNARD",
    "pos": "LB",
    "injury": "",
-   "practice": "Full Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -3101,9 +3101,9 @@
    "name": "Dee Alford",
    "key": "DEE ALFORD",
    "pos": "CB",
-   "injury": "",
-   "practice": "Did Not Participate In Practice",
-   "status": ""
+   "injury": "Ankle",
+   "practice": "Limited Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "BUF",
@@ -3119,27 +3119,36 @@
    "name": "Landon Jackson",
    "key": "LANDON JACKSON",
    "pos": "DE",
-   "injury": "",
-   "practice": "Limited Participation in Practice",
-   "status": ""
+   "injury": "Knee",
+   "practice": "Full Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "BUF",
    "name": "DJ Moore",
    "key": "DJ MOORE",
    "pos": "WR",
-   "injury": "",
-   "practice": "Did Not Participate In Practice",
-   "status": ""
+   "injury": "Shoulder",
+   "practice": "Limited Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "BUF",
    "name": "Ed Oliver",
    "key": "ED OLIVER",
    "pos": "DE",
-   "injury": "",
+   "injury": "Knee",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
+  },
+  {
+   "team": "BUF",
+   "name": "Josh Palmer",
+   "key": "JOSH PALMER",
+   "pos": "WR",
+   "injury": "Shoulder",
+   "practice": "Did Not Participate In Practice",
+   "status": "Out"
   },
   {
    "team": "BUF",
@@ -3174,7 +3183,7 @@
    "key": "DAVANTE ADAMS",
    "pos": "WR",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -3183,7 +3192,25 @@
    "key": "AARON DONALD",
    "pos": "DT",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "LAR",
+   "name": "Tyler Higbee",
+   "key": "TYLER HIGBEE",
+   "pos": "TE",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "LAR",
+   "name": "Alaric Jackson",
+   "key": "ALARIC JACKSON",
+   "pos": "T",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -3191,9 +3218,9 @@
    "name": "Quentin Lake",
    "key": "QUENTIN LAKE",
    "pos": "S",
-   "injury": "",
-   "practice": "Did Not Participate In Practice",
-   "status": ""
+   "injury": "Hip",
+   "practice": "Limited Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "LAR",
@@ -3201,7 +3228,7 @@
    "key": "NATE LANDMAN",
    "pos": "LB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -3219,7 +3246,7 @@
    "key": "COLBY PARKINSON",
    "pos": "TE",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -3228,7 +3255,7 @@
    "key": "JOSAIAH STEWART",
    "pos": "LB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -3237,7 +3264,7 @@
    "key": "GRANT STUARD",
    "pos": "LB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -3246,7 +3273,16 @@
    "key": "JAYLEN WATSON",
    "pos": "CB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "LAR",
+   "name": "Byron Young",
+   "key": "BYRON YOUNG",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   }
  ]
