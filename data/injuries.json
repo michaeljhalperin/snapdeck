@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T05:23:18Z",
+ "updated": "2026-10-15T17:32:33Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 6,
@@ -2088,6 +2088,15 @@
   },
   {
    "team": "LAC",
+   "name": "Alec Ingold",
+   "key": "ALEC INGOLD",
+   "pos": "FB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "LAC",
    "name": "Donte Jackson",
    "key": "DONTE JACKSON",
    "pos": "CB",
@@ -2255,6 +2264,141 @@
    "pos": "FB",
    "injury": "",
    "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Christian Benford",
+   "key": "CHRISTIAN BENFORD",
+   "pos": "CB",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Terrel Bernard",
+   "key": "TERREL BERNARD",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Spencer Brown",
+   "key": "SPENCER BROWN",
+   "pos": "T",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Bradley Chubb",
+   "key": "BRADLEY CHUBB",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Keon Coleman",
+   "key": "KEON COLEMAN",
+   "pos": "WR",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Dee Alford",
+   "key": "DEE ALFORD",
+   "pos": "CB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "C.J. Gardner-Johnson",
+   "key": "C J GARDNER JOHNSON",
+   "pos": "S",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Landon Jackson",
+   "key": "LANDON JACKSON",
+   "pos": "DE",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Ty Johnson",
+   "key": "TY JOHNSON",
+   "pos": "RB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "DJ Moore",
+   "key": "DJ MOORE",
+   "pos": "WR",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Ed Oliver",
+   "key": "ED OLIVER",
+   "pos": "DE",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Josh Palmer",
+   "key": "JOSH PALMER",
+   "pos": "WR",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "TJ Parker",
+   "key": "TJ PARKER",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Ar'maj Reed-Adams",
+   "key": "AR MAJ REED ADAMS",
+   "pos": "G",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "T.J. Sanders",
+   "key": "T J SANDERS",
+   "pos": "DE",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
