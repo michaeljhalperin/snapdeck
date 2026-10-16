@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T05:15:15Z",
+ "updated": "2026-10-16T17:07:55Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 6,
@@ -2124,6 +2124,15 @@
   },
   {
    "team": "LAR",
+   "name": "Kam Curl",
+   "key": "KAM CURL",
+   "pos": "S",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "LAR",
    "name": "Nate Landman",
    "key": "NATE LANDMAN",
    "pos": "LB",
@@ -2443,7 +2452,7 @@
    "key": "SPENCER BROWN",
    "pos": "T",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -3105,6 +3114,15 @@
   },
   {
    "team": "SF",
+   "name": "Gracen Halton",
+   "key": "GRACEN HALTON",
+   "pos": "DT",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "SF",
    "name": "Romello Height",
    "key": "ROMELLO HEIGHT",
    "pos": "DE",
@@ -3218,6 +3236,15 @@
    "pos": "T",
    "injury": "",
    "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "SF",
+   "name": "Carver Willis",
+   "key": "CARVER WILLIS",
+   "pos": "G",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
    "status": ""
   }
  ]
