@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T16:03:51Z",
+ "updated": "2026-10-17T22:49:54Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 6,
@@ -2028,9 +2028,9 @@
    "name": "Will Mallory",
    "key": "WILL MALLORY",
    "pos": "TE",
-   "injury": "Thumb",
+   "injury": "",
    "practice": "Full Participation in Practice",
-   "status": "Questionable"
+   "status": ""
   },
   {
    "team": "IND",
