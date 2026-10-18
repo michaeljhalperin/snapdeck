@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T22:49:54Z",
+ "updated": "2026-10-18T05:14:59Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 6,
@@ -896,7 +896,7 @@
    "pos": "CB",
    "injury": "Knee",
    "practice": "Full Participation in Practice",
-   "status": "Questionable"
+   "status": "Out"
   },
   {
    "team": "PHI",
@@ -914,7 +914,7 @@
    "pos": "TE",
    "injury": "Back",
    "practice": "Full Participation in Practice",
-   "status": "Questionable"
+   "status": "Out"
   },
   {
    "team": "PHI",
@@ -950,7 +950,7 @@
    "pos": "G",
    "injury": "Knee",
    "practice": "Limited Participation in Practice",
-   "status": "Questionable"
+   "status": "Out"
   },
   {
    "team": "PHI",
@@ -1085,7 +1085,7 @@
    "pos": "TE",
    "injury": "Quadricep",
    "practice": "Full Participation in Practice",
-   "status": "Questionable"
+   "status": "Out"
   },
   {
    "team": "PHI",
@@ -1476,6 +1476,15 @@
   },
   {
    "team": "PIT",
+   "name": "Pat Freiermuth",
+   "key": "PAT FREIERMUTH",
+   "pos": "TE",
+   "injury": "Calf",
+   "practice": "",
+   "status": "Questionable"
+  },
+  {
+   "team": "PIT",
    "name": "Cameron Heyward",
    "key": "CAMERON HEYWARD",
    "pos": "DT",
@@ -1488,9 +1497,9 @@
    "name": "DK Metcalf",
    "key": "DK METCALF",
    "pos": "WR",
-   "injury": "Illness",
+   "injury": "",
    "practice": "Did Not Participate In Practice",
-   "status": "Questionable"
+   "status": ""
   },
   {
    "team": "PIT",
@@ -3045,9 +3054,9 @@
    "name": "Trey Amos",
    "key": "TREY AMOS",
    "pos": "CB",
-   "injury": "",
+   "injury": "Ankle",
    "practice": "Full Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "WAS",
@@ -3063,9 +3072,9 @@
    "name": "Percy Butler",
    "key": "PERCY BUTLER",
    "pos": "S",
-   "injury": "",
+   "injury": "Hamstring",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "WAS",
@@ -3073,7 +3082,7 @@
    "key": "K LAVON CHAISSON",
    "pos": "LB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -3081,18 +3090,18 @@
    "name": "Jacory Croskey-Merritt",
    "key": "JACORY CROSKEY MERRITT",
    "pos": "RB",
-   "injury": "",
+   "injury": "Groin",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "WAS",
    "name": "Nick Cross",
    "key": "NICK CROSS",
    "pos": "S",
-   "injury": "",
+   "injury": "Illness",
    "practice": "Full Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "WAS",
@@ -3108,9 +3117,9 @@
    "name": "Stefon Diggs",
    "key": "STEFON DIGGS",
    "pos": "WR",
-   "injury": "",
+   "injury": "Hamstring",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "WAS",
@@ -3126,36 +3135,36 @@
    "name": "Javontae Jean-Baptiste",
    "key": "JAVONTAE JEAN BAPTISTE",
    "pos": "LB",
-   "injury": "",
+   "injury": "Pectoral",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "WAS",
    "name": "Javon Kinlaw",
    "key": "JAVON KINLAW",
    "pos": "DT",
-   "injury": "",
-   "practice": "Did Not Participate In Practice",
-   "status": ""
+   "injury": "Ankle, Knee",
+   "practice": "Limited Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "WAS",
    "name": "Jordan Magee",
    "key": "JORDAN MAGEE",
    "pos": "LB",
-   "injury": "",
+   "injury": "Hamstring",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "WAS",
    "name": "Marcus Mariota",
    "key": "MARCUS MARIOTA",
    "pos": "QB",
-   "injury": "",
+   "injury": "Knee",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "WAS",
@@ -3172,7 +3181,7 @@
    "key": "TERRY MCLAURIN",
    "pos": "WR",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -3180,9 +3189,9 @@
    "name": "Jeremy McNichols",
    "key": "JEREMY MCNICHOLS",
    "pos": "RB",
-   "injury": "",
+   "injury": "Quadricep",
    "practice": "Full Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "WAS",
@@ -3198,27 +3207,27 @@
    "name": "Charles Omenihu",
    "key": "CHARLES OMENIHU",
    "pos": "DE",
-   "injury": "",
+   "injury": "Groin, Ankle",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "WAS",
    "name": "Tyler Owens",
    "key": "TYLER OWENS",
    "pos": "S",
-   "injury": "",
+   "injury": "Hamstring",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "WAS",
    "name": "Lucas Patrick",
    "key": "LUCAS PATRICK",
    "pos": "G",
-   "injury": "",
-   "practice": "Limited Participation in Practice",
-   "status": ""
+   "injury": "Illness",
+   "practice": "Full Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "WAS",
@@ -3240,12 +3249,21 @@
   },
   {
    "team": "SF",
-   "name": "Nick Bosa",
-   "key": "NICK BOSA",
-   "pos": "DE",
+   "name": "Kaelon Black",
+   "key": "KAELON BLACK",
+   "pos": "RB",
    "injury": "",
    "practice": "Did Not Participate In Practice",
    "status": ""
+  },
+  {
+   "team": "SF",
+   "name": "Nick Bosa",
+   "key": "NICK BOSA",
+   "pos": "DE",
+   "injury": "Knee, Calf",
+   "practice": "Did Not Participate In Practice",
+   "status": "Out"
   },
   {
    "team": "SF",
@@ -3261,18 +3279,18 @@
    "name": "Mike Evans",
    "key": "MIKE EVANS",
    "pos": "WR",
-   "injury": "",
+   "injury": "Ribs, Achilles",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "SF",
    "name": "Gracen Halton",
    "key": "GRACEN HALTON",
    "pos": "DT",
-   "injury": "",
-   "practice": "Did Not Participate In Practice",
-   "status": ""
+   "injury": "Quadricep",
+   "practice": "Limited Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "SF",
@@ -3280,7 +3298,7 @@
    "key": "ROMELLO HEIGHT",
    "pos": "DE",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -3297,9 +3315,9 @@
    "name": "Christian Kirk",
    "key": "CHRISTIAN KIRK",
    "pos": "WR",
-   "injury": "",
+   "injury": "Calf",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "SF",
@@ -3316,7 +3334,7 @@
    "key": "COLTON MCKIVITZ",
    "pos": "T",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -3324,36 +3342,36 @@
    "name": "Siran Neal",
    "key": "SIRAN NEAL",
    "pos": "S",
-   "injury": "",
+   "injury": "Neck",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "SF",
    "name": "Deebo Samuel Sr.",
    "key": "DEEBO SAMUEL",
    "pos": "WR",
-   "injury": "",
+   "injury": "Hamstring",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "SF",
    "name": "Marques Sigle",
    "key": "MARQUES SIGLE",
    "pos": "S",
-   "injury": "",
+   "injury": "Ankle",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "SF",
    "name": "Upton Stout",
    "key": "UPTON STOUT",
    "pos": "CB",
-   "injury": "",
+   "injury": "Shoulder",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "SF",
@@ -3361,7 +3379,7 @@
    "key": "JAMES THOMPSON",
    "pos": "DT",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -3369,18 +3387,18 @@
    "name": "Garret Wallow",
    "key": "GARRET WALLOW",
    "pos": "LB",
-   "injury": "",
+   "injury": "Hamstring",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "SF",
    "name": "Mykel Williams",
    "key": "MYKEL WILLIAMS",
    "pos": "DE",
-   "injury": "",
+   "injury": "Knee",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "SF",
