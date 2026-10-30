@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T06:36:22Z",
+ "updated": "2026-10-30T18:21:01Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 8,
@@ -2534,6 +2534,168 @@
    "pos": "LB",
    "injury": "",
    "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Anthony Bradford",
+   "key": "ANTHONY BRADFORD",
+   "pos": "G",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Zach Charbonnet",
+   "key": "ZACH CHARBONNET",
+   "pos": "RB",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Charles Cross",
+   "key": "CHARLES CROSS",
+   "pos": "T",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Velus Jones Jr.",
+   "key": "VELUS JONES",
+   "pos": "RB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Tyrice Knight",
+   "key": "TYRICE KNIGHT",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "DeMarcus Lawrence",
+   "key": "DEMARCUS LAWRENCE",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Drew Lock",
+   "key": "DREW LOCK",
+   "pos": "QB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Quenton Nelson",
+   "key": "QUENTON NELSON",
+   "pos": "G",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Uchenna Nwosu",
+   "key": "UCHENNA NWOSU",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Patrick O'Connell",
+   "key": "PATRICK O CONNELL",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Connor O'Toole",
+   "key": "CONNOR O TOOLE",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Jadarian Price",
+   "key": "JADARIAN PRICE",
+   "pos": "RB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Brady Russell",
+   "key": "BRADY RUSSELL",
+   "pos": "FB",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Rashid Shaheed",
+   "key": "RASHID SHAHEED",
+   "pos": "WR",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Jaxon Smith-Njigba",
+   "key": "JAXON SMITH NJIGBA",
+   "pos": "WR",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Chazz Surratt",
+   "key": "CHAZZ SURRATT",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Drake Thomas",
+   "key": "DRAKE THOMAS",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Leonard Williams",
+   "key": "LEONARD WILLIAMS",
+   "pos": "DT",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
    "status": ""
   }
  ]
