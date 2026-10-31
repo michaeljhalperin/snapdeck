@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T17:27:38Z",
+ "updated": "2026-10-31T23:55:13Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 8,
@@ -2694,9 +2694,9 @@
    "name": "D'Marco Jackson",
    "key": "D MARCO JACKSON",
    "pos": "LB",
-   "injury": "",
-   "practice": "Did Not Participate In Practice",
-   "status": ""
+   "injury": "Ankle",
+   "practice": "Full Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "CHI",
@@ -2704,7 +2704,7 @@
    "key": "COLSTON LOVELAND",
    "pos": "TE",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2712,18 +2712,18 @@
    "name": "Kyle Monangai",
    "key": "KYLE MONANGAI",
    "pos": "RB",
-   "injury": "",
+   "injury": "Thumb, Toe",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "CHI",
    "name": "Malik Muhammad",
    "key": "MALIK MUHAMMAD",
    "pos": "CB",
-   "injury": "",
+   "injury": "Toe",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "CHI",
@@ -2739,9 +2739,9 @@
    "name": "Anthony Bradford",
    "key": "ANTHONY BRADFORD",
    "pos": "G",
-   "injury": "",
-   "practice": "Did Not Participate In Practice",
-   "status": ""
+   "injury": "Knee",
+   "practice": "Limited Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "SEA",
@@ -2749,7 +2749,7 @@
    "key": "ZACH CHARBONNET",
    "pos": "RB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2757,18 +2757,18 @@
    "name": "Charles Cross",
    "key": "CHARLES CROSS",
    "pos": "T",
-   "injury": "",
+   "injury": "Ankle",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "SEA",
    "name": "Velus Jones Jr.",
    "key": "VELUS JONES",
    "pos": "RB",
-   "injury": "",
+   "injury": "Hamstring",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "SEA",
@@ -2776,7 +2776,7 @@
    "key": "TYRICE KNIGHT",
    "pos": "LB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2793,9 +2793,9 @@
    "name": "Drew Lock",
    "key": "DREW LOCK",
    "pos": "QB",
-   "injury": "",
+   "injury": "Elbow",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "SEA",
@@ -2803,7 +2803,7 @@
    "key": "BYRON MURPHY",
    "pos": "DT",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2820,18 +2820,18 @@
    "name": "Uchenna Nwosu",
    "key": "UCHENNA NWOSU",
    "pos": "LB",
-   "injury": "",
+   "injury": "Ankle",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Doubtful"
   },
   {
    "team": "SEA",
    "name": "Patrick O'Connell",
    "key": "PATRICK O CONNELL",
    "pos": "LB",
-   "injury": "",
+   "injury": "Toe",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "SEA",
@@ -2847,9 +2847,9 @@
    "name": "Brandon Pili",
    "key": "BRANDON PILI",
    "pos": "DT",
-   "injury": "",
+   "injury": "Back",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "SEA",
@@ -2874,9 +2874,9 @@
    "name": "Rashid Shaheed",
    "key": "RASHID SHAHEED",
    "pos": "WR",
-   "injury": "",
+   "injury": "Knee",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "SEA",
