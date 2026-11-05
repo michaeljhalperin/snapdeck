@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T01:14:56Z",
+ "updated": "2026-11-05T07:30:20Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 9,
@@ -2354,6 +2354,78 @@
    "name": "Greg Van Roten",
    "key": "GREG VAN ROTEN",
    "pos": "G",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "TB",
+   "name": "Yaya Diaby",
+   "key": "YAYA DIABY",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "TB",
+   "name": "Emeka Egbuka",
+   "key": "EMEKA EGBUKA",
+   "pos": "WR",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "TB",
+   "name": "Kenny Gainwell",
+   "key": "KENNY GAINWELL",
+   "pos": "RB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "TB",
+   "name": "Cody Mauch",
+   "key": "CODY MAUCH",
+   "pos": "G",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "TB",
+   "name": "Baker Mayfield",
+   "key": "BAKER MAYFIELD",
+   "pos": "QB",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "TB",
+   "name": "Cade Otton",
+   "key": "CADE OTTON",
+   "pos": "TE",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "TB",
+   "name": "Elijah Roberts",
+   "key": "ELIJAH ROBERTS",
+   "pos": "DT",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "TB",
+   "name": "Tykee Smith",
+   "key": "TYKEE SMITH",
+   "pos": "S",
    "injury": "",
    "practice": "Limited Participation in Practice",
    "status": ""
