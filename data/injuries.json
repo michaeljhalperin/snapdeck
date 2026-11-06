@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T20:25:57Z",
+ "updated": "2026-11-06T01:20:34Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 9,
@@ -317,11 +317,20 @@
   },
   {
    "team": "CIN",
+   "name": "B.J. Hill",
+   "key": "B J HILL",
+   "pos": "DT",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "CIN",
    "name": "Cedric Johnson",
    "key": "CEDRIC JOHNSON",
    "pos": "DE",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -330,7 +339,7 @@
    "key": "DJ TURNER",
    "pos": "CB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -429,7 +438,7 @@
    "key": "CALEB DOWNS",
    "pos": "S",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -474,7 +483,7 @@
    "key": "P J LOCKE",
    "pos": "S",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -484,6 +493,15 @@
    "pos": "LB",
    "injury": "",
    "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "DAL",
+   "name": "DeMarvion Overshown",
+   "key": "DEMARVION OVERSHOWN",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -501,7 +519,7 @@
    "key": "JOEY PORTER",
    "pos": "CB",
    "injury": "",
-   "practice": "Full Participation in Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -546,7 +564,7 @@
    "key": "DEE WINTERS",
    "pos": "LB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -555,7 +573,7 @@
    "key": "KEENAN ALLEN",
    "pos": "WR",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -591,6 +609,15 @@
    "key": "ANDREW OGLETREE",
    "pos": "TE",
    "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "IND",
+   "name": "Grover Stewart",
+   "key": "GROVER STEWART",
+   "pos": "DT",
+   "injury": "",
    "practice": "Did Not Participate In Practice",
    "status": ""
   },
@@ -600,7 +627,7 @@
    "key": "JONATHAN TAYLOR",
    "pos": "RB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -627,7 +654,7 @@
    "key": "CHARVARIUS WARD",
    "pos": "CB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -636,7 +663,7 @@
    "key": "AUSTIN BARBER",
    "pos": "T",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -659,11 +686,20 @@
   },
   {
    "team": "CLE",
+   "name": "Harold Fannin Jr.",
+   "key": "HAROLD FANNIN",
+   "pos": "TE",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "CLE",
    "name": "Myles Harden",
    "key": "MYLES HARDEN",
    "pos": "CB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -671,6 +707,15 @@
    "name": "Elgton Jenkins",
    "key": "ELGTON JENKINS",
    "pos": "C",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "CLE",
+   "name": "Emmanuel McNeil-Warren",
+   "key": "EMMANUEL MCNEIL WARREN",
+   "pos": "S",
    "injury": "",
    "practice": "Limited Participation in Practice",
    "status": ""
@@ -690,7 +735,7 @@
    "key": "JARED VERSE",
    "pos": "DE",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -708,7 +753,7 @@
    "key": "QUINCY WILLIAMS",
    "pos": "LB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -726,7 +771,7 @@
    "key": "CJ DONALDSON",
    "pos": "RB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -740,11 +785,20 @@
   },
   {
    "team": "NO",
+   "name": "Davon Godchaux",
+   "key": "DAVON GODCHAUX",
+   "pos": "DT",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "NO",
    "name": "Alvin Kamara",
    "key": "ALVIN KAMARA",
    "pos": "RB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -807,7 +861,7 @@
    "key": "ZACH ALLEN",
    "pos": "DE",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -825,7 +879,7 @@
    "key": "TALANOA HUFANGA",
    "pos": "S",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -843,7 +897,7 @@
    "key": "COURTLAND SUTTON",
    "pos": "WR",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -879,7 +933,7 @@
    "key": "COREY BULLOCK",
    "pos": "G",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -889,6 +943,15 @@
    "pos": "G",
    "injury": "",
    "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "CAR",
+   "name": "Trevis Gipson",
+   "key": "TREVIS GIPSON",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -933,7 +996,7 @@
    "key": "TORRICELLI SIMPKINS",
    "pos": "G",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -951,7 +1014,7 @@
    "key": "DAVID BAILEY",
    "pos": "DE",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -960,7 +1023,7 @@
    "key": "DEMARIO DAVIS",
    "pos": "LB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -969,7 +1032,7 @@
    "key": "BREECE HALL",
    "pos": "RB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1005,7 +1068,7 @@
    "key": "MASON TAYLOR",
    "pos": "TE",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1014,7 +1077,7 @@
    "key": "TREVIN WALLACE",
    "pos": "LB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -1050,7 +1113,7 @@
    "key": "TRAVIS KELCE",
    "pos": "TE",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1077,7 +1140,7 @@
    "key": "NIKKO REMIGIO",
    "pos": "WR",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1086,7 +1149,7 @@
    "key": "RASHEE RICE",
    "pos": "WR",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1113,7 +1176,7 @@
    "key": "BRIAN BRANCH",
    "pos": "S",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1149,7 +1212,7 @@
    "key": "AMEN OGBONGBEMIGA",
    "pos": "LB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1302,7 +1365,7 @@
    "key": "JAYLEN WRIGHT",
    "pos": "RB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -1424,11 +1487,29 @@
   },
   {
    "team": "WAS",
+   "name": "Dyami Brown",
+   "key": "DYAMI BROWN",
+   "pos": "WR",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "WAS",
    "name": "Treylon Burks",
    "key": "TREYLON BURKS",
    "pos": "WR",
    "injury": "",
    "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "WAS",
+   "name": "Josh Conerly Jr.",
+   "key": "JOSH CONERLY",
+   "pos": "T",
+   "injury": "",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1487,11 +1568,20 @@
   },
   {
    "team": "NYG",
+   "name": "Darius Alexander",
+   "key": "DARIUS ALEXANDER",
+   "pos": "DT",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "NYG",
    "name": "Abdul Carter",
    "key": "ABDUL CARTER",
    "pos": "LB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1505,11 +1595,29 @@
   },
   {
    "team": "NYG",
+   "name": "Thomas Fidone II",
+   "key": "THOMAS FIDONE",
+   "pos": "TE",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "NYG",
+   "name": "Trace Ford",
+   "key": "TRACE FORD",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "NYG",
    "name": "Malik Harrison",
    "key": "MALIK HARRISON",
    "pos": "LB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1518,7 +1626,7 @@
    "key": "COLTON HOOD",
    "pos": "CB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1546,6 +1654,24 @@
    "pos": "T",
    "injury": "",
    "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "NYG",
+   "name": "Micah McFadden",
+   "key": "MICAH MCFADDEN",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "NYG",
+   "name": "Malik Nabers",
+   "key": "MALIK NABERS",
+   "pos": "WR",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -1581,7 +1707,7 @@
    "key": "SAQUON BARKLEY",
    "pos": "RB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -1694,11 +1820,20 @@
   },
   {
    "team": "PHI",
+   "name": "Jordan Mailata",
+   "key": "JORDAN MAILATA",
+   "pos": "T",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "PHI",
    "name": "Tanner McKee",
    "key": "TANNER MCKEE",
    "pos": "QB",
    "injury": "",
-   "practice": "Full Participation in Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -1743,7 +1878,7 @@
    "key": "AZEEZ AL SHAAIR",
    "pos": "LB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1770,7 +1905,7 @@
    "key": "BREVIN JORDAN",
    "pos": "TE",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1797,7 +1932,7 @@
    "key": "BRADEN SMITH",
    "pos": "T",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1914,7 +2049,7 @@
    "key": "BUDDA BAKER",
    "pos": "S",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1932,7 +2067,7 @@
    "key": "HJALTE FROHOLDT",
    "pos": "C",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1955,6 +2090,15 @@
   },
   {
    "team": "ARI",
+   "name": "Max Melton",
+   "key": "MAX MELTON",
+   "pos": "CB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "ARI",
    "name": "Walter Nolen",
    "key": "WALTER NOLEN",
    "pos": "DT",
@@ -1968,7 +2112,7 @@
    "key": "ISAAC SEUMALO",
    "pos": "G",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1977,7 +2121,7 @@
    "key": "JOSH SWEAT",
    "pos": "LB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2148,7 +2292,7 @@
    "key": "THOMAS BOOKER",
    "pos": "DT",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -2157,7 +2301,7 @@
    "key": "FOLEY FATUKASI",
    "pos": "DT",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2166,7 +2310,7 @@
    "key": "DARIEN PORTER",
    "pos": "CB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -2174,6 +2318,15 @@
    "name": "Ian Thomas",
    "key": "IAN THOMAS",
    "pos": "TE",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "LV",
+   "name": "Dont'e Thornton Jr.",
+   "key": "DONT E THORNTON",
+   "pos": "WR",
    "injury": "",
    "practice": "Limited Participation in Practice",
    "status": ""
@@ -2220,7 +2373,7 @@
    "key": "CHRISTIAN KIRK",
    "pos": "WR",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -2229,7 +2382,7 @@
    "key": "CHRISTIAN MCCAFFREY",
    "pos": "RB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -2301,7 +2454,7 @@
    "key": "TRENT WILLIAMS",
    "pos": "T",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2342,11 +2495,20 @@
   },
   {
    "team": "GB",
+   "name": "MarShawn Lloyd",
+   "key": "MARSHAWN LLOYD",
+   "pos": "RB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "GB",
    "name": "Keisean Nixon",
    "key": "KEISEAN NIXON",
    "pos": "CB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -2391,7 +2553,7 @@
    "key": "CHRISTIAN BARMORE",
    "pos": "DT",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2468,6 +2630,15 @@
   },
   {
    "team": "NE",
+   "name": "Marcus Jones",
+   "key": "MARCUS JONES",
+   "pos": "CB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "NE",
    "name": "Drake Maye",
    "key": "DRAKE MAYE",
    "pos": "QB",
@@ -2480,6 +2651,15 @@
    "name": "Morgan Moses",
    "key": "MORGAN MOSES",
    "pos": "T",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "NE",
+   "name": "Brenden Schooler",
+   "key": "BRENDEN SCHOOLER",
+   "pos": "S",
    "injury": "",
    "practice": "Limited Participation in Practice",
    "status": ""
@@ -2508,7 +2688,7 @@
    "key": "EMEKA EGBUKA",
    "pos": "WR",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2517,7 +2697,25 @@
    "key": "KENNY GAINWELL",
    "pos": "RB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "TB",
+   "name": "Chris Godwin Jr.",
+   "key": "CHRIS GODWIN",
+   "pos": "WR",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "TB",
+   "name": "Bucky Irving",
+   "key": "BUCKY IRVING",
+   "pos": "RB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -2553,7 +2751,16 @@
    "key": "ELIJAH ROBERTS",
    "pos": "DT",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "TB",
+   "name": "A'Shawn Robinson",
+   "key": "A SHAWN ROBINSON",
+   "pos": "DT",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -2566,9 +2773,9 @@
    "status": ""
   },
   {
-   "team": "CHI",
-   "name": "Theo Benedet",
-   "key": "THEO BENEDET",
+   "team": "TB",
+   "name": "Tristan Wirfs",
+   "key": "TRISTAN WIRFS",
    "pos": "T",
    "injury": "",
    "practice": "Did Not Participate In Practice",
@@ -2576,8 +2783,26 @@
   },
   {
    "team": "CHI",
+   "name": "Theo Benedet",
+   "key": "THEO BENEDET",
+   "pos": "T",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "CHI",
    "name": "T.J. Edwards",
    "key": "T J EDWARDS",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "CHI",
+   "name": "D'Marco Jackson",
+   "key": "D MARCO JACKSON",
    "pos": "LB",
    "injury": "",
    "practice": "Did Not Participate In Practice",
@@ -2589,7 +2814,7 @@
    "key": "GRADY JARRETT",
    "pos": "DT",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -2617,6 +2842,258 @@
    "pos": "RB",
    "injury": "",
    "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "CHI",
+   "name": "Joe Thuney",
+   "key": "JOE THUNEY",
+   "pos": "G",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Alec Anderson",
+   "key": "ALEC ANDERSON",
+   "pos": "G",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Joe Andreessen",
+   "key": "JOE ANDREESSEN",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Spencer Brown",
+   "key": "SPENCER BROWN",
+   "pos": "T",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Bradley Chubb",
+   "key": "BRADLEY CHUBB",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Keon Coleman",
+   "key": "KEON COLEMAN",
+   "pos": "WR",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Dion Dawkins",
+   "key": "DION DAWKINS",
+   "pos": "T",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Dee Alford",
+   "key": "DEE ALFORD",
+   "pos": "CB",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Greg Gaines",
+   "key": "GREG GAINES",
+   "pos": "DT",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Jordan Hancock",
+   "key": "JORDAN HANCOCK",
+   "pos": "CB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Ty Johnson",
+   "key": "TY JOHNSON",
+   "pos": "RB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Dalton Kincaid",
+   "key": "DALTON KINCAID",
+   "pos": "TE",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "DJ Moore",
+   "key": "DJ MOORE",
+   "pos": "WR",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Ed Oliver",
+   "key": "ED OLIVER",
+   "pos": "DE",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Josh Palmer",
+   "key": "JOSH PALMER",
+   "pos": "WR",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "TJ Parker",
+   "key": "TJ PARKER",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Ar'maj Reed-Adams",
+   "key": "AR MAJ REED ADAMS",
+   "pos": "G",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "T.J. Sanders",
+   "key": "T J SANDERS",
+   "pos": "DE",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
+   "name": "Tyrell Shavers",
+   "key": "TYRELL SHAVERS",
+   "pos": "WR",
+   "injury": "",
+   "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "MIN",
+   "name": "Demond Claiborne",
+   "key": "DEMOND CLAIBORNE",
+   "pos": "RB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "MIN",
+   "name": "Christian Darrisaw",
+   "key": "CHRISTIAN DARRISAW",
+   "pos": "T",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "MIN",
+   "name": "Jake Golday",
+   "key": "JAKE GOLDAY",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "MIN",
+   "name": "Theo Jackson",
+   "key": "THEO JACKSON",
+   "pos": "S",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "MIN",
+   "name": "Jauan Jennings",
+   "key": "JAUAN JENNINGS",
+   "pos": "WR",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "MIN",
+   "name": "Kyler Murray",
+   "key": "KYLER MURRAY",
+   "pos": "QB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "MIN",
+   "name": "Isaiah Rodgers",
+   "key": "ISAIAH RODGERS",
+   "pos": "CB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "MIN",
+   "name": "Andrew Van Ginkel",
+   "key": "ANDREW VAN GINKEL",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "MIN",
+   "name": "Jay Ward",
+   "key": "JAY WARD",
+   "pos": "S",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
    "status": ""
   }
  ]
