@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T07:28:52Z",
+ "updated": "2026-11-06T19:47:28Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 9,
@@ -1374,7 +1374,7 @@
    "key": "STEVE AVILA",
    "pos": "G",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1455,7 +1455,7 @@
    "key": "GRANT STUARD",
    "pos": "LB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -1950,7 +1950,7 @@
    "key": "BUD DUPREE",
    "pos": "DE",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1959,7 +1959,7 @@
    "key": "DAIYAN HENLEY",
    "pos": "LB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1977,7 +1977,7 @@
    "key": "DEANE LEONARD",
    "pos": "CB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -1986,7 +1986,7 @@
    "key": "KHALIL MACK",
    "pos": "DE",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2157,7 +2157,7 @@
    "key": "ANTHONY BRADFORD",
    "pos": "G",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2189,11 +2189,29 @@
   },
   {
    "team": "SEA",
+   "name": "Derick Hall",
+   "key": "DERICK HALL",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
    "name": "Tory Horton",
    "key": "TORY HORTON",
    "pos": "WR",
    "injury": "",
    "practice": "Full Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "SEA",
+   "name": "Ernest Jones",
+   "key": "ERNEST JONES",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -2229,7 +2247,7 @@
    "key": "QUENTON NELSON",
    "pos": "G",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -2238,7 +2256,7 @@
    "key": "UCHENNA NWOSU",
    "pos": "LB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -2274,7 +2292,7 @@
    "key": "JAXON SMITH NJIGBA",
    "pos": "WR",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
