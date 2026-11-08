@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T17:54:45Z",
+ "updated": "2026-11-08T00:09:00Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 9,
@@ -421,7 +421,7 @@
    "pos": "T",
    "injury": "Ankle",
    "practice": "Full Participation in Practice",
-   "status": "Questionable"
+   "status": "Out"
   },
   {
    "team": "DAL",
@@ -619,7 +619,7 @@
    "pos": "S",
    "injury": "Ankle",
    "practice": "Limited Participation in Practice",
-   "status": "Questionable"
+   "status": "Out"
   },
   {
    "team": "IND",
@@ -1078,7 +1078,7 @@
    "pos": "DE",
    "injury": "Ankle",
    "practice": "Limited Participation in Practice",
-   "status": "Questionable"
+   "status": "Out"
   },
   {
    "team": "NYJ",
@@ -1087,7 +1087,7 @@
    "pos": "S",
    "injury": "Knee",
    "practice": "Full Participation in Practice",
-   "status": "Questionable"
+   "status": "Out"
   },
   {
    "team": "NYJ",
@@ -1132,7 +1132,7 @@
    "pos": "CB",
    "injury": "Back",
    "practice": "Did Not Participate In Practice",
-   "status": "Questionable"
+   "status": "Out"
   },
   {
    "team": "KC",
@@ -2003,9 +2003,9 @@
    "name": "Reed Blankenship",
    "key": "REED BLANKENSHIP",
    "pos": "S",
-   "injury": "",
+   "injury": "Concussion, Hand",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "HOU",
@@ -2030,9 +2030,9 @@
    "name": "David Montgomery",
    "key": "DAVID MONTGOMERY",
    "pos": "RB",
-   "injury": "",
+   "injury": "Groin",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "HOU",
@@ -2815,7 +2815,7 @@
    "pos": "G",
    "injury": "Hamstring",
    "practice": "Limited Participation in Practice",
-   "status": "Questionable"
+   "status": "Out"
   },
   {
    "team": "TB",
@@ -3011,9 +3011,9 @@
    "name": "Alec Anderson",
    "key": "ALEC ANDERSON",
    "pos": "G",
-   "injury": "",
-   "practice": "Did Not Participate In Practice",
-   "status": ""
+   "injury": "Ankle",
+   "practice": "Limited Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "BUF",
@@ -3026,11 +3026,20 @@
   },
   {
    "team": "BUF",
+   "name": "Terrel Bernard",
+   "key": "TERREL BERNARD",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "BUF",
    "name": "Spencer Brown",
    "key": "SPENCER BROWN",
    "pos": "T",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -3056,9 +3065,9 @@
    "name": "Dion Dawkins",
    "key": "DION DAWKINS",
    "pos": "T",
-   "injury": "",
+   "injury": "Rib",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "BUF",
@@ -3075,7 +3084,7 @@
    "key": "SAM FRANKLIN",
    "pos": "S",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -3083,18 +3092,18 @@
    "name": "Greg Gaines",
    "key": "GREG GAINES",
    "pos": "DT",
-   "injury": "",
-   "practice": "Did Not Participate In Practice",
-   "status": ""
+   "injury": "Calf",
+   "practice": "Limited Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "BUF",
    "name": "Jordan Hancock",
    "key": "JORDAN HANCOCK",
    "pos": "CB",
-   "injury": "",
+   "injury": "Hamstring",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "BUF",
@@ -3129,7 +3138,7 @@
    "key": "ED OLIVER",
    "pos": "DE",
    "injury": "",
-   "practice": "Full Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -3137,9 +3146,9 @@
    "name": "Josh Palmer",
    "key": "JOSH PALMER",
    "pos": "WR",
-   "injury": "",
+   "injury": "Hamstring",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "BUF",
@@ -3174,7 +3183,7 @@
    "key": "KHALIL SHAKIR",
    "pos": "WR",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -3182,9 +3191,9 @@
    "name": "Tyrell Shavers",
    "key": "TYRELL SHAVERS",
    "pos": "WR",
-   "injury": "",
+   "injury": "Knee",
    "practice": "Full Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "BUF",
@@ -3200,9 +3209,9 @@
    "name": "Demond Claiborne",
    "key": "DEMOND CLAIBORNE",
    "pos": "RB",
-   "injury": "",
+   "injury": "Knee",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "MIN",
@@ -3210,7 +3219,7 @@
    "key": "CHRISTIAN DARRISAW",
    "pos": "T",
    "injury": "",
-   "practice": "Full Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
@@ -3227,27 +3236,27 @@
    "name": "Theo Jackson",
    "key": "THEO JACKSON",
    "pos": "S",
-   "injury": "",
-   "practice": "Did Not Participate In Practice",
-   "status": ""
+   "injury": "Quadricep",
+   "practice": "Limited Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "MIN",
    "name": "Jauan Jennings",
    "key": "JAUAN JENNINGS",
    "pos": "WR",
-   "injury": "",
+   "injury": "Calf",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "MIN",
    "name": "Kyler Murray",
    "key": "KYLER MURRAY",
    "pos": "QB",
-   "injury": "",
+   "injury": "Hamstring",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "MIN",
@@ -3260,11 +3269,20 @@
   },
   {
    "team": "MIN",
+   "name": "Harrison Smith",
+   "key": "HARRISON SMITH",
+   "pos": "S",
+   "injury": "",
+   "practice": "Limited Participation in Practice",
+   "status": ""
+  },
+  {
+   "team": "MIN",
    "name": "Andrew Van Ginkel",
    "key": "ANDREW VAN GINKEL",
    "pos": "LB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -3272,9 +3290,9 @@
    "name": "Jay Ward",
    "key": "JAY WARD",
    "pos": "S",
-   "injury": "",
+   "injury": "Knee",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   }
  ]
 }
