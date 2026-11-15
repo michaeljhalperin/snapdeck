@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T18:36:40Z",
+ "updated": "2026-11-15T00:40:23Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 10,
@@ -1479,9 +1479,9 @@
    "name": "Arden Key",
    "key": "ARDEN KEY",
    "pos": "DE",
-   "injury": "Hamstring",
+   "injury": "",
    "practice": "Full Participation in Practice",
-   "status": "Questionable"
+   "status": ""
   },
   {
    "team": "IND",
@@ -2901,9 +2901,9 @@
    "name": "Kayode Awosika",
    "key": "KAYODE AWOSIKA",
    "pos": "G",
-   "injury": "",
-   "practice": "Limited Participation in Practice",
-   "status": ""
+   "injury": "Fibula",
+   "practice": "Full Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "LAC",
@@ -2911,7 +2911,7 @@
    "key": "BUD DUPREE",
    "pos": "DE",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2919,9 +2919,9 @@
    "name": "Justin Eboigbe",
    "key": "JUSTIN EBOIGBE",
    "pos": "DE",
-   "injury": "",
+   "injury": "Ankle",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "LAC",
@@ -2982,9 +2982,9 @@
    "name": "Ladd McConkey",
    "key": "LADD MCCONKEY",
    "pos": "WR",
-   "injury": "",
+   "injury": "Back",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "LAC",
@@ -2992,7 +2992,7 @@
    "key": "KEATON MITCHELL",
    "pos": "RB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -3000,27 +3000,27 @@
    "name": "David Njoku",
    "key": "DAVID NJOKU",
    "pos": "TE",
-   "injury": "",
-   "practice": "Limited Participation in Practice",
-   "status": ""
+   "injury": "Fibula",
+   "practice": "Full Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "LAC",
    "name": "Denzel Perryman",
    "key": "DENZEL PERRYMAN",
    "pos": "LB",
-   "injury": "",
+   "injury": "Pectoral",
    "practice": "Full Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "LAC",
    "name": "Trey Pipkins",
    "key": "TREY PIPKINS",
    "pos": "T",
-   "injury": "",
-   "practice": "Did Not Participate In Practice",
-   "status": ""
+   "injury": "Not injury related - personal matter, Knee",
+   "practice": "Limited Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "LAC",
@@ -3028,7 +3028,7 @@
    "key": "RODNEY SHELLEY",
    "pos": "CB",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -3036,36 +3036,36 @@
    "name": "Branson Taylor",
    "key": "BRANSON TAYLOR",
    "pos": "G",
-   "injury": "",
+   "injury": "Ankle",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "LAC",
    "name": "Brenen Thompson",
    "key": "BRENEN THOMPSON",
    "pos": "WR",
-   "injury": "",
+   "injury": "Hamstring",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Doubtful"
   },
   {
    "team": "LAC",
    "name": "Isas Waxter",
    "key": "ISAS WAXTER",
    "pos": "CB",
-   "injury": "",
+   "injury": "Ankle",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "LAC",
    "name": "Kendall Williamson",
    "key": "KENDALL WILLIAMSON",
    "pos": "S",
-   "injury": "",
+   "injury": "Calf",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "BAL",
@@ -3087,6 +3087,15 @@
   },
   {
    "team": "BAL",
+   "name": "Calais Campbell",
+   "key": "CALAIS CAMPBELL",
+   "pos": "DT",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "BAL",
    "name": "Kyle Hamilton",
    "key": "KYLE HAMILTON",
    "pos": "S",
@@ -3099,9 +3108,9 @@
    "name": "Jaylinn Hawkins",
    "key": "JAYLINN HAWKINS",
    "pos": "S",
-   "injury": "",
+   "injury": "Knee",
    "practice": "Limited Participation in Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "BAL",
@@ -3126,8 +3135,17 @@
    "name": "Adam Randall",
    "key": "ADAM RANDALL",
    "pos": "RB",
-   "injury": "",
+   "injury": "Neck, Hamstring",
    "practice": "Full Participation in Practice",
+   "status": "Questionable"
+  },
+  {
+   "team": "BAL",
+   "name": "Ronnie Stanley",
+   "key": "RONNIE STANLEY",
+   "pos": "T",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
