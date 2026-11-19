@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T08:07:49Z",
+ "updated": "2026-11-19T21:06:46Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 11,
@@ -64,9 +64,9 @@
    "name": "Charlie Heck",
    "key": "CHARLIE HECK",
    "pos": "T",
-   "injury": "Not injury related - personal matter",
+   "injury": "",
    "practice": "Did Not Participate In Practice",
-   "status": "Questionable"
+   "status": ""
   },
   {
    "team": "IND",
