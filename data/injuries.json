@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T07:52:19Z",
+ "updated": "2026-11-20T20:52:00Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 11,
@@ -1762,6 +1762,15 @@
   },
   {
    "team": "LAC",
+   "name": "Bud Dupree",
+   "key": "BUD DUPREE",
+   "pos": "LB",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "LAC",
    "name": "Justin Eboigbe",
    "key": "JUSTIN EBOIGBE",
    "pos": "DE",
@@ -1800,9 +1809,9 @@
    "team": "LAC",
    "name": "Khalil Mack",
    "key": "KHALIL MACK",
-   "pos": "DE",
+   "pos": "LB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1820,7 +1829,7 @@
    "key": "TREY PIPKINS",
    "pos": "T",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -1843,11 +1852,20 @@
   },
   {
    "team": "LAC",
+   "name": "Dalvin Tomlinson",
+   "key": "DALVIN TOMLINSON",
+   "pos": "DT",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "LAC",
    "name": "Isas Waxter",
    "key": "ISAS WAXTER",
    "pos": "CB",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -1856,7 +1874,7 @@
    "key": "KENDALL WILLIAMSON",
    "pos": "S",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Did Not Participate In Practice",
    "status": ""
   },
   {
