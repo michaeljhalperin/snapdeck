@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T19:53:34Z",
+ "updated": "2026-11-22T00:52:59Z",
  "source": "https://www.nfl.com/injuries/",
  "season": 2026,
  "week": 11,
@@ -2576,7 +2576,7 @@
    "key": "JONATHAN ALLEN",
    "pos": "DT",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Limited Participation in Practice",
    "status": ""
   },
   {
@@ -2584,18 +2584,18 @@
    "name": "Swayze Bozeman",
    "key": "SWAYZE BOZEMAN",
    "pos": "LB",
-   "injury": "",
+   "injury": "Forearm",
    "practice": "Full Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "CIN",
    "name": "Oren Burks",
    "key": "OREN BURKS",
    "pos": "LB",
-   "injury": "",
+   "injury": "Groin",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "CIN",
@@ -2611,27 +2611,27 @@
    "name": "Jalen Davis",
    "key": "JALEN DAVIS",
    "pos": "CB",
-   "injury": "",
+   "injury": "Hamstring",
    "practice": "Full Participation in Practice",
-   "status": ""
+   "status": "Doubtful"
   },
   {
    "team": "CIN",
    "name": "Kyle Dugger",
    "key": "KYLE DUGGER",
    "pos": "S",
-   "injury": "",
+   "injury": "Quadricep",
    "practice": "Full Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "CIN",
    "name": "Dylan Fairchild",
    "key": "DYLAN FAIRCHILD",
    "pos": "G",
-   "injury": "",
-   "practice": "Limited Participation in Practice",
-   "status": ""
+   "injury": "Oblique",
+   "practice": "Full Participation in Practice",
+   "status": "Questionable"
   },
   {
    "team": "CIN",
@@ -2656,9 +2656,9 @@
    "name": "Daxton Hill",
    "key": "DAXTON HILL",
    "pos": "CB",
-   "injury": "",
+   "injury": "Illness",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "CIN",
@@ -2674,9 +2674,9 @@
    "name": "Andrei Iosivas",
    "key": "ANDREI IOSIVAS",
    "pos": "WR",
-   "injury": "",
+   "injury": "Thumb",
    "practice": "Full Participation in Practice",
-   "status": ""
+   "status": "Doubtful"
   },
   {
    "team": "CIN",
@@ -2689,21 +2689,30 @@
   },
   {
    "team": "CIN",
+   "name": "Dexter Lawrence",
+   "key": "DEXTER LAWRENCE",
+   "pos": "DT",
+   "injury": "",
+   "practice": "Did Not Participate In Practice",
+   "status": ""
+  },
+  {
+   "team": "CIN",
    "name": "Brian Parker II",
    "key": "BRIAN PARKER",
    "pos": "G",
-   "injury": "",
+   "injury": "Knee",
    "practice": "Full Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "CIN",
    "name": "Dalton Risner",
    "key": "DALTON RISNER",
    "pos": "G",
-   "injury": "",
+   "injury": "Knee, Knee",
    "practice": "Did Not Participate In Practice",
-   "status": ""
+   "status": "Out"
   },
   {
    "team": "WAS",
@@ -2729,7 +2738,7 @@
    "key": "TREYLON BURKS",
    "pos": "WR",
    "injury": "",
-   "practice": "Did Not Participate In Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2737,9 +2746,9 @@
    "name": "Jacory Croskey-Merritt",
    "key": "JACORY CROSKEY MERRITT",
    "pos": "RB",
-   "injury": "",
+   "injury": "Groin",
    "practice": "Full Participation in Practice",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "team": "WAS",
@@ -2765,7 +2774,7 @@
    "key": "QUAN MARTIN",
    "pos": "S",
    "injury": "",
-   "practice": "Limited Participation in Practice",
+   "practice": "Full Participation in Practice",
    "status": ""
   },
   {
@@ -2791,15 +2800,33 @@
    "name": "Lucas Patrick",
    "key": "LUCAS PATRICK",
    "pos": "C",
-   "injury": "",
+   "injury": "Concussion",
    "practice": "Full Participation in Practice",
-   "status": ""
+   "status": "Questionable"
+  },
+  {
+   "team": "WAS",
+   "name": "Amik Robertson",
+   "key": "AMIK ROBERTSON",
+   "pos": "CB",
+   "injury": "Ankle",
+   "practice": "Did Not Participate In Practice",
+   "status": "Questionable"
   },
   {
    "team": "WAS",
    "name": "Rachaad White",
    "key": "RACHAAD WHITE",
    "pos": "RB",
+   "injury": "Heel",
+   "practice": "Did Not Participate In Practice",
+   "status": "Questionable"
+  },
+  {
+   "team": "WAS",
+   "name": "Deatrich Wise",
+   "key": "DEATRICH WISE",
+   "pos": "DE",
    "injury": "",
    "practice": "Limited Participation in Practice",
    "status": ""
